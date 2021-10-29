@@ -9,7 +9,7 @@ import time
 from sentence_transformers import SentenceTransformer, util
 
 start_time = time.time()
-model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda:1') #all-mpnet-base-v2 
+model = SentenceTransformer('all-mpnet-base-v2', device='cuda:1') #all-mpnet-base-v2  #all-MiniLM-L6-v2
 
 
 # load dict from json file
@@ -77,7 +77,7 @@ for concept in data_dict:
     # if total_count > 16:
     #     break
 
-print(pos_count, total_count)  # 162 210
+print(pos_count, total_count)  # 162 210 # 172 210
 
 end_time = time.time()
 total_time = end_time - start_time
