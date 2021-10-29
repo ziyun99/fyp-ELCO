@@ -70,16 +70,16 @@ for sheet_name in sheet_names:
 
 
     # to get the list of negative samples for each concept from column names
-    neg_samples = ratings.columns.tolist()
-    neg_samples = [[' '.join(re.split('\s+|\.|\t',s)[2:])] for s in neg_samples]
-    neg_sample_dict = dict( zip(concepts, neg_samples) )
-    # print(neg_samples)
-    # print(neg_sample_dict)
+    baselines = ratings.columns.tolist()
+    baselines = [[' '.join(re.split('\s+|\.|\t',s)[2:])] for s in baselines]
+    baseline_dict = dict( zip(concepts, baselines) )
+    # print(baselines)
+    # print(baseline_dict)
 
-    neg_sample_text_dict = {}
-    for concept_key in neg_sample_dict:
-        neg_samples_text_list = []
-        for emojis in neg_sample_dict[concept_key]:
+    baseline_text_dict = {}
+    for concept_key in baseline_dict:
+        baselines_text_list = []
+        for emojis in baseline_dict[concept_key]:
             if type(emojis) != type('str'):
                 # print(emojis)
                 emojis_text_list.append(emojis)
@@ -89,8 +89,8 @@ for sheet_name in sheet_names:
             em_split_whitespace = [substr.split() for substr in em_split_emoji]
             em_split = functools.reduce(operator.concat, em_split_whitespace)
             em_split = [emoji.demojize(em)[1:-1] for em in em_split]
-            neg_samples_text_list.append(em_split)
-        neg_sample_text_dict[concept_key] = neg_samples_text_list
+            baselines_text_list.append(em_split)
+        baseline_text_dict[concept_key] = baselines_text_list
     
 
     # convert df to dict of list
@@ -106,8 +106,8 @@ for sheet_name in sheet_names:
         temp['emoji_annotations'] = emoji_annotations_dict[concept]
         temp['emoji_annotations_text'] = emoji_annotations_text_dict[concept]
         temp['rating_annotations'] = ratings_dict[concept]
-        temp['neg_sample'] = neg_sample_dict[concept]
-        temp['neg_sample_text'] = neg_sample_text_dict[concept]
+        temp['baseline'] = baseline_dict[concept]
+        temp['baseline_text'] = baseline_text_dict[concept]
         data_dict[concept] = temp
         # print(temp)
     # break
