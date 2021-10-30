@@ -8,6 +8,14 @@ import operator
 import emoji
 from emoji import unicode_codes
 import random
+
+random.seed(10)
+
+# load df from csv file
+an_df = pd.read_csv("data/data_attribute_ground_truth.csv")
+col_names = an_df.columns.values
+an_dict = dict( zip(an_df["concept"], an_df["attribute"]))
+
 def get_rand_emojis(len_emojis, exclude_emojis_text):
     # print(exclude_emojis_text)
     lang_keys = list(unicode_codes.EMOJI_UNICODE.keys())
@@ -159,14 +167,16 @@ for sheet_name in sheet_names:
     ratings_dict = ratings.to_dict(orient='list')
     # print(ratings_dict)
 
+
     # combine (attribute, emoji sequence, ratings and negative sample) of each concept into single dict
     for concept in concepts:
         temp = {}
         temp['form_id'] = sheet_name
+        temp['attribute'] = an_dict[concept]  # ground truth attribute
         temp['attribute_annotations'] = attribute_annotations_dict[concept]
+        temp['rating_annotations'] = ratings_dict[concept]
         temp['emoji_annotations'] = emoji_annotations_dict[concept]
         temp['emoji_annotations_text'] = emoji_annotations_text_dict[concept]
-        temp['rating_annotations'] = ratings_dict[concept]
         temp['baseline_emoji'] = baseline_dict[concept]
         temp['baseline_text'] = baseline_text_dict[concept]
         temp['semineg_emoji'] = semineg_emoji_dict[concept]

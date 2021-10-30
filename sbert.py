@@ -9,23 +9,21 @@ import time
 from sentence_transformers import SentenceTransformer, util
 
 start_time = time.time()
-model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda:1') #all-mpnet-base-v2  #all-MiniLM-L6-v2
 
 
-# load dict from json file
+# load sbert model
+model_idx = 0
+pretrained_model = ["all-mpnet-base-v2", "all-MiniLM-L6-v2"]
+model = SentenceTransformer(pretrained_model[model_idx], device='cuda:1') 
+
+# load data dict from json file
 f = open("data/data.json")
 data_dict = json.load(f)
 
-concept = ""
-emoji_annotations_text = []
-baseline_text = ""
+def format_emoji_text(emoji_texts):
+    return [" ".join([t[1:-1].replace('_', ' ') for t in text]) for text in emoji_texts if type(text) != float] 
 
-randneg_count = 0
-semineg_count = 0
-baseline_count = 0
-pos_count = 0
-total_count = 0
-
+concept_count = 0
 for concept in data_dict:
     print(total_count, concept)
     emoji_annotations_text = data_dict[concept]["emoji_annotations_text"]
@@ -35,10 +33,14 @@ for concept in data_dict:
     rating_annotations = data_dict[concept]["rating_annotations"]
     # print(emoji_annotations_text, baseline_text)
 
-    emoji_annotations_text = [" ".join([t[1:-1].replace('_', ' ') for t in text]) for text in emoji_annotations_text if type(text) != float] 
-    baseline_text = [" ".join([t[1:-1].replace('_', ' ') for t in text]) for text in baseline_text if type(text) != float]
-    semineg_text = [" ".join([t[1:-1].replace('_', ' ') for t in text]) for text in semineg_text if type(text) != float]
-    randneg_text = [" ".join([t[1:-1].replace('_', ' ') for t in text]) for text in randneg_text if type(text) != float]
+    attribute = data_dict[concept]["attribute"].lower()
+    attributed_concept = concept + ' is about ' + attribute
+    concept_augments = [concept, attributed_concept] #, defined_concept]
+
+    emoji_annotations_text = format_emoji_text(emoji_annotations_text)
+    baseline_text = format_emoji_text(baseline_text)
+    semineg_text = format_emoji_text(semineg_text)
+    randneg_text = format_emoji_text(randneg_text)
     # print(emoji_annotations_text, baseline_text, semineg_text, randneg_text)
     
     mean = st.mean(rating_annotations)
@@ -50,78 +52,82 @@ for concept in data_dict:
     data_dict[concept]['ratings_stats'] = ratings_stats
     # print("mean, median, mode, variance", mean, median, mode, variance)  
 
-
     #Encode all sentences
-    anchor_embeddings = model.encode(concept)
     pos_embeddings = model.encode(emoji_annotations_text)
     baseline_embeddings = model.encode(baseline_text)
     semineg_embeddings = model.encode(semineg_text)
     randneg_embeddings = model.encode(randneg_text)
 
-    #Compute cosine similarity between all pairs
-    pos_sim = util.cos_sim(anchor_embeddings, pos_embeddings).tolist()[0]
-    pos_sim = [round(s, 4) for s in pos_sim]
-    max_pos = max(pos_sim)
-    max_pos_idx = pos_sim.index(max_pos)
-    # print(pos_sim)
+    data_dict[concept]['emoji_annotations_score'] = []
+    data_dict[concept]['baseline_score'] = []
+    data_dict[concept]['semineg_score'] = []
+    data_dict[concept]['randneg_score'] = []
+    data_dict[concept]['scores'] = []
+    data_dict[concept]['scores_ranked'] = []
 
-    baseline_cos_sim = util.cos_sim(anchor_embeddings, baseline_embeddings).tolist()[0]
-    baseline_cos_sim = [round(s, 4) for s in baseline_cos_sim]
-    max_baseline = max(baseline_cos_sim)
-    max_baseline_idx = baseline_cos_sim.index(max_baseline)
-    # print(baseline_cos_sim)
+    for encoded_concept in concept_augments:
+        anchor_embeddings = model.encode(encoded_concept)
 
-    semineg_cos_sim = util.cos_sim(anchor_embeddings, semineg_embeddings).tolist()[0]
-    semineg_cos_sim = [round(s, 4) for s in semineg_cos_sim]
-    max_semineg = max(semineg_cos_sim)
-    max_semineg_idx = semineg_cos_sim.index(max_semineg)
-    # print(semineg_cos_sim)
+        #Compute cosine similarity between all pairs
+        pos_sim = util.cos_sim(anchor_embeddings, pos_embeddings).tolist()[0]
+        pos_sim = [round(s, 4) for s in pos_sim]
+        max_pos = max(pos_sim)
+        max_pos_idx = pos_sim.index(max_pos)
+        # print(pos_sim)
 
-    randneg_cos_sim = util.cos_sim(anchor_embeddings, randneg_embeddings).tolist()[0]
-    randneg_cos_sim = [round(s, 4) for s in randneg_cos_sim]
-    max_randneg = max(randneg_cos_sim)
-    max_randneg_idx = randneg_cos_sim.index(max_randneg)
-    # print(randneg_cos_sim)
+        baseline_sim = util.cos_sim(anchor_embeddings, baseline_embeddings).tolist()[0]
+        baseline_sim = [round(s, 4) for s in baseline_sim]
+        max_baseline = max(baseline_sim)
+        max_baseline_idx = baseline_sim.index(max_baseline)
+        # print(baseline_sim)
 
-    total_count += 1
-    if max_randneg > max_semineg:
-        data_dict[concept]['sbert_rank'] = -2
-        print("randneg_sample wins: {}, {}".format(concept, randneg_text[max_randneg_idx]))
-        randneg_count += 1
-    elif max_semineg > max_baseline:
-        data_dict[concept]['sbert_rank'] = -1
-        print("semineg_sample wins: {}, {}".format(concept, semineg_text[max_semineg_idx]))
-        semineg_count += 1
-    elif max_baseline > max_pos:
-        data_dict[concept]['sbert_rank'] = 0
-        print("baseline wins: {}, {}".format(concept, baseline_text[max_baseline_idx]))
-        baseline_count += 1
-    else: 
-        data_dict[concept]['sbert_rank'] = 1
-        print("pos_sample wins: {}, {}".format(concept, emoji_annotations_text[max_pos_idx]))
-        pos_count += 1
+        semineg_sim = util.cos_sim(anchor_embeddings, semineg_embeddings).tolist()[0]
+        semineg_sim = [round(s, 4) for s in semineg_sim]
+        max_semineg = max(semineg_sim)
+        max_semineg_idx = semineg_sim.index(max_semineg)
+        # print(semineg_sim)
 
+        randneg_sim = util.cos_sim(anchor_embeddings, randneg_embeddings).tolist()[0]
+        randneg_sim = [round(s, 4) for s in randneg_sim]
+        max_randneg = max(randneg_sim)
+        max_randneg_idx = randneg_sim.index(max_randneg)
+        # print(randneg_sim)
 
-    data_dict[concept]['emoji_annotations_score'] = pos_sim
-    data_dict[concept]['baseline_score'] = baseline_cos_sim
-    data_dict[concept]['semineg_score'] = semineg_cos_sim
-    data_dict[concept]['randneg_score'] = randneg_cos_sim
+        scores = [max_randneg, max_semineg, max_baseline, max_pos]
+        scores_ranked = [sorted(scores).index(x) for x in scores]
+        print(scores)
+        print(scores_ranked)
 
-    # if total_count > 2:
+        data_dict[concept]['emoji_annotations_score'].append(pos_sim)
+        data_dict[concept]['baseline_score'].append(baseline_sim)
+        data_dict[concept]['semineg_score'].append(semineg_sim)
+        data_dict[concept]['randneg_score'].append(randneg_sim)
+
+        data_dict[concept]['scores'].append(scores)
+        data_dict[concept]['scores_ranked'].append(scores_ranked)
+
+    concept_count += 1
+    # if concept_count > 2:
     #     break
-
-print(randneg_count, semineg_count, baseline_count, pos_count, total_count)  
-# MiniLM: 162(pos) 210(total) / 114(semineg) 67(pos) 210(total) / 12(randneg) 111(semineg) 27(baseline) 60(pos) 210(total)
-# mpnet: 172 210 / 115 65 210 / 21 104 27 58 210
 
 end_time = time.time()
 total_time = end_time - start_time
-print('total_time:',  total_time)
+print('concept_count: {}, total_time: {}'.format(concept_count, total_time))  
 
-# # convert dict to json
-# json_object = json.dumps(data_dict[concept], indent = 4, allow_nan = True) 
-# print(json_object)
+# # save to json file
+# with open("data/augmentdata_scoring.json", "w") as outfile:
+#     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
-# save to json file
-with open("data/data_scoring.json", "w") as outfile:
-    json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
+
+# print(randneg_count, semineg_count, baseline_count, pos_count, total_count)  
+# MiniLM: 162(pos) 210(total) / 114(semineg) 67(pos) 210(total) / 
+# mpnet: 172 210 / 115 65 210 / 21 104 27 58 210
+
+# rand, baseline, pos
+# MiniLM: 13 44 153 210 vs  2 12 19 33
+
+# augment - MiniLM
+# rand ^, semineg , baseline ^, pos
+# (before) 12 111 27 60 /210 vs (after) 19 108 38 45 /210
+# rand ^, baseline ^, pos
+# (before) 13 44 153 /210  vs (after) 19 49 142 /210
