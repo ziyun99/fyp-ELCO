@@ -5,6 +5,29 @@ import emoji
 import functools
 import operator
 
+import emoji
+from emoji import unicode_codes
+import random
+def get_rand_emojis(len_emojis, exclude_emojis_text):
+    # print(exclude_emojis_text)
+    lang_keys = list(unicode_codes.EMOJI_UNICODE.keys())
+    emoji_keys = list(unicode_codes.EMOJI_UNICODE[lang_keys[0]].keys())
+    num_emojis = len(unicode_codes.EMOJI_UNICODE[lang_keys[0]])
+
+    rand_emojis = []
+    rand_emojis_text = []
+    for i in range(0, len_emojis):
+        rand_emoji_idx = random.randrange(0, num_emojis)
+        rand_emoji_text = emoji_keys[rand_emoji_idx]
+        while rand_emoji_text in exclude_emojis_text:
+            rand_emoji_idx = random.randrange(0, num_emojis)
+            rand_emoji_text = emoji_keys[rand_emoji_idx]
+        rand_emoji = unicode_codes.EMOJI_UNICODE[lang_keys[0]][emoji_keys[rand_emoji_idx]]
+        rand_emojis.append(rand_emoji)
+        rand_emojis_text.append(rand_emoji_text)
+    rand_emojis = " ".join(rand_emojis)
+    # print(rand_emojis, rand_emojis_text)
+    return rand_emojis, rand_emojis_text
 
 # Read all sheets directly into an ordered dictionary.
 sheet_to_df_map = pd.read_excel("data/an_data_collection.xlsx", sheet_name=None)
@@ -64,19 +87,18 @@ for sheet_name in sheet_names:
             em_split_emoji = emoji.get_emoji_regexp().split(emojis)
             em_split_whitespace = [substr.split() for substr in em_split_emoji]
             em_split = functools.reduce(operator.concat, em_split_whitespace)
-            em_split = [emoji.demojize(em)[1:-1] for em in em_split]
+            em_split = [emoji.demojize(em) for em in em_split]
             emojis_text_list.append(em_split)
         emoji_annotations_text_dict[concept_key] = emojis_text_list
     # print(emoji_annotations_text_dict)
 
 
-    # to get the list of negative samples for each concept from column names
+    # to get baseline emojis for each concept
     baselines = ratings.columns.tolist()
     baselines = [[' '.join(re.split('\s+|\.|\t',s)[2:])] for s in baselines]
     baseline_dict = dict( zip(concepts, baselines) )
-    # print(baselines)
-    # print(baseline_dict)
 
+    ## convert baseline emojis to text representation
     baseline_text_dict = {}
     for concept_key in baseline_dict:
         baselines_text_list = []
@@ -89,12 +111,12 @@ for sheet_name in sheet_names:
             em_split_emoji = emoji.get_emoji_regexp().split(emojis)
             em_split_whitespace = [substr.split() for substr in em_split_emoji]
             em_split = functools.reduce(operator.concat, em_split_whitespace)
-            em_split = [emoji.demojize(em)[1:-1] for em in em_split]
+            em_split = [emoji.demojize(em) for em in em_split]
             baselines_text_list.append(em_split)
         baseline_text_dict[concept_key] = baselines_text_list
     
 
-    ## construct negative samples from the baseline emojis of the same adjective
+    ## construct semi-hard negative samples from the baseline emojis of the same adjective
     semineg_emoji_dict = {}
     for concept_key in baseline_dict:
         adj = concept_key.split()[0]
@@ -105,7 +127,7 @@ for sheet_name in sheet_names:
                 continue
             semineg_emoji_list += baseline_dict[curr_concept]
         semineg_emoji_dict[concept_key] = semineg_emoji_list
-
+    ## convert semi-hard negative emojis to text representation
     semineg_text_dict = {}
     for concept_key in semineg_emoji_dict:
         semineg_text_list = []
@@ -118,10 +140,19 @@ for sheet_name in sheet_names:
             em_split_emoji = emoji.get_emoji_regexp().split(emojis)
             em_split_whitespace = [substr.split() for substr in em_split_emoji]
             em_split = functools.reduce(operator.concat, em_split_whitespace)
-            em_split = [emoji.demojize(em)[1:-1] for em in em_split]
+            em_split = [emoji.demojize(em) for em in em_split]
             semineg_text_list.append(em_split)
         semineg_text_dict[concept_key] = semineg_text_list
 
+    ## construct random negative samples, excluding emojis from baseline(hard negative) emojis and semi-hard negative emojis
+    exclude_emojis_text = [semineg+baseline for (semineg, baseline) in zip(list(semineg_text_dict.values()),list(baseline_text_dict.values()))][0]
+    exclude_emojis_text = [item for sublist in exclude_emojis_text for item in sublist]
+    # print(exclude_emojis_text)
+    randneg = [get_rand_emojis(len_emojis=2, exclude_emojis_text= exclude_emojis_text) for concept in concepts]
+    randneg_emojis = list(list(zip(*randneg))[0])
+    randneg_emojis_text = [[i] for i in list(list(zip(*randneg))[1])]
+    randneg_emoji_dict = dict(zip(concepts, randneg_emojis))
+    randneg_text_dict = dict(zip(concepts, randneg_emojis_text))
 
     # convert df to dict of list
     ratings = ratings.set_axis(concepts, axis='columns')
@@ -140,6 +171,8 @@ for sheet_name in sheet_names:
         temp['baseline_text'] = baseline_text_dict[concept]
         temp['semineg_emoji'] = semineg_emoji_dict[concept]
         temp['semineg_text'] = semineg_text_dict[concept]
+        temp['randneg_emoji'] = randneg_emoji_dict[concept]
+        temp['randneg_text'] = randneg_text_dict[concept]
         data_dict[concept] = temp
         # print(temp)
     # break
