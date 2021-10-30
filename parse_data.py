@@ -5,8 +5,9 @@ import emoji
 import functools
 import operator
 
+
 # Read all sheets directly into an ordered dictionary.
-sheet_to_df_map = pd.read_excel("an_data_collection.xlsx", sheet_name=None)
+sheet_to_df_map = pd.read_excel("data/an_data_collection.xlsx", sheet_name=None)
 sheet_names = list( sheet_to_df_map.keys() )
 sheet_names.remove('forms')
 
@@ -93,6 +94,35 @@ for sheet_name in sheet_names:
         baseline_text_dict[concept_key] = baselines_text_list
     
 
+    ## construct negative samples from the baseline emojis of the same adjective
+    semineg_emoji_dict = {}
+    for concept_key in baseline_dict:
+        adj = concept_key.split()[0]
+        semineg_emoji_list = []
+        for curr_concept in baseline_dict:
+            curr_adj = curr_concept.split()[0]
+            if curr_concept == concept_key: # or curr_adj != adj 
+                continue
+            semineg_emoji_list += baseline_dict[curr_concept]
+        semineg_emoji_dict[concept_key] = semineg_emoji_list
+
+    semineg_text_dict = {}
+    for concept_key in semineg_emoji_dict:
+        semineg_text_list = []
+        for emojis in semineg_emoji_dict[concept_key]:
+            if type(emojis) != type('str'):
+                # print(emojis)
+                emojis_text_list.append(emojis)
+                continue
+            # print(emojis, type(emojis))
+            em_split_emoji = emoji.get_emoji_regexp().split(emojis)
+            em_split_whitespace = [substr.split() for substr in em_split_emoji]
+            em_split = functools.reduce(operator.concat, em_split_whitespace)
+            em_split = [emoji.demojize(em)[1:-1] for em in em_split]
+            semineg_text_list.append(em_split)
+        semineg_text_dict[concept_key] = semineg_text_list
+
+
     # convert df to dict of list
     ratings = ratings.set_axis(concepts, axis='columns')
     ratings_dict = ratings.to_dict(orient='list')
@@ -106,8 +136,10 @@ for sheet_name in sheet_names:
         temp['emoji_annotations'] = emoji_annotations_dict[concept]
         temp['emoji_annotations_text'] = emoji_annotations_text_dict[concept]
         temp['rating_annotations'] = ratings_dict[concept]
-        temp['baseline'] = baseline_dict[concept]
+        temp['baseline_emoji'] = baseline_dict[concept]
         temp['baseline_text'] = baseline_text_dict[concept]
+        temp['semineg_emoji'] = semineg_emoji_dict[concept]
+        temp['semineg_text'] = semineg_text_dict[concept]
         data_dict[concept] = temp
         # print(temp)
     # break
@@ -121,10 +153,10 @@ print(total_concepts)
 # print(json_object)
 
 # save to json file
-with open("data.json", "w") as outfile:
+with open("data/data.json", "w") as outfile:
     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
 # load dict from json file
-f = open("data.json")
+f = open("data/data.json")
 json_object = json.load(f)
 # print(json_object)
