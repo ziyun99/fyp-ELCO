@@ -16,7 +16,7 @@ random.seed(10)
 
 def google_definition(query):
     searchname = query.replace(' ', '+')
-    url = "https://google.com/search?q=define+" + searchname
+    url = "https://google.com/search?q=meaning+" + searchname
     request_result = requests.get( url )
     soup = bs4.BeautifulSoup( request_result.text, "html.parser" )
     heading_object=soup.find_all( "div" , class_='BNeawe s3v9rd AP7Wnd' )
@@ -48,19 +48,22 @@ def get_rand_emojis(len_emojis, exclude_emojis_text):
 
 
 # load attribute df from csv file
-an_df = pd.read_csv("data/data_attribute_ground_truth.csv")
+an_df = pd.read_csv("data/AN/an_attribute_ground_truth.csv")
 col_names = an_df.columns.values
 an_dict = dict( zip(an_df["concept"], an_df["attribute"]))
 
 # Read all sheets directly into an ordered dictionary.
-sheet_to_df_map = pd.read_excel("data/an_data_collection.xlsx", sheet_name=None)
+sheet_to_df_map = pd.read_excel("data/AN/an_data_collection.xlsx", sheet_name=None)
 sheet_names = list( sheet_to_df_map.keys() )
 sheet_names.remove('forms')
 
 concept_count = 0
 data_dict = {}
 
-for sheet_name in sheet_names:
+sheet_ids = [i for i in range(1, 26)]
+print(sheet_ids)
+for sheet_id in sheet_ids:
+    sheet_name = str(sheet_id)
     print(sheet_name)
     
     sheet1 = sheet_to_df_map[sheet_name]
@@ -201,14 +204,14 @@ for sheet_name in sheet_names:
         temp['randneg_text'] = randneg_text_dict[concept]
         data_dict[concept] = temp
         # print(temp)
-        # break
-    # break
+    # if concept_count > 2:
+    #     break
 
 print(concept_count)
 # print(data_dict)
 
 # save to json file
-with open("data/data.json", "w") as outfile:
+with open("data/AN/an-data-collection1.json", "w") as outfile:
     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
 

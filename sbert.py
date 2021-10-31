@@ -12,12 +12,12 @@ start_time = time.time()
 
 
 # load sbert model
-model_idx = 1
+model_idx = 0
 pretrained_model = ["all-mpnet-base-v2", "all-MiniLM-L6-v2"]
 model = SentenceTransformer(pretrained_model[model_idx], device='cuda:1') 
 
 # load data dict from json file
-f = open("data/data.json")
+f = open("data/AN/an-data-collection.json")
 data_dict = json.load(f)
 
 def format_emoji_text(emoji_texts):
@@ -117,7 +117,9 @@ total_time = end_time - start_time
 print('concept_count: {}, total_time: {}'.format(concept_count, total_time))  
 
 # # save to json file
-with open("data/data_scoring-MiniLM.json", "w") as outfile:
+model_name = ["mpnet", "MiniLM"]
+filename = "data/AN/an-scoring-" + model_name[model_idx] + ".json"
+with open(filename, "w") as outfile:
     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
 

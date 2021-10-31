@@ -16,7 +16,7 @@ pretrained_model = ["all-mpnet-base-v2", "all-MiniLM-L6-v2"]
 model = SentenceTransformer(pretrained_model[model_idx], device='cuda:1') 
 
 # load data dict from json file
-f = open("data/zwj-selected.json")
+f = open("data/ZWJ/zwj-selected.json")
 data_dict = json.load(f)
 
 def format_emoji_text(emoji_texts):
@@ -86,7 +86,7 @@ total_time = end_time - start_time
 print('concept_count: {}, total_time: {}'.format(concept_count, total_time))  
 
 # # save to json file
-with open("data/zwj-scoring.json", "w") as outfile:
+with open("data/ZWJ/zwj-scoring.json", "w") as outfile:
     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
 #         total_count += 1
