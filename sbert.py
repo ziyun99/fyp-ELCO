@@ -12,7 +12,7 @@ start_time = time.time()
 
 
 # load sbert model
-model_idx = 0
+model_idx = 1
 pretrained_model = ["all-mpnet-base-v2", "all-MiniLM-L6-v2"]
 model = SentenceTransformer(pretrained_model[model_idx], device='cuda:1') 
 
@@ -25,7 +25,7 @@ def format_emoji_text(emoji_texts):
 
 concept_count = 0
 for concept in data_dict:
-    print(total_count, concept)
+    print(concept_count, concept)
     emoji_annotations_text = data_dict[concept]["emoji_annotations_text"]
     baseline_text = data_dict[concept]["baseline_text"]
     semineg_text = data_dict[concept]["semineg_text"]
@@ -35,6 +35,8 @@ for concept in data_dict:
 
     attribute = data_dict[concept]["attribute"].lower()
     attributed_concept = concept + ' is about ' + attribute
+    # definition = data_dict[concept]["definition"]
+    # defined_concept = concept + ' means ' + definition
     concept_augments = [concept, attributed_concept] #, defined_concept]
 
     emoji_annotations_text = format_emoji_text(emoji_annotations_text)
@@ -115,8 +117,8 @@ total_time = end_time - start_time
 print('concept_count: {}, total_time: {}'.format(concept_count, total_time))  
 
 # # save to json file
-# with open("data/augmentdata_scoring.json", "w") as outfile:
-#     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
+with open("data/data_scoring-MiniLM.json", "w") as outfile:
+    json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
 
 # print(randneg_count, semineg_count, baseline_count, pos_count, total_count)  

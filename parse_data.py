@@ -9,12 +9,20 @@ import emoji
 from emoji import unicode_codes
 import random
 
+import requests 
+import bs4 
+
 random.seed(10)
 
-# load df from csv file
-an_df = pd.read_csv("data/data_attribute_ground_truth.csv")
-col_names = an_df.columns.values
-an_dict = dict( zip(an_df["concept"], an_df["attribute"]))
+def google_definition(query):
+    searchname = query.replace(' ', '+')
+    url = "https://google.com/search?q=define+" + searchname
+    request_result = requests.get( url )
+    soup = bs4.BeautifulSoup( request_result.text, "html.parser" )
+    heading_object=soup.find_all( "div" , class_='BNeawe s3v9rd AP7Wnd' )
+    definition = heading_object[2].getText()
+    return definition
+
 
 def get_rand_emojis(len_emojis, exclude_emojis_text):
     # print(exclude_emojis_text)
@@ -37,12 +45,19 @@ def get_rand_emojis(len_emojis, exclude_emojis_text):
     # print(rand_emojis, rand_emojis_text)
     return rand_emojis, rand_emojis_text
 
+
+
+# load attribute df from csv file
+an_df = pd.read_csv("data/data_attribute_ground_truth.csv")
+col_names = an_df.columns.values
+an_dict = dict( zip(an_df["concept"], an_df["attribute"]))
+
 # Read all sheets directly into an ordered dictionary.
 sheet_to_df_map = pd.read_excel("data/an_data_collection.xlsx", sheet_name=None)
 sheet_names = list( sheet_to_df_map.keys() )
 sheet_names.remove('forms')
 
-total_concepts = 0
+concept_count = 0
 data_dict = {}
 
 for sheet_name in sheet_names:
@@ -51,7 +66,7 @@ for sheet_name in sheet_names:
     sheet1 = sheet_to_df_map[sheet_name]
     col = sheet1.columns.values
     num_concepts = int ( ( len(col) - 6 ) / 3 )
-    total_concepts += num_concepts
+    concept_count += num_concepts
     # print(num_concepts)
 
     offset = 4
@@ -173,6 +188,7 @@ for sheet_name in sheet_names:
         temp = {}
         temp['form_id'] = sheet_name
         temp['attribute'] = an_dict[concept]  # ground truth attribute
+        temp['definition'] = google_definition(concept)
         temp['attribute_annotations'] = attribute_annotations_dict[concept]
         temp['rating_annotations'] = ratings_dict[concept]
         temp['emoji_annotations'] = emoji_annotations_dict[concept]
@@ -185,21 +201,18 @@ for sheet_name in sheet_names:
         temp['randneg_text'] = randneg_text_dict[concept]
         data_dict[concept] = temp
         # print(temp)
+        # break
     # break
 
-print(total_concepts)
+print(concept_count)
 # print(data_dict)
-
-
-# convert dict to json
-# json_object = json.dumps(data_dict, indent = 4, allow_nan = True) 
-# print(json_object)
 
 # save to json file
 with open("data/data.json", "w") as outfile:
     json.dump(data_dict, outfile, indent = 4, allow_nan = True) 
 
+
 # load dict from json file
-f = open("data/data.json")
-json_object = json.load(f)
+# f = open("data/data.json")
+# json_object = json.load(f)
 # print(json_object)
