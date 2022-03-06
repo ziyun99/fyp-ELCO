@@ -32,7 +32,7 @@ max_seq_length = 128                #Student model max. lengths for inputs (numb
 train_batch_size = 32               #Batch size for training
 inference_batch_size = 32           #Batch size at inference
 
-num_epochs = 50                       #Train for x epochs
+num_epochs = 600                       #Train for x epochs
 num_warmup_steps = 5000             #Warumup steps
 
 num_evaluation_steps = 1000          #Evaluate performance after every xxxx steps
@@ -98,7 +98,7 @@ train_loss_mse = losses.MSELoss(model=model)
 
 
 evaluators = []
-for df_name in ['validate', 'test']:
+for df_name in ['train', 'validate', 'test']:
     src_sentences = []
     trg_sentences = []
     with open("../data/training/parallel_data_{}.txt".format(df_name), 'rt', encoding='utf8') as fIn:
@@ -131,7 +131,9 @@ for df_name in splitted_names:
 train_dataloader_sim = DataLoader(sim_samples["train"], shuffle=True, batch_size=train_batch_size)
 train_loss_sim = losses.CosineSimilarityLoss(model=model)
 
-sim_evaluator = evaluation.EmbeddingSimilarityEvaluator.from_input_examples(sim_samples["validate"], name='cossim-val')
+sim_evaluator = evaluation.EmbeddingSimilarityEvaluator.from_input_examples(sim_samples["train"], name='cossim-train')
+evaluators.append(sim_evaluator)
+sim_evaluator = evaluation.EmbeddingSimilarityEvaluator.from_input_examples(sim_samples["validate"], name='cossim-validate')
 evaluators.append(sim_evaluator)
 sim_evaluator = evaluation.EmbeddingSimilarityEvaluator.from_input_examples(sim_samples["test"], name='cossim-test')
 evaluators.append(sim_evaluator)
@@ -167,29 +169,29 @@ evaluators.append(sim_evaluator)
 
 
 ###### Load information retrieval (IR) loss dataset: test set ######
-# print("Load information retrieval dataset")
-# information_retrieval_data = json.load(open("../data/training/information_retrieval_data.json"))
-# ir_queries = information_retrieval_data["ir_queries"]
-# ir_corpus = information_retrieval_data["ir_corpus"]
-# ir_relevant_docs = information_retrieval_data["ir_relevant_docs"]
+print("Load information retrieval dataset")
+information_retrieval_data = json.load(open("../data/training/information_retrieval_data.json"))
+ir_queries = information_retrieval_data["ir_queries"]
+ir_corpus = information_retrieval_data["ir_corpus"]
+ir_relevant_docs = information_retrieval_data["ir_relevant_docs"]
 
-# # convert list of relevant docs to set
-# for key, value in ir_relevant_docs.items():
-#     ir_relevant_docs[key] = set([str(v) for v in value])
+# convert list of relevant docs to set
+for key, value in ir_relevant_docs.items():
+    ir_relevant_docs[key] = set([str(v) for v in value])
 
-# # Given queries, a corpus and a mapping with relevant documents, the InformationRetrievalEvaluator computes different IR
-# # metrices. For our use case MRR@k and Accuracy@k are relevant.
-# information_retrieval_evaluator = evaluation.InformationRetrievalEvaluator(ir_queries, ir_corpus, ir_relevant_docs, name='inforet-test', accuracy_at_k=[1220], precision_recall_at_k=[1220])
-# evaluators.append(information_retrieval_evaluator)
+# Given queries, a corpus and a mapping with relevant documents, the InformationRetrievalEvaluator computes different IR
+# metrices. For our use case MRR@k and Accuracy@k are relevant.
+information_retrieval_evaluator = evaluation.InformationRetrievalEvaluator(ir_queries, ir_corpus, ir_relevant_docs, name='inforet-test') #, accuracy_at_k=[1220], precision_recall_at_k=[1220])
+evaluators.append(information_retrieval_evaluator)
 
 for i, e in enumerate(evaluators):
     print(i, e.name)
 
 ###### Train model ######
-train_objectives=[(train_dataloader_mse, train_loss_mse), (train_dataloader_sim, train_loss_sim)] #, (train_dataloader_contrastive, train_loss_contrastive)]
+train_objectives=[(train_dataloader_mse, train_loss_mse), (train_dataloader_sim, train_loss_sim)]  #, (train_dataloader_contrastive, train_loss_contrastive)]
 
 model.fit(train_objectives=train_objectives,
-          evaluator=evaluation.SequentialEvaluator(evaluators, main_score_function=lambda scores:np.mean([scores[0], scores[1], scores[4]])), # np.mean(scores)) [scores[0], scores[1], scores[4], scores[6]])),
+          evaluator=evaluation.SequentialEvaluator(evaluators, main_score_function=lambda scores:np.mean([scores[2], scores[3], scores[7]])), # np.mean(scores)) [scores[0], scores[1], scores[4], scores[6]])),
           epochs=num_epochs,
           evaluation_steps=num_evaluation_steps,
           warmup_steps=num_warmup_steps,

@@ -1,0 +1,1924 @@
+2022-02-17 13:40:53 - Load pretrained SentenceTransformer: bert-base-nli-stsb-mean-tokens
+2022-02-17 13:41:26 - Load ../data/training/parallel_data_train.txt
+2022-02-17 13:41:38 - MSE evaluation (lower = better) on mse-validate dataset after epoch 0:
+2022-02-17 13:41:38 - MSE (*100):	80.041730
+2022-02-17 13:41:38 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 0:
+2022-02-17 13:41:38 - Accuracy src2trg: 0.87
+2022-02-17 13:41:38 - Accuracy trg2src: 0.43
+2022-02-17 13:41:38 - MSE evaluation (lower = better) on mse-test dataset after epoch 0:
+2022-02-17 13:41:38 - MSE (*100):	80.271876
+2022-02-17 13:41:38 - Evaluating translation matching Accuracy on trans-test dataset after epoch 0:
+2022-02-17 13:41:39 - Accuracy src2trg: 0.87
+2022-02-17 13:41:39 - Accuracy trg2src: 1.73
+2022-02-17 13:41:39 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 0:
+2022-02-17 13:41:40 - Cosine-Similarity :	Pearson: -0.0270	Spearman: 0.0014
+2022-02-17 13:41:40 - Manhattan-Distance:	Pearson: -0.1386	Spearman: -0.1035
+2022-02-17 13:41:40 - Euclidean-Distance:	Pearson: -0.0303	Spearman: 0.0008
+2022-02-17 13:41:40 - Dot-Product-Similarity:	Pearson: -0.0630	Spearman: -0.0935
+2022-02-17 13:41:40 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 0:
+2022-02-17 13:41:42 - Cosine-Similarity :	Pearson: 0.0202	Spearman: 0.0985
+2022-02-17 13:41:42 - Manhattan-Distance:	Pearson: -0.0659	Spearman: -0.0033
+2022-02-17 13:41:42 - Euclidean-Distance:	Pearson: 0.0431	Spearman: 0.0981
+2022-02-17 13:41:42 - Dot-Product-Similarity:	Pearson: -0.1115	Spearman: -0.0810
+2022-02-17 13:41:42 - Information Retrieval Evaluation on inforet-test dataset after epoch 0:
+2022-02-17 13:41:43 - Queries: 210
+2022-02-17 13:41:43 - Corpus: 1228
+
+2022-02-17 13:41:43 - Score-Function: cos_sim
+2022-02-17 13:41:43 - Accuracy@1220: 0.00%
+2022-02-17 13:41:43 - Precision@1220: 0.00%
+2022-02-17 13:41:43 - Recall@1220: 0.00%
+2022-02-17 13:41:43 - MRR@10: 0.0000
+2022-02-17 13:41:43 - NDCG@10: 0.0000
+2022-02-17 13:41:43 - MAP@100: 0.0000
+2022-02-17 13:41:43 - Score-Function: dot_score
+2022-02-17 13:41:43 - Accuracy@1220: 0.00%
+2022-02-17 13:41:43 - Precision@1220: 0.00%
+2022-02-17 13:41:43 - Recall@1220: 0.00%
+2022-02-17 13:41:43 - MRR@10: 0.0000
+2022-02-17 13:41:43 - NDCG@10: 0.0000
+2022-02-17 13:41:43 - MAP@100: 0.0000
+2022-02-17 13:41:43 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:41:52 - MSE evaluation (lower = better) on mse-validate dataset after epoch 1:
+2022-02-17 13:41:52 - MSE (*100):	75.790250
+2022-02-17 13:41:52 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 1:
+2022-02-17 13:41:53 - Accuracy src2trg: 0.87
+2022-02-17 13:41:53 - Accuracy trg2src: 0.43
+2022-02-17 13:41:53 - MSE evaluation (lower = better) on mse-test dataset after epoch 1:
+2022-02-17 13:41:53 - MSE (*100):	75.164008
+2022-02-17 13:41:53 - Evaluating translation matching Accuracy on trans-test dataset after epoch 1:
+2022-02-17 13:41:53 - Accuracy src2trg: 0.00
+2022-02-17 13:41:53 - Accuracy trg2src: 1.30
+2022-02-17 13:41:53 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 1:
+2022-02-17 13:41:55 - Cosine-Similarity :	Pearson: -0.0920	Spearman: -0.0408
+2022-02-17 13:41:55 - Manhattan-Distance:	Pearson: -0.1656	Spearman: -0.1186
+2022-02-17 13:41:55 - Euclidean-Distance:	Pearson: -0.1010	Spearman: -0.0507
+2022-02-17 13:41:55 - Dot-Product-Similarity:	Pearson: -0.1206	Spearman: -0.1125
+2022-02-17 13:41:55 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 1:
+2022-02-17 13:41:56 - Cosine-Similarity :	Pearson: -0.0774	Spearman: -0.0299
+2022-02-17 13:41:56 - Manhattan-Distance:	Pearson: -0.1704	Spearman: -0.1583
+2022-02-17 13:41:56 - Euclidean-Distance:	Pearson: -0.1136	Spearman: -0.0540
+2022-02-17 13:41:56 - Dot-Product-Similarity:	Pearson: -0.1869	Spearman: -0.1664
+2022-02-17 13:41:56 - Information Retrieval Evaluation on inforet-test dataset after epoch 1:
+2022-02-17 13:41:57 - Queries: 210
+2022-02-17 13:41:57 - Corpus: 1228
+
+2022-02-17 13:41:57 - Score-Function: cos_sim
+2022-02-17 13:41:57 - Accuracy@1220: 0.00%
+2022-02-17 13:41:57 - Precision@1220: 0.00%
+2022-02-17 13:41:57 - Recall@1220: 0.00%
+2022-02-17 13:41:57 - MRR@10: 0.0000
+2022-02-17 13:41:57 - NDCG@10: 0.0000
+2022-02-17 13:41:57 - MAP@100: 0.0000
+2022-02-17 13:41:57 - Score-Function: dot_score
+2022-02-17 13:41:57 - Accuracy@1220: 0.00%
+2022-02-17 13:41:57 - Precision@1220: 0.00%
+2022-02-17 13:41:57 - Recall@1220: 0.00%
+2022-02-17 13:41:57 - MRR@10: 0.0000
+2022-02-17 13:41:57 - NDCG@10: 0.0000
+2022-02-17 13:41:57 - MAP@100: 0.0000
+2022-02-17 13:41:57 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:42:08 - MSE evaluation (lower = better) on mse-validate dataset after epoch 2:
+2022-02-17 13:42:08 - MSE (*100):	68.548310
+2022-02-17 13:42:08 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 2:
+2022-02-17 13:42:08 - Accuracy src2trg: 0.43
+2022-02-17 13:42:08 - Accuracy trg2src: 0.43
+2022-02-17 13:42:08 - MSE evaluation (lower = better) on mse-test dataset after epoch 2:
+2022-02-17 13:42:08 - MSE (*100):	67.102396
+2022-02-17 13:42:08 - Evaluating translation matching Accuracy on trans-test dataset after epoch 2:
+2022-02-17 13:42:09 - Accuracy src2trg: 0.87
+2022-02-17 13:42:09 - Accuracy trg2src: 1.30
+2022-02-17 13:42:09 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 2:
+2022-02-17 13:42:10 - Cosine-Similarity :	Pearson: 0.0148	Spearman: -0.0029
+2022-02-17 13:42:10 - Manhattan-Distance:	Pearson: -0.0508	Spearman: -0.0711
+2022-02-17 13:42:10 - Euclidean-Distance:	Pearson: -0.0421	Spearman: -0.0449
+2022-02-17 13:42:10 - Dot-Product-Similarity:	Pearson: -0.0706	Spearman: -0.0883
+2022-02-17 13:42:10 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 2:
+2022-02-17 13:42:11 - Cosine-Similarity :	Pearson: -0.0407	Spearman: -0.0430
+2022-02-17 13:42:11 - Manhattan-Distance:	Pearson: -0.0983	Spearman: -0.1039
+2022-02-17 13:42:11 - Euclidean-Distance:	Pearson: -0.1248	Spearman: -0.1313
+2022-02-17 13:42:11 - Dot-Product-Similarity:	Pearson: -0.1593	Spearman: -0.1741
+2022-02-17 13:42:11 - Information Retrieval Evaluation on inforet-test dataset after epoch 2:
+2022-02-17 13:42:12 - Queries: 210
+2022-02-17 13:42:12 - Corpus: 1228
+
+2022-02-17 13:42:13 - Score-Function: cos_sim
+2022-02-17 13:42:13 - Accuracy@1220: 0.00%
+2022-02-17 13:42:13 - Precision@1220: 0.00%
+2022-02-17 13:42:13 - Recall@1220: 0.00%
+2022-02-17 13:42:13 - MRR@10: 0.0000
+2022-02-17 13:42:13 - NDCG@10: 0.0000
+2022-02-17 13:42:13 - MAP@100: 0.0000
+2022-02-17 13:42:13 - Score-Function: dot_score
+2022-02-17 13:42:13 - Accuracy@1220: 0.00%
+2022-02-17 13:42:13 - Precision@1220: 0.00%
+2022-02-17 13:42:13 - Recall@1220: 0.00%
+2022-02-17 13:42:13 - MRR@10: 0.0000
+2022-02-17 13:42:13 - NDCG@10: 0.0000
+2022-02-17 13:42:13 - MAP@100: 0.0000
+2022-02-17 13:42:13 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:42:23 - MSE evaluation (lower = better) on mse-validate dataset after epoch 3:
+2022-02-17 13:42:23 - MSE (*100):	60.331422
+2022-02-17 13:42:23 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 3:
+2022-02-17 13:42:24 - Accuracy src2trg: 0.43
+2022-02-17 13:42:24 - Accuracy trg2src: 0.00
+2022-02-17 13:42:24 - MSE evaluation (lower = better) on mse-test dataset after epoch 3:
+2022-02-17 13:42:24 - MSE (*100):	60.029668
+2022-02-17 13:42:24 - Evaluating translation matching Accuracy on trans-test dataset after epoch 3:
+2022-02-17 13:42:24 - Accuracy src2trg: 0.43
+2022-02-17 13:42:24 - Accuracy trg2src: 0.43
+2022-02-17 13:42:24 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 3:
+2022-02-17 13:42:26 - Cosine-Similarity :	Pearson: 0.0265	Spearman: 0.0447
+2022-02-17 13:42:26 - Manhattan-Distance:	Pearson: 0.0093	Spearman: 0.0439
+2022-02-17 13:42:26 - Euclidean-Distance:	Pearson: 0.0452	Spearman: 0.0690
+2022-02-17 13:42:26 - Dot-Product-Similarity:	Pearson: 0.0155	Spearman: 0.0203
+2022-02-17 13:42:26 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 3:
+2022-02-17 13:42:27 - Cosine-Similarity :	Pearson: 0.0210	Spearman: 0.0219
+2022-02-17 13:42:27 - Manhattan-Distance:	Pearson: 0.0339	Spearman: 0.0424
+2022-02-17 13:42:27 - Euclidean-Distance:	Pearson: 0.0532	Spearman: 0.0592
+2022-02-17 13:42:27 - Dot-Product-Similarity:	Pearson: 0.0084	Spearman: 0.0002
+2022-02-17 13:42:27 - Information Retrieval Evaluation on inforet-test dataset after epoch 3:
+2022-02-17 13:42:28 - Queries: 210
+2022-02-17 13:42:28 - Corpus: 1228
+
+2022-02-17 13:42:28 - Score-Function: cos_sim
+2022-02-17 13:42:28 - Accuracy@1220: 0.00%
+2022-02-17 13:42:28 - Precision@1220: 0.00%
+2022-02-17 13:42:28 - Recall@1220: 0.00%
+2022-02-17 13:42:28 - MRR@10: 0.0000
+2022-02-17 13:42:28 - NDCG@10: 0.0000
+2022-02-17 13:42:28 - MAP@100: 0.0000
+2022-02-17 13:42:28 - Score-Function: dot_score
+2022-02-17 13:42:28 - Accuracy@1220: 0.00%
+2022-02-17 13:42:28 - Precision@1220: 0.00%
+2022-02-17 13:42:28 - Recall@1220: 0.00%
+2022-02-17 13:42:28 - MRR@10: 0.0000
+2022-02-17 13:42:28 - NDCG@10: 0.0000
+2022-02-17 13:42:28 - MAP@100: 0.0000
+2022-02-17 13:42:28 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:42:38 - MSE evaluation (lower = better) on mse-validate dataset after epoch 4:
+2022-02-17 13:42:38 - MSE (*100):	58.555388
+2022-02-17 13:42:38 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 4:
+2022-02-17 13:42:39 - Accuracy src2trg: 0.43
+2022-02-17 13:42:39 - Accuracy trg2src: 0.43
+2022-02-17 13:42:39 - MSE evaluation (lower = better) on mse-test dataset after epoch 4:
+2022-02-17 13:42:39 - MSE (*100):	58.041602
+2022-02-17 13:42:39 - Evaluating translation matching Accuracy on trans-test dataset after epoch 4:
+2022-02-17 13:42:39 - Accuracy src2trg: 0.43
+2022-02-17 13:42:39 - Accuracy trg2src: 0.87
+2022-02-17 13:42:39 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 4:
+2022-02-17 13:42:41 - Cosine-Similarity :	Pearson: -0.0153	Spearman: 0.0077
+2022-02-17 13:42:41 - Manhattan-Distance:	Pearson: 0.0450	Spearman: 0.0754
+2022-02-17 13:42:41 - Euclidean-Distance:	Pearson: 0.0440	Spearman: 0.0746
+2022-02-17 13:42:41 - Dot-Product-Similarity:	Pearson: 0.0297	Spearman: -0.0022
+2022-02-17 13:42:41 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 4:
+2022-02-17 13:42:42 - Cosine-Similarity :	Pearson: -0.0206	Spearman: 0.0173
+2022-02-17 13:42:42 - Manhattan-Distance:	Pearson: -0.0652	Spearman: -0.0185
+2022-02-17 13:42:42 - Euclidean-Distance:	Pearson: 0.0112	Spearman: 0.0400
+2022-02-17 13:42:42 - Dot-Product-Similarity:	Pearson: -0.0486	Spearman: 0.0176
+2022-02-17 13:42:42 - Information Retrieval Evaluation on inforet-test dataset after epoch 4:
+2022-02-17 13:42:43 - Queries: 210
+2022-02-17 13:42:43 - Corpus: 1228
+
+2022-02-17 13:42:43 - Score-Function: cos_sim
+2022-02-17 13:42:43 - Accuracy@1220: 0.00%
+2022-02-17 13:42:43 - Precision@1220: 0.00%
+2022-02-17 13:42:43 - Recall@1220: 0.00%
+2022-02-17 13:42:43 - MRR@10: 0.0000
+2022-02-17 13:42:43 - NDCG@10: 0.0000
+2022-02-17 13:42:43 - MAP@100: 0.0000
+2022-02-17 13:42:43 - Score-Function: dot_score
+2022-02-17 13:42:43 - Accuracy@1220: 0.00%
+2022-02-17 13:42:43 - Precision@1220: 0.00%
+2022-02-17 13:42:43 - Recall@1220: 0.00%
+2022-02-17 13:42:43 - MRR@10: 0.0000
+2022-02-17 13:42:43 - NDCG@10: 0.0000
+2022-02-17 13:42:43 - MAP@100: 0.0000
+2022-02-17 13:42:43 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:42:54 - MSE evaluation (lower = better) on mse-validate dataset after epoch 5:
+2022-02-17 13:42:54 - MSE (*100):	57.320195
+2022-02-17 13:42:54 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 5:
+2022-02-17 13:42:54 - Accuracy src2trg: 0.00
+2022-02-17 13:42:54 - Accuracy trg2src: 0.87
+2022-02-17 13:42:54 - MSE evaluation (lower = better) on mse-test dataset after epoch 5:
+2022-02-17 13:42:54 - MSE (*100):	56.662077
+2022-02-17 13:42:54 - Evaluating translation matching Accuracy on trans-test dataset after epoch 5:
+2022-02-17 13:42:54 - Accuracy src2trg: 0.00
+2022-02-17 13:42:54 - Accuracy trg2src: 0.00
+2022-02-17 13:42:54 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 5:
+2022-02-17 13:42:56 - Cosine-Similarity :	Pearson: -0.0257	Spearman: -0.0173
+2022-02-17 13:42:56 - Manhattan-Distance:	Pearson: 0.1060	Spearman: 0.0880
+2022-02-17 13:42:56 - Euclidean-Distance:	Pearson: 0.0212	Spearman: 0.0456
+2022-02-17 13:42:56 - Dot-Product-Similarity:	Pearson: 0.0336	Spearman: -0.0195
+2022-02-17 13:42:56 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 5:
+2022-02-17 13:42:57 - Cosine-Similarity :	Pearson: -0.0540	Spearman: -0.0184
+2022-02-17 13:42:57 - Manhattan-Distance:	Pearson: 0.0449	Spearman: 0.0710
+2022-02-17 13:42:57 - Euclidean-Distance:	Pearson: 0.0065	Spearman: 0.0412
+2022-02-17 13:42:57 - Dot-Product-Similarity:	Pearson: -0.0829	Spearman: -0.0280
+2022-02-17 13:42:57 - Information Retrieval Evaluation on inforet-test dataset after epoch 5:
+2022-02-17 13:42:58 - Queries: 210
+2022-02-17 13:42:58 - Corpus: 1228
+
+2022-02-17 13:42:59 - Score-Function: cos_sim
+2022-02-17 13:42:59 - Accuracy@1220: 0.00%
+2022-02-17 13:42:59 - Precision@1220: 0.00%
+2022-02-17 13:42:59 - Recall@1220: 0.00%
+2022-02-17 13:42:59 - MRR@10: 0.0000
+2022-02-17 13:42:59 - NDCG@10: 0.0000
+2022-02-17 13:42:59 - MAP@100: 0.0000
+2022-02-17 13:42:59 - Score-Function: dot_score
+2022-02-17 13:42:59 - Accuracy@1220: 0.00%
+2022-02-17 13:42:59 - Precision@1220: 0.00%
+2022-02-17 13:42:59 - Recall@1220: 0.00%
+2022-02-17 13:42:59 - MRR@10: 0.0000
+2022-02-17 13:42:59 - NDCG@10: 0.0000
+2022-02-17 13:42:59 - MAP@100: 0.0000
+2022-02-17 13:42:59 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:43:09 - MSE evaluation (lower = better) on mse-validate dataset after epoch 6:
+2022-02-17 13:43:09 - MSE (*100):	47.739530
+2022-02-17 13:43:09 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 6:
+2022-02-17 13:43:10 - Accuracy src2trg: 0.43
+2022-02-17 13:43:10 - Accuracy trg2src: 0.43
+2022-02-17 13:43:10 - MSE evaluation (lower = better) on mse-test dataset after epoch 6:
+2022-02-17 13:43:10 - MSE (*100):	47.023457
+2022-02-17 13:43:10 - Evaluating translation matching Accuracy on trans-test dataset after epoch 6:
+2022-02-17 13:43:10 - Accuracy src2trg: 0.87
+2022-02-17 13:43:10 - Accuracy trg2src: 0.43
+2022-02-17 13:43:10 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 6:
+2022-02-17 13:43:12 - Cosine-Similarity :	Pearson: -0.0191	Spearman: -0.0344
+2022-02-17 13:43:12 - Manhattan-Distance:	Pearson: 0.0275	Spearman: 0.0543
+2022-02-17 13:43:12 - Euclidean-Distance:	Pearson: -0.0429	Spearman: -0.0011
+2022-02-17 13:43:12 - Dot-Product-Similarity:	Pearson: 0.0007	Spearman: -0.0417
+2022-02-17 13:43:12 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 6:
+2022-02-17 13:43:13 - Cosine-Similarity :	Pearson: 0.0716	Spearman: 0.1114
+2022-02-17 13:43:13 - Manhattan-Distance:	Pearson: 0.0705	Spearman: 0.1122
+2022-02-17 13:43:13 - Euclidean-Distance:	Pearson: 0.0803	Spearman: 0.1271
+2022-02-17 13:43:13 - Dot-Product-Similarity:	Pearson: 0.0485	Spearman: 0.0457
+2022-02-17 13:43:13 - Information Retrieval Evaluation on inforet-test dataset after epoch 6:
+2022-02-17 13:43:14 - Queries: 210
+2022-02-17 13:43:14 - Corpus: 1228
+
+2022-02-17 13:43:14 - Score-Function: cos_sim
+2022-02-17 13:43:14 - Accuracy@1220: 0.00%
+2022-02-17 13:43:14 - Precision@1220: 0.00%
+2022-02-17 13:43:14 - Recall@1220: 0.00%
+2022-02-17 13:43:14 - MRR@10: 0.0000
+2022-02-17 13:43:14 - NDCG@10: 0.0000
+2022-02-17 13:43:14 - MAP@100: 0.0000
+2022-02-17 13:43:14 - Score-Function: dot_score
+2022-02-17 13:43:14 - Accuracy@1220: 0.00%
+2022-02-17 13:43:14 - Precision@1220: 0.00%
+2022-02-17 13:43:14 - Recall@1220: 0.00%
+2022-02-17 13:43:14 - MRR@10: 0.0000
+2022-02-17 13:43:14 - NDCG@10: 0.0000
+2022-02-17 13:43:14 - MAP@100: 0.0000
+2022-02-17 13:43:14 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:43:25 - MSE evaluation (lower = better) on mse-validate dataset after epoch 7:
+2022-02-17 13:43:25 - MSE (*100):	43.990892
+2022-02-17 13:43:25 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 7:
+2022-02-17 13:43:26 - Accuracy src2trg: 1.30
+2022-02-17 13:43:26 - Accuracy trg2src: 0.00
+2022-02-17 13:43:26 - MSE evaluation (lower = better) on mse-test dataset after epoch 7:
+2022-02-17 13:43:26 - MSE (*100):	43.379891
+2022-02-17 13:43:26 - Evaluating translation matching Accuracy on trans-test dataset after epoch 7:
+2022-02-17 13:43:26 - Accuracy src2trg: 0.87
+2022-02-17 13:43:26 - Accuracy trg2src: 0.87
+2022-02-17 13:43:26 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 7:
+2022-02-17 13:43:28 - Cosine-Similarity :	Pearson: 0.0306	Spearman: 0.0061
+2022-02-17 13:43:28 - Manhattan-Distance:	Pearson: -0.0526	Spearman: -0.0013
+2022-02-17 13:43:28 - Euclidean-Distance:	Pearson: 0.0233	Spearman: 0.0773
+2022-02-17 13:43:28 - Dot-Product-Similarity:	Pearson: -0.0067	Spearman: -0.0253
+2022-02-17 13:43:28 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 7:
+2022-02-17 13:43:29 - Cosine-Similarity :	Pearson: 0.0634	Spearman: 0.1049
+2022-02-17 13:43:29 - Manhattan-Distance:	Pearson: 0.0203	Spearman: 0.0671
+2022-02-17 13:43:29 - Euclidean-Distance:	Pearson: 0.0935	Spearman: 0.1573
+2022-02-17 13:43:29 - Dot-Product-Similarity:	Pearson: 0.0422	Spearman: 0.0329
+2022-02-17 13:43:29 - Information Retrieval Evaluation on inforet-test dataset after epoch 7:
+2022-02-17 13:43:30 - Queries: 210
+2022-02-17 13:43:30 - Corpus: 1228
+
+2022-02-17 13:43:30 - Score-Function: cos_sim
+2022-02-17 13:43:30 - Accuracy@1220: 0.00%
+2022-02-17 13:43:30 - Precision@1220: 0.00%
+2022-02-17 13:43:30 - Recall@1220: 0.00%
+2022-02-17 13:43:30 - MRR@10: 0.0000
+2022-02-17 13:43:30 - NDCG@10: 0.0000
+2022-02-17 13:43:30 - MAP@100: 0.0000
+2022-02-17 13:43:30 - Score-Function: dot_score
+2022-02-17 13:43:30 - Accuracy@1220: 0.00%
+2022-02-17 13:43:30 - Precision@1220: 0.00%
+2022-02-17 13:43:30 - Recall@1220: 0.00%
+2022-02-17 13:43:30 - MRR@10: 0.0000
+2022-02-17 13:43:30 - NDCG@10: 0.0000
+2022-02-17 13:43:30 - MAP@100: 0.0000
+2022-02-17 13:43:30 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:43:41 - MSE evaluation (lower = better) on mse-validate dataset after epoch 8:
+2022-02-17 13:43:41 - MSE (*100):	41.300547
+2022-02-17 13:43:41 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 8:
+2022-02-17 13:43:41 - Accuracy src2trg: 0.87
+2022-02-17 13:43:41 - Accuracy trg2src: 0.43
+2022-02-17 13:43:41 - MSE evaluation (lower = better) on mse-test dataset after epoch 8:
+2022-02-17 13:43:41 - MSE (*100):	40.948975
+2022-02-17 13:43:41 - Evaluating translation matching Accuracy on trans-test dataset after epoch 8:
+2022-02-17 13:43:42 - Accuracy src2trg: 1.30
+2022-02-17 13:43:42 - Accuracy trg2src: 0.87
+2022-02-17 13:43:42 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 8:
+2022-02-17 13:43:43 - Cosine-Similarity :	Pearson: 0.0149	Spearman: -0.0270
+2022-02-17 13:43:43 - Manhattan-Distance:	Pearson: -0.0769	Spearman: -0.0301
+2022-02-17 13:43:43 - Euclidean-Distance:	Pearson: -0.0148	Spearman: 0.0305
+2022-02-17 13:43:43 - Dot-Product-Similarity:	Pearson: 0.0058	Spearman: -0.0317
+2022-02-17 13:43:43 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 8:
+2022-02-17 13:43:45 - Cosine-Similarity :	Pearson: 0.0339	Spearman: 0.0895
+2022-02-17 13:43:45 - Manhattan-Distance:	Pearson: 0.0115	Spearman: 0.0513
+2022-02-17 13:43:45 - Euclidean-Distance:	Pearson: 0.0388	Spearman: 0.1038
+2022-02-17 13:43:45 - Dot-Product-Similarity:	Pearson: 0.0408	Spearman: 0.0023
+2022-02-17 13:43:45 - Information Retrieval Evaluation on inforet-test dataset after epoch 8:
+2022-02-17 13:43:46 - Queries: 210
+2022-02-17 13:43:46 - Corpus: 1228
+
+2022-02-17 13:43:46 - Score-Function: cos_sim
+2022-02-17 13:43:46 - Accuracy@1220: 0.00%
+2022-02-17 13:43:46 - Precision@1220: 0.00%
+2022-02-17 13:43:46 - Recall@1220: 0.00%
+2022-02-17 13:43:46 - MRR@10: 0.0000
+2022-02-17 13:43:46 - NDCG@10: 0.0000
+2022-02-17 13:43:46 - MAP@100: 0.0000
+2022-02-17 13:43:46 - Score-Function: dot_score
+2022-02-17 13:43:46 - Accuracy@1220: 0.00%
+2022-02-17 13:43:46 - Precision@1220: 0.00%
+2022-02-17 13:43:46 - Recall@1220: 0.00%
+2022-02-17 13:43:46 - MRR@10: 0.0000
+2022-02-17 13:43:46 - NDCG@10: 0.0000
+2022-02-17 13:43:46 - MAP@100: 0.0000
+2022-02-17 13:43:46 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:43:57 - MSE evaluation (lower = better) on mse-validate dataset after epoch 9:
+2022-02-17 13:43:57 - MSE (*100):	38.778242
+2022-02-17 13:43:57 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 9:
+2022-02-17 13:43:57 - Accuracy src2trg: 1.30
+2022-02-17 13:43:57 - Accuracy trg2src: 0.43
+2022-02-17 13:43:57 - MSE evaluation (lower = better) on mse-test dataset after epoch 9:
+2022-02-17 13:43:57 - MSE (*100):	38.496792
+2022-02-17 13:43:57 - Evaluating translation matching Accuracy on trans-test dataset after epoch 9:
+2022-02-17 13:43:57 - Accuracy src2trg: 1.30
+2022-02-17 13:43:57 - Accuracy trg2src: 0.00
+2022-02-17 13:43:57 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 9:
+2022-02-17 13:43:59 - Cosine-Similarity :	Pearson: 0.0187	Spearman: -0.0065
+2022-02-17 13:43:59 - Manhattan-Distance:	Pearson: -0.0522	Spearman: -0.0079
+2022-02-17 13:43:59 - Euclidean-Distance:	Pearson: -0.0068	Spearman: 0.0447
+2022-02-17 13:43:59 - Dot-Product-Similarity:	Pearson: 0.0045	Spearman: -0.0149
+2022-02-17 13:43:59 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 9:
+2022-02-17 13:44:00 - Cosine-Similarity :	Pearson: 0.0046	Spearman: 0.0248
+2022-02-17 13:44:00 - Manhattan-Distance:	Pearson: 0.0717	Spearman: 0.1102
+2022-02-17 13:44:00 - Euclidean-Distance:	Pearson: 0.0307	Spearman: 0.0892
+2022-02-17 13:44:00 - Dot-Product-Similarity:	Pearson: 0.0157	Spearman: -0.0377
+2022-02-17 13:44:00 - Information Retrieval Evaluation on inforet-test dataset after epoch 9:
+2022-02-17 13:44:01 - Queries: 210
+2022-02-17 13:44:01 - Corpus: 1228
+
+2022-02-17 13:44:01 - Score-Function: cos_sim
+2022-02-17 13:44:01 - Accuracy@1220: 0.00%
+2022-02-17 13:44:01 - Precision@1220: 0.00%
+2022-02-17 13:44:01 - Recall@1220: 0.00%
+2022-02-17 13:44:01 - MRR@10: 0.0000
+2022-02-17 13:44:01 - NDCG@10: 0.0000
+2022-02-17 13:44:01 - MAP@100: 0.0000
+2022-02-17 13:44:01 - Score-Function: dot_score
+2022-02-17 13:44:01 - Accuracy@1220: 0.00%
+2022-02-17 13:44:01 - Precision@1220: 0.00%
+2022-02-17 13:44:01 - Recall@1220: 0.00%
+2022-02-17 13:44:01 - MRR@10: 0.0000
+2022-02-17 13:44:01 - NDCG@10: 0.0000
+2022-02-17 13:44:01 - MAP@100: 0.0000
+2022-02-17 13:44:01 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:44:12 - MSE evaluation (lower = better) on mse-validate dataset after epoch 10:
+2022-02-17 13:44:12 - MSE (*100):	37.674862
+2022-02-17 13:44:12 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 10:
+2022-02-17 13:44:12 - Accuracy src2trg: 1.73
+2022-02-17 13:44:12 - Accuracy trg2src: 0.00
+2022-02-17 13:44:13 - MSE evaluation (lower = better) on mse-test dataset after epoch 10:
+2022-02-17 13:44:13 - MSE (*100):	37.231767
+2022-02-17 13:44:13 - Evaluating translation matching Accuracy on trans-test dataset after epoch 10:
+2022-02-17 13:44:13 - Accuracy src2trg: 1.30
+2022-02-17 13:44:13 - Accuracy trg2src: 0.87
+2022-02-17 13:44:13 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 10:
+2022-02-17 13:44:14 - Cosine-Similarity :	Pearson: 0.0699	Spearman: 0.0709
+2022-02-17 13:44:14 - Manhattan-Distance:	Pearson: -0.0728	Spearman: -0.0031
+2022-02-17 13:44:14 - Euclidean-Distance:	Pearson: 0.0501	Spearman: 0.1034
+2022-02-17 13:44:14 - Dot-Product-Similarity:	Pearson: 0.0167	Spearman: 0.0106
+2022-02-17 13:44:14 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 10:
+2022-02-17 13:44:16 - Cosine-Similarity :	Pearson: 0.0070	Spearman: 0.0267
+2022-02-17 13:44:16 - Manhattan-Distance:	Pearson: 0.0672	Spearman: 0.1258
+2022-02-17 13:44:16 - Euclidean-Distance:	Pearson: 0.0709	Spearman: 0.1239
+2022-02-17 13:44:16 - Dot-Product-Similarity:	Pearson: -0.0069	Spearman: -0.0646
+2022-02-17 13:44:16 - Information Retrieval Evaluation on inforet-test dataset after epoch 10:
+2022-02-17 13:44:17 - Queries: 210
+2022-02-17 13:44:17 - Corpus: 1228
+
+2022-02-17 13:44:17 - Score-Function: cos_sim
+2022-02-17 13:44:17 - Accuracy@1220: 0.00%
+2022-02-17 13:44:17 - Precision@1220: 0.00%
+2022-02-17 13:44:17 - Recall@1220: 0.00%
+2022-02-17 13:44:17 - MRR@10: 0.0000
+2022-02-17 13:44:17 - NDCG@10: 0.0000
+2022-02-17 13:44:17 - MAP@100: 0.0000
+2022-02-17 13:44:17 - Score-Function: dot_score
+2022-02-17 13:44:17 - Accuracy@1220: 0.00%
+2022-02-17 13:44:17 - Precision@1220: 0.00%
+2022-02-17 13:44:17 - Recall@1220: 0.00%
+2022-02-17 13:44:17 - MRR@10: 0.0000
+2022-02-17 13:44:17 - NDCG@10: 0.0000
+2022-02-17 13:44:17 - MAP@100: 0.0000
+2022-02-17 13:44:17 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:44:28 - MSE evaluation (lower = better) on mse-validate dataset after epoch 11:
+2022-02-17 13:44:28 - MSE (*100):	36.632761
+2022-02-17 13:44:28 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 11:
+2022-02-17 13:44:28 - Accuracy src2trg: 3.46
+2022-02-17 13:44:28 - Accuracy trg2src: 0.43
+2022-02-17 13:44:28 - MSE evaluation (lower = better) on mse-test dataset after epoch 11:
+2022-02-17 13:44:28 - MSE (*100):	36.243731
+2022-02-17 13:44:28 - Evaluating translation matching Accuracy on trans-test dataset after epoch 11:
+2022-02-17 13:44:29 - Accuracy src2trg: 2.16
+2022-02-17 13:44:29 - Accuracy trg2src: 1.30
+2022-02-17 13:44:29 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 11:
+2022-02-17 13:44:30 - Cosine-Similarity :	Pearson: 0.0975	Spearman: 0.1070
+2022-02-17 13:44:30 - Manhattan-Distance:	Pearson: -0.0849	Spearman: -0.0058
+2022-02-17 13:44:30 - Euclidean-Distance:	Pearson: 0.0810	Spearman: 0.1223
+2022-02-17 13:44:30 - Dot-Product-Similarity:	Pearson: 0.0417	Spearman: 0.0134
+2022-02-17 13:44:30 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 11:
+2022-02-17 13:44:31 - Cosine-Similarity :	Pearson: 0.0382	Spearman: 0.0654
+2022-02-17 13:44:31 - Manhattan-Distance:	Pearson: 0.0408	Spearman: 0.1108
+2022-02-17 13:44:31 - Euclidean-Distance:	Pearson: 0.1005	Spearman: 0.1444
+2022-02-17 13:44:31 - Dot-Product-Similarity:	Pearson: 0.0164	Spearman: -0.0452
+2022-02-17 13:44:31 - Information Retrieval Evaluation on inforet-test dataset after epoch 11:
+2022-02-17 13:44:33 - Queries: 210
+2022-02-17 13:44:33 - Corpus: 1228
+
+2022-02-17 13:44:33 - Score-Function: cos_sim
+2022-02-17 13:44:33 - Accuracy@1220: 0.00%
+2022-02-17 13:44:33 - Precision@1220: 0.00%
+2022-02-17 13:44:33 - Recall@1220: 0.00%
+2022-02-17 13:44:33 - MRR@10: 0.0000
+2022-02-17 13:44:33 - NDCG@10: 0.0000
+2022-02-17 13:44:33 - MAP@100: 0.0000
+2022-02-17 13:44:33 - Score-Function: dot_score
+2022-02-17 13:44:33 - Accuracy@1220: 0.00%
+2022-02-17 13:44:33 - Precision@1220: 0.00%
+2022-02-17 13:44:33 - Recall@1220: 0.00%
+2022-02-17 13:44:33 - MRR@10: 0.0000
+2022-02-17 13:44:33 - NDCG@10: 0.0000
+2022-02-17 13:44:33 - MAP@100: 0.0000
+2022-02-17 13:44:33 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:44:44 - MSE evaluation (lower = better) on mse-validate dataset after epoch 12:
+2022-02-17 13:44:44 - MSE (*100):	33.967921
+2022-02-17 13:44:44 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 12:
+2022-02-17 13:44:44 - Accuracy src2trg: 2.16
+2022-02-17 13:44:44 - Accuracy trg2src: 0.43
+2022-02-17 13:44:44 - MSE evaluation (lower = better) on mse-test dataset after epoch 12:
+2022-02-17 13:44:44 - MSE (*100):	33.781919
+2022-02-17 13:44:44 - Evaluating translation matching Accuracy on trans-test dataset after epoch 12:
+2022-02-17 13:44:45 - Accuracy src2trg: 2.16
+2022-02-17 13:44:45 - Accuracy trg2src: 0.87
+2022-02-17 13:44:45 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 12:
+2022-02-17 13:44:46 - Cosine-Similarity :	Pearson: 0.0925	Spearman: 0.0670
+2022-02-17 13:44:46 - Manhattan-Distance:	Pearson: -0.0711	Spearman: -0.0041
+2022-02-17 13:44:46 - Euclidean-Distance:	Pearson: 0.0864	Spearman: 0.1155
+2022-02-17 13:44:46 - Dot-Product-Similarity:	Pearson: 0.0302	Spearman: -0.0114
+2022-02-17 13:44:46 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 12:
+2022-02-17 13:44:47 - Cosine-Similarity :	Pearson: 0.0368	Spearman: 0.0404
+2022-02-17 13:44:47 - Manhattan-Distance:	Pearson: 0.0535	Spearman: 0.1132
+2022-02-17 13:44:47 - Euclidean-Distance:	Pearson: 0.1002	Spearman: 0.1302
+2022-02-17 13:44:47 - Dot-Product-Similarity:	Pearson: 0.0127	Spearman: -0.0556
+2022-02-17 13:44:47 - Information Retrieval Evaluation on inforet-test dataset after epoch 12:
+2022-02-17 13:44:49 - Queries: 210
+2022-02-17 13:44:49 - Corpus: 1228
+
+2022-02-17 13:44:49 - Score-Function: cos_sim
+2022-02-17 13:44:49 - Accuracy@1220: 0.00%
+2022-02-17 13:44:49 - Precision@1220: 0.00%
+2022-02-17 13:44:49 - Recall@1220: 0.00%
+2022-02-17 13:44:49 - MRR@10: 0.0000
+2022-02-17 13:44:49 - NDCG@10: 0.0000
+2022-02-17 13:44:49 - MAP@100: 0.0000
+2022-02-17 13:44:49 - Score-Function: dot_score
+2022-02-17 13:44:49 - Accuracy@1220: 0.00%
+2022-02-17 13:44:49 - Precision@1220: 0.00%
+2022-02-17 13:44:49 - Recall@1220: 0.00%
+2022-02-17 13:44:49 - MRR@10: 0.0000
+2022-02-17 13:44:49 - NDCG@10: 0.0000
+2022-02-17 13:44:49 - MAP@100: 0.0000
+2022-02-17 13:44:49 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:44:59 - MSE evaluation (lower = better) on mse-validate dataset after epoch 13:
+2022-02-17 13:44:59 - MSE (*100):	31.744179
+2022-02-17 13:44:59 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 13:
+2022-02-17 13:44:59 - Accuracy src2trg: 0.87
+2022-02-17 13:44:59 - Accuracy trg2src: 0.43
+2022-02-17 13:45:00 - MSE evaluation (lower = better) on mse-test dataset after epoch 13:
+2022-02-17 13:45:00 - MSE (*100):	31.568170
+2022-02-17 13:45:00 - Evaluating translation matching Accuracy on trans-test dataset after epoch 13:
+2022-02-17 13:45:00 - Accuracy src2trg: 1.30
+2022-02-17 13:45:00 - Accuracy trg2src: 0.43
+2022-02-17 13:45:00 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 13:
+2022-02-17 13:45:01 - Cosine-Similarity :	Pearson: 0.0260	Spearman: 0.0190
+2022-02-17 13:45:01 - Manhattan-Distance:	Pearson: -0.0262	Spearman: 0.0290
+2022-02-17 13:45:01 - Euclidean-Distance:	Pearson: 0.0505	Spearman: 0.0920
+2022-02-17 13:45:01 - Dot-Product-Similarity:	Pearson: -0.0213	Spearman: -0.0587
+2022-02-17 13:45:01 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 13:
+2022-02-17 13:45:03 - Cosine-Similarity :	Pearson: 0.0057	Spearman: -0.0069
+2022-02-17 13:45:03 - Manhattan-Distance:	Pearson: 0.1201	Spearman: 0.1564
+2022-02-17 13:45:03 - Euclidean-Distance:	Pearson: 0.0893	Spearman: 0.1323
+2022-02-17 13:45:03 - Dot-Product-Similarity:	Pearson: -0.0210	Spearman: -0.0789
+2022-02-17 13:45:03 - Information Retrieval Evaluation on inforet-test dataset after epoch 13:
+2022-02-17 13:45:04 - Queries: 210
+2022-02-17 13:45:04 - Corpus: 1228
+
+2022-02-17 13:45:04 - Score-Function: cos_sim
+2022-02-17 13:45:04 - Accuracy@1220: 0.00%
+2022-02-17 13:45:04 - Precision@1220: 0.00%
+2022-02-17 13:45:04 - Recall@1220: 0.00%
+2022-02-17 13:45:04 - MRR@10: 0.0000
+2022-02-17 13:45:04 - NDCG@10: 0.0000
+2022-02-17 13:45:04 - MAP@100: 0.0000
+2022-02-17 13:45:04 - Score-Function: dot_score
+2022-02-17 13:45:04 - Accuracy@1220: 0.00%
+2022-02-17 13:45:04 - Precision@1220: 0.00%
+2022-02-17 13:45:04 - Recall@1220: 0.00%
+2022-02-17 13:45:04 - MRR@10: 0.0000
+2022-02-17 13:45:04 - NDCG@10: 0.0000
+2022-02-17 13:45:04 - MAP@100: 0.0000
+2022-02-17 13:45:04 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:45:15 - MSE evaluation (lower = better) on mse-validate dataset after epoch 14:
+2022-02-17 13:45:15 - MSE (*100):	30.030435
+2022-02-17 13:45:15 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 14:
+2022-02-17 13:45:15 - Accuracy src2trg: 1.73
+2022-02-17 13:45:15 - Accuracy trg2src: 0.00
+2022-02-17 13:45:15 - MSE evaluation (lower = better) on mse-test dataset after epoch 14:
+2022-02-17 13:45:15 - MSE (*100):	29.924655
+2022-02-17 13:45:15 - Evaluating translation matching Accuracy on trans-test dataset after epoch 14:
+2022-02-17 13:45:15 - Accuracy src2trg: 1.73
+2022-02-17 13:45:15 - Accuracy trg2src: 0.00
+2022-02-17 13:45:15 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 14:
+2022-02-17 13:45:17 - Cosine-Similarity :	Pearson: -0.0110	Spearman: 0.0094
+2022-02-17 13:45:17 - Manhattan-Distance:	Pearson: 0.0075	Spearman: 0.0602
+2022-02-17 13:45:17 - Euclidean-Distance:	Pearson: 0.0476	Spearman: 0.0939
+2022-02-17 13:45:17 - Dot-Product-Similarity:	Pearson: -0.0507	Spearman: -0.1012
+2022-02-17 13:45:17 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 14:
+2022-02-17 13:45:18 - Cosine-Similarity :	Pearson: -0.0273	Spearman: -0.0277
+2022-02-17 13:45:18 - Manhattan-Distance:	Pearson: 0.1258	Spearman: 0.1580
+2022-02-17 13:45:18 - Euclidean-Distance:	Pearson: 0.0585	Spearman: 0.1090
+2022-02-17 13:45:18 - Dot-Product-Similarity:	Pearson: -0.0310	Spearman: -0.0706
+2022-02-17 13:45:18 - Information Retrieval Evaluation on inforet-test dataset after epoch 14:
+2022-02-17 13:45:19 - Queries: 210
+2022-02-17 13:45:19 - Corpus: 1228
+
+2022-02-17 13:45:19 - Score-Function: cos_sim
+2022-02-17 13:45:19 - Accuracy@1220: 0.00%
+2022-02-17 13:45:19 - Precision@1220: 0.00%
+2022-02-17 13:45:19 - Recall@1220: 0.00%
+2022-02-17 13:45:19 - MRR@10: 0.0000
+2022-02-17 13:45:19 - NDCG@10: 0.0000
+2022-02-17 13:45:19 - MAP@100: 0.0000
+2022-02-17 13:45:19 - Score-Function: dot_score
+2022-02-17 13:45:19 - Accuracy@1220: 0.00%
+2022-02-17 13:45:19 - Precision@1220: 0.00%
+2022-02-17 13:45:19 - Recall@1220: 0.00%
+2022-02-17 13:45:19 - MRR@10: 0.0000
+2022-02-17 13:45:19 - NDCG@10: 0.0000
+2022-02-17 13:45:19 - MAP@100: 0.0000
+2022-02-17 13:45:19 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:45:30 - MSE evaluation (lower = better) on mse-validate dataset after epoch 15:
+2022-02-17 13:45:30 - MSE (*100):	31.342486
+2022-02-17 13:45:30 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 15:
+2022-02-17 13:45:31 - Accuracy src2trg: 1.30
+2022-02-17 13:45:31 - Accuracy trg2src: 0.43
+2022-02-17 13:45:31 - MSE evaluation (lower = better) on mse-test dataset after epoch 15:
+2022-02-17 13:45:31 - MSE (*100):	31.053385
+2022-02-17 13:45:31 - Evaluating translation matching Accuracy on trans-test dataset after epoch 15:
+2022-02-17 13:45:31 - Accuracy src2trg: 1.73
+2022-02-17 13:45:31 - Accuracy trg2src: 1.30
+2022-02-17 13:45:31 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 15:
+2022-02-17 13:45:32 - Cosine-Similarity :	Pearson: 0.0841	Spearman: 0.1120
+2022-02-17 13:45:32 - Manhattan-Distance:	Pearson: -0.0300	Spearman: 0.0231
+2022-02-17 13:45:32 - Euclidean-Distance:	Pearson: 0.0991	Spearman: 0.1372
+2022-02-17 13:45:32 - Dot-Product-Similarity:	Pearson: 0.0130	Spearman: -0.0055
+2022-02-17 13:45:32 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 15:
+2022-02-17 13:45:34 - Cosine-Similarity :	Pearson: 0.0558	Spearman: 0.0913
+2022-02-17 13:45:34 - Manhattan-Distance:	Pearson: 0.0950	Spearman: 0.1477
+2022-02-17 13:45:34 - Euclidean-Distance:	Pearson: 0.1351	Spearman: 0.1868
+2022-02-17 13:45:34 - Dot-Product-Similarity:	Pearson: 0.0105	Spearman: -0.0475
+2022-02-17 13:45:34 - Information Retrieval Evaluation on inforet-test dataset after epoch 15:
+2022-02-17 13:45:35 - Queries: 210
+2022-02-17 13:45:35 - Corpus: 1228
+
+2022-02-17 13:45:35 - Score-Function: cos_sim
+2022-02-17 13:45:35 - Accuracy@1220: 0.00%
+2022-02-17 13:45:35 - Precision@1220: 0.00%
+2022-02-17 13:45:35 - Recall@1220: 0.00%
+2022-02-17 13:45:35 - MRR@10: 0.0000
+2022-02-17 13:45:35 - NDCG@10: 0.0000
+2022-02-17 13:45:35 - MAP@100: 0.0000
+2022-02-17 13:45:35 - Score-Function: dot_score
+2022-02-17 13:45:35 - Accuracy@1220: 0.00%
+2022-02-17 13:45:35 - Precision@1220: 0.00%
+2022-02-17 13:45:35 - Recall@1220: 0.00%
+2022-02-17 13:45:35 - MRR@10: 0.0000
+2022-02-17 13:45:35 - NDCG@10: 0.0000
+2022-02-17 13:45:35 - MAP@100: 0.0000
+2022-02-17 13:45:43 - MSE evaluation (lower = better) on mse-validate dataset after epoch 16:
+2022-02-17 13:45:43 - MSE (*100):	30.347323
+2022-02-17 13:45:43 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 16:
+2022-02-17 13:45:43 - Accuracy src2trg: 0.43
+2022-02-17 13:45:43 - Accuracy trg2src: 0.00
+2022-02-17 13:45:43 - MSE evaluation (lower = better) on mse-test dataset after epoch 16:
+2022-02-17 13:45:43 - MSE (*100):	30.218640
+2022-02-17 13:45:43 - Evaluating translation matching Accuracy on trans-test dataset after epoch 16:
+2022-02-17 13:45:43 - Accuracy src2trg: 1.30
+2022-02-17 13:45:43 - Accuracy trg2src: 0.87
+2022-02-17 13:45:43 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 16:
+2022-02-17 13:45:45 - Cosine-Similarity :	Pearson: 0.0593	Spearman: 0.0893
+2022-02-17 13:45:45 - Manhattan-Distance:	Pearson: 0.0009	Spearman: 0.0530
+2022-02-17 13:45:45 - Euclidean-Distance:	Pearson: 0.0739	Spearman: 0.1089
+2022-02-17 13:45:45 - Dot-Product-Similarity:	Pearson: 0.0192	Spearman: -0.0093
+2022-02-17 13:45:45 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 16:
+2022-02-17 13:45:46 - Cosine-Similarity :	Pearson: 0.0045	Spearman: 0.0103
+2022-02-17 13:45:46 - Manhattan-Distance:	Pearson: 0.0956	Spearman: 0.1448
+2022-02-17 13:45:46 - Euclidean-Distance:	Pearson: 0.0688	Spearman: 0.0993
+2022-02-17 13:45:46 - Dot-Product-Similarity:	Pearson: -0.0242	Spearman: -0.0633
+2022-02-17 13:45:46 - Information Retrieval Evaluation on inforet-test dataset after epoch 16:
+2022-02-17 13:45:47 - Queries: 210
+2022-02-17 13:45:47 - Corpus: 1228
+
+2022-02-17 13:45:48 - Score-Function: cos_sim
+2022-02-17 13:45:48 - Accuracy@1220: 0.00%
+2022-02-17 13:45:48 - Precision@1220: 0.00%
+2022-02-17 13:45:48 - Recall@1220: 0.00%
+2022-02-17 13:45:48 - MRR@10: 0.0000
+2022-02-17 13:45:48 - NDCG@10: 0.0000
+2022-02-17 13:45:48 - MAP@100: 0.0000
+2022-02-17 13:45:48 - Score-Function: dot_score
+2022-02-17 13:45:48 - Accuracy@1220: 0.00%
+2022-02-17 13:45:48 - Precision@1220: 0.00%
+2022-02-17 13:45:48 - Recall@1220: 0.00%
+2022-02-17 13:45:48 - MRR@10: 0.0000
+2022-02-17 13:45:48 - NDCG@10: 0.0000
+2022-02-17 13:45:48 - MAP@100: 0.0000
+2022-02-17 13:45:55 - MSE evaluation (lower = better) on mse-validate dataset after epoch 17:
+2022-02-17 13:45:55 - MSE (*100):	31.738892
+2022-02-17 13:45:55 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 17:
+2022-02-17 13:45:56 - Accuracy src2trg: 1.30
+2022-02-17 13:45:56 - Accuracy trg2src: 0.87
+2022-02-17 13:45:56 - MSE evaluation (lower = better) on mse-test dataset after epoch 17:
+2022-02-17 13:45:56 - MSE (*100):	31.459394
+2022-02-17 13:45:56 - Evaluating translation matching Accuracy on trans-test dataset after epoch 17:
+2022-02-17 13:45:56 - Accuracy src2trg: 1.73
+2022-02-17 13:45:56 - Accuracy trg2src: 0.87
+2022-02-17 13:45:56 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 17:
+2022-02-17 13:45:58 - Cosine-Similarity :	Pearson: 0.0607	Spearman: 0.0869
+2022-02-17 13:45:58 - Manhattan-Distance:	Pearson: -0.0263	Spearman: 0.0379
+2022-02-17 13:45:58 - Euclidean-Distance:	Pearson: 0.0691	Spearman: 0.1259
+2022-02-17 13:45:58 - Dot-Product-Similarity:	Pearson: 0.0029	Spearman: -0.0388
+2022-02-17 13:45:58 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 17:
+2022-02-17 13:45:59 - Cosine-Similarity :	Pearson: 0.0754	Spearman: 0.0953
+2022-02-17 13:45:59 - Manhattan-Distance:	Pearson: 0.0914	Spearman: 0.1492
+2022-02-17 13:45:59 - Euclidean-Distance:	Pearson: 0.1269	Spearman: 0.1695
+2022-02-17 13:45:59 - Dot-Product-Similarity:	Pearson: 0.0409	Spearman: -0.0267
+2022-02-17 13:45:59 - Information Retrieval Evaluation on inforet-test dataset after epoch 17:
+2022-02-17 13:46:00 - Queries: 210
+2022-02-17 13:46:00 - Corpus: 1228
+
+2022-02-17 13:46:00 - Score-Function: cos_sim
+2022-02-17 13:46:00 - Accuracy@1220: 0.00%
+2022-02-17 13:46:00 - Precision@1220: 0.00%
+2022-02-17 13:46:00 - Recall@1220: 0.00%
+2022-02-17 13:46:00 - MRR@10: 0.0000
+2022-02-17 13:46:00 - NDCG@10: 0.0000
+2022-02-17 13:46:00 - MAP@100: 0.0000
+2022-02-17 13:46:00 - Score-Function: dot_score
+2022-02-17 13:46:00 - Accuracy@1220: 0.00%
+2022-02-17 13:46:00 - Precision@1220: 0.00%
+2022-02-17 13:46:00 - Recall@1220: 0.00%
+2022-02-17 13:46:00 - MRR@10: 0.0000
+2022-02-17 13:46:00 - NDCG@10: 0.0000
+2022-02-17 13:46:00 - MAP@100: 0.0000
+2022-02-17 13:46:08 - MSE evaluation (lower = better) on mse-validate dataset after epoch 18:
+2022-02-17 13:46:08 - MSE (*100):	31.169993
+2022-02-17 13:46:08 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 18:
+2022-02-17 13:46:08 - Accuracy src2trg: 0.87
+2022-02-17 13:46:08 - Accuracy trg2src: 0.87
+2022-02-17 13:46:08 - MSE evaluation (lower = better) on mse-test dataset after epoch 18:
+2022-02-17 13:46:08 - MSE (*100):	30.876708
+2022-02-17 13:46:08 - Evaluating translation matching Accuracy on trans-test dataset after epoch 18:
+2022-02-17 13:46:09 - Accuracy src2trg: 1.73
+2022-02-17 13:46:09 - Accuracy trg2src: 0.87
+2022-02-17 13:46:09 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 18:
+2022-02-17 13:46:10 - Cosine-Similarity :	Pearson: 0.0873	Spearman: 0.0863
+2022-02-17 13:46:10 - Manhattan-Distance:	Pearson: 0.0083	Spearman: 0.0708
+2022-02-17 13:46:10 - Euclidean-Distance:	Pearson: 0.0940	Spearman: 0.1333
+2022-02-17 13:46:10 - Dot-Product-Similarity:	Pearson: 0.0515	Spearman: 0.0149
+2022-02-17 13:46:10 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 18:
+2022-02-17 13:46:12 - Cosine-Similarity :	Pearson: 0.0625	Spearman: 0.0843
+2022-02-17 13:46:12 - Manhattan-Distance:	Pearson: 0.1299	Spearman: 0.1935
+2022-02-17 13:46:12 - Euclidean-Distance:	Pearson: 0.1302	Spearman: 0.1616
+2022-02-17 13:46:12 - Dot-Product-Similarity:	Pearson: 0.0197	Spearman: -0.0541
+2022-02-17 13:46:12 - Information Retrieval Evaluation on inforet-test dataset after epoch 18:
+2022-02-17 13:46:13 - Queries: 210
+2022-02-17 13:46:13 - Corpus: 1228
+
+2022-02-17 13:46:13 - Score-Function: cos_sim
+2022-02-17 13:46:13 - Accuracy@1220: 0.00%
+2022-02-17 13:46:13 - Precision@1220: 0.00%
+2022-02-17 13:46:13 - Recall@1220: 0.00%
+2022-02-17 13:46:13 - MRR@10: 0.0000
+2022-02-17 13:46:13 - NDCG@10: 0.0000
+2022-02-17 13:46:13 - MAP@100: 0.0000
+2022-02-17 13:46:13 - Score-Function: dot_score
+2022-02-17 13:46:13 - Accuracy@1220: 0.00%
+2022-02-17 13:46:13 - Precision@1220: 0.00%
+2022-02-17 13:46:13 - Recall@1220: 0.00%
+2022-02-17 13:46:13 - MRR@10: 0.0000
+2022-02-17 13:46:13 - NDCG@10: 0.0000
+2022-02-17 13:46:13 - MAP@100: 0.0000
+2022-02-17 13:46:21 - MSE evaluation (lower = better) on mse-validate dataset after epoch 19:
+2022-02-17 13:46:21 - MSE (*100):	29.303682
+2022-02-17 13:46:21 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 19:
+2022-02-17 13:46:21 - Accuracy src2trg: 0.43
+2022-02-17 13:46:21 - Accuracy trg2src: 0.43
+2022-02-17 13:46:21 - MSE evaluation (lower = better) on mse-test dataset after epoch 19:
+2022-02-17 13:46:21 - MSE (*100):	29.008409
+2022-02-17 13:46:21 - Evaluating translation matching Accuracy on trans-test dataset after epoch 19:
+2022-02-17 13:46:21 - Accuracy src2trg: 1.73
+2022-02-17 13:46:21 - Accuracy trg2src: 0.43
+2022-02-17 13:46:21 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 19:
+2022-02-17 13:46:23 - Cosine-Similarity :	Pearson: 0.0618	Spearman: 0.0708
+2022-02-17 13:46:23 - Manhattan-Distance:	Pearson: 0.0213	Spearman: 0.0766
+2022-02-17 13:46:23 - Euclidean-Distance:	Pearson: 0.0860	Spearman: 0.1281
+2022-02-17 13:46:23 - Dot-Product-Similarity:	Pearson: 0.0134	Spearman: -0.0269
+2022-02-17 13:46:23 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 19:
+2022-02-17 13:46:24 - Cosine-Similarity :	Pearson: 0.0733	Spearman: 0.0874
+2022-02-17 13:46:24 - Manhattan-Distance:	Pearson: 0.1454	Spearman: 0.1939
+2022-02-17 13:46:24 - Euclidean-Distance:	Pearson: 0.1392	Spearman: 0.1673
+2022-02-17 13:46:24 - Dot-Product-Similarity:	Pearson: 0.0073	Spearman: -0.0464
+2022-02-17 13:46:24 - Information Retrieval Evaluation on inforet-test dataset after epoch 19:
+2022-02-17 13:46:25 - Queries: 210
+2022-02-17 13:46:25 - Corpus: 1228
+
+2022-02-17 13:46:25 - Score-Function: cos_sim
+2022-02-17 13:46:25 - Accuracy@1220: 0.00%
+2022-02-17 13:46:25 - Precision@1220: 0.00%
+2022-02-17 13:46:25 - Recall@1220: 0.00%
+2022-02-17 13:46:25 - MRR@10: 0.0000
+2022-02-17 13:46:25 - NDCG@10: 0.0000
+2022-02-17 13:46:25 - MAP@100: 0.0000
+2022-02-17 13:46:25 - Score-Function: dot_score
+2022-02-17 13:46:25 - Accuracy@1220: 0.00%
+2022-02-17 13:46:25 - Precision@1220: 0.00%
+2022-02-17 13:46:25 - Recall@1220: 0.00%
+2022-02-17 13:46:25 - MRR@10: 0.0000
+2022-02-17 13:46:25 - NDCG@10: 0.0000
+2022-02-17 13:46:25 - MAP@100: 0.0000
+2022-02-17 13:46:25 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:46:36 - MSE evaluation (lower = better) on mse-validate dataset after epoch 20:
+2022-02-17 13:46:36 - MSE (*100):	28.671372
+2022-02-17 13:46:36 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 20:
+2022-02-17 13:46:37 - Accuracy src2trg: 0.87
+2022-02-17 13:46:37 - Accuracy trg2src: 0.87
+2022-02-17 13:46:37 - MSE evaluation (lower = better) on mse-test dataset after epoch 20:
+2022-02-17 13:46:37 - MSE (*100):	28.351101
+2022-02-17 13:46:37 - Evaluating translation matching Accuracy on trans-test dataset after epoch 20:
+2022-02-17 13:46:37 - Accuracy src2trg: 1.73
+2022-02-17 13:46:37 - Accuracy trg2src: 0.43
+2022-02-17 13:46:37 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 20:
+2022-02-17 13:46:39 - Cosine-Similarity :	Pearson: 0.0714	Spearman: 0.0628
+2022-02-17 13:46:39 - Manhattan-Distance:	Pearson: 0.0450	Spearman: 0.0913
+2022-02-17 13:46:39 - Euclidean-Distance:	Pearson: 0.0960	Spearman: 0.1141
+2022-02-17 13:46:39 - Dot-Product-Similarity:	Pearson: 0.0255	Spearman: -0.0305
+2022-02-17 13:46:39 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 20:
+2022-02-17 13:46:40 - Cosine-Similarity :	Pearson: 0.0808	Spearman: 0.0831
+2022-02-17 13:46:40 - Manhattan-Distance:	Pearson: 0.1613	Spearman: 0.1990
+2022-02-17 13:46:40 - Euclidean-Distance:	Pearson: 0.1431	Spearman: 0.1550
+2022-02-17 13:46:40 - Dot-Product-Similarity:	Pearson: -0.0023	Spearman: -0.0289
+2022-02-17 13:46:40 - Information Retrieval Evaluation on inforet-test dataset after epoch 20:
+2022-02-17 13:46:41 - Queries: 210
+2022-02-17 13:46:41 - Corpus: 1228
+
+2022-02-17 13:46:41 - Score-Function: cos_sim
+2022-02-17 13:46:41 - Accuracy@1220: 0.00%
+2022-02-17 13:46:41 - Precision@1220: 0.00%
+2022-02-17 13:46:41 - Recall@1220: 0.00%
+2022-02-17 13:46:41 - MRR@10: 0.0000
+2022-02-17 13:46:41 - NDCG@10: 0.0000
+2022-02-17 13:46:41 - MAP@100: 0.0000
+2022-02-17 13:46:41 - Score-Function: dot_score
+2022-02-17 13:46:41 - Accuracy@1220: 0.00%
+2022-02-17 13:46:41 - Precision@1220: 0.00%
+2022-02-17 13:46:41 - Recall@1220: 0.00%
+2022-02-17 13:46:41 - MRR@10: 0.0000
+2022-02-17 13:46:41 - NDCG@10: 0.0000
+2022-02-17 13:46:41 - MAP@100: 0.0000
+2022-02-17 13:46:41 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:46:52 - MSE evaluation (lower = better) on mse-validate dataset after epoch 21:
+2022-02-17 13:46:52 - MSE (*100):	28.410900
+2022-02-17 13:46:52 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 21:
+2022-02-17 13:46:53 - Accuracy src2trg: 0.87
+2022-02-17 13:46:53 - Accuracy trg2src: 0.43
+2022-02-17 13:46:53 - MSE evaluation (lower = better) on mse-test dataset after epoch 21:
+2022-02-17 13:46:53 - MSE (*100):	28.057945
+2022-02-17 13:46:53 - Evaluating translation matching Accuracy on trans-test dataset after epoch 21:
+2022-02-17 13:46:53 - Accuracy src2trg: 0.43
+2022-02-17 13:46:53 - Accuracy trg2src: 0.43
+2022-02-17 13:46:53 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 21:
+2022-02-17 13:46:54 - Cosine-Similarity :	Pearson: 0.0959	Spearman: 0.0905
+2022-02-17 13:46:54 - Manhattan-Distance:	Pearson: 0.0530	Spearman: 0.0967
+2022-02-17 13:46:54 - Euclidean-Distance:	Pearson: 0.1105	Spearman: 0.1381
+2022-02-17 13:46:54 - Dot-Product-Similarity:	Pearson: 0.0405	Spearman: -0.0133
+2022-02-17 13:46:54 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 21:
+2022-02-17 13:46:56 - Cosine-Similarity :	Pearson: 0.0975	Spearman: 0.1152
+2022-02-17 13:46:56 - Manhattan-Distance:	Pearson: 0.1755	Spearman: 0.2187
+2022-02-17 13:46:56 - Euclidean-Distance:	Pearson: 0.1597	Spearman: 0.1746
+2022-02-17 13:46:56 - Dot-Product-Similarity:	Pearson: 0.0066	Spearman: -0.0292
+2022-02-17 13:46:56 - Information Retrieval Evaluation on inforet-test dataset after epoch 21:
+2022-02-17 13:46:57 - Queries: 210
+2022-02-17 13:46:57 - Corpus: 1228
+
+2022-02-17 13:46:57 - Score-Function: cos_sim
+2022-02-17 13:46:57 - Accuracy@1220: 0.00%
+2022-02-17 13:46:57 - Precision@1220: 0.00%
+2022-02-17 13:46:57 - Recall@1220: 0.00%
+2022-02-17 13:46:57 - MRR@10: 0.0000
+2022-02-17 13:46:57 - NDCG@10: 0.0000
+2022-02-17 13:46:57 - MAP@100: 0.0000
+2022-02-17 13:46:57 - Score-Function: dot_score
+2022-02-17 13:46:57 - Accuracy@1220: 0.00%
+2022-02-17 13:46:57 - Precision@1220: 0.00%
+2022-02-17 13:46:57 - Recall@1220: 0.00%
+2022-02-17 13:46:57 - MRR@10: 0.0000
+2022-02-17 13:46:57 - NDCG@10: 0.0000
+2022-02-17 13:46:57 - MAP@100: 0.0000
+2022-02-17 13:46:57 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:47:08 - MSE evaluation (lower = better) on mse-validate dataset after epoch 22:
+2022-02-17 13:47:08 - MSE (*100):	28.611887
+2022-02-17 13:47:08 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 22:
+2022-02-17 13:47:09 - Accuracy src2trg: 0.87
+2022-02-17 13:47:09 - Accuracy trg2src: 0.43
+2022-02-17 13:47:09 - MSE evaluation (lower = better) on mse-test dataset after epoch 22:
+2022-02-17 13:47:09 - MSE (*100):	28.282219
+2022-02-17 13:47:09 - Evaluating translation matching Accuracy on trans-test dataset after epoch 22:
+2022-02-17 13:47:09 - Accuracy src2trg: 0.87
+2022-02-17 13:47:09 - Accuracy trg2src: 0.43
+2022-02-17 13:47:09 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 22:
+2022-02-17 13:47:11 - Cosine-Similarity :	Pearson: 0.0971	Spearman: 0.1265
+2022-02-17 13:47:11 - Manhattan-Distance:	Pearson: 0.0643	Spearman: 0.1047
+2022-02-17 13:47:11 - Euclidean-Distance:	Pearson: 0.1011	Spearman: 0.1598
+2022-02-17 13:47:11 - Dot-Product-Similarity:	Pearson: 0.0771	Spearman: 0.0132
+2022-02-17 13:47:11 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 22:
+2022-02-17 13:47:12 - Cosine-Similarity :	Pearson: 0.1239	Spearman: 0.1737
+2022-02-17 13:47:12 - Manhattan-Distance:	Pearson: 0.1850	Spearman: 0.2379
+2022-02-17 13:47:12 - Euclidean-Distance:	Pearson: 0.1770	Spearman: 0.2018
+2022-02-17 13:47:12 - Dot-Product-Similarity:	Pearson: 0.0922	Spearman: -0.0058
+2022-02-17 13:47:12 - Information Retrieval Evaluation on inforet-test dataset after epoch 22:
+2022-02-17 13:47:13 - Queries: 210
+2022-02-17 13:47:13 - Corpus: 1228
+
+2022-02-17 13:47:13 - Score-Function: cos_sim
+2022-02-17 13:47:13 - Accuracy@1220: 0.00%
+2022-02-17 13:47:13 - Precision@1220: 0.00%
+2022-02-17 13:47:13 - Recall@1220: 0.00%
+2022-02-17 13:47:13 - MRR@10: 0.0000
+2022-02-17 13:47:13 - NDCG@10: 0.0000
+2022-02-17 13:47:13 - MAP@100: 0.0000
+2022-02-17 13:47:13 - Score-Function: dot_score
+2022-02-17 13:47:13 - Accuracy@1220: 0.00%
+2022-02-17 13:47:13 - Precision@1220: 0.00%
+2022-02-17 13:47:13 - Recall@1220: 0.00%
+2022-02-17 13:47:13 - MRR@10: 0.0000
+2022-02-17 13:47:13 - NDCG@10: 0.0000
+2022-02-17 13:47:13 - MAP@100: 0.0000
+2022-02-17 13:47:21 - MSE evaluation (lower = better) on mse-validate dataset after epoch 23:
+2022-02-17 13:47:21 - MSE (*100):	28.338403
+2022-02-17 13:47:21 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 23:
+2022-02-17 13:47:21 - Accuracy src2trg: 1.73
+2022-02-17 13:47:21 - Accuracy trg2src: 0.00
+2022-02-17 13:47:22 - MSE evaluation (lower = better) on mse-test dataset after epoch 23:
+2022-02-17 13:47:22 - MSE (*100):	27.929345
+2022-02-17 13:47:22 - Evaluating translation matching Accuracy on trans-test dataset after epoch 23:
+2022-02-17 13:47:22 - Accuracy src2trg: 0.87
+2022-02-17 13:47:22 - Accuracy trg2src: 0.43
+2022-02-17 13:47:22 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 23:
+2022-02-17 13:47:23 - Cosine-Similarity :	Pearson: 0.0984	Spearman: 0.1362
+2022-02-17 13:47:23 - Manhattan-Distance:	Pearson: 0.0749	Spearman: 0.1237
+2022-02-17 13:47:23 - Euclidean-Distance:	Pearson: 0.1196	Spearman: 0.1700
+2022-02-17 13:47:23 - Dot-Product-Similarity:	Pearson: 0.0495	Spearman: -0.0087
+2022-02-17 13:47:23 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 23:
+2022-02-17 13:47:25 - Cosine-Similarity :	Pearson: 0.1088	Spearman: 0.1334
+2022-02-17 13:47:25 - Manhattan-Distance:	Pearson: 0.1690	Spearman: 0.2149
+2022-02-17 13:47:25 - Euclidean-Distance:	Pearson: 0.1642	Spearman: 0.1887
+2022-02-17 13:47:25 - Dot-Product-Similarity:	Pearson: 0.0240	Spearman: -0.0270
+2022-02-17 13:47:25 - Information Retrieval Evaluation on inforet-test dataset after epoch 23:
+2022-02-17 13:47:26 - Queries: 210
+2022-02-17 13:47:26 - Corpus: 1228
+
+2022-02-17 13:47:26 - Score-Function: cos_sim
+2022-02-17 13:47:26 - Accuracy@1220: 0.00%
+2022-02-17 13:47:26 - Precision@1220: 0.00%
+2022-02-17 13:47:26 - Recall@1220: 0.00%
+2022-02-17 13:47:26 - MRR@10: 0.0000
+2022-02-17 13:47:26 - NDCG@10: 0.0000
+2022-02-17 13:47:26 - MAP@100: 0.0000
+2022-02-17 13:47:26 - Score-Function: dot_score
+2022-02-17 13:47:26 - Accuracy@1220: 0.00%
+2022-02-17 13:47:26 - Precision@1220: 0.00%
+2022-02-17 13:47:26 - Recall@1220: 0.00%
+2022-02-17 13:47:26 - MRR@10: 0.0000
+2022-02-17 13:47:26 - NDCG@10: 0.0000
+2022-02-17 13:47:26 - MAP@100: 0.0000
+2022-02-17 13:47:26 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:47:37 - MSE evaluation (lower = better) on mse-validate dataset after epoch 24:
+2022-02-17 13:47:37 - MSE (*100):	27.006727
+2022-02-17 13:47:37 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 24:
+2022-02-17 13:47:37 - Accuracy src2trg: 1.30
+2022-02-17 13:47:37 - Accuracy trg2src: 0.43
+2022-02-17 13:47:37 - MSE evaluation (lower = better) on mse-test dataset after epoch 24:
+2022-02-17 13:47:37 - MSE (*100):	26.692444
+2022-02-17 13:47:37 - Evaluating translation matching Accuracy on trans-test dataset after epoch 24:
+2022-02-17 13:47:38 - Accuracy src2trg: 0.43
+2022-02-17 13:47:38 - Accuracy trg2src: 0.43
+2022-02-17 13:47:38 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 24:
+2022-02-17 13:47:39 - Cosine-Similarity :	Pearson: 0.1830	Spearman: 0.2066
+2022-02-17 13:47:39 - Manhattan-Distance:	Pearson: 0.1433	Spearman: 0.1914
+2022-02-17 13:47:39 - Euclidean-Distance:	Pearson: 0.1766	Spearman: 0.2453
+2022-02-17 13:47:39 - Dot-Product-Similarity:	Pearson: 0.1101	Spearman: 0.0432
+2022-02-17 13:47:39 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 24:
+2022-02-17 13:47:40 - Cosine-Similarity :	Pearson: 0.2214	Spearman: 0.2290
+2022-02-17 13:47:40 - Manhattan-Distance:	Pearson: 0.2300	Spearman: 0.2656
+2022-02-17 13:47:40 - Euclidean-Distance:	Pearson: 0.2149	Spearman: 0.2427
+2022-02-17 13:47:40 - Dot-Product-Similarity:	Pearson: 0.1133	Spearman: 0.0633
+2022-02-17 13:47:40 - Information Retrieval Evaluation on inforet-test dataset after epoch 24:
+2022-02-17 13:47:42 - Queries: 210
+2022-02-17 13:47:42 - Corpus: 1228
+
+2022-02-17 13:47:42 - Score-Function: cos_sim
+2022-02-17 13:47:42 - Accuracy@1220: 0.00%
+2022-02-17 13:47:42 - Precision@1220: 0.00%
+2022-02-17 13:47:42 - Recall@1220: 0.00%
+2022-02-17 13:47:42 - MRR@10: 0.0000
+2022-02-17 13:47:42 - NDCG@10: 0.0000
+2022-02-17 13:47:42 - MAP@100: 0.0000
+2022-02-17 13:47:42 - Score-Function: dot_score
+2022-02-17 13:47:42 - Accuracy@1220: 0.00%
+2022-02-17 13:47:42 - Precision@1220: 0.00%
+2022-02-17 13:47:42 - Recall@1220: 0.00%
+2022-02-17 13:47:42 - MRR@10: 0.0000
+2022-02-17 13:47:42 - NDCG@10: 0.0000
+2022-02-17 13:47:42 - MAP@100: 0.0000
+2022-02-17 13:47:42 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:47:52 - MSE evaluation (lower = better) on mse-validate dataset after epoch 25:
+2022-02-17 13:47:52 - MSE (*100):	27.363521
+2022-02-17 13:47:52 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 25:
+2022-02-17 13:47:53 - Accuracy src2trg: 0.43
+2022-02-17 13:47:53 - Accuracy trg2src: 0.43
+2022-02-17 13:47:53 - MSE evaluation (lower = better) on mse-test dataset after epoch 25:
+2022-02-17 13:47:53 - MSE (*100):	27.066606
+2022-02-17 13:47:53 - Evaluating translation matching Accuracy on trans-test dataset after epoch 25:
+2022-02-17 13:47:53 - Accuracy src2trg: 0.43
+2022-02-17 13:47:53 - Accuracy trg2src: 0.43
+2022-02-17 13:47:53 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 25:
+2022-02-17 13:47:55 - Cosine-Similarity :	Pearson: 0.1776	Spearman: 0.2122
+2022-02-17 13:47:55 - Manhattan-Distance:	Pearson: 0.1584	Spearman: 0.2082
+2022-02-17 13:47:55 - Euclidean-Distance:	Pearson: 0.1796	Spearman: 0.2472
+2022-02-17 13:47:55 - Dot-Product-Similarity:	Pearson: 0.1317	Spearman: 0.0753
+2022-02-17 13:47:55 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 25:
+2022-02-17 13:47:56 - Cosine-Similarity :	Pearson: 0.2054	Spearman: 0.2239
+2022-02-17 13:47:56 - Manhattan-Distance:	Pearson: 0.2289	Spearman: 0.2683
+2022-02-17 13:47:56 - Euclidean-Distance:	Pearson: 0.2110	Spearman: 0.2320
+2022-02-17 13:47:56 - Dot-Product-Similarity:	Pearson: 0.1576	Spearman: 0.0867
+2022-02-17 13:47:56 - Information Retrieval Evaluation on inforet-test dataset after epoch 25:
+2022-02-17 13:47:57 - Queries: 210
+2022-02-17 13:47:57 - Corpus: 1228
+
+2022-02-17 13:47:57 - Score-Function: cos_sim
+2022-02-17 13:47:57 - Accuracy@1220: 0.00%
+2022-02-17 13:47:57 - Precision@1220: 0.00%
+2022-02-17 13:47:57 - Recall@1220: 0.00%
+2022-02-17 13:47:57 - MRR@10: 0.0000
+2022-02-17 13:47:57 - NDCG@10: 0.0000
+2022-02-17 13:47:57 - MAP@100: 0.0000
+2022-02-17 13:47:57 - Score-Function: dot_score
+2022-02-17 13:47:57 - Accuracy@1220: 0.00%
+2022-02-17 13:47:57 - Precision@1220: 0.00%
+2022-02-17 13:47:57 - Recall@1220: 0.00%
+2022-02-17 13:47:57 - MRR@10: 0.0000
+2022-02-17 13:47:57 - NDCG@10: 0.0000
+2022-02-17 13:47:57 - MAP@100: 0.0000
+2022-02-17 13:48:05 - MSE evaluation (lower = better) on mse-validate dataset after epoch 26:
+2022-02-17 13:48:05 - MSE (*100):	27.508095
+2022-02-17 13:48:05 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 26:
+2022-02-17 13:48:05 - Accuracy src2trg: 0.43
+2022-02-17 13:48:05 - Accuracy trg2src: 0.43
+2022-02-17 13:48:05 - MSE evaluation (lower = better) on mse-test dataset after epoch 26:
+2022-02-17 13:48:05 - MSE (*100):	27.210000
+2022-02-17 13:48:05 - Evaluating translation matching Accuracy on trans-test dataset after epoch 26:
+2022-02-17 13:48:06 - Accuracy src2trg: 0.43
+2022-02-17 13:48:06 - Accuracy trg2src: 0.43
+2022-02-17 13:48:06 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 26:
+2022-02-17 13:48:07 - Cosine-Similarity :	Pearson: 0.2105	Spearman: 0.2282
+2022-02-17 13:48:07 - Manhattan-Distance:	Pearson: 0.1797	Spearman: 0.2237
+2022-02-17 13:48:07 - Euclidean-Distance:	Pearson: 0.2083	Spearman: 0.2762
+2022-02-17 13:48:07 - Dot-Product-Similarity:	Pearson: 0.1582	Spearman: 0.1088
+2022-02-17 13:48:07 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 26:
+2022-02-17 13:48:08 - Cosine-Similarity :	Pearson: 0.2317	Spearman: 0.2509
+2022-02-17 13:48:08 - Manhattan-Distance:	Pearson: 0.2437	Spearman: 0.2849
+2022-02-17 13:48:08 - Euclidean-Distance:	Pearson: 0.2390	Spearman: 0.2675
+2022-02-17 13:48:08 - Dot-Product-Similarity:	Pearson: 0.1676	Spearman: 0.1162
+2022-02-17 13:48:08 - Information Retrieval Evaluation on inforet-test dataset after epoch 26:
+2022-02-17 13:48:09 - Queries: 210
+2022-02-17 13:48:09 - Corpus: 1228
+
+2022-02-17 13:48:10 - Score-Function: cos_sim
+2022-02-17 13:48:10 - Accuracy@1220: 0.00%
+2022-02-17 13:48:10 - Precision@1220: 0.00%
+2022-02-17 13:48:10 - Recall@1220: 0.00%
+2022-02-17 13:48:10 - MRR@10: 0.0000
+2022-02-17 13:48:10 - NDCG@10: 0.0000
+2022-02-17 13:48:10 - MAP@100: 0.0000
+2022-02-17 13:48:10 - Score-Function: dot_score
+2022-02-17 13:48:10 - Accuracy@1220: 0.00%
+2022-02-17 13:48:10 - Precision@1220: 0.00%
+2022-02-17 13:48:10 - Recall@1220: 0.00%
+2022-02-17 13:48:10 - MRR@10: 0.0000
+2022-02-17 13:48:10 - NDCG@10: 0.0000
+2022-02-17 13:48:10 - MAP@100: 0.0000
+2022-02-17 13:48:17 - MSE evaluation (lower = better) on mse-validate dataset after epoch 27:
+2022-02-17 13:48:17 - MSE (*100):	28.077465
+2022-02-17 13:48:17 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 27:
+2022-02-17 13:48:18 - Accuracy src2trg: 0.43
+2022-02-17 13:48:18 - Accuracy trg2src: 0.43
+2022-02-17 13:48:18 - MSE evaluation (lower = better) on mse-test dataset after epoch 27:
+2022-02-17 13:48:18 - MSE (*100):	27.701825
+2022-02-17 13:48:18 - Evaluating translation matching Accuracy on trans-test dataset after epoch 27:
+2022-02-17 13:48:18 - Accuracy src2trg: 0.43
+2022-02-17 13:48:18 - Accuracy trg2src: 0.43
+2022-02-17 13:48:18 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 27:
+2022-02-17 13:48:20 - Cosine-Similarity :	Pearson: 0.2006	Spearman: 0.2445
+2022-02-17 13:48:20 - Manhattan-Distance:	Pearson: 0.2051	Spearman: 0.2552
+2022-02-17 13:48:20 - Euclidean-Distance:	Pearson: 0.2063	Spearman: 0.2809
+2022-02-17 13:48:20 - Dot-Product-Similarity:	Pearson: 0.1465	Spearman: 0.1021
+2022-02-17 13:48:20 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 27:
+2022-02-17 13:48:21 - Cosine-Similarity :	Pearson: 0.2217	Spearman: 0.2715
+2022-02-17 13:48:21 - Manhattan-Distance:	Pearson: 0.2670	Spearman: 0.3043
+2022-02-17 13:48:21 - Euclidean-Distance:	Pearson: 0.2308	Spearman: 0.2614
+2022-02-17 13:48:21 - Dot-Product-Similarity:	Pearson: 0.1741	Spearman: 0.1201
+2022-02-17 13:48:21 - Information Retrieval Evaluation on inforet-test dataset after epoch 27:
+2022-02-17 13:48:22 - Queries: 210
+2022-02-17 13:48:22 - Corpus: 1228
+
+2022-02-17 13:48:22 - Score-Function: cos_sim
+2022-02-17 13:48:22 - Accuracy@1220: 0.00%
+2022-02-17 13:48:22 - Precision@1220: 0.00%
+2022-02-17 13:48:22 - Recall@1220: 0.00%
+2022-02-17 13:48:22 - MRR@10: 0.0000
+2022-02-17 13:48:22 - NDCG@10: 0.0000
+2022-02-17 13:48:22 - MAP@100: 0.0000
+2022-02-17 13:48:22 - Score-Function: dot_score
+2022-02-17 13:48:22 - Accuracy@1220: 0.00%
+2022-02-17 13:48:22 - Precision@1220: 0.00%
+2022-02-17 13:48:22 - Recall@1220: 0.00%
+2022-02-17 13:48:22 - MRR@10: 0.0000
+2022-02-17 13:48:22 - NDCG@10: 0.0000
+2022-02-17 13:48:22 - MAP@100: 0.0000
+2022-02-17 13:48:30 - MSE evaluation (lower = better) on mse-validate dataset after epoch 28:
+2022-02-17 13:48:30 - MSE (*100):	26.784307
+2022-02-17 13:48:30 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 28:
+2022-02-17 13:48:30 - Accuracy src2trg: 0.43
+2022-02-17 13:48:30 - Accuracy trg2src: 0.43
+2022-02-17 13:48:30 - MSE evaluation (lower = better) on mse-test dataset after epoch 28:
+2022-02-17 13:48:30 - MSE (*100):	26.515505
+2022-02-17 13:48:30 - Evaluating translation matching Accuracy on trans-test dataset after epoch 28:
+2022-02-17 13:48:31 - Accuracy src2trg: 0.43
+2022-02-17 13:48:31 - Accuracy trg2src: 0.43
+2022-02-17 13:48:31 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 28:
+2022-02-17 13:48:32 - Cosine-Similarity :	Pearson: 0.2904	Spearman: 0.3250
+2022-02-17 13:48:32 - Manhattan-Distance:	Pearson: 0.2287	Spearman: 0.2864
+2022-02-17 13:48:32 - Euclidean-Distance:	Pearson: 0.2546	Spearman: 0.3284
+2022-02-17 13:48:32 - Dot-Product-Similarity:	Pearson: 0.1645	Spearman: 0.1293
+2022-02-17 13:48:32 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 28:
+2022-02-17 13:48:34 - Cosine-Similarity :	Pearson: 0.3763	Spearman: 0.3841
+2022-02-17 13:48:34 - Manhattan-Distance:	Pearson: 0.3077	Spearman: 0.3444
+2022-02-17 13:48:34 - Euclidean-Distance:	Pearson: 0.3068	Spearman: 0.3485
+2022-02-17 13:48:34 - Dot-Product-Similarity:	Pearson: 0.2118	Spearman: 0.2029
+2022-02-17 13:48:34 - Information Retrieval Evaluation on inforet-test dataset after epoch 28:
+2022-02-17 13:48:34 - Queries: 210
+2022-02-17 13:48:34 - Corpus: 1228
+
+2022-02-17 13:48:35 - Score-Function: cos_sim
+2022-02-17 13:48:35 - Accuracy@1220: 0.00%
+2022-02-17 13:48:35 - Precision@1220: 0.00%
+2022-02-17 13:48:35 - Recall@1220: 0.00%
+2022-02-17 13:48:35 - MRR@10: 0.0000
+2022-02-17 13:48:35 - NDCG@10: 0.0000
+2022-02-17 13:48:35 - MAP@100: 0.0000
+2022-02-17 13:48:35 - Score-Function: dot_score
+2022-02-17 13:48:35 - Accuracy@1220: 0.00%
+2022-02-17 13:48:35 - Precision@1220: 0.00%
+2022-02-17 13:48:35 - Recall@1220: 0.00%
+2022-02-17 13:48:35 - MRR@10: 0.0000
+2022-02-17 13:48:35 - NDCG@10: 0.0000
+2022-02-17 13:48:35 - MAP@100: 0.0000
+2022-02-17 13:48:35 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:48:45 - MSE evaluation (lower = better) on mse-validate dataset after epoch 29:
+2022-02-17 13:48:45 - MSE (*100):	27.533245
+2022-02-17 13:48:45 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 29:
+2022-02-17 13:48:46 - Accuracy src2trg: 0.87
+2022-02-17 13:48:46 - Accuracy trg2src: 0.43
+2022-02-17 13:48:46 - MSE evaluation (lower = better) on mse-test dataset after epoch 29:
+2022-02-17 13:48:46 - MSE (*100):	27.441528
+2022-02-17 13:48:46 - Evaluating translation matching Accuracy on trans-test dataset after epoch 29:
+2022-02-17 13:48:46 - Accuracy src2trg: 0.43
+2022-02-17 13:48:46 - Accuracy trg2src: 0.43
+2022-02-17 13:48:46 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 29:
+2022-02-17 13:48:48 - Cosine-Similarity :	Pearson: 0.2943	Spearman: 0.3184
+2022-02-17 13:48:48 - Manhattan-Distance:	Pearson: 0.2732	Spearman: 0.3337
+2022-02-17 13:48:48 - Euclidean-Distance:	Pearson: 0.2454	Spearman: 0.2958
+2022-02-17 13:48:48 - Dot-Product-Similarity:	Pearson: 0.2835	Spearman: 0.2866
+2022-02-17 13:48:48 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 29:
+2022-02-17 13:48:49 - Cosine-Similarity :	Pearson: 0.3309	Spearman: 0.3550
+2022-02-17 13:48:49 - Manhattan-Distance:	Pearson: 0.3678	Spearman: 0.4055
+2022-02-17 13:48:49 - Euclidean-Distance:	Pearson: 0.2894	Spearman: 0.3175
+2022-02-17 13:48:49 - Dot-Product-Similarity:	Pearson: 0.3169	Spearman: 0.3138
+2022-02-17 13:48:49 - Information Retrieval Evaluation on inforet-test dataset after epoch 29:
+2022-02-17 13:48:50 - Queries: 210
+2022-02-17 13:48:50 - Corpus: 1228
+
+2022-02-17 13:48:51 - Score-Function: cos_sim
+2022-02-17 13:48:51 - Accuracy@1220: 0.00%
+2022-02-17 13:48:51 - Precision@1220: 0.00%
+2022-02-17 13:48:51 - Recall@1220: 0.00%
+2022-02-17 13:48:51 - MRR@10: 0.0000
+2022-02-17 13:48:51 - NDCG@10: 0.0000
+2022-02-17 13:48:51 - MAP@100: 0.0000
+2022-02-17 13:48:51 - Score-Function: dot_score
+2022-02-17 13:48:51 - Accuracy@1220: 0.00%
+2022-02-17 13:48:51 - Precision@1220: 0.00%
+2022-02-17 13:48:51 - Recall@1220: 0.00%
+2022-02-17 13:48:51 - MRR@10: 0.0000
+2022-02-17 13:48:51 - NDCG@10: 0.0000
+2022-02-17 13:48:51 - MAP@100: 0.0000
+2022-02-17 13:48:58 - MSE evaluation (lower = better) on mse-validate dataset after epoch 30:
+2022-02-17 13:48:58 - MSE (*100):	27.155051
+2022-02-17 13:48:58 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 30:
+2022-02-17 13:48:59 - Accuracy src2trg: 0.87
+2022-02-17 13:48:59 - Accuracy trg2src: 0.00
+2022-02-17 13:48:59 - MSE evaluation (lower = better) on mse-test dataset after epoch 30:
+2022-02-17 13:48:59 - MSE (*100):	26.936650
+2022-02-17 13:48:59 - Evaluating translation matching Accuracy on trans-test dataset after epoch 30:
+2022-02-17 13:48:59 - Accuracy src2trg: 0.43
+2022-02-17 13:48:59 - Accuracy trg2src: 0.00
+2022-02-17 13:48:59 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 30:
+2022-02-17 13:49:01 - Cosine-Similarity :	Pearson: 0.3454	Spearman: 0.3685
+2022-02-17 13:49:01 - Manhattan-Distance:	Pearson: 0.3015	Spearman: 0.3756
+2022-02-17 13:49:01 - Euclidean-Distance:	Pearson: 0.2795	Spearman: 0.3400
+2022-02-17 13:49:01 - Dot-Product-Similarity:	Pearson: 0.3235	Spearman: 0.3146
+2022-02-17 13:49:01 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 30:
+2022-02-17 13:49:02 - Cosine-Similarity :	Pearson: 0.4127	Spearman: 0.4305
+2022-02-17 13:49:02 - Manhattan-Distance:	Pearson: 0.4064	Spearman: 0.4626
+2022-02-17 13:49:02 - Euclidean-Distance:	Pearson: 0.3506	Spearman: 0.3942
+2022-02-17 13:49:02 - Dot-Product-Similarity:	Pearson: 0.3821	Spearman: 0.3730
+2022-02-17 13:49:02 - Information Retrieval Evaluation on inforet-test dataset after epoch 30:
+2022-02-17 13:49:03 - Queries: 210
+2022-02-17 13:49:03 - Corpus: 1228
+
+2022-02-17 13:49:03 - Score-Function: cos_sim
+2022-02-17 13:49:03 - Accuracy@1220: 0.00%
+2022-02-17 13:49:03 - Precision@1220: 0.00%
+2022-02-17 13:49:03 - Recall@1220: 0.00%
+2022-02-17 13:49:03 - MRR@10: 0.0000
+2022-02-17 13:49:03 - NDCG@10: 0.0000
+2022-02-17 13:49:03 - MAP@100: 0.0000
+2022-02-17 13:49:03 - Score-Function: dot_score
+2022-02-17 13:49:03 - Accuracy@1220: 0.00%
+2022-02-17 13:49:03 - Precision@1220: 0.00%
+2022-02-17 13:49:03 - Recall@1220: 0.00%
+2022-02-17 13:49:03 - MRR@10: 0.0000
+2022-02-17 13:49:03 - NDCG@10: 0.0000
+2022-02-17 13:49:03 - MAP@100: 0.0000
+2022-02-17 13:49:11 - MSE evaluation (lower = better) on mse-validate dataset after epoch 31:
+2022-02-17 13:49:11 - MSE (*100):	27.653840
+2022-02-17 13:49:11 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 31:
+2022-02-17 13:49:11 - Accuracy src2trg: 0.43
+2022-02-17 13:49:11 - Accuracy trg2src: 0.87
+2022-02-17 13:49:11 - MSE evaluation (lower = better) on mse-test dataset after epoch 31:
+2022-02-17 13:49:11 - MSE (*100):	27.508390
+2022-02-17 13:49:11 - Evaluating translation matching Accuracy on trans-test dataset after epoch 31:
+2022-02-17 13:49:12 - Accuracy src2trg: 0.43
+2022-02-17 13:49:12 - Accuracy trg2src: 0.43
+2022-02-17 13:49:12 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 31:
+2022-02-17 13:49:13 - Cosine-Similarity :	Pearson: 0.3758	Spearman: 0.4061
+2022-02-17 13:49:13 - Manhattan-Distance:	Pearson: 0.3479	Spearman: 0.4125
+2022-02-17 13:49:13 - Euclidean-Distance:	Pearson: 0.3431	Spearman: 0.4030
+2022-02-17 13:49:13 - Dot-Product-Similarity:	Pearson: 0.3448	Spearman: 0.3417
+2022-02-17 13:49:13 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 31:
+2022-02-17 13:49:15 - Cosine-Similarity :	Pearson: 0.4316	Spearman: 0.4621
+2022-02-17 13:49:15 - Manhattan-Distance:	Pearson: 0.4447	Spearman: 0.4960
+2022-02-17 13:49:15 - Euclidean-Distance:	Pearson: 0.4004	Spearman: 0.4478
+2022-02-17 13:49:15 - Dot-Product-Similarity:	Pearson: 0.3975	Spearman: 0.4110
+2022-02-17 13:49:15 - Information Retrieval Evaluation on inforet-test dataset after epoch 31:
+2022-02-17 13:49:16 - Queries: 210
+2022-02-17 13:49:16 - Corpus: 1228
+
+2022-02-17 13:49:16 - Score-Function: cos_sim
+2022-02-17 13:49:16 - Accuracy@1220: 0.00%
+2022-02-17 13:49:16 - Precision@1220: 0.00%
+2022-02-17 13:49:16 - Recall@1220: 0.00%
+2022-02-17 13:49:16 - MRR@10: 0.0000
+2022-02-17 13:49:16 - NDCG@10: 0.0000
+2022-02-17 13:49:16 - MAP@100: 0.0000
+2022-02-17 13:49:16 - Score-Function: dot_score
+2022-02-17 13:49:16 - Accuracy@1220: 0.00%
+2022-02-17 13:49:16 - Precision@1220: 0.00%
+2022-02-17 13:49:16 - Recall@1220: 0.00%
+2022-02-17 13:49:16 - MRR@10: 0.0000
+2022-02-17 13:49:16 - NDCG@10: 0.0000
+2022-02-17 13:49:16 - MAP@100: 0.0000
+2022-02-17 13:49:24 - MSE evaluation (lower = better) on mse-validate dataset after epoch 32:
+2022-02-17 13:49:24 - MSE (*100):	27.625820
+2022-02-17 13:49:24 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 32:
+2022-02-17 13:49:24 - Accuracy src2trg: 0.87
+2022-02-17 13:49:24 - Accuracy trg2src: 0.43
+2022-02-17 13:49:24 - MSE evaluation (lower = better) on mse-test dataset after epoch 32:
+2022-02-17 13:49:24 - MSE (*100):	27.374732
+2022-02-17 13:49:24 - Evaluating translation matching Accuracy on trans-test dataset after epoch 32:
+2022-02-17 13:49:24 - Accuracy src2trg: 0.43
+2022-02-17 13:49:24 - Accuracy trg2src: 0.43
+2022-02-17 13:49:24 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 32:
+2022-02-17 13:49:26 - Cosine-Similarity :	Pearson: 0.4319	Spearman: 0.4480
+2022-02-17 13:49:26 - Manhattan-Distance:	Pearson: 0.4150	Spearman: 0.4834
+2022-02-17 13:49:26 - Euclidean-Distance:	Pearson: 0.3731	Spearman: 0.4351
+2022-02-17 13:49:26 - Dot-Product-Similarity:	Pearson: 0.3952	Spearman: 0.3913
+2022-02-17 13:49:26 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 32:
+2022-02-17 13:49:27 - Cosine-Similarity :	Pearson: 0.4987	Spearman: 0.5226
+2022-02-17 13:49:27 - Manhattan-Distance:	Pearson: 0.4947	Spearman: 0.5426
+2022-02-17 13:49:27 - Euclidean-Distance:	Pearson: 0.4308	Spearman: 0.4783
+2022-02-17 13:49:27 - Dot-Product-Similarity:	Pearson: 0.4670	Spearman: 0.4861
+2022-02-17 13:49:27 - Information Retrieval Evaluation on inforet-test dataset after epoch 32:
+2022-02-17 13:49:28 - Queries: 210
+2022-02-17 13:49:28 - Corpus: 1228
+
+2022-02-17 13:49:28 - Score-Function: cos_sim
+2022-02-17 13:49:28 - Accuracy@1220: 0.00%
+2022-02-17 13:49:28 - Precision@1220: 0.00%
+2022-02-17 13:49:28 - Recall@1220: 0.00%
+2022-02-17 13:49:28 - MRR@10: 0.0000
+2022-02-17 13:49:28 - NDCG@10: 0.0000
+2022-02-17 13:49:28 - MAP@100: 0.0000
+2022-02-17 13:49:28 - Score-Function: dot_score
+2022-02-17 13:49:28 - Accuracy@1220: 0.00%
+2022-02-17 13:49:28 - Precision@1220: 0.00%
+2022-02-17 13:49:28 - Recall@1220: 0.00%
+2022-02-17 13:49:28 - MRR@10: 0.0000
+2022-02-17 13:49:28 - NDCG@10: 0.0000
+2022-02-17 13:49:28 - MAP@100: 0.0000
+2022-02-17 13:49:36 - MSE evaluation (lower = better) on mse-validate dataset after epoch 33:
+2022-02-17 13:49:36 - MSE (*100):	27.435866
+2022-02-17 13:49:36 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 33:
+2022-02-17 13:49:36 - Accuracy src2trg: 0.87
+2022-02-17 13:49:36 - Accuracy trg2src: 0.43
+2022-02-17 13:49:36 - MSE evaluation (lower = better) on mse-test dataset after epoch 33:
+2022-02-17 13:49:36 - MSE (*100):	27.324849
+2022-02-17 13:49:36 - Evaluating translation matching Accuracy on trans-test dataset after epoch 33:
+2022-02-17 13:49:37 - Accuracy src2trg: 0.43
+2022-02-17 13:49:37 - Accuracy trg2src: 0.43
+2022-02-17 13:49:37 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 33:
+2022-02-17 13:49:38 - Cosine-Similarity :	Pearson: 0.4278	Spearman: 0.4547
+2022-02-17 13:49:38 - Manhattan-Distance:	Pearson: 0.4225	Spearman: 0.4942
+2022-02-17 13:49:38 - Euclidean-Distance:	Pearson: 0.3740	Spearman: 0.4382
+2022-02-17 13:49:38 - Dot-Product-Similarity:	Pearson: 0.4066	Spearman: 0.4195
+2022-02-17 13:49:38 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 33:
+2022-02-17 13:49:40 - Cosine-Similarity :	Pearson: 0.4701	Spearman: 0.5220
+2022-02-17 13:49:40 - Manhattan-Distance:	Pearson: 0.5079	Spearman: 0.5611
+2022-02-17 13:49:40 - Euclidean-Distance:	Pearson: 0.4310	Spearman: 0.4899
+2022-02-17 13:49:40 - Dot-Product-Similarity:	Pearson: 0.4279	Spearman: 0.4860
+2022-02-17 13:49:40 - Information Retrieval Evaluation on inforet-test dataset after epoch 33:
+2022-02-17 13:49:41 - Queries: 210
+2022-02-17 13:49:41 - Corpus: 1228
+
+2022-02-17 13:49:41 - Score-Function: cos_sim
+2022-02-17 13:49:41 - Accuracy@1220: 0.00%
+2022-02-17 13:49:41 - Precision@1220: 0.00%
+2022-02-17 13:49:41 - Recall@1220: 0.00%
+2022-02-17 13:49:41 - MRR@10: 0.0000
+2022-02-17 13:49:41 - NDCG@10: 0.0000
+2022-02-17 13:49:41 - MAP@100: 0.0000
+2022-02-17 13:49:41 - Score-Function: dot_score
+2022-02-17 13:49:41 - Accuracy@1220: 0.00%
+2022-02-17 13:49:41 - Precision@1220: 0.00%
+2022-02-17 13:49:41 - Recall@1220: 0.00%
+2022-02-17 13:49:41 - MRR@10: 0.0000
+2022-02-17 13:49:41 - NDCG@10: 0.0000
+2022-02-17 13:49:41 - MAP@100: 0.0000
+2022-02-17 13:49:48 - MSE evaluation (lower = better) on mse-validate dataset after epoch 34:
+2022-02-17 13:49:48 - MSE (*100):	27.071348
+2022-02-17 13:49:48 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 34:
+2022-02-17 13:49:49 - Accuracy src2trg: 0.43
+2022-02-17 13:49:49 - Accuracy trg2src: 0.43
+2022-02-17 13:49:49 - MSE evaluation (lower = better) on mse-test dataset after epoch 34:
+2022-02-17 13:49:49 - MSE (*100):	26.942101
+2022-02-17 13:49:49 - Evaluating translation matching Accuracy on trans-test dataset after epoch 34:
+2022-02-17 13:49:49 - Accuracy src2trg: 0.43
+2022-02-17 13:49:49 - Accuracy trg2src: 0.43
+2022-02-17 13:49:49 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 34:
+2022-02-17 13:49:51 - Cosine-Similarity :	Pearson: 0.5046	Spearman: 0.5162
+2022-02-17 13:49:51 - Manhattan-Distance:	Pearson: 0.4839	Spearman: 0.5417
+2022-02-17 13:49:51 - Euclidean-Distance:	Pearson: 0.4409	Spearman: 0.4928
+2022-02-17 13:49:51 - Dot-Product-Similarity:	Pearson: 0.4908	Spearman: 0.5040
+2022-02-17 13:49:51 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 34:
+2022-02-17 13:49:52 - Cosine-Similarity :	Pearson: 0.5463	Spearman: 0.5697
+2022-02-17 13:49:52 - Manhattan-Distance:	Pearson: 0.5577	Spearman: 0.6017
+2022-02-17 13:49:52 - Euclidean-Distance:	Pearson: 0.5018	Spearman: 0.5551
+2022-02-17 13:49:52 - Dot-Product-Similarity:	Pearson: 0.5107	Spearman: 0.5447
+2022-02-17 13:49:52 - Information Retrieval Evaluation on inforet-test dataset after epoch 34:
+2022-02-17 13:49:53 - Queries: 210
+2022-02-17 13:49:53 - Corpus: 1228
+
+2022-02-17 13:49:53 - Score-Function: cos_sim
+2022-02-17 13:49:53 - Accuracy@1220: 0.00%
+2022-02-17 13:49:53 - Precision@1220: 0.00%
+2022-02-17 13:49:53 - Recall@1220: 0.00%
+2022-02-17 13:49:53 - MRR@10: 0.0000
+2022-02-17 13:49:53 - NDCG@10: 0.0000
+2022-02-17 13:49:53 - MAP@100: 0.0000
+2022-02-17 13:49:53 - Score-Function: dot_score
+2022-02-17 13:49:53 - Accuracy@1220: 0.00%
+2022-02-17 13:49:53 - Precision@1220: 0.00%
+2022-02-17 13:49:53 - Recall@1220: 0.00%
+2022-02-17 13:49:53 - MRR@10: 0.0000
+2022-02-17 13:49:53 - NDCG@10: 0.0000
+2022-02-17 13:49:53 - MAP@100: 0.0000
+2022-02-17 13:50:01 - MSE evaluation (lower = better) on mse-validate dataset after epoch 35:
+2022-02-17 13:50:01 - MSE (*100):	27.385631
+2022-02-17 13:50:01 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 35:
+2022-02-17 13:50:01 - Accuracy src2trg: 0.00
+2022-02-17 13:50:01 - Accuracy trg2src: 0.43
+2022-02-17 13:50:01 - MSE evaluation (lower = better) on mse-test dataset after epoch 35:
+2022-02-17 13:50:01 - MSE (*100):	27.217296
+2022-02-17 13:50:01 - Evaluating translation matching Accuracy on trans-test dataset after epoch 35:
+2022-02-17 13:50:02 - Accuracy src2trg: 0.87
+2022-02-17 13:50:02 - Accuracy trg2src: 0.00
+2022-02-17 13:50:02 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 35:
+2022-02-17 13:50:03 - Cosine-Similarity :	Pearson: 0.5389	Spearman: 0.5522
+2022-02-17 13:50:03 - Manhattan-Distance:	Pearson: 0.5184	Spearman: 0.5665
+2022-02-17 13:50:03 - Euclidean-Distance:	Pearson: 0.4761	Spearman: 0.5235
+2022-02-17 13:50:03 - Dot-Product-Similarity:	Pearson: 0.5369	Spearman: 0.5491
+2022-02-17 13:50:03 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 35:
+2022-02-17 13:50:05 - Cosine-Similarity :	Pearson: 0.5922	Spearman: 0.6057
+2022-02-17 13:50:05 - Manhattan-Distance:	Pearson: 0.5918	Spearman: 0.6261
+2022-02-17 13:50:05 - Euclidean-Distance:	Pearson: 0.5438	Spearman: 0.5903
+2022-02-17 13:50:05 - Dot-Product-Similarity:	Pearson: 0.5743	Spearman: 0.5940
+2022-02-17 13:50:05 - Information Retrieval Evaluation on inforet-test dataset after epoch 35:
+2022-02-17 13:50:06 - Queries: 210
+2022-02-17 13:50:06 - Corpus: 1228
+
+2022-02-17 13:50:06 - Score-Function: cos_sim
+2022-02-17 13:50:06 - Accuracy@1220: 0.00%
+2022-02-17 13:50:06 - Precision@1220: 0.00%
+2022-02-17 13:50:06 - Recall@1220: 0.00%
+2022-02-17 13:50:06 - MRR@10: 0.0000
+2022-02-17 13:50:06 - NDCG@10: 0.0000
+2022-02-17 13:50:06 - MAP@100: 0.0000
+2022-02-17 13:50:06 - Score-Function: dot_score
+2022-02-17 13:50:06 - Accuracy@1220: 0.00%
+2022-02-17 13:50:06 - Precision@1220: 0.00%
+2022-02-17 13:50:06 - Recall@1220: 0.00%
+2022-02-17 13:50:06 - MRR@10: 0.0000
+2022-02-17 13:50:06 - NDCG@10: 0.0000
+2022-02-17 13:50:06 - MAP@100: 0.0000
+2022-02-17 13:50:13 - MSE evaluation (lower = better) on mse-validate dataset after epoch 36:
+2022-02-17 13:50:13 - MSE (*100):	27.299976
+2022-02-17 13:50:13 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 36:
+2022-02-17 13:50:14 - Accuracy src2trg: 0.00
+2022-02-17 13:50:14 - Accuracy trg2src: 0.43
+2022-02-17 13:50:14 - MSE evaluation (lower = better) on mse-test dataset after epoch 36:
+2022-02-17 13:50:14 - MSE (*100):	27.092794
+2022-02-17 13:50:14 - Evaluating translation matching Accuracy on trans-test dataset after epoch 36:
+2022-02-17 13:50:14 - Accuracy src2trg: 0.43
+2022-02-17 13:50:14 - Accuracy trg2src: 0.43
+2022-02-17 13:50:14 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 36:
+2022-02-17 13:50:15 - Cosine-Similarity :	Pearson: 0.5660	Spearman: 0.5753
+2022-02-17 13:50:15 - Manhattan-Distance:	Pearson: 0.5386	Spearman: 0.5875
+2022-02-17 13:50:15 - Euclidean-Distance:	Pearson: 0.5064	Spearman: 0.5520
+2022-02-17 13:50:15 - Dot-Product-Similarity:	Pearson: 0.5599	Spearman: 0.5735
+2022-02-17 13:50:15 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 36:
+2022-02-17 13:50:17 - Cosine-Similarity :	Pearson: 0.6090	Spearman: 0.6193
+2022-02-17 13:50:17 - Manhattan-Distance:	Pearson: 0.6013	Spearman: 0.6369
+2022-02-17 13:50:17 - Euclidean-Distance:	Pearson: 0.5591	Spearman: 0.6086
+2022-02-17 13:50:17 - Dot-Product-Similarity:	Pearson: 0.5905	Spearman: 0.6150
+2022-02-17 13:50:17 - Information Retrieval Evaluation on inforet-test dataset after epoch 36:
+2022-02-17 13:50:18 - Queries: 210
+2022-02-17 13:50:18 - Corpus: 1228
+
+2022-02-17 13:50:18 - Score-Function: cos_sim
+2022-02-17 13:50:18 - Accuracy@1220: 0.00%
+2022-02-17 13:50:18 - Precision@1220: 0.00%
+2022-02-17 13:50:18 - Recall@1220: 0.00%
+2022-02-17 13:50:18 - MRR@10: 0.0000
+2022-02-17 13:50:18 - NDCG@10: 0.0000
+2022-02-17 13:50:18 - MAP@100: 0.0000
+2022-02-17 13:50:18 - Score-Function: dot_score
+2022-02-17 13:50:18 - Accuracy@1220: 0.00%
+2022-02-17 13:50:18 - Precision@1220: 0.00%
+2022-02-17 13:50:18 - Recall@1220: 0.00%
+2022-02-17 13:50:18 - MRR@10: 0.0000
+2022-02-17 13:50:18 - NDCG@10: 0.0000
+2022-02-17 13:50:18 - MAP@100: 0.0000
+2022-02-17 13:50:26 - MSE evaluation (lower = better) on mse-validate dataset after epoch 37:
+2022-02-17 13:50:26 - MSE (*100):	27.577236
+2022-02-17 13:50:26 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 37:
+2022-02-17 13:50:26 - Accuracy src2trg: 0.00
+2022-02-17 13:50:26 - Accuracy trg2src: 0.43
+2022-02-17 13:50:26 - MSE evaluation (lower = better) on mse-test dataset after epoch 37:
+2022-02-17 13:50:26 - MSE (*100):	27.292204
+2022-02-17 13:50:26 - Evaluating translation matching Accuracy on trans-test dataset after epoch 37:
+2022-02-17 13:50:26 - Accuracy src2trg: 0.43
+2022-02-17 13:50:26 - Accuracy trg2src: 0.43
+2022-02-17 13:50:26 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 37:
+2022-02-17 13:50:28 - Cosine-Similarity :	Pearson: 0.5874	Spearman: 0.5906
+2022-02-17 13:50:28 - Manhattan-Distance:	Pearson: 0.5518	Spearman: 0.5943
+2022-02-17 13:50:28 - Euclidean-Distance:	Pearson: 0.5235	Spearman: 0.5677
+2022-02-17 13:50:28 - Dot-Product-Similarity:	Pearson: 0.5650	Spearman: 0.5828
+2022-02-17 13:50:28 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 37:
+2022-02-17 13:50:29 - Cosine-Similarity :	Pearson: 0.6248	Spearman: 0.6303
+2022-02-17 13:50:29 - Manhattan-Distance:	Pearson: 0.6181	Spearman: 0.6527
+2022-02-17 13:50:29 - Euclidean-Distance:	Pearson: 0.5746	Spearman: 0.6229
+2022-02-17 13:50:29 - Dot-Product-Similarity:	Pearson: 0.5862	Spearman: 0.6157
+2022-02-17 13:50:29 - Information Retrieval Evaluation on inforet-test dataset after epoch 37:
+2022-02-17 13:50:30 - Queries: 210
+2022-02-17 13:50:30 - Corpus: 1228
+
+2022-02-17 13:50:30 - Score-Function: cos_sim
+2022-02-17 13:50:30 - Accuracy@1220: 0.00%
+2022-02-17 13:50:30 - Precision@1220: 0.00%
+2022-02-17 13:50:30 - Recall@1220: 0.00%
+2022-02-17 13:50:30 - MRR@10: 0.0000
+2022-02-17 13:50:30 - NDCG@10: 0.0000
+2022-02-17 13:50:30 - MAP@100: 0.0000
+2022-02-17 13:50:30 - Score-Function: dot_score
+2022-02-17 13:50:30 - Accuracy@1220: 0.00%
+2022-02-17 13:50:30 - Precision@1220: 0.00%
+2022-02-17 13:50:30 - Recall@1220: 0.00%
+2022-02-17 13:50:30 - MRR@10: 0.0000
+2022-02-17 13:50:30 - NDCG@10: 0.0000
+2022-02-17 13:50:30 - MAP@100: 0.0000
+2022-02-17 13:50:38 - MSE evaluation (lower = better) on mse-validate dataset after epoch 38:
+2022-02-17 13:50:38 - MSE (*100):	27.891156
+2022-02-17 13:50:38 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 38:
+2022-02-17 13:50:38 - Accuracy src2trg: 0.43
+2022-02-17 13:50:38 - Accuracy trg2src: 0.43
+2022-02-17 13:50:39 - MSE evaluation (lower = better) on mse-test dataset after epoch 38:
+2022-02-17 13:50:39 - MSE (*100):	27.613172
+2022-02-17 13:50:39 - Evaluating translation matching Accuracy on trans-test dataset after epoch 38:
+2022-02-17 13:50:39 - Accuracy src2trg: 0.43
+2022-02-17 13:50:39 - Accuracy trg2src: 0.43
+2022-02-17 13:50:39 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 38:
+2022-02-17 13:50:40 - Cosine-Similarity :	Pearson: 0.6137	Spearman: 0.6043
+2022-02-17 13:50:40 - Manhattan-Distance:	Pearson: 0.5935	Spearman: 0.6123
+2022-02-17 13:50:40 - Euclidean-Distance:	Pearson: 0.5522	Spearman: 0.5836
+2022-02-17 13:50:40 - Dot-Product-Similarity:	Pearson: 0.5922	Spearman: 0.5875
+2022-02-17 13:50:40 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 38:
+2022-02-17 13:50:42 - Cosine-Similarity :	Pearson: 0.6494	Spearman: 0.6405
+2022-02-17 13:50:42 - Manhattan-Distance:	Pearson: 0.6499	Spearman: 0.6643
+2022-02-17 13:50:42 - Euclidean-Distance:	Pearson: 0.6023	Spearman: 0.6337
+2022-02-17 13:50:42 - Dot-Product-Similarity:	Pearson: 0.6216	Spearman: 0.6213
+2022-02-17 13:50:42 - Information Retrieval Evaluation on inforet-test dataset after epoch 38:
+2022-02-17 13:50:43 - Queries: 210
+2022-02-17 13:50:43 - Corpus: 1228
+
+2022-02-17 13:50:43 - Score-Function: cos_sim
+2022-02-17 13:50:43 - Accuracy@1220: 0.00%
+2022-02-17 13:50:43 - Precision@1220: 0.00%
+2022-02-17 13:50:43 - Recall@1220: 0.00%
+2022-02-17 13:50:43 - MRR@10: 0.0000
+2022-02-17 13:50:43 - NDCG@10: 0.0000
+2022-02-17 13:50:43 - MAP@100: 0.0000
+2022-02-17 13:50:43 - Score-Function: dot_score
+2022-02-17 13:50:43 - Accuracy@1220: 0.00%
+2022-02-17 13:50:43 - Precision@1220: 0.00%
+2022-02-17 13:50:43 - Recall@1220: 0.00%
+2022-02-17 13:50:43 - MRR@10: 0.0000
+2022-02-17 13:50:43 - NDCG@10: 0.0000
+2022-02-17 13:50:43 - MAP@100: 0.0000
+2022-02-17 13:50:50 - MSE evaluation (lower = better) on mse-validate dataset after epoch 39:
+2022-02-17 13:50:50 - MSE (*100):	27.406552
+2022-02-17 13:50:50 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 39:
+2022-02-17 13:50:51 - Accuracy src2trg: 0.00
+2022-02-17 13:50:51 - Accuracy trg2src: 0.43
+2022-02-17 13:50:51 - MSE evaluation (lower = better) on mse-test dataset after epoch 39:
+2022-02-17 13:50:51 - MSE (*100):	27.122617
+2022-02-17 13:50:51 - Evaluating translation matching Accuracy on trans-test dataset after epoch 39:
+2022-02-17 13:50:51 - Accuracy src2trg: 0.43
+2022-02-17 13:50:51 - Accuracy trg2src: 0.43
+2022-02-17 13:50:51 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 39:
+2022-02-17 13:50:53 - Cosine-Similarity :	Pearson: 0.6579	Spearman: 0.6369
+2022-02-17 13:50:53 - Manhattan-Distance:	Pearson: 0.6222	Spearman: 0.6298
+2022-02-17 13:50:53 - Euclidean-Distance:	Pearson: 0.5989	Spearman: 0.6175
+2022-02-17 13:50:53 - Dot-Product-Similarity:	Pearson: 0.6475	Spearman: 0.6315
+2022-02-17 13:50:53 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 39:
+2022-02-17 13:50:54 - Cosine-Similarity :	Pearson: 0.6959	Spearman: 0.6672
+2022-02-17 13:50:54 - Manhattan-Distance:	Pearson: 0.6708	Spearman: 0.6691
+2022-02-17 13:50:54 - Euclidean-Distance:	Pearson: 0.6472	Spearman: 0.6541
+2022-02-17 13:50:54 - Dot-Product-Similarity:	Pearson: 0.6800	Spearman: 0.6628
+2022-02-17 13:50:54 - Information Retrieval Evaluation on inforet-test dataset after epoch 39:
+2022-02-17 13:50:55 - Queries: 210
+2022-02-17 13:50:55 - Corpus: 1228
+
+2022-02-17 13:50:55 - Score-Function: cos_sim
+2022-02-17 13:50:55 - Accuracy@1220: 0.00%
+2022-02-17 13:50:55 - Precision@1220: 0.00%
+2022-02-17 13:50:55 - Recall@1220: 0.00%
+2022-02-17 13:50:55 - MRR@10: 0.0000
+2022-02-17 13:50:55 - NDCG@10: 0.0000
+2022-02-17 13:50:55 - MAP@100: 0.0000
+2022-02-17 13:50:55 - Score-Function: dot_score
+2022-02-17 13:50:55 - Accuracy@1220: 0.00%
+2022-02-17 13:50:55 - Precision@1220: 0.00%
+2022-02-17 13:50:55 - Recall@1220: 0.00%
+2022-02-17 13:50:55 - MRR@10: 0.0000
+2022-02-17 13:50:55 - NDCG@10: 0.0000
+2022-02-17 13:50:55 - MAP@100: 0.0000
+2022-02-17 13:51:03 - MSE evaluation (lower = better) on mse-validate dataset after epoch 40:
+2022-02-17 13:51:03 - MSE (*100):	27.459586
+2022-02-17 13:51:03 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 40:
+2022-02-17 13:51:03 - Accuracy src2trg: 0.43
+2022-02-17 13:51:03 - Accuracy trg2src: 0.43
+2022-02-17 13:51:03 - MSE evaluation (lower = better) on mse-test dataset after epoch 40:
+2022-02-17 13:51:03 - MSE (*100):	27.093673
+2022-02-17 13:51:03 - Evaluating translation matching Accuracy on trans-test dataset after epoch 40:
+2022-02-17 13:51:04 - Accuracy src2trg: 0.43
+2022-02-17 13:51:04 - Accuracy trg2src: 0.43
+2022-02-17 13:51:04 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 40:
+2022-02-17 13:51:05 - Cosine-Similarity :	Pearson: 0.6639	Spearman: 0.6376
+2022-02-17 13:51:05 - Manhattan-Distance:	Pearson: 0.6306	Spearman: 0.6337
+2022-02-17 13:51:05 - Euclidean-Distance:	Pearson: 0.6062	Spearman: 0.6159
+2022-02-17 13:51:05 - Dot-Product-Similarity:	Pearson: 0.6534	Spearman: 0.6416
+2022-02-17 13:51:05 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 40:
+2022-02-17 13:51:06 - Cosine-Similarity :	Pearson: 0.7013	Spearman: 0.6697
+2022-02-17 13:51:06 - Manhattan-Distance:	Pearson: 0.6848	Spearman: 0.6808
+2022-02-17 13:51:06 - Euclidean-Distance:	Pearson: 0.6545	Spearman: 0.6618
+2022-02-17 13:51:06 - Dot-Product-Similarity:	Pearson: 0.6832	Spearman: 0.6694
+2022-02-17 13:51:06 - Information Retrieval Evaluation on inforet-test dataset after epoch 40:
+2022-02-17 13:51:08 - Queries: 210
+2022-02-17 13:51:08 - Corpus: 1228
+
+2022-02-17 13:51:08 - Score-Function: cos_sim
+2022-02-17 13:51:08 - Accuracy@1220: 0.00%
+2022-02-17 13:51:08 - Precision@1220: 0.00%
+2022-02-17 13:51:08 - Recall@1220: 0.00%
+2022-02-17 13:51:08 - MRR@10: 0.0000
+2022-02-17 13:51:08 - NDCG@10: 0.0000
+2022-02-17 13:51:08 - MAP@100: 0.0000
+2022-02-17 13:51:08 - Score-Function: dot_score
+2022-02-17 13:51:08 - Accuracy@1220: 0.00%
+2022-02-17 13:51:08 - Precision@1220: 0.00%
+2022-02-17 13:51:08 - Recall@1220: 0.00%
+2022-02-17 13:51:08 - MRR@10: 0.0000
+2022-02-17 13:51:08 - NDCG@10: 0.0000
+2022-02-17 13:51:08 - MAP@100: 0.0000
+2022-02-17 13:51:15 - MSE evaluation (lower = better) on mse-validate dataset after epoch 41:
+2022-02-17 13:51:15 - MSE (*100):	27.212512
+2022-02-17 13:51:15 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 41:
+2022-02-17 13:51:16 - Accuracy src2trg: 0.43
+2022-02-17 13:51:16 - Accuracy trg2src: 0.43
+2022-02-17 13:51:16 - MSE evaluation (lower = better) on mse-test dataset after epoch 41:
+2022-02-17 13:51:16 - MSE (*100):	26.958790
+2022-02-17 13:51:16 - Evaluating translation matching Accuracy on trans-test dataset after epoch 41:
+2022-02-17 13:51:16 - Accuracy src2trg: 0.00
+2022-02-17 13:51:16 - Accuracy trg2src: 0.87
+2022-02-17 13:51:16 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 41:
+2022-02-17 13:51:18 - Cosine-Similarity :	Pearson: 0.6901	Spearman: 0.6447
+2022-02-17 13:51:18 - Manhattan-Distance:	Pearson: 0.6555	Spearman: 0.6385
+2022-02-17 13:51:18 - Euclidean-Distance:	Pearson: 0.6396	Spearman: 0.6294
+2022-02-17 13:51:18 - Dot-Product-Similarity:	Pearson: 0.6666	Spearman: 0.6366
+2022-02-17 13:51:18 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 41:
+2022-02-17 13:51:19 - Cosine-Similarity :	Pearson: 0.7294	Spearman: 0.6795
+2022-02-17 13:51:19 - Manhattan-Distance:	Pearson: 0.7043	Spearman: 0.6790
+2022-02-17 13:51:19 - Euclidean-Distance:	Pearson: 0.6851	Spearman: 0.6687
+2022-02-17 13:51:19 - Dot-Product-Similarity:	Pearson: 0.7040	Spearman: 0.6727
+2022-02-17 13:51:19 - Information Retrieval Evaluation on inforet-test dataset after epoch 41:
+2022-02-17 13:51:20 - Queries: 210
+2022-02-17 13:51:20 - Corpus: 1228
+
+2022-02-17 13:51:20 - Score-Function: cos_sim
+2022-02-17 13:51:20 - Accuracy@1220: 0.00%
+2022-02-17 13:51:20 - Precision@1220: 0.00%
+2022-02-17 13:51:20 - Recall@1220: 0.00%
+2022-02-17 13:51:20 - MRR@10: 0.0000
+2022-02-17 13:51:20 - NDCG@10: 0.0000
+2022-02-17 13:51:20 - MAP@100: 0.0000
+2022-02-17 13:51:20 - Score-Function: dot_score
+2022-02-17 13:51:20 - Accuracy@1220: 0.00%
+2022-02-17 13:51:20 - Precision@1220: 0.00%
+2022-02-17 13:51:20 - Recall@1220: 0.00%
+2022-02-17 13:51:20 - MRR@10: 0.0000
+2022-02-17 13:51:20 - NDCG@10: 0.0000
+2022-02-17 13:51:20 - MAP@100: 0.0000
+2022-02-17 13:51:28 - MSE evaluation (lower = better) on mse-validate dataset after epoch 42:
+2022-02-17 13:51:28 - MSE (*100):	26.955646
+2022-02-17 13:51:28 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 42:
+2022-02-17 13:51:28 - Accuracy src2trg: 0.87
+2022-02-17 13:51:28 - Accuracy trg2src: 0.87
+2022-02-17 13:51:29 - MSE evaluation (lower = better) on mse-test dataset after epoch 42:
+2022-02-17 13:51:29 - MSE (*100):	26.733258
+2022-02-17 13:51:29 - Evaluating translation matching Accuracy on trans-test dataset after epoch 42:
+2022-02-17 13:51:29 - Accuracy src2trg: 0.43
+2022-02-17 13:51:29 - Accuracy trg2src: 0.43
+2022-02-17 13:51:29 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 42:
+2022-02-17 13:51:30 - Cosine-Similarity :	Pearson: 0.7250	Spearman: 0.6557
+2022-02-17 13:51:30 - Manhattan-Distance:	Pearson: 0.6940	Spearman: 0.6528
+2022-02-17 13:51:30 - Euclidean-Distance:	Pearson: 0.6733	Spearman: 0.6426
+2022-02-17 13:51:30 - Dot-Product-Similarity:	Pearson: 0.7074	Spearman: 0.6557
+2022-02-17 13:51:30 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 42:
+2022-02-17 13:51:32 - Cosine-Similarity :	Pearson: 0.7589	Spearman: 0.6925
+2022-02-17 13:51:32 - Manhattan-Distance:	Pearson: 0.7366	Spearman: 0.6881
+2022-02-17 13:51:32 - Euclidean-Distance:	Pearson: 0.7162	Spearman: 0.6801
+2022-02-17 13:51:32 - Dot-Product-Similarity:	Pearson: 0.7406	Spearman: 0.6919
+2022-02-17 13:51:32 - Information Retrieval Evaluation on inforet-test dataset after epoch 42:
+2022-02-17 13:51:33 - Queries: 210
+2022-02-17 13:51:33 - Corpus: 1228
+
+2022-02-17 13:51:33 - Score-Function: cos_sim
+2022-02-17 13:51:33 - Accuracy@1220: 0.00%
+2022-02-17 13:51:33 - Precision@1220: 0.00%
+2022-02-17 13:51:33 - Recall@1220: 0.00%
+2022-02-17 13:51:33 - MRR@10: 0.0000
+2022-02-17 13:51:33 - NDCG@10: 0.0000
+2022-02-17 13:51:33 - MAP@100: 0.0000
+2022-02-17 13:51:33 - Score-Function: dot_score
+2022-02-17 13:51:33 - Accuracy@1220: 0.00%
+2022-02-17 13:51:33 - Precision@1220: 0.00%
+2022-02-17 13:51:33 - Recall@1220: 0.00%
+2022-02-17 13:51:33 - MRR@10: 0.0000
+2022-02-17 13:51:33 - NDCG@10: 0.0000
+2022-02-17 13:51:33 - MAP@100: 0.0000
+2022-02-17 13:51:33 - Save model to output/multilingual/model-2022-02-17_13-40
+2022-02-17 13:51:44 - MSE evaluation (lower = better) on mse-validate dataset after epoch 43:
+2022-02-17 13:51:44 - MSE (*100):	27.320462
+2022-02-17 13:51:44 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 43:
+2022-02-17 13:51:44 - Accuracy src2trg: 0.00
+2022-02-17 13:51:44 - Accuracy trg2src: 0.43
+2022-02-17 13:51:44 - MSE evaluation (lower = better) on mse-test dataset after epoch 43:
+2022-02-17 13:51:44 - MSE (*100):	27.065396
+2022-02-17 13:51:44 - Evaluating translation matching Accuracy on trans-test dataset after epoch 43:
+2022-02-17 13:51:44 - Accuracy src2trg: 0.43
+2022-02-17 13:51:44 - Accuracy trg2src: 0.00
+2022-02-17 13:51:44 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 43:
+2022-02-17 13:51:46 - Cosine-Similarity :	Pearson: 0.7080	Spearman: 0.6502
+2022-02-17 13:51:46 - Manhattan-Distance:	Pearson: 0.6641	Spearman: 0.6317
+2022-02-17 13:51:46 - Euclidean-Distance:	Pearson: 0.6384	Spearman: 0.6123
+2022-02-17 13:51:46 - Dot-Product-Similarity:	Pearson: 0.7042	Spearman: 0.6620
+2022-02-17 13:51:46 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 43:
+2022-02-17 13:51:47 - Cosine-Similarity :	Pearson: 0.7559	Spearman: 0.6940
+2022-02-17 13:51:47 - Manhattan-Distance:	Pearson: 0.7222	Spearman: 0.6855
+2022-02-17 13:51:47 - Euclidean-Distance:	Pearson: 0.7003	Spearman: 0.6748
+2022-02-17 13:51:47 - Dot-Product-Similarity:	Pearson: 0.7445	Spearman: 0.7008
+2022-02-17 13:51:47 - Information Retrieval Evaluation on inforet-test dataset after epoch 43:
+2022-02-17 13:51:48 - Queries: 210
+2022-02-17 13:51:48 - Corpus: 1228
+
+2022-02-17 13:51:48 - Score-Function: cos_sim
+2022-02-17 13:51:48 - Accuracy@1220: 0.00%
+2022-02-17 13:51:48 - Precision@1220: 0.00%
+2022-02-17 13:51:48 - Recall@1220: 0.00%
+2022-02-17 13:51:48 - MRR@10: 0.0000
+2022-02-17 13:51:48 - NDCG@10: 0.0000
+2022-02-17 13:51:48 - MAP@100: 0.0000
+2022-02-17 13:51:48 - Score-Function: dot_score
+2022-02-17 13:51:48 - Accuracy@1220: 0.00%
+2022-02-17 13:51:48 - Precision@1220: 0.00%
+2022-02-17 13:51:48 - Recall@1220: 0.00%
+2022-02-17 13:51:48 - MRR@10: 0.0000
+2022-02-17 13:51:48 - NDCG@10: 0.0000
+2022-02-17 13:51:48 - MAP@100: 0.0000
+2022-02-17 13:51:56 - MSE evaluation (lower = better) on mse-validate dataset after epoch 44:
+2022-02-17 13:51:56 - MSE (*100):	27.222830
+2022-02-17 13:51:56 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 44:
+2022-02-17 13:51:56 - Accuracy src2trg: 0.00
+2022-02-17 13:51:56 - Accuracy trg2src: 0.43
+2022-02-17 13:51:56 - MSE evaluation (lower = better) on mse-test dataset after epoch 44:
+2022-02-17 13:51:56 - MSE (*100):	26.923469
+2022-02-17 13:51:56 - Evaluating translation matching Accuracy on trans-test dataset after epoch 44:
+2022-02-17 13:51:57 - Accuracy src2trg: 0.43
+2022-02-17 13:51:57 - Accuracy trg2src: 0.43
+2022-02-17 13:51:57 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 44:
+2022-02-17 13:51:58 - Cosine-Similarity :	Pearson: 0.7222	Spearman: 0.6584
+2022-02-17 13:51:58 - Manhattan-Distance:	Pearson: 0.6892	Spearman: 0.6534
+2022-02-17 13:51:58 - Euclidean-Distance:	Pearson: 0.6747	Spearman: 0.6478
+2022-02-17 13:51:58 - Dot-Product-Similarity:	Pearson: 0.7071	Spearman: 0.6596
+2022-02-17 13:51:58 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 44:
+2022-02-17 13:52:00 - Cosine-Similarity :	Pearson: 0.7680	Spearman: 0.6934
+2022-02-17 13:52:00 - Manhattan-Distance:	Pearson: 0.7381	Spearman: 0.6870
+2022-02-17 13:52:00 - Euclidean-Distance:	Pearson: 0.7243	Spearman: 0.6816
+2022-02-17 13:52:00 - Dot-Product-Similarity:	Pearson: 0.7463	Spearman: 0.6943
+2022-02-17 13:52:00 - Information Retrieval Evaluation on inforet-test dataset after epoch 44:
+2022-02-17 13:52:01 - Queries: 210
+2022-02-17 13:52:01 - Corpus: 1228
+
+2022-02-17 13:52:01 - Score-Function: cos_sim
+2022-02-17 13:52:01 - Accuracy@1220: 0.00%
+2022-02-17 13:52:01 - Precision@1220: 0.00%
+2022-02-17 13:52:01 - Recall@1220: 0.00%
+2022-02-17 13:52:01 - MRR@10: 0.0000
+2022-02-17 13:52:01 - NDCG@10: 0.0000
+2022-02-17 13:52:01 - MAP@100: 0.0000
+2022-02-17 13:52:01 - Score-Function: dot_score
+2022-02-17 13:52:01 - Accuracy@1220: 0.00%
+2022-02-17 13:52:01 - Precision@1220: 0.00%
+2022-02-17 13:52:01 - Recall@1220: 0.00%
+2022-02-17 13:52:01 - MRR@10: 0.0000
+2022-02-17 13:52:01 - NDCG@10: 0.0000
+2022-02-17 13:52:01 - MAP@100: 0.0000
+2022-02-17 13:52:08 - MSE evaluation (lower = better) on mse-validate dataset after epoch 45:
+2022-02-17 13:52:08 - MSE (*100):	27.328855
+2022-02-17 13:52:08 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 45:
+2022-02-17 13:52:09 - Accuracy src2trg: 0.43
+2022-02-17 13:52:09 - Accuracy trg2src: 0.43
+2022-02-17 13:52:09 - MSE evaluation (lower = better) on mse-test dataset after epoch 45:
+2022-02-17 13:52:09 - MSE (*100):	27.015740
+2022-02-17 13:52:09 - Evaluating translation matching Accuracy on trans-test dataset after epoch 45:
+2022-02-17 13:52:09 - Accuracy src2trg: 0.00
+2022-02-17 13:52:09 - Accuracy trg2src: 0.43
+2022-02-17 13:52:09 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 45:
+2022-02-17 13:52:11 - Cosine-Similarity :	Pearson: 0.7484	Spearman: 0.6675
+2022-02-17 13:52:11 - Manhattan-Distance:	Pearson: 0.7030	Spearman: 0.6500
+2022-02-17 13:52:11 - Euclidean-Distance:	Pearson: 0.6855	Spearman: 0.6447
+2022-02-17 13:52:11 - Dot-Product-Similarity:	Pearson: 0.7348	Spearman: 0.6721
+2022-02-17 13:52:11 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 45:
+2022-02-17 13:52:12 - Cosine-Similarity :	Pearson: 0.7823	Spearman: 0.6968
+2022-02-17 13:52:12 - Manhattan-Distance:	Pearson: 0.7511	Spearman: 0.6864
+2022-02-17 13:52:12 - Euclidean-Distance:	Pearson: 0.7314	Spearman: 0.6766
+2022-02-17 13:52:12 - Dot-Product-Similarity:	Pearson: 0.7676	Spearman: 0.7007
+2022-02-17 13:52:12 - Information Retrieval Evaluation on inforet-test dataset after epoch 45:
+2022-02-17 13:52:13 - Queries: 210
+2022-02-17 13:52:13 - Corpus: 1228
+
+2022-02-17 13:52:13 - Score-Function: cos_sim
+2022-02-17 13:52:13 - Accuracy@1220: 0.00%
+2022-02-17 13:52:13 - Precision@1220: 0.00%
+2022-02-17 13:52:13 - Recall@1220: 0.00%
+2022-02-17 13:52:13 - MRR@10: 0.0000
+2022-02-17 13:52:13 - NDCG@10: 0.0000
+2022-02-17 13:52:13 - MAP@100: 0.0000
+2022-02-17 13:52:13 - Score-Function: dot_score
+2022-02-17 13:52:13 - Accuracy@1220: 0.00%
+2022-02-17 13:52:13 - Precision@1220: 0.00%
+2022-02-17 13:52:13 - Recall@1220: 0.00%
+2022-02-17 13:52:13 - MRR@10: 0.0000
+2022-02-17 13:52:13 - NDCG@10: 0.0000
+2022-02-17 13:52:13 - MAP@100: 0.0000
+2022-02-17 13:52:21 - MSE evaluation (lower = better) on mse-validate dataset after epoch 46:
+2022-02-17 13:52:21 - MSE (*100):	27.161524
+2022-02-17 13:52:21 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 46:
+2022-02-17 13:52:21 - Accuracy src2trg: 0.00
+2022-02-17 13:52:21 - Accuracy trg2src: 0.43
+2022-02-17 13:52:21 - MSE evaluation (lower = better) on mse-test dataset after epoch 46:
+2022-02-17 13:52:21 - MSE (*100):	26.922718
+2022-02-17 13:52:21 - Evaluating translation matching Accuracy on trans-test dataset after epoch 46:
+2022-02-17 13:52:22 - Accuracy src2trg: 0.43
+2022-02-17 13:52:22 - Accuracy trg2src: 0.43
+2022-02-17 13:52:22 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 46:
+2022-02-17 13:52:23 - Cosine-Similarity :	Pearson: 0.7456	Spearman: 0.6663
+2022-02-17 13:52:23 - Manhattan-Distance:	Pearson: 0.6896	Spearman: 0.6406
+2022-02-17 13:52:23 - Euclidean-Distance:	Pearson: 0.6736	Spearman: 0.6335
+2022-02-17 13:52:23 - Dot-Product-Similarity:	Pearson: 0.7368	Spearman: 0.6791
+2022-02-17 13:52:23 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 46:
+2022-02-17 13:52:25 - Cosine-Similarity :	Pearson: 0.7886	Spearman: 0.7092
+2022-02-17 13:52:25 - Manhattan-Distance:	Pearson: 0.7401	Spearman: 0.6884
+2022-02-17 13:52:25 - Euclidean-Distance:	Pearson: 0.7239	Spearman: 0.6830
+2022-02-17 13:52:25 - Dot-Product-Similarity:	Pearson: 0.7721	Spearman: 0.7187
+2022-02-17 13:52:25 - Information Retrieval Evaluation on inforet-test dataset after epoch 46:
+2022-02-17 13:52:26 - Queries: 210
+2022-02-17 13:52:26 - Corpus: 1228
+
+2022-02-17 13:52:26 - Score-Function: cos_sim
+2022-02-17 13:52:26 - Accuracy@1220: 0.00%
+2022-02-17 13:52:26 - Precision@1220: 0.00%
+2022-02-17 13:52:26 - Recall@1220: 0.00%
+2022-02-17 13:52:26 - MRR@10: 0.0000
+2022-02-17 13:52:26 - NDCG@10: 0.0000
+2022-02-17 13:52:26 - MAP@100: 0.0000
+2022-02-17 13:52:26 - Score-Function: dot_score
+2022-02-17 13:52:26 - Accuracy@1220: 0.00%
+2022-02-17 13:52:26 - Precision@1220: 0.00%
+2022-02-17 13:52:26 - Recall@1220: 0.00%
+2022-02-17 13:52:26 - MRR@10: 0.0000
+2022-02-17 13:52:26 - NDCG@10: 0.0000
+2022-02-17 13:52:26 - MAP@100: 0.0000
+2022-02-17 13:52:33 - MSE evaluation (lower = better) on mse-validate dataset after epoch 47:
+2022-02-17 13:52:33 - MSE (*100):	27.155617
+2022-02-17 13:52:33 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 47:
+2022-02-17 13:52:34 - Accuracy src2trg: 0.43
+2022-02-17 13:52:34 - Accuracy trg2src: 0.43
+2022-02-17 13:52:34 - MSE evaluation (lower = better) on mse-test dataset after epoch 47:
+2022-02-17 13:52:34 - MSE (*100):	26.932913
+2022-02-17 13:52:34 - Evaluating translation matching Accuracy on trans-test dataset after epoch 47:
+2022-02-17 13:52:34 - Accuracy src2trg: 0.00
+2022-02-17 13:52:34 - Accuracy trg2src: 0.43
+2022-02-17 13:52:34 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 47:
+2022-02-17 13:52:36 - Cosine-Similarity :	Pearson: 0.7677	Spearman: 0.6631
+2022-02-17 13:52:36 - Manhattan-Distance:	Pearson: 0.7455	Spearman: 0.6629
+2022-02-17 13:52:36 - Euclidean-Distance:	Pearson: 0.7421	Spearman: 0.6595
+2022-02-17 13:52:36 - Dot-Product-Similarity:	Pearson: 0.7685	Spearman: 0.6770
+2022-02-17 13:52:36 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 47:
+2022-02-17 13:52:37 - Cosine-Similarity :	Pearson: 0.8004	Spearman: 0.7140
+2022-02-17 13:52:37 - Manhattan-Distance:	Pearson: 0.7741	Spearman: 0.6916
+2022-02-17 13:52:37 - Euclidean-Distance:	Pearson: 0.7765	Spearman: 0.6934
+2022-02-17 13:52:37 - Dot-Product-Similarity:	Pearson: 0.7999	Spearman: 0.7204
+2022-02-17 13:52:37 - Information Retrieval Evaluation on inforet-test dataset after epoch 47:
+2022-02-17 13:52:38 - Queries: 210
+2022-02-17 13:52:38 - Corpus: 1228
+
+2022-02-17 13:52:38 - Score-Function: cos_sim
+2022-02-17 13:52:38 - Accuracy@1220: 0.00%
+2022-02-17 13:52:38 - Precision@1220: 0.00%
+2022-02-17 13:52:38 - Recall@1220: 0.00%
+2022-02-17 13:52:38 - MRR@10: 0.0000
+2022-02-17 13:52:38 - NDCG@10: 0.0000
+2022-02-17 13:52:38 - MAP@100: 0.0000
+2022-02-17 13:52:38 - Score-Function: dot_score
+2022-02-17 13:52:38 - Accuracy@1220: 0.00%
+2022-02-17 13:52:38 - Precision@1220: 0.00%
+2022-02-17 13:52:38 - Recall@1220: 0.00%
+2022-02-17 13:52:38 - MRR@10: 0.0000
+2022-02-17 13:52:38 - NDCG@10: 0.0000
+2022-02-17 13:52:38 - MAP@100: 0.0000
+2022-02-17 13:52:46 - MSE evaluation (lower = better) on mse-validate dataset after epoch 48:
+2022-02-17 13:52:46 - MSE (*100):	27.215692
+2022-02-17 13:52:46 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 48:
+2022-02-17 13:52:46 - Accuracy src2trg: 0.00
+2022-02-17 13:52:46 - Accuracy trg2src: 0.43
+2022-02-17 13:52:47 - MSE evaluation (lower = better) on mse-test dataset after epoch 48:
+2022-02-17 13:52:47 - MSE (*100):	26.971149
+2022-02-17 13:52:47 - Evaluating translation matching Accuracy on trans-test dataset after epoch 48:
+2022-02-17 13:52:47 - Accuracy src2trg: 0.43
+2022-02-17 13:52:47 - Accuracy trg2src: 0.87
+2022-02-17 13:52:47 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 48:
+2022-02-17 13:52:48 - Cosine-Similarity :	Pearson: 0.7679	Spearman: 0.6738
+2022-02-17 13:52:48 - Manhattan-Distance:	Pearson: 0.7232	Spearman: 0.6528
+2022-02-17 13:52:48 - Euclidean-Distance:	Pearson: 0.7140	Spearman: 0.6491
+2022-02-17 13:52:48 - Dot-Product-Similarity:	Pearson: 0.7592	Spearman: 0.6867
+2022-02-17 13:52:48 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 48:
+2022-02-17 13:52:50 - Cosine-Similarity :	Pearson: 0.8178	Spearman: 0.7231
+2022-02-17 13:52:50 - Manhattan-Distance:	Pearson: 0.7728	Spearman: 0.6991
+2022-02-17 13:52:50 - Euclidean-Distance:	Pearson: 0.7660	Spearman: 0.6991
+2022-02-17 13:52:50 - Dot-Product-Similarity:	Pearson: 0.8030	Spearman: 0.7307
+2022-02-17 13:52:50 - Information Retrieval Evaluation on inforet-test dataset after epoch 48:
+2022-02-17 13:52:51 - Queries: 210
+2022-02-17 13:52:51 - Corpus: 1228
+
+2022-02-17 13:52:51 - Score-Function: cos_sim
+2022-02-17 13:52:51 - Accuracy@1220: 0.00%
+2022-02-17 13:52:51 - Precision@1220: 0.00%
+2022-02-17 13:52:51 - Recall@1220: 0.00%
+2022-02-17 13:52:51 - MRR@10: 0.0000
+2022-02-17 13:52:51 - NDCG@10: 0.0000
+2022-02-17 13:52:51 - MAP@100: 0.0000
+2022-02-17 13:52:51 - Score-Function: dot_score
+2022-02-17 13:52:51 - Accuracy@1220: 0.00%
+2022-02-17 13:52:51 - Precision@1220: 0.00%
+2022-02-17 13:52:51 - Recall@1220: 0.00%
+2022-02-17 13:52:51 - MRR@10: 0.0000
+2022-02-17 13:52:51 - NDCG@10: 0.0000
+2022-02-17 13:52:51 - MAP@100: 0.0000
+2022-02-17 13:52:59 - MSE evaluation (lower = better) on mse-validate dataset after epoch 49:
+2022-02-17 13:52:59 - MSE (*100):	27.294335
+2022-02-17 13:52:59 - Evaluating translation matching Accuracy on trans-validate dataset after epoch 49:
+2022-02-17 13:52:59 - Accuracy src2trg: 1.30
+2022-02-17 13:52:59 - Accuracy trg2src: 0.43
+2022-02-17 13:52:59 - MSE evaluation (lower = better) on mse-test dataset after epoch 49:
+2022-02-17 13:52:59 - MSE (*100):	27.018940
+2022-02-17 13:52:59 - Evaluating translation matching Accuracy on trans-test dataset after epoch 49:
+2022-02-17 13:52:59 - Accuracy src2trg: 0.43
+2022-02-17 13:52:59 - Accuracy trg2src: 1.30
+2022-02-17 13:52:59 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-val dataset after epoch 49:
+2022-02-17 13:53:01 - Cosine-Similarity :	Pearson: 0.7733	Spearman: 0.6849
+2022-02-17 13:53:01 - Manhattan-Distance:	Pearson: 0.7300	Spearman: 0.6586
+2022-02-17 13:53:01 - Euclidean-Distance:	Pearson: 0.7243	Spearman: 0.6590
+2022-02-17 13:53:01 - Dot-Product-Similarity:	Pearson: 0.7559	Spearman: 0.6900
+2022-02-17 13:53:01 - EmbeddingSimilarityEvaluator: Evaluating the model on cossim-test dataset after epoch 49:
+2022-02-17 13:53:02 - Cosine-Similarity :	Pearson: 0.8178	Spearman: 0.7285
+2022-02-17 13:53:02 - Manhattan-Distance:	Pearson: 0.7754	Spearman: 0.7055
+2022-02-17 13:53:02 - Euclidean-Distance:	Pearson: 0.7715	Spearman: 0.7043
+2022-02-17 13:53:02 - Dot-Product-Similarity:	Pearson: 0.8001	Spearman: 0.7302
+2022-02-17 13:53:02 - Information Retrieval Evaluation on inforet-test dataset after epoch 49:
+2022-02-17 13:53:03 - Queries: 210
+2022-02-17 13:53:03 - Corpus: 1228
+
+2022-02-17 13:53:03 - Score-Function: cos_sim
+2022-02-17 13:53:03 - Accuracy@1220: 0.00%
+2022-02-17 13:53:03 - Precision@1220: 0.00%
+2022-02-17 13:53:03 - Recall@1220: 0.00%
+2022-02-17 13:53:03 - MRR@10: 0.0000
+2022-02-17 13:53:03 - NDCG@10: 0.0000
+2022-02-17 13:53:03 - MAP@100: 0.0000
+2022-02-17 13:53:03 - Score-Function: dot_score
+2022-02-17 13:53:03 - Accuracy@1220: 0.00%
+2022-02-17 13:53:03 - Precision@1220: 0.00%
+2022-02-17 13:53:03 - Recall@1220: 0.00%
+2022-02-17 13:53:03 - MRR@10: 0.0000
+2022-02-17 13:53:03 - NDCG@10: 0.0000
+2022-02-17 13:53:03 - MAP@100: 0.0000
