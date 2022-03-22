@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 
 ###### CREATE MODEL ######
-teacher_model_name = 'bert-base-nli-stsb-mean-tokens'   #Our monolingual teacher model, we want to convert to multiple languages
+teacher_model_name = 'microsoft/mpnet-base'   #Our monolingual teacher model, we want to convert to multiple languages
 student_model_name = 'xlm-roberta-base'       #Multilingual base model we use to imitate the teacher model
 
 max_seq_length = 128                #Student model max. lengths for inputs (number of word pieces)
