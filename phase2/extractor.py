@@ -114,6 +114,8 @@ def main():
         data["embeddings"] = getEmbeddings(emoji_sent, model, EM_ID)
         data["mean_embedding"] = torch.mean(data["embeddings"], dim=0)
 
+        assert len(data["embeddings"]) == data["num_emoji"] + 1
+
         dataset.append(data)
 
     print(f"Built dataset with {len(dataset)} samples\n")
