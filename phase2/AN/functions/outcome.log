@@ -1,0 +1,94 @@
+=> Ranking evaluation on: ../data/AN_scoring_mpnet.json
+
+Category sets:
+ -> without semineg samples: {0: 'randneg', 1: 'baseline', 2: 'positive'}
+ -> with semineg samples: {0: 'randneg', 1: 'semineg', 2: 'baseline', 3: 'positive'}
+
+Category set: without semineg samples
+210
+  Dataset: raw 
+  Ranking evaluation outcome: 
+         - Number of samples ranked 1st: {2: 185, 1: 27} 
+
+  Dataset: augmented 
+  Ranking evaluation outcome: 
+         - Number of samples ranked 1st: {2: 187, 1: 21, 0: 2} 
+
+Category set: with semineg samples
+210
+  Dataset: raw 
+  Ranking evaluation outcome: 
+         - Number of samples ranked 1st: {3: 172, 1: 23, 2: 18} 
+
+  Dataset: augmented 
+  Ranking evaluation outcome: 
+         - Number of samples ranked 1st: {3: 170, 2: 19, 0: 2, 1: 19} 
+
+{'with semineg samples': {'augmented': {0: {'category_name': 'randneg',
+                                            'max_count': 2,
+                                            'max_count_percentage': 0.009523809523809525},
+                                        1: {'category_name': 'semineg',
+                                            'max_count': 19,
+                                            'max_count_percentage': 0.09047619047619047},
+                                        2: {'category_name': 'baseline',
+                                            'max_count': 19,
+                                            'max_count_percentage': 0.09047619047619047},
+                                        3: {'category_name': 'positive',
+                                            'max_count': 170,
+                                            'max_count_percentage': 0.8095238095238095}},
+                          'raw': {0: {'category_name': 'randneg'},
+                                  1: {'category_name': 'semineg',
+                                      'max_count': 23,
+                                      'max_count_percentage': 0.10952380952380952},
+                                  2: {'category_name': 'baseline',
+                                      'max_count': 18,
+                                      'max_count_percentage': 0.08571428571428572},
+                                  3: {'category_name': 'positive',
+                                      'max_count': 172,
+                                      'max_count_percentage': 0.819047619047619}}},
+ 'without semineg samples': {'augmented': {0: {'category_name': 'randneg',
+                                               'max_count': 2,
+                                               'max_count_percentage': 0.009523809523809525},
+                                           1: {'category_name': 'baseline',
+                                               'max_count': 21,
+                                               'max_count_percentage': 0.1},
+                                           2: {'category_name': 'positive',
+                                               'max_count': 187,
+                                               'max_count_percentage': 0.8904761904761904}},
+                             'raw': {0: {'category_name': 'randneg'},
+                                     1: {'category_name': 'baseline',
+                                         'max_count': 27,
+                                         'max_count_percentage': 0.12857142857142856},
+                                     2: {'category_name': 'positive',
+                                         'max_count': 185,
+                                         'max_count_percentage': 0.8809523809523809}}}}
+                                         
+=> Outcome on the file: /home/ziyun99/fyp-ELCO/data/AN/an-data-collection.json
+
+total number of responses from annotators: 1153, average nummber of annotaters per concept: 5.49
+avg length of emoji annotations: 2.13
+avg match count: 0.16
+number of non-zero match count (for all the emoji annotations): 186
+number of zero-emoji match count: 967 (83.87%)
+number of one-emoji match count: 185 (16.05%)
+number of two-emoji match count: 1 (0.09%)
+
+
+=> Outcome on the file: ../data/AN_scoring_mpnet.json
+
+total number of responses from annotators: 1663, average nummber of annotaters per concept: 7.92
+avg length of emoji annotations: 2.59
+avg match count: 0.20
+number of non-zero match count (for all the emoji annotations): 326
+number of zero-emoji match count: 1337 (80.40%)
+number of one-emoji match count: 315 (18.94%)
+number of two-emoji match count: 11 (0.66%)
+
+(sbert) ziyun99@gpuserver:~/fyp-ELCO/phase2/AN/functions$ python plot_AN.py 
+=> Outcome on the file: ../data/AN_scoring_mpnet.json
+
+mean, median, mode, variance [2.32228905 2.17380952 2.05714286 1.14753476]
+(sbert) ziyun99@gpuserver:~/fyp-ELCO/phase2/AN/functions$ python plot_AN.py 
+=> Outcome on the file: /home/ziyun99/fyp-ELCO/data/AN/AN_scoring_mpnet.json
+
+mean, median, mode, variance [2.7010785  2.70952381 2.58571429 1.4026535 ]
