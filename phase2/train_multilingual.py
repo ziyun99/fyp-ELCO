@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 
 ###### CREATE MODEL ######
-teacher_model_name = 'bert-base-nli-stsb-mean-tokens'   #Our monolingual teacher model, we want to convert to multiple languages
+teacher_model_name = 'microsoft/mpnet-base'   #Our monolingual teacher model, we want to convert to multiple languages
 student_model_name = 'xlm-roberta-base'       #Multilingual base model we use to imitate the teacher model
 
 max_seq_length = 128                #Student model max. lengths for inputs (number of word pieces)
@@ -37,6 +37,7 @@ num_warmup_steps = 5000             #Warumup steps
 
 num_evaluation_steps = 1000          #Evaluate performance after every xxxx steps
 
+num_epochs_to_save = 50             # Save the model checkpoint after xxxx epochs
 
 # Load teacher model
 print("Load teacher model")
@@ -198,5 +199,7 @@ model.fit(train_objectives=train_objectives,
           scheduler='warmuplinear',
           output_path=output_path,
           save_best_model=True,
-          optimizer_params= {'lr': 2e-5, 'eps': 1e-6, 'correct_bias': False}
+          optimizer_params= {'lr': 2e-5, 'eps': 1e-6, 'correct_bias': False},
+          checkpoint_save_steps=28 * num_epochs_to_save,
+          checkpoint_path=output_path + "/checkpoints"
           )
