@@ -1,13 +1,34 @@
 import pandas as pd
 import json
 import numpy as np
+import os
 
-filepath = "../data/AN_scoring_mpnet.json"
-old_path = "/home/ziyun99/fyp-ELCO/data/AN/AN_scoring_mpnet.json"
+DATASET_ID = 1
+
+DATA_FOLDER = [
+    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
+    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
+]
+RAW_DATA_FILEPATH = os.path.join(
+    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_mpnet.json"
+)
+SCORE_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score.xlsx")
+
+ATTRIBUTE_DATA_FILEPATH = os.path.join(
+    DATA_FOLDER[DATASET_ID], "scores", "AN_score_attribute.xlsx"
+)
+ADJ_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score_adj.xlsx")
 
 
-def score_json_to_csv(filepath):
-    f = open(filepath)
+def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
+    """
+    Input: Raw data file with scores for all annotations for each concept.
+    Output: A dataframe with mean similarity scores for each concetps.
+
+    Use mean to aggregate the scores of all annotations for each concept.
+    Save the dataframe to xlsx file.
+    """
+    f = open(raw_data_filepath)
     data_dict = json.load(f)
 
     scores = []
@@ -37,7 +58,6 @@ def score_json_to_csv(filepath):
             ratings_stats[i].append(ratings_stat[i])
 
     concepts = list(data_dict.keys())
-    concept_count = len(concepts)
 
     adj = [c.split(" ")[0] for c in concepts]
 
@@ -85,12 +105,66 @@ def score_json_to_csv(filepath):
     score_df["ratings_stat_variance"] = ratings_stats[3]
 
     # print(score_df.head())
+    if score_data_filepath:
+        score_df.to_excel(score_data_filepath)
+        print(
+            "\nDone reading raw data file: {}, \n returns a mean similarity score dataframe, \n also saved at {}".format(
+                raw_data_filepath, score_data_filepath
+            )
+        )
     return score_df
 
 
-score_df = score_json_to_csv(filepath)
-score_df.to_csv("../scores/AN_score.csv")
-score_df.to_excel("../scores/AN_score.xlsx")
+def groupby_adj_attri(raw_data_filepath, attribute_data_filepath, adj_data_filepath):
+    """
+    Analysis on scores by breaking down on attribute and adjective.
+
+    Compute mean similarity scores & margin scores,
+    which are obtain from the aggregation of attribute and adjective of the AN concepts,
+    sort the concepts by margin score,
+    and save into xlsx files.
+    """
+
+    df = score_json_to_csv(raw_data_filepath)
+    score_df = df.drop(
+        columns=["semineg_avg", "augment_semineg_avg", "pos_avg", "augment_pos_avg"]
+    )
+
+    # compute margin scores
+    score_df["pos_baseline"] = score_df["pos_max"] - score_df["baseline"]
+    score_df["pos_semineg"] = score_df["pos_max"] - score_df["semineg_max"]
+    score_df["pos_randneg"] = score_df["pos_max"] - score_df["randneg"]
+
+    # group by attributes
+    count = score_df.groupby("attribute")["pos_max"].transform("count")
+    score_df["attribute_count"] = count
+    mean_bygroup = score_df.groupby("attribute").mean().round(4)
+    mean_bygroup = mean_bygroup.sort_values(
+        by=["pos_baseline", "pos_randneg", "pos_semineg", "attribute_count"],
+        ascending=False,
+    )
+    print(mean_bygroup.shape)
+    mean_bygroup.to_excel(attribute_data_filepath)
+
+    # group by adjectives
+    count = score_df.groupby("adj")["pos_max"].transform("count")
+    score_df["adj_count"] = count
+    mean_bygroup = score_df.groupby("adj").mean().round(4)
+    mean_bygroup = mean_bygroup.sort_values(
+        by=["pos_baseline", "pos_randneg", "pos_semineg", "adj_count"], ascending=False
+    )
+    print(mean_bygroup.shape)
+    mean_bygroup.to_excel(adj_data_filepath)
+
+    print(
+        "\nDone reading datafile: {}, \n saved breakdown aggregated scores for \n attributes (total attribute count: {}): {}, \n for adjectives (total adj count: {}): {}".format(
+            raw_data_filepath,
+            len(attribute_data_filepath),
+            attribute_data_filepath,
+            len(adj_data_filepath),
+            adj_data_filepath,
+        )
+    )
 
 
 def compute_matching_baseline(filepath):
@@ -131,37 +205,34 @@ def compute_matching_baseline(filepath):
     zero_emoji_match = num_response - non_zeros
     one_emoji_match = non_zeros - perfect_match_count
 
-    print("=> Outcome on the file: {}\n".format(filepath))
+    print("\n=> Compute matching baseline. Outcome on the file: {}".format(filepath))
     print(
-        "total number of responses from annotators: {}, average nummber of annotaters per concept: {:.2f}".format(
+        " total number of responses from annotators: {}, average nummber of annotaters per concept: {:.2f}".format(
             num_response, num_response / len(data_dict)
         )
     )
-    print("avg length of emoji annotations: {:.2f}".format(emoji_len / len(data_dict)))
-    print("avg match count: {:.2f}".format(avg_all_match_counts))
+    print(" avg length of emoji annotations: {:.2f}".format(emoji_len / len(data_dict)))
+    print(" avg match count: {:.2f}".format(avg_all_match_counts))
     print(
-        "number of non-zero match count (for all the emoji annotations): {}".format(
+        " number of non-zero match count (for all the emoji annotations): {}".format(
             non_zeros
         )
     )
     print(
-        "number of zero-emoji match count: {} ({:.2f}%)".format(
+        " number of zero-emoji match count: {} ({:.2f}%)".format(
             zero_emoji_match, zero_emoji_match / num_response * 100
         )
     )
     print(
-        "number of one-emoji match count: {} ({:.2f}%)".format(
+        " number of one-emoji match count: {} ({:.2f}%)".format(
             one_emoji_match, one_emoji_match / num_response * 100
         )
     )
     print(
-        "number of two-emoji match count: {} ({:.2f}%)".format(
+        " number of two-emoji match count: {} ({:.2f}%)".format(
             perfect_match_count, perfect_match_count / num_response * 100
         )
     )
-
-
-# compute_matching_baseline(filepath)
 
 
 def compute_ratings(filepath):
@@ -175,91 +246,42 @@ def compute_ratings(filepath):
     rating_stats = np.array(rating_stats)
     rating_stats_mean = np.nanmean(rating_stats, axis=0)
 
-    print("=> Outcome on the file: {}\n".format(filepath))
+    print("\n=> Compute ratings. Outcome on the file: {}".format(filepath))
     print(
         "Ratings (over all annotations of all concepts): mean, median, mode, variance",
         rating_stats_mean,
     )
 
 
-# compute_ratings(old_path)
+def get_top_bottom_k(filepath, k, min_samples, breakdown_type):
+    df = pd.read_excel(filepath)
+    df = df.loc[df["{}_count".format(breakdown_type)]>= min_samples]
+    topk = df[:k]
+    bottomk = df[-k:]
 
-
-# generate & save csv files on mean scores & margin scores 
-# which are aggregated by attribute and adjective of the AN concepts
-# and sort the concepts by margin score
-def groupby_adj_attri(filepath):
-    score_df = score_json_to_csv(filepath)
-    print(score_df)
-    score_df = score_df.drop(
-        columns=["semineg_avg", "augment_semineg_avg", "pos_avg", "augment_pos_avg"]
+    print("\n => Get TopK and Bottom K. Outcome on the file: {}".format(filepath))
+    print(
+        " Top{} with min {} samples: \n List: {}, margin scores (mean: {:.4f}): {}, average ratings (mean: {:.4f}): {}".format(
+            k,
+            min_samples,
+            topk["{}".format(breakdown_type)].tolist(),
+            np.mean(topk["pos_baseline"].tolist()),
+            topk["pos_baseline"].tolist(),
+            np.mean(topk["ratings_stat_mean"].tolist()),
+            topk["ratings_stat_mean"].tolist(),
+        )
     )
-
-    # compute margin scores
-    score_df["pos_baseline"] = score_df["pos_max"] - score_df["baseline"]
-    score_df["pos_semineg"] = score_df["pos_max"] - score_df["semineg_max"]
-    score_df["pos_randneg"] = score_df["pos_max"] - score_df["randneg"]
-
-    # group by attributes
-    count = score_df.groupby("attribute")["pos_max"].transform("count")
-    score_df["attri_count"] = count
-
-    mean_bygroup = score_df.groupby("attribute").mean().round(4)
-    mean_bygroup = mean_bygroup.sort_values(
-        by=["pos_baseline", "pos_randneg", "pos_semineg", "attri_count"],
-        ascending=False,
+    print(
+        " Bottom{} with min {} samples: \n List: {}, margin scores (mean: {:.4f}): {}, average ratings (mean: {:.4f}): {}".format(
+            k,
+            min_samples,
+            bottomk["{}".format(breakdown_type)].tolist(),
+            np.mean(bottomk["pos_baseline"].tolist()),
+            bottomk["pos_baseline"].tolist(),
+            np.mean(bottomk["ratings_stat_mean"].tolist()),
+            bottomk["ratings_stat_mean"].tolist(),
+        )
     )
-    print(mean_bygroup)
-    mean_bygroup.to_excel("../scores/breakdown/AN-score-attri.xlsx")
-
-    # group by adjectives
-    count = score_df.groupby("adj")["pos_max"].transform("count")
-    score_df["adj_count"] = count
-
-    mean_bygroup = score_df.groupby("adj").mean().round(4)
-    mean_bygroup = mean_bygroup.sort_values(
-        by=["pos_baseline", "pos_randneg", "pos_semineg", "adj_count"], ascending=False
-    )
-    print(mean_bygroup.shape)
-    mean_bygroup.to_excel("../scores/breakdown/AN-score-adj.xlsx")
-
-
-groupby_adj_attri(filepath)
-
-
-def get_top10_ratings(filepath):
-    df = score_json_to_csv(filepath)
-    target_col = "attribute"
-    target = [
-        "PERFECTION",
-        "FRESHNESS",
-        "WEIGHT",
-        "DOMESTICITY",
-        "DULLNESS",
-        "LEGALITY",
-        "COMPLETENESS",
-        "RIGHTNESS",
-        "COLOR",
-        "ORDINARINESS",
-    ]
-    target_col = "adj"
-    target = [
-        "fresh",
-        "foreign",
-        "heavy",
-        "internal",
-        "domestic",
-        "sound",
-        "intelligent",
-        "far",
-        "full",
-        "bright",
-    ]
-    for t in target:
-        win = df.loc[(df[target_col] == t)]["ratings_stats"].to_numpy()
-        win = [i[0] for i in win]
-        win = np.mean(np.array(win))
-        print(round(win, 4))
 
 
 import plotly.express as px
@@ -294,6 +316,18 @@ def plot_line_graph(score_df, col, img_name):
 # plot_line_graph(score_df, col, img_name)
 # plot_scores(score_df)
 
+if __name__ == "__main__":
+    # aggregate similarity scores by concept
+    score_df = score_json_to_csv(RAW_DATA_FILEPATH, SCORE_DATA_FILEPATH)
+
+    # aggregae similarity scores by adjectives/attributes
+    groupby_adj_attri(RAW_DATA_FILEPATH, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
+
+    compute_matching_baseline(RAW_DATA_FILEPATH)
+    compute_ratings(RAW_DATA_FILEPATH)
+
+    get_top_bottom_k(ADJ_DATA_FILEPATH, k=5, min_samples=3, breakdown_type='adj')
+    get_top_bottom_k(ATTRIBUTE_DATA_FILEPATH, k=5, min_samples=2, breakdown_type='attribute')
 
 from sklearn.metrics import ndcg_score
 from sklearn.metrics import label_ranking_loss

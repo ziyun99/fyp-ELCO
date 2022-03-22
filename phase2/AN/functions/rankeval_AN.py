@@ -2,10 +2,24 @@ import pandas as pd
 import json
 from collections import Counter
 import pprint
+import os
 
-# convert scores into ranking of each samples: ideal ranking is [0(randneg), 1(semineg), 2(baseline), 3(positive)]
-# return ranking of those without & with semineg samples, each [ [without augmentation], [with augmentation] ].
+DATASET_ID = 0
+
+DATA_FOLDER = [
+    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
+    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
+]
+RAW_DATA_FILEPATH = os.path.join(
+    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_mpnet.json"
+)
+
+
 def get_score_ranking(filepath):
+    '''
+    convert scores into ranking of each samples: ideal ranking is [0(randneg), 1(semineg), 2(baseline), 3(positive)]
+    return ranking of those without & with semineg samples, each [ [without augmentation], [with augmentation] ].
+    '''
     f = open(filepath)
     data_dict = json.load(f)
 
@@ -129,8 +143,8 @@ def evaluate(filepath):
     pprint.pprint(category_outcome)
 
 
-filepath = "../data/AN_scoring_mpnet.json"
-evaluate(filepath)
+if __name__ == "__main__":
+    evaluate(RAW_DATA_FILEPATH)
 
 #     for i in [0, 1]:
 #         print(i)
