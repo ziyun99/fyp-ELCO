@@ -10,7 +10,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
 DATA_FOLDER = os.path.join("..", "data", "training")
 DATA_FILEPATH = os.path.join(DATA_FOLDER, "parallel_data.txt")
-SAVE_FILEPATH = os.path.join(DATA_FOLDER, "extracted_embeddings.pt")
+SAVE_FILEPATH = os.path.join(DATA_FOLDER, "extracted_features.pt")
 
 EM = "[EM]"  # Special emoji token
 
@@ -90,8 +90,8 @@ def main():
     #     print(f"Sample {i + 1}: {corpus[i]}")
 
     """
-    Build dataset from corpus
-    A dataset is a list of size len(corpus). Each item in dataset is a 
+    Extract features from corpus
+    Features is a list of size len(corpus). Each item in the list is a 
     dict(
         "english_sent": str,
         "emoji_sent": str,
@@ -101,7 +101,7 @@ def main():
         "mean_embedding": list[int],
     ).
     """
-    dataset = []
+    features = []
     for english_sent, emoji_sent in corpus:
         data = dict()
         data["english_sent"] = english_sent
@@ -116,18 +116,18 @@ def main():
 
         assert len(data["embeddings"]) == data["num_emoji"] + 1, data
 
-        dataset.append(data)
+        features.append(data)
 
-    print(f"Built dataset with {len(dataset)} samples\n")
+    print(f"Extracted features from {len(features)} samples\n")
     # for i in range(5):
-    #     print(f"Dataset {i + 1}: {dataset[i]}\n")
+    #     print(f"Sample {i + 1}: {features[i]}\n")
     # print()
 
     """
-    Save dataset using pickle
+    Save features using pickle
     """
-    torch.save(dataset, SAVE_FILEPATH)
-    print(f"Saved dataset into file: {SAVE_FILEPATH}\n")
+    torch.save(features, SAVE_FILEPATH)
+    print(f"Saved features into file: {SAVE_FILEPATH}\n")
 
 
 if __name__ == "__main__":
