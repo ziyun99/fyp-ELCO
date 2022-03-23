@@ -303,114 +303,114 @@ if __name__ == "__main__":
     analyse_scores()
 
 
-from sklearn.metrics import ndcg_score
-from sklearn.metrics import label_ranking_loss
-from sklearn.metrics import label_ranking_average_precision_score
+# from sklearn.metrics import ndcg_score
+# from sklearn.metrics import label_ranking_loss
+# from sklearn.metrics import label_ranking_average_precision_score
 
 
-def run_metrics(score_df):
-    metrics_df = score_df
-    randneg = [np.array(score_df["randneg"])]
-    semineg = [np.array(score_df["semineg_max"])]
-    semineg_avg = [np.array(score_df["semineg_avg"])]
-    baseline = [np.array(score_df["baseline"])]
-    pos = [np.array(score_df["pos_max"])]
-    pos_avg = [np.array(score_df["pos_avg"])]
+# def run_metrics(score_df):
+#     metrics_df = score_df
+#     randneg = [np.array(score_df["randneg"])]
+#     semineg = [np.array(score_df["semineg_max"])]
+#     semineg_avg = [np.array(score_df["semineg_avg"])]
+#     baseline = [np.array(score_df["baseline"])]
+#     pos = [np.array(score_df["pos_max"])]
+#     pos_avg = [np.array(score_df["pos_avg"])]
 
-    scores = np.concatenate((randneg, semineg, baseline, pos), axis=0).T
-    print(scores.shape)
+#     scores = np.concatenate((randneg, semineg, baseline, pos), axis=0).T
+#     print(scores.shape)
 
-    true_relevance = np.asarray([[-1, -0.5, 0, 1]])
-    ndcg_scores = []
-    for score in scores:
-        score = np.asarray([score])
-        ndcg = ndcg_score(true_relevance, score)
-        # print(true_relevance, score, ndcg)
-        ndcg_scores.append(round(ndcg, 4))
+#     true_relevance = np.asarray([[-1, -0.5, 0, 1]])
+#     ndcg_scores = []
+#     for score in scores:
+#         score = np.asarray([score])
+#         ndcg = ndcg_score(true_relevance, score)
+#         # print(true_relevance, score, ndcg)
+#         ndcg_scores.append(round(ndcg, 4))
 
-    ndcg = np.mean(ndcg_scores)
-    print(ndcg)
-    metrics_df["ndcg_score"] = ndcg_scores
+#     ndcg = np.mean(ndcg_scores)
+#     print(ndcg)
+#     metrics_df["ndcg_score"] = ndcg_scores
 
-    true_relevance = np.asarray([[0, 0, 0, 1]])
-    ranking_losses = []
-    for score in scores:
-        score = np.asarray([score])
-        ranking_loss = label_ranking_loss(true_relevance, score)
-        # print(true_relevance, score, ranking_loss)
-        ranking_losses.append(round(ranking_loss, 4))
+#     true_relevance = np.asarray([[0, 0, 0, 1]])
+#     ranking_losses = []
+#     for score in scores:
+#         score = np.asarray([score])
+#         ranking_loss = label_ranking_loss(true_relevance, score)
+#         # print(true_relevance, score, ranking_loss)
+#         ranking_losses.append(round(ranking_loss, 4))
 
-    ranking_loss = np.mean(ranking_losses)
-    print(ranking_loss)
-    metrics_df["ranking_loss"] = ranking_losses
+#     ranking_loss = np.mean(ranking_losses)
+#     print(ranking_loss)
+#     metrics_df["ranking_loss"] = ranking_losses
 
-    true_relevance = np.asarray([[0, 0, 0, 1]])
-    map_scores = []
-    for score in scores:
-        score = np.asarray([score])
-        map_score = label_ranking_average_precision_score(true_relevance, score)
-        # print(true_relevance, score, map_score)
-        map_scores.append(round(map_score, 4))
+#     true_relevance = np.asarray([[0, 0, 0, 1]])
+#     map_scores = []
+#     for score in scores:
+#         score = np.asarray([score])
+#         map_score = label_ranking_average_precision_score(true_relevance, score)
+#         # print(true_relevance, score, map_score)
+#         map_scores.append(round(map_score, 4))
 
-    map_score = np.mean(map_scores)
-    print(map_score)
-    metrics_df["map_score"] = map_scores
+#     map_score = np.mean(map_scores)
+#     print(map_score)
+#     metrics_df["map_score"] = map_scores
 
-    augment_randneg = [np.array(score_df["augment_randneg"])]
-    augment_semineg = [np.array(score_df["augment_semineg_max"])]
-    augment_semineg_avg = [np.array(score_df["augment_semineg_avg"])]
-    augment_baseline = [np.array(score_df["augment_baseline"])]
-    augment_pos = [np.array(score_df["augment_pos_max"])]
-    augment_pos_avg = [np.array(score_df["augment_pos_avg"])]
+#     augment_randneg = [np.array(score_df["augment_randneg"])]
+#     augment_semineg = [np.array(score_df["augment_semineg_max"])]
+#     augment_semineg_avg = [np.array(score_df["augment_semineg_avg"])]
+#     augment_baseline = [np.array(score_df["augment_baseline"])]
+#     augment_pos = [np.array(score_df["augment_pos_max"])]
+#     augment_pos_avg = [np.array(score_df["augment_pos_avg"])]
 
-    augment_scores = np.concatenate(
-        (augment_randneg, augment_semineg, augment_baseline, augment_pos), axis=0
-    ).T
-    print(augment_scores.shape)
+#     augment_scores = np.concatenate(
+#         (augment_randneg, augment_semineg, augment_baseline, augment_pos), axis=0
+#     ).T
+#     print(augment_scores.shape)
 
-    augment_true_relevance = np.asarray([[-1, -0.5, 0, 1]])
-    augment_ndcg_scores = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        ndcg = ndcg_score(augment_true_relevance, score)
-        # print(true_relevance, score, ndcg)
-        augment_ndcg_scores.append(round(ndcg, 4))
+#     augment_true_relevance = np.asarray([[-1, -0.5, 0, 1]])
+#     augment_ndcg_scores = []
+#     for score in augment_scores:
+#         score = np.asarray([score])
+#         ndcg = ndcg_score(augment_true_relevance, score)
+#         # print(true_relevance, score, ndcg)
+#         augment_ndcg_scores.append(round(ndcg, 4))
 
-    augment_ndcg = np.mean(augment_ndcg_scores)
-    print(augment_ndcg)
-    metrics_df["augment_ndcg_score"] = augment_ndcg_scores
+#     augment_ndcg = np.mean(augment_ndcg_scores)
+#     print(augment_ndcg)
+#     metrics_df["augment_ndcg_score"] = augment_ndcg_scores
 
-    augment_true_relevance = np.asarray([[0, 0, 0, 1]])
-    augment_ranking_losses = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        ranking_loss = label_ranking_loss(augment_true_relevance, score)
-        # print(augment_true_relevance, score, ranking_loss)
-        augment_ranking_losses.append(round(ranking_loss, 4))
+#     augment_true_relevance = np.asarray([[0, 0, 0, 1]])
+#     augment_ranking_losses = []
+#     for score in augment_scores:
+#         score = np.asarray([score])
+#         ranking_loss = label_ranking_loss(augment_true_relevance, score)
+#         # print(augment_true_relevance, score, ranking_loss)
+#         augment_ranking_losses.append(round(ranking_loss, 4))
 
-    augment_ranking_loss = np.mean(augment_ranking_losses)
-    print(augment_ranking_loss)
-    metrics_df["augment_ranking_loss"] = augment_ranking_losses
+#     augment_ranking_loss = np.mean(augment_ranking_losses)
+#     print(augment_ranking_loss)
+#     metrics_df["augment_ranking_loss"] = augment_ranking_losses
 
-    augment_true_relevance = np.asarray([[0, 0, 0, 1]])
-    augment_map_scores = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        map_score = label_ranking_average_precision_score(augment_true_relevance, score)
-        # print(true_relevance, score, map_score)
-        augment_map_scores.append(round(map_score, 4))
+#     augment_true_relevance = np.asarray([[0, 0, 0, 1]])
+#     augment_map_scores = []
+#     for score in augment_scores:
+#         score = np.asarray([score])
+#         map_score = label_ranking_average_precision_score(augment_true_relevance, score)
+#         # print(true_relevance, score, map_score)
+#         augment_map_scores.append(round(map_score, 4))
 
-    augment_map_score = np.mean(augment_map_scores)
-    print(augment_map_score)
-    metrics_df["augment_map_score"] = augment_map_scores
+#     augment_map_score = np.mean(augment_map_scores)
+#     print(augment_map_score)
+#     metrics_df["augment_map_score"] = augment_map_scores
 
-    return metrics_df
+#     return metrics_df
 
 
-# metrics_df = run_metrics(score_df)
-# metrics_df.to_csv("scores/AN-metrics.csv")
-# metrics_df.to_excel("scores/AN-metrics.xlsx")
+# # metrics_df = run_metrics(score_df)
+# # metrics_df.to_csv("scores/AN-metrics.csv")
+# # metrics_df.to_excel("scores/AN-metrics.xlsx")
 
-# 0.3946842857142857
-# 0.11904285714285713
-# 0.84722
+# # 0.3946842857142857
+# # 0.11904285714285713
+# # 0.84722
