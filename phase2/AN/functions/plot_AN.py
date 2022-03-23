@@ -2,6 +2,8 @@ import pandas as pd
 import json
 import numpy as np
 import os
+import plotly.express as px
+
 
 DATASET_ID = 1
 
@@ -115,179 +117,8 @@ def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
     return score_df
 
 
-def groupby_adj_attri(raw_data_filepath, attribute_data_filepath, adj_data_filepath):
-    """
-    Analysis on scores by breaking down on attribute and adjective.
-
-    Compute mean similarity scores & margin scores,
-    which are obtain from the aggregation of attribute and adjective of the AN concepts,
-    sort the concepts by margin score,
-    and save into xlsx files.
-    """
-
-    df = score_json_to_csv(raw_data_filepath)
-    score_df = df.drop(
-        columns=["semineg_avg", "augment_semineg_avg", "pos_avg", "augment_pos_avg"]
-    )
-
-    # compute margin scores
-    score_df["pos_baseline"] = score_df["pos_max"] - score_df["baseline"]
-    score_df["pos_semineg"] = score_df["pos_max"] - score_df["semineg_max"]
-    score_df["pos_randneg"] = score_df["pos_max"] - score_df["randneg"]
-
-    # group by attributes
-    count = score_df.groupby("attribute")["pos_max"].transform("count")
-    score_df["attribute_count"] = count
-    mean_bygroup = score_df.groupby("attribute").mean().round(4)
-    mean_bygroup = mean_bygroup.sort_values(
-        by=["pos_baseline", "pos_randneg", "pos_semineg", "attribute_count"],
-        ascending=False,
-    )
-    print(mean_bygroup.shape)
-    mean_bygroup.to_excel(attribute_data_filepath)
-
-    # group by adjectives
-    count = score_df.groupby("adj")["pos_max"].transform("count")
-    score_df["adj_count"] = count
-    mean_bygroup = score_df.groupby("adj").mean().round(4)
-    mean_bygroup = mean_bygroup.sort_values(
-        by=["pos_baseline", "pos_randneg", "pos_semineg", "adj_count"], ascending=False
-    )
-    print(mean_bygroup.shape)
-    mean_bygroup.to_excel(adj_data_filepath)
-
-    print(
-        "\nDone reading datafile: {}, \n saved breakdown aggregated scores for \n attributes (total attribute count: {}): {}, \n for adjectives (total adj count: {}): {}".format(
-            raw_data_filepath,
-            len(attribute_data_filepath),
-            attribute_data_filepath,
-            len(adj_data_filepath),
-            adj_data_filepath,
-        )
-    )
-
-
-def compute_matching_baseline(filepath):
-    f = open(filepath)
-    data_dict = json.load(f)
-
-    all_match_counts = []
-    num_response = 0
-    emoji_len = 0
-    non_zeros = 0
-
-    perfect_match_count = 0
-    for concept in data_dict:
-        emoji_annotations_text = data_dict[concept]["emoji_annotations_text"]
-        baseline_text = data_dict[concept]["baseline_text"][0]
-        match_counts = [
-            len(set(em) & set(baseline_text))
-            for em in emoji_annotations_text
-            if type(em) != float
-        ]
-        if 2 in match_counts:
-            # print(emoji_annotations_text, baseline_text)
-            perfect_match_count += 1
-        avg_match_counts = np.mean(np.array(match_counts))
-        all_match_counts.append(avg_match_counts)
-
-        response = len(match_counts)
-        num_response += response
-
-        emoji_len_avg = np.mean(
-            np.array([len(em) for em in emoji_annotations_text if type(em) != float])
-        )
-        emoji_len += emoji_len_avg
-
-        non_zeros += np.count_nonzero(match_counts)
-
-    avg_all_match_counts = np.mean(all_match_counts)
-    zero_emoji_match = num_response - non_zeros
-    one_emoji_match = non_zeros - perfect_match_count
-
-    print("\n=> Compute matching baseline. Outcome on the file: {}".format(filepath))
-    print(
-        " total number of responses from annotators: {}, average nummber of annotaters per concept: {:.2f}".format(
-            num_response, num_response / len(data_dict)
-        )
-    )
-    print(" avg length of emoji annotations: {:.2f}".format(emoji_len / len(data_dict)))
-    print(" avg match count: {:.2f}".format(avg_all_match_counts))
-    print(
-        " number of non-zero match count (for all the emoji annotations): {}".format(
-            non_zeros
-        )
-    )
-    print(
-        " number of zero-emoji match count: {} ({:.2f}%)".format(
-            zero_emoji_match, zero_emoji_match / num_response * 100
-        )
-    )
-    print(
-        " number of one-emoji match count: {} ({:.2f}%)".format(
-            one_emoji_match, one_emoji_match / num_response * 100
-        )
-    )
-    print(
-        " number of two-emoji match count: {} ({:.2f}%)".format(
-            perfect_match_count, perfect_match_count / num_response * 100
-        )
-    )
-
-
-def compute_ratings(filepath):
-    f = open(filepath)
-    data_dict = json.load(f)
-
-    rating_stats = []
-    for concept in data_dict:
-        rating_stats.append(data_dict[concept]["ratings_stats"])
-
-    rating_stats = np.array(rating_stats)
-    rating_stats_mean = np.nanmean(rating_stats, axis=0)
-
-    print("\n=> Compute ratings. Outcome on the file: {}".format(filepath))
-    print(
-        "Ratings (over all annotations of all concepts): mean, median, mode, variance",
-        rating_stats_mean,
-    )
-
-
-def get_top_bottom_k(filepath, k, min_samples, breakdown_type):
-    df = pd.read_excel(filepath)
-    df = df.loc[df["{}_count".format(breakdown_type)]>= min_samples]
-    topk = df[:k]
-    bottomk = df[-k:]
-
-    print("\n => Get TopK and Bottom K. Outcome on the file: {}".format(filepath))
-    print(
-        " Top{} with min {} samples: \n List: {}, margin scores (mean: {:.4f}): {}, average ratings (mean: {:.4f}): {}".format(
-            k,
-            min_samples,
-            topk["{}".format(breakdown_type)].tolist(),
-            np.mean(topk["pos_baseline"].tolist()),
-            topk["pos_baseline"].tolist(),
-            np.mean(topk["ratings_stat_mean"].tolist()),
-            topk["ratings_stat_mean"].tolist(),
-        )
-    )
-    print(
-        " Bottom{} with min {} samples: \n List: {}, margin scores (mean: {:.4f}): {}, average ratings (mean: {:.4f}): {}".format(
-            k,
-            min_samples,
-            bottomk["{}".format(breakdown_type)].tolist(),
-            np.mean(bottomk["pos_baseline"].tolist()),
-            bottomk["pos_baseline"].tolist(),
-            np.mean(bottomk["ratings_stat_mean"].tolist()),
-            bottomk["ratings_stat_mean"].tolist(),
-        )
-    )
-
-
-import plotly.express as px
-
-
-def plot_scores(score_df):
+def plot_scores(raw_data_filepath, dataset_name, col, img_name):
+    score_df = score_json_to_csv(raw_data_filepath)
     columns = score_df.columns.values.tolist()
     columns.remove("concept")
     for col in columns:
@@ -296,10 +127,22 @@ def plot_scores(score_df):
         fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
 
-def plot_line_graph(score_df, col, img_name):
-    img_path = "figures/{}/{}_{}.png".format(dataset_name, dataset_name, img_name)
+def plot_line_graph(raw_data_filepath, dataset_name, col, img_name):
+    score_df = score_json_to_csv(raw_data_filepath)
+    img_path = os.path.join(
+        DATA_FOLDER[DATASET_ID],
+        "results",
+        "figures",
+        "{}_{}.png".format(dataset_name, img_name),
+    )
+    colors = {"randneg": "#6D78F9", "semineg": "purple", "baseline": "#EF553B", "pos": "#00CC96"}
+    color_discrete_sequences = {
+        2: [colors["randneg"], colors["baseline"]],
+        3: [colors["randneg"], colors["baseline"], colors["pos"]],
+        4: [colors["randneg"], colors["semineg"], colors["baseline"], colors["pos"]],
+    }
     fig = px.line(
-        score_df, y=col, color_discrete_sequence=["blue", "purple", "red", "green"]
+        score_df, y=col, color_discrete_sequence=color_discrete_sequences[len(col)]
     )
     fig.update_layout(
         xaxis_title="AN concepts",
@@ -309,134 +152,49 @@ def plot_line_graph(score_df, col, img_name):
     )
     fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
+    print(" Graph saved to: {}".format(img_path))
 
-# score_df = read_score_df()
-# col = ['randneg', 'semineg_max', 'baseline','pos_max']
-# img_name = "line_graph_semineg_all"
-# plot_line_graph(score_df, col, img_name)
-# plot_scores(score_df)
+def plot_graph(raw_data_filepath):
+    print("=> Plot graph from data file: {}".format(raw_data_filepath))
+
+    dataset_name = "AN"
+
+    col = ["randneg", "baseline", "pos_max"]
+    img_name = "line_graph_all"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["randneg", "semineg_max", "baseline", "pos_max"]
+    img_name = "line_graph_all_semineg"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["augment_randneg", "augment_baseline", "augment_pos_max"]
+    img_name = "line_graph_all_augment"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = [
+        "augment_randneg",
+        "augment_semineg_max",
+        "augment_baseline",
+        "augment_pos_max",
+    ]
+    img_name = "line_graph_all_augment_semineg"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["randneg", "augment_randneg"]
+    img_name = "line_graph_randneg"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["semineg_max", "augment_semineg_max"]
+    img_name = "line_graph_semineg"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["baseline", "augment_baseline"]
+    img_name = "line_graph_baseline"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+
+    col = ["pos_max", "augment_pos_max"]
+    img_name = "line_graph_pos"
+    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
 
 if __name__ == "__main__":
-    # aggregate similarity scores by concept
-    score_df = score_json_to_csv(RAW_DATA_FILEPATH, SCORE_DATA_FILEPATH)
-
-    # aggregae similarity scores by adjectives/attributes
-    groupby_adj_attri(RAW_DATA_FILEPATH, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
-
-    compute_matching_baseline(RAW_DATA_FILEPATH)
-    compute_ratings(RAW_DATA_FILEPATH)
-
-    get_top_bottom_k(ADJ_DATA_FILEPATH, k=5, min_samples=3, breakdown_type='adj')
-    get_top_bottom_k(ATTRIBUTE_DATA_FILEPATH, k=5, min_samples=2, breakdown_type='attribute')
-
-from sklearn.metrics import ndcg_score
-from sklearn.metrics import label_ranking_loss
-from sklearn.metrics import label_ranking_average_precision_score
-
-
-def run_metrics(score_df):
-    metrics_df = score_df
-    randneg = [np.array(score_df["randneg"])]
-    semineg = [np.array(score_df["semineg_max"])]
-    semineg_avg = [np.array(score_df["semineg_avg"])]
-    baseline = [np.array(score_df["baseline"])]
-    pos = [np.array(score_df["pos_max"])]
-    pos_avg = [np.array(score_df["pos_avg"])]
-
-    scores = np.concatenate((randneg, semineg, baseline, pos), axis=0).T
-    print(scores.shape)
-
-    true_relevance = np.asarray([[-1, -0.5, 0, 1]])
-    ndcg_scores = []
-    for score in scores:
-        score = np.asarray([score])
-        ndcg = ndcg_score(true_relevance, score)
-        # print(true_relevance, score, ndcg)
-        ndcg_scores.append(round(ndcg, 4))
-
-    ndcg = np.mean(ndcg_scores)
-    print(ndcg)
-    metrics_df["ndcg_score"] = ndcg_scores
-
-    true_relevance = np.asarray([[0, 0, 0, 1]])
-    ranking_losses = []
-    for score in scores:
-        score = np.asarray([score])
-        ranking_loss = label_ranking_loss(true_relevance, score)
-        # print(true_relevance, score, ranking_loss)
-        ranking_losses.append(round(ranking_loss, 4))
-
-    ranking_loss = np.mean(ranking_losses)
-    print(ranking_loss)
-    metrics_df["ranking_loss"] = ranking_losses
-
-    true_relevance = np.asarray([[0, 0, 0, 1]])
-    map_scores = []
-    for score in scores:
-        score = np.asarray([score])
-        map_score = label_ranking_average_precision_score(true_relevance, score)
-        # print(true_relevance, score, map_score)
-        map_scores.append(round(map_score, 4))
-
-    map_score = np.mean(map_scores)
-    print(map_score)
-    metrics_df["map_score"] = map_scores
-
-    augment_randneg = [np.array(score_df["augment_randneg"])]
-    augment_semineg = [np.array(score_df["augment_semineg_max"])]
-    augment_semineg_avg = [np.array(score_df["augment_semineg_avg"])]
-    augment_baseline = [np.array(score_df["augment_baseline"])]
-    augment_pos = [np.array(score_df["augment_pos_max"])]
-    augment_pos_avg = [np.array(score_df["augment_pos_avg"])]
-
-    augment_scores = np.concatenate(
-        (augment_randneg, augment_semineg, augment_baseline, augment_pos), axis=0
-    ).T
-    print(augment_scores.shape)
-
-    augment_true_relevance = np.asarray([[-1, -0.5, 0, 1]])
-    augment_ndcg_scores = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        ndcg = ndcg_score(augment_true_relevance, score)
-        # print(true_relevance, score, ndcg)
-        augment_ndcg_scores.append(round(ndcg, 4))
-
-    augment_ndcg = np.mean(augment_ndcg_scores)
-    print(augment_ndcg)
-    metrics_df["augment_ndcg_score"] = augment_ndcg_scores
-
-    augment_true_relevance = np.asarray([[0, 0, 0, 1]])
-    augment_ranking_losses = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        ranking_loss = label_ranking_loss(augment_true_relevance, score)
-        # print(augment_true_relevance, score, ranking_loss)
-        augment_ranking_losses.append(round(ranking_loss, 4))
-
-    augment_ranking_loss = np.mean(augment_ranking_losses)
-    print(augment_ranking_loss)
-    metrics_df["augment_ranking_loss"] = augment_ranking_losses
-
-    augment_true_relevance = np.asarray([[0, 0, 0, 1]])
-    augment_map_scores = []
-    for score in augment_scores:
-        score = np.asarray([score])
-        map_score = label_ranking_average_precision_score(augment_true_relevance, score)
-        # print(true_relevance, score, map_score)
-        augment_map_scores.append(round(map_score, 4))
-
-    augment_map_score = np.mean(augment_map_scores)
-    print(augment_map_score)
-    metrics_df["augment_map_score"] = augment_map_scores
-
-    return metrics_df
-
-
-# metrics_df = run_metrics(score_df)
-# metrics_df.to_csv("scores/AN-metrics.csv")
-# metrics_df.to_excel("scores/AN-metrics.xlsx")
-
-# 0.3946842857142857
-# 0.11904285714285713
-# 0.84722
+    plot_graph(RAW_DATA_FILEPATH)
