@@ -4,25 +4,9 @@ import numpy as np
 import os
 import plotly.express as px
 
+from data_filepath import data_folder, SCORE_DATA_FILEPATH_JSON
 
-DATASET_ID = 1
-
-DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
-]
-RAW_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_mpnet.json"
-)
-SCORE_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score.xlsx")
-
-ATTRIBUTE_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "scores", "AN_score_attribute.xlsx"
-)
-ADJ_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score_adj.xlsx")
-
-
-def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
+def score_json_to_csv(score_data_filepath_json, score_data_filepath_excel=None):
     """
     Input: Raw data file with scores for all annotations for each concept.
     Output: A dataframe with mean similarity scores for each concetps.
@@ -30,7 +14,7 @@ def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
     Use mean to aggregate the scores of all annotations for each concept.
     Save the dataframe to xlsx file.
     """
-    f = open(raw_data_filepath)
+    f = open(score_data_filepath_json)
     data_dict = json.load(f)
 
     scores = []
@@ -107,18 +91,18 @@ def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
     score_df["ratings_stat_variance"] = ratings_stats[3]
 
     # print(score_df.head())
-    if score_data_filepath:
-        score_df.to_excel(score_data_filepath)
+    if score_data_filepath_excel:
+        score_df.to_excel(score_data_filepath_excel)
         print(
             "\nDone reading raw data file: {}, \n returns a mean similarity score dataframe, \n also saved at {}".format(
-                raw_data_filepath, score_data_filepath
+                score_data_filepath_json, score_data_filepath_excel
             )
         )
     return score_df
 
 
-def plot_scores(raw_data_filepath, dataset_name, col, img_name):
-    score_df = score_json_to_csv(raw_data_filepath)
+def plot_scores(filepath, dataset_name, col, img_name):
+    score_df = score_json_to_csv(filepath)
     columns = score_df.columns.values.tolist()
     columns.remove("concept")
     for col in columns:
@@ -127,10 +111,10 @@ def plot_scores(raw_data_filepath, dataset_name, col, img_name):
         fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
 
-def plot_line_graph(raw_data_filepath, dataset_name, col, img_name):
-    score_df = score_json_to_csv(raw_data_filepath)
+def plot_line_graph(filepath, dataset_name, col, img_name):
+    score_df = score_json_to_csv(filepath)
     img_path = os.path.join(
-        DATA_FOLDER[DATASET_ID],
+        data_folder,
         "results",
         "figures",
         "{}_{}.png".format(dataset_name, img_name),
@@ -154,22 +138,22 @@ def plot_line_graph(raw_data_filepath, dataset_name, col, img_name):
 
     print(" Graph saved to: {}".format(img_path))
 
-def plot_graph(raw_data_filepath):
-    print("=> Plot graph from data file: {}".format(raw_data_filepath))
+def plot_graph(score_data_filepath_json):
+    print("=> Plot graph from data file: {}".format(score_data_filepath_json))
 
     dataset_name = "AN"
 
     col = ["randneg", "baseline", "pos_max"]
     img_name = "line_graph_all"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["randneg", "semineg_max", "baseline", "pos_max"]
     img_name = "line_graph_all_semineg"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["augment_randneg", "augment_baseline", "augment_pos_max"]
     img_name = "line_graph_all_augment"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = [
         "augment_randneg",
@@ -178,23 +162,23 @@ def plot_graph(raw_data_filepath):
         "augment_pos_max",
     ]
     img_name = "line_graph_all_augment_semineg"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["randneg", "augment_randneg"]
     img_name = "line_graph_randneg"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["semineg_max", "augment_semineg_max"]
     img_name = "line_graph_semineg"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["baseline", "augment_baseline"]
     img_name = "line_graph_baseline"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
     col = ["pos_max", "augment_pos_max"]
     img_name = "line_graph_pos"
-    plot_line_graph(raw_data_filepath, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
 
 if __name__ == "__main__":
-    plot_graph(RAW_DATA_FILEPATH)
+    plot_graph(SCORE_DATA_FILEPATH_JSON)

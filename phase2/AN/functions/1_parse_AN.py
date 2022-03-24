@@ -12,32 +12,13 @@ import requests
 import bs4 
 import os
 
+
+from data_filepath import RAW_DATA_FILEPATH_EXCEL, RAW_DATA_FILEPATH_JSON, ATTRIBUTE_GROUND_TRUTH
+
 random.seed(10)
-
-DATASET_ID = 0
-
-DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
-]
-
-# source file to be parsed
-RAW_DATA_FILEPATH_EXCEL = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_data_collection.xlsx"
-)
-
-# target file to be saved
-RAW_DATA_FILEPATH_JSON = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_data_collection.json"
-)
-
-ATTRIBUTE_GROUND_TRUTH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_attribute_ground_truth.csv"
-)
 
 PRESET = [6, 1]
 OFFSET = [4, 1]
-
 
 def google_definition(query):
     searchname = query.replace(' ', '+')

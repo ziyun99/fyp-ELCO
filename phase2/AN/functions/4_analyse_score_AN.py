@@ -3,24 +3,10 @@ import json
 import numpy as np
 import os
 
-DATASET_ID = 1
-
-DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
-]
-RAW_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_mpnet.json"
-)
-SCORE_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score.xlsx")
-
-ATTRIBUTE_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "scores", "AN_score_attribute.xlsx"
-)
-ADJ_DATA_FILEPATH = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score_adj.xlsx")
+from data_filepath import SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH
 
 
-def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
+def score_json_to_csv(score_data_filepath_json, score_data_filepath_excel=None):
     """
     Input: Raw data file with scores for all annotations for each concept.
     Output: A dataframe with mean similarity scores for each concetps.
@@ -28,7 +14,7 @@ def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
     Use mean to aggregate the scores of all annotations for each concept.
     Save the dataframe to xlsx file.
     """
-    f = open(raw_data_filepath)
+    f = open(score_data_filepath_json)
     data_dict = json.load(f)
 
     scores = []
@@ -105,17 +91,17 @@ def score_json_to_csv(raw_data_filepath, score_data_filepath=None):
     score_df["ratings_stat_variance"] = ratings_stats[3]
 
     # print(score_df.head())
-    if score_data_filepath:
-        score_df.to_excel(score_data_filepath)
+    if score_data_filepath_excel:
+        score_df.to_excel(score_data_filepath_excel)
         print(
             "\nDone reading raw data file: {}, \n returns a mean similarity score dataframe, \n also saved at {}".format(
-                raw_data_filepath, score_data_filepath
+                score_data_filepath_json, score_data_filepath_excel
             )
         )
     return score_df
 
 
-def groupby_adj_attri(raw_data_filepath, attribute_data_filepath, adj_data_filepath):
+def groupby_adj_attri(score_data_filepath_json, attribute_data_filepath, adj_data_filepath):
     """
     Analysis on scores by breaking down on attribute and adjective.
 
@@ -125,7 +111,7 @@ def groupby_adj_attri(raw_data_filepath, attribute_data_filepath, adj_data_filep
     and save into xlsx files.
     """
 
-    df = score_json_to_csv(raw_data_filepath)
+    df = score_json_to_csv(score_data_filepath_json)
     score_df = df.drop(
         columns=["semineg_avg", "augment_semineg_avg", "pos_avg", "augment_pos_avg"]
     )
@@ -158,7 +144,7 @@ def groupby_adj_attri(raw_data_filepath, attribute_data_filepath, adj_data_filep
 
     print(
         "\nDone reading datafile: {}, \n saved breakdown aggregated scores for \n attributes (total attribute count: {}): {}, \n for adjectives (total adj count: {}): {}".format(
-            raw_data_filepath,
+            score_data_filepath_json,
             len(attribute_data_filepath),
             attribute_data_filepath,
             len(adj_data_filepath),
@@ -285,13 +271,13 @@ def get_top_bottom_k(filepath, k, min_samples, breakdown_type):
 
 def analyse_scores():
     # aggregate similarity scores by concept
-    score_df = score_json_to_csv(RAW_DATA_FILEPATH, SCORE_DATA_FILEPATH)
+    score_df = score_json_to_csv(SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL)
 
     # aggregae similarity scores by adjectives/attributes
-    groupby_adj_attri(RAW_DATA_FILEPATH, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
+    groupby_adj_attri(SCORE_DATA_FILEPATH_JSON, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
 
-    compute_matching_baseline(RAW_DATA_FILEPATH)
-    compute_ratings(RAW_DATA_FILEPATH)
+    compute_matching_baseline(SCORE_DATA_FILEPATH_JSON)
+    compute_ratings(SCORE_DATA_FILEPATH_JSON)
 
     get_top_bottom_k(ADJ_DATA_FILEPATH, k=5, min_samples=3, breakdown_type="adj")
     get_top_bottom_k(

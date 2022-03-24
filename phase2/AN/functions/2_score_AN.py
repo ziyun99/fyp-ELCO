@@ -2,37 +2,16 @@ import pandas as pd
 import re
 import json 
 import emoji
-import functools
-import operator
 import statistics as st
 import time
 from sentence_transformers import SentenceTransformer, util
 import os
 
-
-DATASET_ID = 0
-
-DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
-]
-
-RAW_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_data_collection.json"
-)
-
-
-MODEL_ID = 0
-MODEL_NAME = ["mpnet", "MiniLM"]
-PRETRAINED_MODEL = ["all-mpnet-base-v2", "all-MiniLM-L6-v2"]
-RAW_DATA_FILEPATH_SCORED = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_{}.json".format(MODEL_NAME[MODEL_ID])
-)
-
+from data_filepath import RAW_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_JSON, model_name
 
 def load_model():
-    print("Loading model: {}".format(PRETRAINED_MODEL[MODEL_ID]))
-    model = SentenceTransformer(PRETRAINED_MODEL[MODEL_ID], device='cuda:1') 
+    print("Loading model: {}".format(model_name))
+    model = SentenceTransformer(model_name, device='cuda:1') 
     return model
 
 def format_emoji_text(emoji_texts):
@@ -144,8 +123,8 @@ if __name__ == "__main__":
     start_time = time.time()
 
     model = load_model()
-    data_dict = assign_similarity_scores(model, RAW_DATA_FILEPATH)
-    save_scored_data(data_dict, RAW_DATA_FILEPATH_SCORED)
+    data_dict = assign_similarity_scores(model, RAW_DATA_FILEPATH_JSON)
+    save_scored_data(data_dict, SCORE_DATA_FILEPATH_JSON)
 
     end_time = time.time()
     total_time = end_time - start_time

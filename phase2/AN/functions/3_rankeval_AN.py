@@ -4,16 +4,7 @@ from collections import Counter
 import pprint
 import os
 
-DATASET_ID = 0
-
-DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
-]
-RAW_DATA_FILEPATH = os.path.join(
-    DATA_FOLDER[DATASET_ID], "raw", "AN_scoring_mpnet.json"
-)
-
+from data_filepath import SCORE_DATA_FILEPATH_JSON
 
 def get_score_ranking(filepath):
     '''
@@ -144,7 +135,7 @@ def evaluate(filepath):
 
 
 if __name__ == "__main__":
-    evaluate(RAW_DATA_FILEPATH)
+    evaluate(SCORE_DATA_FILEPATH_JSON)
 
 #     for i in [0, 1]:
 #         print(i)
