@@ -4,7 +4,7 @@ import os
 import torch
 from sentence_transformers import SentenceTransformer
 
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+DEVICE = torch.device("cpu")
 
 # Change this line below for other models
 MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")

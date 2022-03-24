@@ -2,10 +2,13 @@ import matplotlib.pyplot as plt
 import torch
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
+import os 
 
-from feature_extraction import DEVICE, SAVE_FILEPATH
+from feature_extraction import DEVICE, SAVE_FILEPATH, DATA_FOLDER
 
-N_CLUSTERS = 5
+SAVE_PLOT_PATH = os.path.join(DATA_FOLDER, "clustering.jpg")
+
+N_CLUSTERS = 10
 RAND_SEED = 27
 
 
@@ -29,7 +32,7 @@ def main():
     print(f"Loaded features: {SAVE_FILEPATH} as a Tensor: {features.shape}")
 
     """
-    Fit features into KMeans model for clustering
+    Fit features into KMeans model f9or clustering
     """
     kmeans = KMeans(n_clusters=N_CLUSTERS, random_state=RAND_SEED)
     kmeans.fit(features)
@@ -53,7 +56,7 @@ def main():
         s=150,
         c="b",
     )
-    plt.show()
+    plt.savefig(SAVE_PLOT_PATH)
 
 
 if __name__ == "__main__":
