@@ -2,9 +2,8 @@ import pandas as pd
 import json
 from collections import Counter
 import pprint
-import os
 
-from data_filepath import SCORE_DATA_FILEPATH_JSON
+from data_filepath_sublevel import SCORE_DATA_FILEPATH_JSON
 
 def get_score_ranking(filepath):
     '''

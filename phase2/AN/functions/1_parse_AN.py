@@ -1,7 +1,6 @@
 import pandas as pd
 import re
 import json 
-import emoji
 import functools
 import operator
 
@@ -10,10 +9,8 @@ from emoji import unicode_codes
 import random
 import requests 
 import bs4 
-import os
 
-
-from data_filepath import RAW_DATA_FILEPATH_EXCEL, RAW_DATA_FILEPATH_JSON, ATTRIBUTE_GROUND_TRUTH
+from data_filepath_sublevel import RAW_DATA_FILEPATH_EXCEL, RAW_DATA_FILEPATH_JSON, ATTRIBUTE_GROUND_TRUTH
 
 random.seed(10)
 

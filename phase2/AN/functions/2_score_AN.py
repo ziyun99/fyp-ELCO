@@ -1,13 +1,10 @@
 import pandas as pd
-import re
 import json 
-import emoji
 import statistics as st
 import time
 from sentence_transformers import SentenceTransformer, util
-import os
 
-from data_filepath import RAW_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_JSON, model_name
+from data_filepath_sublevel import RAW_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_JSON, model_name
 
 def load_model():
     print("Loading model: {}".format(model_name))

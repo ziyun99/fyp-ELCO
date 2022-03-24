@@ -4,7 +4,7 @@ import numpy as np
 import os
 import plotly.express as px
 
-from data_filepath import data_folder, SCORE_DATA_FILEPATH_JSON
+from data_filepath_sublevel import data_folder, SCORE_DATA_FILEPATH_JSON
 
 def score_json_to_csv(score_data_filepath_json, score_data_filepath_excel=None):
     """

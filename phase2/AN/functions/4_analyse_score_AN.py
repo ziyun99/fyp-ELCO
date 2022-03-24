@@ -1,9 +1,8 @@
 import pandas as pd
 import json
 import numpy as np
-import os
 
-from data_filepath import SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH
+from data_filepath_sublevel import SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH
 
 
 def score_json_to_csv(score_data_filepath_json, score_data_filepath_excel=None):
