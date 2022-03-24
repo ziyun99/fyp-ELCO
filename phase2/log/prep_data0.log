@@ -1,0 +1,36 @@
+
+=> Format raw data into train data.
+  Input file: /home/ziyun99/fyp-ELCO/phase1/AN/data/raw/AN_data_collection.json, Save to file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/AN_data.json
+-> Number of data samples: 3130
+-> Sample data format: 
+  sentence1: big business
+  sentence2: [EM]dollar banknote[EM]dollar banknote[EM]Japanese open for business button[EM]
+  score: 1.0
+  label: 0
+  label_name: emoji_annotations_text
+  emoji_list: [':dollar_banknote:', ':dollar_banknote:', ':Japanese_open_for_business_button:'] 
+
+
+=> Input file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/AN_data.json, Save to: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/AN_data.csv
+=> Train, validate, test split. Ratio: 60, 20, 20.
+=> Total nummber of samples 3130
+  emoji_annotations_text 1147 => train 688, validate 229, test 230
+  baseline_text 209 => train 125, validate 42, test 42
+  semineg_text 1564 => train 938, validate 313, test 313
+  randneg_text 210 => train 126, validate 42, test 42
+-> Total samples: train 1877, validate 626, test 627
+  Save to: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/train.csv, /home/ziyun99/fyp-ELCO/phase1/AN/data/training/validate.csv, /home/ziyun99/fyp-ELCO/phase1/AN/data/training/test.csv
+
+
+=> Generate parallel dataset. Only from positive data samples. 
+  Input file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/AN_data.csv. Save to: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/parallel_data.txt
+  Total samples 1147
+=> Train, validate, test parallel dataset. 
+  Number of samples:
+  train 688. Save to file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/parallel_data_train.txt  
+  validate 229. Save to file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/parallel_data_validate.txt  
+  test 230. Save to file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/parallel_data_test.txt
+
+ => Generate Information Retrieval data.
+  Input file: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/AN_data.csv. Save to: /home/ziyun99/fyp-ELCO/phase1/AN/data/training/information_retrieval_data.json
+  Number of queries 210, nummber of corpus 1221, nummber of relavant docs 210

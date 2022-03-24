@@ -1,0 +1,36 @@
+
+=> Format raw data into train data.
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/raw/AN_data_collection.json, Save to file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/AN_data.json
+-> Number of data samples: 3657
+-> Sample data format: 
+  sentence1: big business
+  sentence2: [EM]necktie[EM]chart increasing[EM]
+  score: 1.0
+  label: 0
+  label_name: emoji_annotations_text
+  emoji_list: [':necktie:', ':chart_increasing:'] 
+
+
+=> Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/AN_data.json, Save to: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/AN_data.csv
+=> Train, validate, test split. Ratio: 60, 20, 20.
+=> Total nummber of samples 3657
+  emoji_annotations_text 1663 => train 997, validate 333, test 333
+  baseline_text 210 => train 126, validate 42, test 42
+  semineg_text 1574 => train 944, validate 315, test 315
+  randneg_text 210 => train 126, validate 42, test 42
+-> Total samples: train 2193, validate 732, test 732
+  Save to: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/train.csv, /home/ziyun99/fyp-ELCO/phase2/AN/data/training/validate.csv, /home/ziyun99/fyp-ELCO/phase2/AN/data/training/test.csv
+
+
+=> Generate parallel dataset. Only from positive data samples. 
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/AN_data.csv. Save to: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/parallel_data.txt
+  Total samples 1663
+=> Train, validate, test parallel dataset. 
+  Number of samples:
+  train 997. Save to file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/parallel_data_train.txt  
+  validate 333. Save to file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/parallel_data_validate.txt  
+  test 333. Save to file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/parallel_data_test.txt
+
+ => Generate Information Retrieval data.
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/AN_data.csv. Save to: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/information_retrieval_data.json
+  Number of queries 210, nummber of corpus 1757, nummber of relavant docs 210
