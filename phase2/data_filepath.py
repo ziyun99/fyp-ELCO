@@ -56,3 +56,5 @@ AN_TRAIN_DATAPATH_CSV = os.path.join(AN_TRAIN_FOLDER, "AN_data.csv")
 
 AN_IR_DATAPATH = os.path.join(AN_TRAIN_FOLDER, "information_retrieval_data.json")
 
+
+TRAIN_DATA_FOLDER = os.path.join(data_folder, "training")

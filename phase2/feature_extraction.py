@@ -6,11 +6,13 @@ from sentence_transformers import SentenceTransformer
 
 DEVICE = torch.device("cpu")
 
+from data_filepath import TRAIN_DATA_FOLDER 
+
+
 # Change this line below for other models
 MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
-DATA_FOLDER = os.path.join("..", "data", "training")
-DATA_FILEPATH = os.path.join(DATA_FOLDER, "parallel_data.txt")
-SAVE_FILEPATH = os.path.join(DATA_FOLDER, "extracted_features.pt")
+DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
+SAVE_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "extracted_features.pt")
 
 EM = "[EM]"  # Special emoji token
 
