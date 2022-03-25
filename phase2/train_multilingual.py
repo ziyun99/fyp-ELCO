@@ -32,8 +32,9 @@ logger = logging.getLogger(__name__)
 logging.info("=> Input train data from folder: {}".format(TRAIN_DATA_FOLDER))
 
 ###### CREATE MODEL ######
-teacher_model = ["bert-base-nli-stsb-mean-tokens", "all-mpnet-base-v2"]
-teacher_model_name = teacher_model[0]  # Our monolingual teacher model, we want to convert to multiple languages
+MODEL_ID = 0
+teacher_model = ["bert-base-nli-stsb-mean-tokens", "all-mpnet-base-v2", "all-MiniLM-L6-v2"]
+teacher_model_name = teacher_model[MODEL_ID]  # Our monolingual teacher model, we want to convert to multiple languages
 student_model_name = (
     "xlm-roberta-base"  # Multilingual base model we use to imitate the teacher model
 )
@@ -236,19 +237,29 @@ for i, e in enumerate(evaluators):
     logging.info("{}: {}".format(i, e.name))
 
 ###### Train model ######
-train_objectives = [
-    (train_dataloader_mse, train_loss_mse),
-    (train_dataloader_sim, train_loss_sim),
-]  # , (train_dataloader_contrastive, train_loss_contrastive)]
+train_objectives = []
 
-steps_per_epoch = {0: 28, 1: 37}
+is_train_mse = False
+is_train_cossim = True
+
+if is_train_mse:
+    # steps_per_epoch {0: 27, 1: 37}
+    train_objectives.append((train_dataloader_mse, train_loss_mse))  
+if is_train_cossim:
+    # steps_per_epoch {0: 59, 1: 69}
+    train_objectives.append((train_dataloader_sim, train_loss_sim))  
+
+logging.info("=> Training objectives: mse loss: {}, Cossim Loss: {}".format(is_train_mse, is_train_cossim)) 
+
+steps_per_epoch = len(train_dataloader_mse) if is_train_mse else len(train_dataloader_sim) #{0: 27, 1: 37}
+logging.info(f"Steps per epoch: {steps_per_epoch}")
 
 model.fit(
     train_objectives=train_objectives,
     evaluator=evaluation.SequentialEvaluator(
         evaluators,
         main_score_function=lambda scores: np.mean([scores[2], scores[3], scores[7]]),
-    ),  # np.mean(scores)) [scores[0], scores[1], scores[4], scores[6]])),
+    ),  # np.mean(scores)) np.mean([scores[i] for i in range(len(evaluators)) if "validate" in evaluators[i].name ])
     epochs=num_epochs,
     evaluation_steps=num_evaluation_steps,
     warmup_steps=num_warmup_steps,
@@ -256,6 +267,6 @@ model.fit(
     output_path=output_path,
     save_best_model=True,
     optimizer_params={"lr": 2e-5, "eps": 1e-6, "correct_bias": False},
-    checkpoint_save_steps=steps_per_epoch[DATASET_ID] * num_epochs_to_save,
+    checkpoint_save_steps=steps_per_epoch * num_epochs_to_save,
     checkpoint_path=output_path + "/checkpoints",
 )
