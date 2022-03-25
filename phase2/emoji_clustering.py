@@ -1,22 +1,20 @@
+import os
+
 import matplotlib.pyplot as plt
 import torch
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-import os
 
 from feature_extraction import DEVICE, EXPERIMENT_FOLDER, FEATURES_FILEPATH
 
-PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "clustering.jpg")
-
-N_CLUSTERS = 10
 RAND_SEED = 27
 
 
-def main():
+def load_features(filepath, device):
     """
     Load feature embeddings from SAVE_FILEPATH
     """
-    dataset = torch.load(FEATURES_FILEPATH, DEVICE)
+    dataset = torch.load(filepath, device)
 
     features = []
     num_em = 0
@@ -29,12 +27,15 @@ def main():
     assert len(features) == num_em
     assert len(features[0]) == 768
 
-    print(f"Loaded features: {FEATURES_FILEPATH} as a Tensor: {features.shape}")
+    print(f"Loaded features: {filepath} as a Tensor: {features.shape}")
+    return features
 
+
+def cluster_features(features, n_clusters=6, random_state=RAND_SEED):
     """
-    Fit features into KMeans model f9or clustering
+    Fit features into KMeans model for clustering
     """
-    kmeans = KMeans(n_clusters=N_CLUSTERS, random_state=RAND_SEED)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=random_state)
     kmeans.fit(features)
 
     print(f"Fitted features into KMeans model: {kmeans}")
@@ -42,7 +43,7 @@ def main():
     """
     Visualization
     """
-    pca = PCA(random_state=RAND_SEED)
+    pca = PCA(random_state=random_state)
     reduced_features = pca.fit_transform(features)
     reduced_cluster_centers = pca.transform(kmeans.cluster_centers_)
 
@@ -56,7 +57,16 @@ def main():
         s=150,
         c="b",
     )
+
+    PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"cluster-{n_clusters}.jpg")
     plt.savefig(PLOT_FILEPATH)
+
+
+def main():
+    features = load_features(FEATURES_FILEPATH, DEVICE)
+
+    for i in range(2, 11):
+        cluster_features(features, i)
 
 
 if __name__ == "__main__":
