@@ -33,8 +33,14 @@ logging.info("=> Input train data from folder: {}".format(TRAIN_DATA_FOLDER))
 
 ###### CREATE MODEL ######
 MODEL_ID = 0
-teacher_model = ["bert-base-nli-stsb-mean-tokens", "all-mpnet-base-v2", "all-MiniLM-L6-v2"]
-teacher_model_name = teacher_model[MODEL_ID]  # Our monolingual teacher model, we want to convert to multiple languages
+teacher_model = [
+    "bert-base-nli-stsb-mean-tokens",
+    "all-mpnet-base-v2",
+    "all-MiniLM-L6-v2",
+]
+teacher_model_name = teacher_model[
+    MODEL_ID
+]  # Our monolingual teacher model, we want to convert to multiple languages
 student_model_name = (
     "xlm-roberta-base"  # Multilingual base model we use to imitate the teacher model
 )
@@ -244,14 +250,20 @@ is_train_cossim = True
 
 if is_train_mse:
     # steps_per_epoch {0: 27, 1: 37}
-    train_objectives.append((train_dataloader_mse, train_loss_mse))  
+    train_objectives.append((train_dataloader_mse, train_loss_mse))
 if is_train_cossim:
     # steps_per_epoch {0: 59, 1: 69}
-    train_objectives.append((train_dataloader_sim, train_loss_sim))  
+    train_objectives.append((train_dataloader_sim, train_loss_sim))
 
-logging.info("=> Training objectives: mse loss: {}, Cossim Loss: {}".format(is_train_mse, is_train_cossim)) 
+logging.info(
+    "=> Training objectives: mse loss: {}, Cossim Loss: {}".format(
+        is_train_mse, is_train_cossim
+    )
+)
 
-steps_per_epoch = len(train_dataloader_mse) if is_train_mse else len(train_dataloader_sim) #{0: 27, 1: 37}
+steps_per_epoch = (
+    len(train_dataloader_mse) if is_train_mse else len(train_dataloader_sim)
+)  # {0: 27, 1: 37}
 logging.info(f"Steps per epoch: {steps_per_epoch}")
 
 model.fit(
