@@ -1,28 +1,11 @@
-import plotly.express as px
-import plotly.graph_objects as go
-import pandas as pd
-import statistics as st
-from sentence_transformers import SentenceTransformer, util
-import numpy as np
+import sys
 
-
-# def plot_line_graph(score_df, col, img_name):
-#     img_path = "figures/{}/{}_{}.png".format(dataset_name, dataset_name, img_name)
-#     fig = px.line(score_df,  y=col)
-#     fig.update_layout(xaxis_title="ZWJ concepts", yaxis_title="similarity scores", legend_title="Emoji sequences", margin = {'l':5,'r':5,'t':5,'b':5},)
-#     fig.write_image(img_path, format="png", width=600, height=350, scale=2)
-
-# df = pd.read_csv('output/multilingual/model-2022-02-17_06-45/eval/mse_evaluation_mse-test_results.csv')
-
-# col = ['pos', 'augment_pos']
-# img_name = "line_graph_pos"
-# plot_line_graph(score_df, col, img_name)
-
-import os
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
-model_file = 'model-2022-03-01_10-45'
+
+model_file = sys.argv[1]
+
 df_mse_train = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-train_results.csv')
 df_mse_test = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-test_results.csv')
 df_mse_val = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-validate_results.csv')
