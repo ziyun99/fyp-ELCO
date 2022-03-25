@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 
 import torch
 from sentence_transformers import SentenceTransformer
@@ -9,10 +8,8 @@ DEVICE = torch.device("cpu")
 
 from data_filepath import TRAIN_DATA_FOLDER
 
-# Input model file as parameter
-model_file = sys.argv[1]
-
-MODEL_FOLDER = os.path.join("output", "multilingual", model_file)
+# Change line below to use other model
+MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
 DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
 EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
 if not os.path.exists(EXPERIMENT_FOLDER):
