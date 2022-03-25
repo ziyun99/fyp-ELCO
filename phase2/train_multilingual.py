@@ -10,7 +10,7 @@ from sentence_transformers.datasets import ParallelSentencesDataset
 from sentence_transformers.readers import InputExample
 from torch.utils.data import DataLoader
 
-from data_filepath import TRAIN_DATA_FOLDER
+from data_filepath import DATASET_ID, TRAIN_DATA_FOLDER
 
 output_path = "output/multilingual/model-" + datetime.now().strftime("%Y-%m-%d_%H-%M")
 
@@ -84,11 +84,10 @@ parallel_data_filepaths = {}
 for df_name in splitted_names:
     input_file = os.path.join(TRAIN_DATA_FOLDER, "parallel_data_{}.txt".format(df_name))
     parallel_data_filepaths[df_name] = input_file
-    logging.info(
-        "{}: {}. input file: {}".format(
-            df_name, len(parallel_data_filepaths[df_name]), input_file
-        )
-    )
+    fp = open(input_file, "r")
+    number_of_lines = len(fp.readlines())
+    fp.close()
+    logging.info("{}: {}. input file: {}".format(df_name, number_of_lines, input_file))
 
 train_reader = ParallelSentencesDataset(
     student_model=model, teacher_model=teacher_model
@@ -238,7 +237,7 @@ train_objectives = [
     (train_dataloader_sim, train_loss_sim),
 ]  # , (train_dataloader_contrastive, train_loss_contrastive)]
 
-steps_per_epoch = 37
+steps_per_epoch = {0: 28, 1: 37}
 
 model.fit(
     train_objectives=train_objectives,
@@ -253,6 +252,6 @@ model.fit(
     output_path=output_path,
     save_best_model=True,
     optimizer_params={"lr": 2e-5, "eps": 1e-6, "correct_bias": False},
-    checkpoint_save_steps=steps_per_epoch * num_epochs_to_save,
+    checkpoint_save_steps=steps_per_epoch[DATASET_ID] * num_epochs_to_save,
     checkpoint_path=output_path + "/checkpoints",
 )
