@@ -1,5 +1,5 @@
-import os
 import logging
+import os
 
 import matplotlib.pyplot as plt
 import torch
@@ -34,32 +34,44 @@ def visualizePCA(kmeans, features, filename="cluster"):
         c="b",
     )
 
-    # PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"cluster-{n_clusters}.jpg")
     PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"{filename}.jpg")
     plt.savefig(PLOT_FILEPATH)
 
     logging.info(f"Generated graph: {PLOT_FILEPATH}")
 
 
-def evaluateLabels(dataset, labels):
+def augmentClusters(dataset, labels):
+    """
+    Augment the dataset with the predicted clusters.
+    """
+    i = 0
+    for data in dataset:
+        clusters = []
+        for _ in data["embeddings"]:
+            clusters.append(labels[i])
+            i += 1
+        data["clusters"] = clusters
+    assert i == len(labels)
+
+    logging.info("Succesfully augmented cluster information into dataset")
+
+
+def evaluateLabels(dataset):
     """
     Evaluate how many % of sentences where all [EM] are labelled together.
     """
     total = len(dataset)
-    correct = i = 0
+    correct = 0
     for data in dataset:
-        sublabels = []
-        for _ in data["embeddings"]:
-            sublabels.append(labels[i])
-            i += 1
-        all_correct = all(label == sublabels[0] for label in sublabels)
+        clusters = data["clusters"]
+        all_correct = all(cluster == clusters[0] for cluster in clusters)
         if all_correct:
             correct += 1
         else:
             english_sent = data["english_sent"]
             emoji_sent = data["emoji_sent"]
             logging.info(
-                f"=> Label mismatch:\n{english_sent}\n{emoji_sent}\n{sublabels}\n"
+                f"=> Label mismatch:\n{english_sent}\n{emoji_sent}\n{clusters}\n"
             )
 
     logging.info(f"Accuracy: {correct / total}")
@@ -112,7 +124,8 @@ def main():
         inertias.append(kmeans.inertia_)
         logging.info(f"Fitted features into KMeans model: {kmeans}")
 
-        evaluateLabels(dataset, kmeans.labels_)
+        augmentClusters(dataset, kmeans.labels_)
+        evaluateLabels(dataset)
         visualizePCA(kmeans, features, f"cluster-{n}")
 
     plot(

@@ -1,6 +1,7 @@
 Loaded features: output/multilingual/model-2022-03-01_10-45/experiment/extracted_features.pt as a Tensor: torch.Size([5944, 768])
 Begin clustering with 2-clusters
 Fitted features into KMeans model: KMeans(n_clusters=2, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 hot merchandise
 [EM]left speech bubble[EM]t-shirt[EM]
@@ -150,6 +151,7 @@ Accuracy: 0.9825616355983163
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-2.jpg
 Begin clustering with 3-clusters
 Fitted features into KMeans model: KMeans(n_clusters=3, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big voice
 [EM]studio microphone[EM]speaking head[EM]
@@ -764,6 +766,7 @@ Accuracy: 0.9266386049308478
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-3.jpg
 Begin clustering with 4-clusters
 Fitted features into KMeans model: KMeans(n_clusters=4, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big voice
 [EM]studio microphone[EM]speaking head[EM]
@@ -1343,6 +1346,7 @@ Accuracy: 0.930847865303668
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-4.jpg
 Begin clustering with 5-clusters
 Fitted features into KMeans model: KMeans(n_clusters=5, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big expenditure
 [EM]elephant[EM]dollar banknote[EM]money with wings[EM]
@@ -2132,6 +2136,7 @@ Accuracy: 0.9055923030667469
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-5.jpg
 Begin clustering with 6-clusters
 Fitted features into KMeans model: KMeans(n_clusters=6, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big expenditure
 [EM]elephant[EM]dollar banknote[EM]money with wings[EM]
@@ -2951,6 +2956,7 @@ Accuracy: 0.9019843656043295
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-6.jpg
 Begin clustering with 7-clusters
 Fitted features into KMeans model: KMeans(n_clusters=7, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big business
 [EM]necktie[EM]chart increasing[EM]
@@ -3835,6 +3841,7 @@ Accuracy: 0.894167167769092
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-7.jpg
 Begin clustering with 8-clusters
 Fitted features into KMeans model: KMeans(random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big expenditure
 [EM]elephant[EM]dollar banknote[EM]money with wings[EM]
@@ -4714,6 +4721,7 @@ Accuracy: 0.8947684906794949
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-8.jpg
 Begin clustering with 9-clusters
 Fitted features into KMeans model: KMeans(n_clusters=9, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big expenditure
 [EM]elephant[EM]dollar banknote[EM]money with wings[EM]
@@ -5588,6 +5596,7 @@ Accuracy: 0.8953698135898978
 Generated graph: output/multilingual/model-2022-03-01_10-45/experiment/cluster-9.jpg
 Begin clustering with 10-clusters
 Fitted features into KMeans model: KMeans(n_clusters=10, random_state=27)
+Succesfully augmented cluster information into dataset
 => Label mismatch:
 big expenditure
 [EM]elephant[EM]dollar banknote[EM]money with wings[EM]
