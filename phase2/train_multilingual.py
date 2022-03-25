@@ -14,6 +14,9 @@ from data_filepath import DATASET_ID, TRAIN_DATA_FOLDER
 
 output_path = "output/multilingual/model-" + datetime.now().strftime("%Y-%m-%d_%H-%M")
 
+gpu_id = 0
+device = "cuda:{}".format(gpu_id)
+
 #### Just some code to print debug information to stdout
 log_filename = output_path + "/logfile"
 os.makedirs(os.path.dirname(log_filename), exist_ok=True)
@@ -29,7 +32,8 @@ logger = logging.getLogger(__name__)
 logging.info("=> Input train data from folder: {}".format(TRAIN_DATA_FOLDER))
 
 ###### CREATE MODEL ######
-teacher_model_name = "all-mpnet-base-v2"  # Our monolingual teacher model, we want to convert to multiple languages
+teacher_model = ["bert-base-nli-stsb-mean-tokens", "all-mpnet-base-v2"]
+teacher_model_name = teacher_model[0]  # Our monolingual teacher model, we want to convert to multiple languages
 student_model_name = (
     "xlm-roberta-base"  # Multilingual base model we use to imitate the teacher model
 )
@@ -47,7 +51,7 @@ num_epochs_to_save = 50  # Save the model checkpoint after xxxx epochs
 
 # Load teacher model
 logging.info("=> Load teacher model")
-teacher_model = SentenceTransformer(teacher_model_name, device="cuda:0")
+teacher_model = SentenceTransformer(teacher_model_name, device=device)
 
 # Create student model
 logging.info("=> Create student model")
@@ -62,7 +66,7 @@ pooling_model = models.Pooling(
 )
 
 model = SentenceTransformer(
-    modules=[word_embedding_model, pooling_model], device="cuda:0"
+    modules=[word_embedding_model, pooling_model], device=device
 )
 
 
