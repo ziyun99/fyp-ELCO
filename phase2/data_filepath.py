@@ -26,7 +26,6 @@ RAW_DATA_FILEPATH_JSON = os.path.join(
 )
 
 
-
 # model to get raw similarity scores of all annotations
 MODEL_ID = 0
 
@@ -41,7 +40,9 @@ SCORE_DATA_FILEPATH_JSON = os.path.join(
 
 
 # aggregated scores based on concepts, attributes and adj
-SCORE_DATA_FILEPATH_EXCEL = os.path.join(DATA_FOLDER[DATASET_ID], "scores", "AN_score.xlsx")
+SCORE_DATA_FILEPATH_EXCEL = os.path.join(
+    DATA_FOLDER[DATASET_ID], "scores", "AN_score.xlsx"
+)
 
 ATTRIBUTE_DATA_FILEPATH = os.path.join(
     DATA_FOLDER[DATASET_ID], "scores", "AN_score_attribute.xlsx"

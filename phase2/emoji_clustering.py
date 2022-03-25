@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 import torch
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-import os 
+import os
 
-from feature_extraction import DEVICE, SAVE_FILEPATH, DATA_FOLDER
+from feature_extraction import DEVICE, EXPERIMENT_FOLDER, FEATURES_FILEPATH
 
-SAVE_PLOT_PATH = os.path.join(DATA_FOLDER, "clustering.jpg")
+PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "clustering.jpg")
 
 N_CLUSTERS = 10
 RAND_SEED = 27
@@ -16,7 +16,7 @@ def main():
     """
     Load feature embeddings from SAVE_FILEPATH
     """
-    dataset = torch.load(SAVE_FILEPATH, DEVICE)
+    dataset = torch.load(FEATURES_FILEPATH, DEVICE)
 
     features = []
     num_em = 0
@@ -29,7 +29,7 @@ def main():
     assert len(features) == num_em
     assert len(features[0]) == 768
 
-    print(f"Loaded features: {SAVE_FILEPATH} as a Tensor: {features.shape}")
+    print(f"Loaded features: {FEATURES_FILEPATH} as a Tensor: {features.shape}")
 
     """
     Fit features into KMeans model f9or clustering
@@ -56,7 +56,7 @@ def main():
         s=150,
         c="b",
     )
-    plt.savefig(SAVE_PLOT_PATH)
+    plt.savefig(PLOT_FILEPATH)
 
 
 if __name__ == "__main__":

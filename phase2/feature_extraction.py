@@ -6,13 +6,14 @@ from sentence_transformers import SentenceTransformer
 
 DEVICE = torch.device("cpu")
 
-from data_filepath import TRAIN_DATA_FOLDER 
+from data_filepath import TRAIN_DATA_FOLDER
 
 
-# Change this line below for other models
-MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
+model_name = input("Enter model name (e.g. model-2022-03-01_10-45): ")
+MODEL_FOLDER = os.path.join("output", "multilingual", model_name)
 DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
-SAVE_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "extracted_features.pt")
+EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
+FEATURES_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "extracted_features.pt")
 
 EM = "[EM]"  # Special emoji token
 
@@ -128,8 +129,8 @@ def main():
     """
     Save features using pickle
     """
-    torch.save(features, SAVE_FILEPATH)
-    print(f"Saved features into file: {SAVE_FILEPATH}\n")
+    torch.save(features, FEATURES_FILEPATH)
+    print(f"Saved features into file: {FEATURES_FILEPATH}\n")
 
 
 if __name__ == "__main__":
