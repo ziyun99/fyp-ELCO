@@ -17,14 +17,17 @@ def load_features(filepath):
     dataset = torch.load(filepath, DEVICE)
 
     features = []
+    labels = []
     num_em = 0
     for data in dataset:
         for embedding in data["embeddings"]:
             features.append(embedding)
+            labels.append(data["english_sent"])
         num_em += data["num_emoji"] + 1
     features = torch.stack(features)
 
     assert len(features) == num_em
+    assert len(features) == len(labels)
     assert len(features[0]) == 768
 
     print(f"Loaded features: {filepath} as a Tensor: {features.shape}")
@@ -38,8 +41,9 @@ def cluster_features(features, n_clusters=6):
     """
     kmeans = KMeans(n_clusters=n_clusters, random_state=RAND_SEED)
     kmeans.fit(features)
+    inertia = kmeans.inertia_
 
-    print(f"Fitted features into KMeans model: {kmeans}")
+    print(f"Fitted features into KMeans model: {kmeans}, inertia = {inertia}")
 
     # Visualization
     pca = PCA(random_state=RAND_SEED)
@@ -60,24 +64,26 @@ def cluster_features(features, n_clusters=6):
     PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"cluster-{n_clusters}.jpg")
     plt.savefig(PLOT_FILEPATH)
 
-    return kmeans.inertia_
+    print(f"Generated graph: {PLOT_FILEPATH}")
+    return inertia
 
 
 def plot_inertia(inertias, N):
     """
     Plot the n_clusters-to-inertia graph for elbow method
     """
+    plt.figure()
     plt.plot(N, inertias, "bx-")
     plt.xlabel("Clusters")
     plt.ylabel("Sum_of_squared_distances")
-    plt.title("Elbow Method For Optimal k")
+    plt.title("Elbow Method For Optimal n")
 
     ELBOW_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "elbow-method.jpg")
     plt.savefig(ELBOW_FILEPATH)
 
 
 def main():
-    features = load_features(FEATURES_FILEPATH, DEVICE)
+    features = load_features(FEATURES_FILEPATH)
 
     inertias = []
     N = range(2, 11)
