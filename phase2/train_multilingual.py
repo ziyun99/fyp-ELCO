@@ -1,17 +1,16 @@
-from sentence_transformers.datasets import ParallelSentencesDataset
-from torch.utils.data import DataLoader
-from sentence_transformers import losses, evaluation
-from sentence_transformers.readers import InputExample
-
-from sentence_transformers import SentenceTransformer, models
+import json
+import logging
+import os
 from datetime import datetime
+
 import numpy as np
 import pandas as pd
-import json
-import logging, os
+from sentence_transformers import SentenceTransformer, evaluation, losses, models
+from sentence_transformers.datasets import ParallelSentencesDataset
+from sentence_transformers.readers import InputExample
+from torch.utils.data import DataLoader
 
-from data_filepath import TRAIN_DATA_FOLDER 
-
+from data_filepath import TRAIN_DATA_FOLDER
 
 output_path = "output/multilingual/model-" + datetime.now().strftime("%Y-%m-%d_%H-%M")
 
@@ -83,7 +82,7 @@ logging.info("=> Load parallel dataset")
 splitted_names = ["train", "validate", "test"]
 parallel_data_filepaths = {}
 for df_name in splitted_names:
-    input_file = os.path.join(TRAIN_DATA_FOLDER, "parallel_data_{}.txt".format(df_name)) 
+    input_file = os.path.join(TRAIN_DATA_FOLDER, "parallel_data_{}.txt".format(df_name))
     parallel_data_filepaths[df_name] = input_file
     logging.info(
         "{}: {}. input file: {}".format(
@@ -106,7 +105,9 @@ for df_name in ["train", "validate", "test"]:
     src_sentences = []
     trg_sentences = []
     with open(
-        os.path.join(TRAIN_DATA_FOLDER, "parallel_data_{}.txt".format(df_name)), "rt", encoding="utf8"
+        os.path.join(TRAIN_DATA_FOLDER, "parallel_data_{}.txt".format(df_name)),
+        "rt",
+        encoding="utf8",
     ) as fIn:
         for line in fIn:
             splits = line.strip().split("\t")
@@ -138,7 +139,7 @@ for df_name in ["train", "validate", "test"]:
 logging.info("=> Load cosine similarity dataset")
 sim_samples = {}
 for df_name in splitted_names:
-    input_file = os.path.join(TRAIN_DATA_FOLDER,"{}.csv".format(df_name))
+    input_file = os.path.join(TRAIN_DATA_FOLDER, "{}.csv".format(df_name))
     df = pd.read_csv(input_file)
     sentence1 = df["sentence1"].tolist()
     sentence2 = df["sentence2"].tolist()
@@ -237,6 +238,8 @@ train_objectives = [
     (train_dataloader_sim, train_loss_sim),
 ]  # , (train_dataloader_contrastive, train_loss_contrastive)]
 
+steps_per_epoch = 37
+
 model.fit(
     train_objectives=train_objectives,
     evaluator=evaluation.SequentialEvaluator(
@@ -250,6 +253,6 @@ model.fit(
     output_path=output_path,
     save_best_model=True,
     optimizer_params={"lr": 2e-5, "eps": 1e-6, "correct_bias": False},
-    checkpoint_save_steps=28 * num_epochs_to_save,
+    checkpoint_save_steps=steps_per_epoch * num_epochs_to_save,
     checkpoint_path=output_path + "/checkpoints",
 )

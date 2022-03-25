@@ -4,8 +4,8 @@ import os
 DATASET_ID = 1
 
 DATA_FOLDER = [
-    "/home/ziyun99/fyp-ELCO/phase1/AN/data",
-    "/home/ziyun99/fyp-ELCO/phase2/AN/data",
+    "../../fyp-ELCO/phase1/AN/data",
+    "../../fyp-ELCO/phase2/AN/data",
 ]
 
 data_folder = DATA_FOLDER[DATASET_ID]

@@ -8,11 +8,12 @@ DEVICE = torch.device("cpu")
 
 from data_filepath import TRAIN_DATA_FOLDER
 
-
-model_name = input("Enter model name (e.g. model-2022-03-01_10-45): ")
-MODEL_FOLDER = os.path.join("output", "multilingual", model_name)
+# Change line below to use other model
+MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
 DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
 EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
+if not os.path.exists(EXPERIMENT_FOLDER):
+    os.makedirs(EXPERIMENT_FOLDER)
 FEATURES_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "extracted_features.pt")
 
 EM = "[EM]"  # Special emoji token
