@@ -65,6 +65,7 @@ def evaluateLabels(dataset):
     for data in dataset:
         clusters = data["clusters"]
         all_correct = all(cluster == clusters[0] for cluster in clusters)
+        # TODO: cosine_score = calculate_blablabla(clusters)
         if all_correct:
             correct += 1
         else:
