@@ -1,5 +1,6 @@
 import logging
 import os
+import pickle
 
 import matplotlib.pyplot as plt
 import torch
@@ -17,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def visualizePCA(kmeans, features, filename="cluster"):
+def visualizePCA(n, kmeans, features, labels, filename="cluster"):
     """
     Plot large dimension features into 2D space
     """
@@ -34,11 +35,23 @@ def visualizePCA(kmeans, features, filename="cluster"):
         c="b",
     )
 
+    # label each EM point with english sentence
+    for i, label in enumerate(labels):
+        plt.annotate(label,
+                        xy=(reduced_features[i][0], reduced_features[i][1]),
+                        xytext=(5, 2),
+                        textcoords='offset points',
+                        ha='right',
+                        va='bottom')
+
     PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"{filename}.jpg")
     plt.savefig(PLOT_FILEPATH)
 
     logging.info(f"Generated graph: {PLOT_FILEPATH}")
 
+    # save pca model
+    pca_model_file = os.path.join(EXPERIMENT_FOLDER, "pca-{}.pt".format(n))
+    pickle.dump(pca, open(pca_model_file, "wb"))
 
 def augmentClusters(dataset, labels):
     """
@@ -78,7 +91,7 @@ def evaluateLabels(dataset):
     logging.info(f"Accuracy: {correct / total}")
 
 
-def plot(x_value, y_value, title, x_label, y_label, filename):
+def plot_elbow_method(x_value, y_value, title, x_label, y_label, filename):
     """
     Plot helper
     """
@@ -127,9 +140,14 @@ def main():
 
         augmentClusters(dataset, kmeans.labels_)
         evaluateLabels(dataset)
-        visualizePCA(kmeans, features, f"cluster-{n}")
+        visualizePCA(n, kmeans, features, labels, f"cluster-{n}")
 
-    plot(
+        # save kmeans model
+        kmeans_model_file = os.path.join(EXPERIMENT_FOLDER, "kmeans-{}.pt".format(n))
+        pickle.dump(kmeans, open(kmeans_model_file, "wb"))
+
+
+    plot_elbow_method(
         x_value=N,
         y_value=inertias,
         title="Elbow method",

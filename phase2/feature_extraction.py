@@ -9,7 +9,8 @@ DEVICE = torch.device("cpu")
 from data_filepath import TRAIN_DATA_FOLDER
 
 # Change line below to use other model
-MODEL_FOLDER = os.path.join("output", "multilingual", "model-2022-03-01_10-45")
+model_file = "model-2022-03-25_14-11-old-model-phase2"
+MODEL_FOLDER = os.path.join("output", "multilingual", model_file)
 DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
 EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
 if not os.path.exists(EXPERIMENT_FOLDER):
