@@ -5,16 +5,16 @@ import pandas as pd
 
 
 model_file = sys.argv[1]
-
-df_mse_train = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-train_results.csv')
-df_mse_test = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-test_results.csv')
-df_mse_val = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-validate_results.csv')
-df_sim_train = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-train_results.csv')
-df_sim_test = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-test_results.csv')
-df_sim_val = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-validate_results.csv')
-df_trans_train = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-train_results.csv')
-df_trans_test = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-test_results.csv')
-df_trans_val = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-validate_results.csv')
+k = 200
+df_mse_train = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-train_results.csv')[:k]
+df_mse_test = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-test_results.csv')[:k]
+df_mse_val = pd.read_csv(f'output/multilingual/{model_file}/eval/mse_evaluation_mse-validate_results.csv')[:k]
+df_sim_train = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-train_results.csv')[:k]
+df_sim_test = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-test_results.csv')[:k]
+df_sim_val = pd.read_csv(f'output/multilingual/{model_file}/eval/similarity_evaluation_cossim-validate_results.csv')[:k]
+df_trans_train = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-train_results.csv')[:k]
+df_trans_test = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-test_results.csv')[:k]
+df_trans_val = pd.read_csv(f'output/multilingual/{model_file}/eval/translation_evaluation_trans-validate_results.csv')[:k]
 
 f1 = plt.figure(figsize=(30,10))
 ax_mse = f1.add_subplot(3,2,1)
@@ -53,11 +53,11 @@ ax_trans.plot(df_trans_train[["trg2src"]], label = 'train', color="b")
 ax_trans.legend(loc="upper right")
 
 
-f1.savefig(f"output/multilingual/{model_file}/eval/plot.jpg")
+f1.savefig(f"output/multilingual/{model_file}/eval/plot-200.jpg")
 
 
 
-df_infroret_test = pd.read_csv(f'output/multilingual/{model_file}/eval/Information-Retrieval_evaluation_inforet-test_results.csv')
+df_infroret_test = pd.read_csv(f'output/multilingual/{model_file}/eval/Information-Retrieval_evaluation_inforet-test_results.csv')[:k]
 f2 = plt.figure(figsize=(30,10))
 ax_infroret = f2.add_subplot(2,2,1)
 ax_infroret.title.set_text("cos_sim-Accuracy")
@@ -91,10 +91,10 @@ ax_infroret.plot(df_infroret_test[["cos_sim-MAP@100"]], label = 'MAP@100', color
 ax_infroret.legend(loc="upper right")
 
 
-f2.savefig(f"output/multilingual/{model_file}/eval/plot-inforet.jpg")
+f2.savefig(f"output/multilingual/{model_file}/eval/plot-inforet-200.jpg")
 
 
-df_infroret_test = pd.read_csv(f'output/multilingual/{model_file}/eval/Information-Retrieval_evaluation_inforet-test_results.csv')
+df_infroret_test = pd.read_csv(f'output/multilingual/{model_file}/eval/Information-Retrieval_evaluation_inforet-test_results.csv')[:k]
 f2 = plt.figure(figsize=(30,10))
 ax_infroret = f2.add_subplot(2,2,1)
 ax_infroret.title.set_text("dot_score-Accuracy")
@@ -128,4 +128,4 @@ ax_infroret.plot(df_infroret_test[["dot_score-MAP@100"]], label = 'MAP@100', col
 ax_infroret.legend(loc="upper right")
 
 
-f2.savefig(f"output/multilingual/{model_file}/eval/plot-inforet-dot_score.jpg")
+f2.savefig(f"output/multilingual/{model_file}/eval/plot-inforet-dot_score-200.jpg")
