@@ -1,0 +1,33 @@
+EXPERIMENT_NAME: ir-exp-eval
+MODEL_NAME: model-bert-xlm
+DATA_NAME: experiment/ir_data.json
+Load pretrained SentenceTransformer: output/multilingual/model-bert-xlm
+Use pytorch device: cuda
+=> Load information retrieval dataset
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/ir_data.json.
+  Number of queries 210, nummber of corpus 1615, nummber of relavant docs 210
+Information Retrieval Evaluation on inforet-test dataset:
+Queries: 210
+Corpus: 1615
+
+k_val: wrong medicine
+k_val: 1
+query_itr: 205
+top_hits: ['[EM]face with thermometer[EM]double exclamation mark[EM]']
+query_relevant_docs: ['[EM]cross mark[EM]pill[EM]', '[EM]woman gesturing NO[EM]pill[EM]', '[EM]man gesturing NO[EM]pill[EM]', '[EM]cross mark[EM]pill[EM]face with thermometer[EM]', '[EM]hollow red circle[EM]hospital[EM]']
+Score-Function: cos_sim
+Accuracy@1: 99.52%
+Accuracy@3: 99.52%
+Accuracy@5: 100.00%
+Accuracy@10: 100.00%
+Precision@1: 99.52%
+Precision@3: 95.71%
+Precision@5: 86.29%
+Precision@10: 54.86%
+Recall@1: 13.18%
+Recall@3: 37.60%
+Recall@5: 55.85%
+Recall@10: 70.04%
+MRR@10: 0.9962
+NDCG@10: 0.7833
+MAP@100: 0.7041

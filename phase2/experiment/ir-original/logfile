@@ -1,0 +1,38 @@
+EXPERIMENT_NAME: ir-original
+MODEL_NAME: model-bert-xlm
+DATA_NAME: training/information_retrieval_data.json
+Load pretrained SentenceTransformer: output/multilingual/model-bert-xlm
+Use pytorch device: cuda
+=> Load information retrieval dataset
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/training/information_retrieval_data.json.
+  Number of queries 210, nummber of corpus 1757, nummber of relavant docs 210
+Information Retrieval Evaluation on inforet-test dataset:
+Queries: 210
+Corpus: 1757
+
+k_val: puzzling statement
+k_val: 1
+query_itr: 161
+top_hits: ['[EM]red question mark[EM]red question mark[EM]red question mark[EM]']
+query_relevant_docs: ['[EM]exclamation question mark[EM]exclamation question mark[EM]red question mark[EM]white question mark[EM]woman shrugging[EM]person shrugging[EM]man shrugging[EM]', '[EM]lying face[EM]', '[EM]speech balloon[EM]red question mark[EM]red question mark[EM]face with spiral eyes[EM]', '[EM]speaking head[EM]red question mark[EM]exclamation question mark[EM]thinking face[EM]person shrugging[EM]', '[EM]woman shrugging[EM]speaking head[EM]', '[EM]face with spiral eyes[EM]face with raised eyebrow[EM]red question mark[EM]', '[EM]red question mark[EM]red question mark[EM]red question mark[EM]red question mark[EM]', '[EM]face with spiral eyes[EM]thinking face[EM]', '[EM]face with monocle[EM]red question mark[EM]']
+k_val: wrong medicine
+k_val: 1
+query_itr: 205
+top_hits: ['[EM]face with thermometer[EM]double exclamation mark[EM]']
+query_relevant_docs: ['[EM]man gesturing NO[EM]pill[EM]', '[EM]hollow red circle[EM]hospital[EM]', '[EM]woman gesturing NO[EM]pill[EM]', '[EM]cross mark[EM]pill[EM]', '[EM]cross mark[EM]pill[EM]face with thermometer[EM]']
+Score-Function: cos_sim
+Accuracy@1: 99.05%
+Accuracy@3: 99.52%
+Accuracy@5: 99.52%
+Accuracy@10: 100.00%
+Precision@1: 99.05%
+Precision@3: 97.78%
+Precision@5: 91.43%
+Precision@10: 59.90%
+Recall@1: 11.62%
+Recall@3: 34.37%
+Recall@5: 53.55%
+Recall@10: 69.75%
+MRR@10: 0.9937
+NDCG@10: 0.7843
+MAP@100: 0.7087
