@@ -240,6 +240,7 @@ def compute_ratings(filepath):
 
 def get_top_bottom_k(filepath, k, min_samples, breakdown_type):
     df = pd.read_excel(filepath)
+    print(df.describe())
     df = df.loc[df["{}_count".format(breakdown_type)] >= min_samples]
     topk = df[:k]
     bottomk = df[-k:]
@@ -270,13 +271,13 @@ def get_top_bottom_k(filepath, k, min_samples, breakdown_type):
 
 def analyse_scores():
     # aggregate similarity scores by concept
-    score_df = score_json_to_csv(SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL)
+    # score_df = score_json_to_csv(SCORE_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_EXCEL)
 
-    # aggregae similarity scores by adjectives/attributes
-    groupby_adj_attri(SCORE_DATA_FILEPATH_JSON, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
+    # # aggregae similarity scores by adjectives/attributes
+    # groupby_adj_attri(SCORE_DATA_FILEPATH_JSON, ATTRIBUTE_DATA_FILEPATH, ADJ_DATA_FILEPATH)
 
-    compute_matching_baseline(SCORE_DATA_FILEPATH_JSON)
-    compute_ratings(SCORE_DATA_FILEPATH_JSON)
+    # compute_matching_baseline(SCORE_DATA_FILEPATH_JSON)
+    # compute_ratings(SCORE_DATA_FILEPATH_JSON)
 
     get_top_bottom_k(ADJ_DATA_FILEPATH, k=5, min_samples=3, breakdown_type="adj")
     get_top_bottom_k(
