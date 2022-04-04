@@ -1,11 +1,14 @@
 import json
-from operator import pos
-import pandas as pd
-import numpy as np
 import os
+import random
+from copy import deepcopy
+
+import numpy as np
+import pandas as pd
 
 import data_filepath
 
+random.seed(27)
 emoji_joiner = "[EM]"
 
 # each sample is labeled according to {0: pos, 1: baseline, 2: semineg, 3: randneg}
@@ -46,16 +49,46 @@ def format_emoji_text(emoji_texts):
         )
         for text in cleaned_emoji_texts
     ]
-    return cleaned_emoji_texts, formatted_texts
+
+    # shuffle the emojis to as perturbation on emoji ordering
+    shuffled_cleaned_emoji_texts = []
+    for emoji_texts in cleaned_emoji_texts:
+        shuffled_emoji_texts = deepcopy(emoji_texts)
+        if len(shuffled_emoji_texts) >=2:
+            # swap the first two emojis
+            shuffled_emoji_texts[0], shuffled_emoji_texts[1] = shuffled_emoji_texts[1], shuffled_emoji_texts[0]
+        shuffled_cleaned_emoji_texts.append(shuffled_emoji_texts)
+
+    shuffled_formatted_texts = [
+        "{1}{0}{1}".format(
+            emoji_joiner.join([t[1:-1].replace("_", " ") for t in text]), emoji_joiner
+        )
+        for text in shuffled_cleaned_emoji_texts
+    ]
+
+    num_emojis = [len(emoji_texts) for emoji_texts in cleaned_emoji_texts]
+    is_repeating_emojis = []
+    for emoji_texts in cleaned_emoji_texts:
+        if len(emoji_texts) > 1 and len(set(emoji_texts)) == 1:
+            is_repeating_emojis.append(True)
+        else:
+            is_repeating_emojis.append(False)
+
+    return cleaned_emoji_texts, formatted_texts, shuffled_cleaned_emoji_texts, shuffled_formatted_texts, num_emojis, is_repeating_emojis
 
 
 def format_an_data(raw_data_filepath, train_datapath_json):
     f = open(raw_data_filepath)
     data_dict = json.load(f)
 
+    # initialize the dictionary and its entries for all the data
     an_data = {}
     for field in data_fields:
         an_data[field] = []
+    an_data["shuffled_sentence2"] = []
+    an_data["shuffled_emoji_list"] = []
+    an_data["num_emojis"] = []
+    an_data["is_repeating_emojis"] = []
 
     count = 0
     for concept in data_dict:
@@ -66,14 +99,18 @@ def format_an_data(raw_data_filepath, train_datapath_json):
             categories, assigned_scores, assigned_labels
         ):
             emoji_texts = data_dict[concept][category]
-            emoji_texts, emoji_strings = format_emoji_text(emoji_texts)
-            for text, string in zip(emoji_texts, emoji_strings):
+            emoji_texts, emoji_strings, shuffled_emoji_texts, shuffled_emoji_strings, num_emojis, is_repeating_emojis = format_emoji_text(emoji_texts)
+            for text, string, shuffled_text, shuffled_string, num_emojis, is_repeating_emojis in zip(emoji_texts, emoji_strings, shuffled_emoji_texts, shuffled_emoji_strings, num_emojis, is_repeating_emojis):
                 an_data["sentence1"].append(concept)
                 an_data["sentence2"].append(string)
+                an_data["shuffled_sentence2"].append(shuffled_string)
                 an_data["score"].append(assigned_score)
                 an_data["label"].append(assigned_label)
                 an_data["label_name"].append(category)
                 an_data["emoji_list"].append(text)
+                an_data["shuffled_emoji_list"].append(shuffled_text)
+                an_data["num_emojis"].append(num_emojis)
+                an_data["is_repeating_emojis"].append(is_repeating_emojis)
 
     assert (
         len(an_data["sentence1"])
@@ -253,17 +290,74 @@ def information_retrieval_data(train_datapath_csv, ir_datapath):
         )
     )
 
+def shuffled_information_retrieval_data(train_datapath_csv, ir_datapath):
+    information_retrieval_data = {}
+
+    df = pd.read_csv(train_datapath_csv)
+
+    # use the shuffled sentence as corpus
+    df["sentence2"] = df["shuffled_sentence2"]
+
+    pos_df = df.loc[
+        (df["label_name"] == "emoji_annotations_text")
+        | (df["label_name"] == "baseline_text")
+    ]  ## only do IR on positive samples
+
+    # remove annotations with only one emoji and repeating emojis
+    print(len(pos_df))
+    pos_df = pos_df.loc[df["num_emojis"] > 1]
+    pos_df = pos_df.loc[df["is_repeating_emojis"] == False]
+    print(len(pos_df))
+
+    queries = list(set(pos_df["sentence1"].tolist()))  ## get unique list of queries
+    queries.sort()
+    information_retrieval_data["ir_queries"] = {i: q for i, q in enumerate(queries)}
+    ir_queries_to_idx = {q: i for i, q in enumerate(queries)}
+    corpus = list(set(pos_df["sentence2"].tolist()))  ## get unique list of corpus
+    information_retrieval_data["ir_corpus"] = {i: c for i, c in enumerate(corpus)}
+    ir_corpus_to_idx = {c: i for i, c in enumerate(corpus)}
+
+    ir_relevant_docs = {}
+    for _, row in pos_df.iterrows():
+        q = row["sentence1"]
+        c = row["sentence2"]
+        qid = ir_queries_to_idx[q]
+        cid = ir_corpus_to_idx[c]
+        if qid not in ir_relevant_docs:
+            ir_relevant_docs[qid] = []
+        if cid not in ir_relevant_docs[qid]:
+            ir_relevant_docs[qid].append(cid)
+    information_retrieval_data["ir_relevant_docs"] = ir_relevant_docs
+
+    with open(ir_datapath, "w") as outfile:
+        json.dump(information_retrieval_data, outfile, indent=4, allow_nan=True)
+
+    print(
+        "\n => Generate Information Retrieval data.\n  Input file: {}. Save to: {}".format(
+            train_datapath_csv, ir_datapath
+        )
+    )
+    print(
+        "  Number of queries {}, nummber of corpus {}, nummber of relavant docs {}".format(
+            len(information_retrieval_data["ir_queries"]),
+            len(information_retrieval_data["ir_corpus"]),
+            len(information_retrieval_data["ir_relevant_docs"]),
+        )
+    ) 
 
 if __name__ == "__main__":
-    format_an_data(
-        data_filepath.RAW_DATA_FILEPATH_JSON, data_filepath.AN_TRAIN_DATAPATH_JSON
-    )
-    train_test_split(
-        data_filepath.AN_TRAIN_DATAPATH_JSON,
-        data_filepath.AN_TRAIN_DATAPATH_CSV,
-        data_filepath.AN_TRAIN_FOLDER,
-    )
-    parallel_data(data_filepath.AN_TRAIN_DATAPATH_CSV, data_filepath.AN_TRAIN_FOLDER)
-    information_retrieval_data(
-        data_filepath.AN_TRAIN_DATAPATH_CSV, data_filepath.AN_IR_DATAPATH
+    # format_an_data(
+    #     data_filepath.RAW_DATA_FILEPATH_JSON, data_filepath.AN_TRAIN_DATAPATH_JSON
+    # )
+    # train_test_split(
+    #     data_filepath.AN_TRAIN_DATAPATH_JSON,
+    #     data_filepath.AN_TRAIN_DATAPATH_CSV,
+    #     data_filepath.AN_TRAIN_FOLDER,
+    # )
+    # parallel_data(data_filepath.AN_TRAIN_DATAPATH_CSV, data_filepath.AN_TRAIN_FOLDER)
+    # information_retrieval_data(
+    #     data_filepath.AN_TRAIN_DATAPATH_CSV, data_filepath.AN_IR_DATAPATH
+    # )
+    shuffled_information_retrieval_data(
+        data_filepath.AN_TRAIN_DATAPATH_CSV, os.path.join(data_filepath.data_folder, "experiment/shuffled_ir_data.json")
     )
