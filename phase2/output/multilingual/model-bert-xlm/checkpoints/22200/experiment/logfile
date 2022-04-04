@@ -1,0 +1,451 @@
+Loaded features: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/extracted_features.pt as a Tensor: torch.Size([5944, 768])
+Begin clustering with 2-clusters
+Fitted features into KMeans model: KMeans(n_clusters=2, random_state=27)
+Succesfully augmented cluster information into dataset
+Accuracy: 1.0
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-2.jpg
+Begin clustering with 3-clusters
+Fitted features into KMeans model: KMeans(n_clusters=3, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+average people
+[EM]man[EM]person[EM]person shrugging[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+common parlance
+[EM]woman office worker[EM]speaking head[EM]briefcase[EM]
+[0, 0, 1, 1]
+
+=> Label mismatch:
+thin air
+[EM]face with spiral eyes[EM]dashing away[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+deep voice
+[EM]speaking head[EM]speaker high volume[EM]downwards button[EM]
+[1, 0, 1, 1]
+
+=> Label mismatch:
+deep concentration
+[EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM]
+[0, 0, 1, 0, 1]
+
+Accuracy: 0.9963920625375827
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-3.jpg
+Begin clustering with 4-clusters
+Fitted features into KMeans model: KMeans(n_clusters=4, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+hot stove
+[EM]name badge[EM]thermometer[EM]fondue[EM]
+[2, 2, 2, 1]
+
+=> Label mismatch:
+short holiday
+[EM]left-right arrow[EM]desert island[EM]bottle with popping cork[EM]person getting massage[EM]person in steamy room[EM]person in lotus position[EM]
+[0, 0, 0, 0, 0, 0, 2]
+
+=> Label mismatch:
+common parlance
+[EM]woman office worker[EM]speaking head[EM]briefcase[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+ample waistline
+[EM]pregnant woman[EM]chart increasing[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+low reservoir
+[EM]first quarter moon face[EM]down-right arrow[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+thick soup
+[EM]canned food[EM]soft ice cream[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+deep voice
+[EM]speaking head[EM]speaker high volume[EM]downwards button[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+deep concentration
+[EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM]
+[0, 2, 2, 2, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]persevering face[EM]men holding hands[EM]men holding hands[EM]women holding hands[EM]
+[1, 1, 2, 2, 1]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[0, 0, 2, 2, 2, 2]
+
+Accuracy: 0.9933854479855683
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-4.jpg
+Begin clustering with 5-clusters
+Fitted features into KMeans model: KMeans(n_clusters=5, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+hot water
+[EM]name badge[EM]sweat droplets[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[3, 3, 3, 1, 3, 1, 3]
+
+=> Label mismatch:
+right hand
+[EM]palms up together[EM]raised back of hand[EM]
+[3, 1, 1]
+
+=> Label mismatch:
+critical element
+[EM]police car light[EM]police car light[EM]
+[3, 1, 3]
+
+=> Label mismatch:
+thin air
+[EM]leaf fluttering in wind[EM]
+[4, 1]
+
+=> Label mismatch:
+thick soup
+[EM]canned food[EM]soft ice cream[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[4, 0, 0]
+
+=> Label mismatch:
+high opinion
+[EM]speaking head[EM]backhand index pointing up[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+inadequate training
+[EM]persevering face[EM]men holding hands[EM]men holding hands[EM]women holding hands[EM]
+[4, 4, 1, 1, 1]
+
+Accuracy: 0.9927841250751653
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-5.jpg
+Begin clustering with 6-clusters
+Fitted features into KMeans model: KMeans(n_clusters=6, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+hot water
+[EM]name badge[EM]sweat droplets[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+common nuisance
+[EM]busts in silhouette[EM]weary face[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+deep voice
+[EM]speaking head[EM]speaker high volume[EM]downwards button[EM]
+[0, 0, 1, 1]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[1, 2, 1]
+
+Accuracy: 0.9969933854479855
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-6.jpg
+Begin clustering with 7-clusters
+Fitted features into KMeans model: KMeans(n_clusters=7, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+hot stove
+[EM]name badge[EM]thermometer[EM]fondue[EM]
+[5, 5, 1, 1]
+
+=> Label mismatch:
+bright future
+[EM]man scientist[EM]woman student[EM]man health worker[EM]
+[0, 0, 4, 4]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+common procedure
+[EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM]
+[4, 4, 4, 1, 1, 4]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[1, 4, 1]
+
+=> Label mismatch:
+exotic cuisine
+[EM]bento box[EM]croissant[EM]pizza[EM]
+[5, 1, 1, 1]
+
+Accuracy: 0.994588093806374
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-7.jpg
+Begin clustering with 8-clusters
+Fitted features into KMeans model: KMeans(random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]shallow pan of food[EM]burrito[EM]burrito[EM]money-mouth face[EM]money-mouth face[EM]money with wings[EM]money with wings[EM]
+[4, 4, 4, 4, 4, 4, 1, 1]
+
+=> Label mismatch:
+big day
+[EM]person with veil[EM]wedding[EM]man in tuxedo[EM]
+[1, 1, 1, 3]
+
+=> Label mismatch:
+right hand
+[EM]palms up together[EM]raised back of hand[EM]
+[7, 7, 3]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[3, 4, 4]
+
+=> Label mismatch:
+full life
+[EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM]
+[1, 1, 1, 1, 3, 1, 1, 1]
+
+=> Label mismatch:
+ample waistline
+[EM]woman gesturing OK light skin tone[EM]shorts[EM]
+[7, 3, 3]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[3, 2, 2]
+
+=> Label mismatch:
+intelligent question
+[EM]thinking face[EM]nerd face[EM]red question mark[EM]
+[7, 3, 3, 3]
+
+=> Label mismatch:
+dry land
+[EM]hot springs[EM]sunset[EM]
+[6, 6, 1]
+
+=> Label mismatch:
+fresh air
+[EM]globe showing Europe-Africa[EM]thumbs up[EM]dashing away[EM]multiply[EM]cigarette[EM]
+[1, 6, 6, 6, 6, 6]
+
+Accuracy: 0.9933854479855683
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-8.jpg
+Begin clustering with 9-clusters
+Fitted features into KMeans model: KMeans(n_clusters=9, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+bright future
+[EM]bright button[EM]crystal ball[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+right road
+[EM]automobile[EM]motorway[EM]check mark[EM]
+[0, 2, 0, 0]
+
+=> Label mismatch:
+average merit
+[EM]memo[EM]OK hand[EM]
+[2, 2, 3]
+
+=> Label mismatch:
+average size
+[EM]face with raised eyebrow[EM]palms up together[EM]
+[4, 1, 4]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[2, 2, 3]
+
+=> Label mismatch:
+common nuisance
+[EM]busts in silhouette[EM]weary face[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+dull day
+[EM]sun behind large cloud[EM]cityscape[EM]
+[3, 2, 2]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[7, 7, 2, 2]
+
+=> Label mismatch:
+thick soup
+[EM]canned food[EM]soft ice cream[EM]
+[7, 7, 8]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[2, 7, 7]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]airplane[EM]speaking head[EM]ear[EM]
+[2, 2, 2, 0]
+
+Accuracy: 0.9915814792543596
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-9.jpg
+Begin clustering with 10-clusters
+Fitted features into KMeans model: KMeans(n_clusters=10, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big man
+[EM]man blond hair[EM]left-right arrow[EM]up-down arrow[EM]
+[0, 0, 6, 6]
+
+=> Label mismatch:
+bright room
+[EM]light bulb[EM]wedding[EM]
+[2, 8, 2]
+
+=> Label mismatch:
+average merit
+[EM]memo[EM]OK hand[EM]
+[8, 2, 2]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[8, 2, 2]
+
+=> Label mismatch:
+common nuisance
+[EM]busts in silhouette[EM]weary face[EM]
+[8, 8, 4]
+
+=> Label mismatch:
+full life
+[EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM]
+[6, 6, 8, 8, 8, 8, 6, 6]
+
+=> Label mismatch:
+ample waistline
+[EM]woman gesturing OK light skin tone[EM]shorts[EM]
+[0, 8, 8]
+
+=> Label mismatch:
+warm climate
+[EM]thermometer[EM]globe showing Asia-Australia[EM]
+[8, 8, 9]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+deep voice
+[EM]speaking head[EM]speaker high volume[EM]downwards button[EM]
+[4, 4, 8, 8]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+cool room
+[EM]snowflake[EM]dashing away[EM]house[EM]
+[3, 3, 3, 7]
+
+=> Label mismatch:
+intelligent question
+[EM]thinking face[EM]nerd face[EM]red question mark[EM]
+[4, 4, 8, 8]
+
+Accuracy: 0.9921828021647625
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/22200/experiment/cluster-10.jpg

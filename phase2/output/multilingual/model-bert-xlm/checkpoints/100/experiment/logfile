@@ -1,0 +1,6611 @@
+Loaded features: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/extracted_features.pt as a Tensor: torch.Size([5944, 768])
+Begin clustering with 2-clusters
+Fitted features into KMeans model: KMeans(n_clusters=2, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big day
+[EM]anxious face with sweat[EM]sun[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+hot merchandise
+[EM]fire[EM]label[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+hot forehead
+[EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+[1, 1, 1, 1, 0, 1, 1]
+
+=> Label mismatch:
+hot forehead
+[EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+[1, 1, 1, 0]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[0, 0, 1, 0, 0]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[1, 1, 1, 1, 0]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+average people
+[EM]girl[EM]child[EM]boy[EM]
+[1, 1, 1, 0]
+
+=> Label mismatch:
+average people
+[EM]man standing[EM]woman standing[EM]person standing[EM]
+[0, 1, 1, 0]
+
+=> Label mismatch:
+common land
+[EM]busts in silhouette[EM]mountain[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+common land
+[EM]palms up together[EM]cityscape at dusk[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]moon viewing ceremony[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dull day
+[EM]sun behind large cloud[EM]cityscape[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+dull day
+[EM]new moon[EM]new moon face[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+dull day
+[EM]fog[EM]sun behind large cloud[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]glowing star[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]star[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+cozy room
+[EM]smiling face with smiling eyes[EM]house[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+thin air
+[EM]leaf fluttering in wind[EM]
+[0, 1]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+thick cream
+[EM]sake[EM]sake[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+warm room
+[EM]fire[EM]house[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[0, 1, 1, 1, 1, 0]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+high hope
+[EM]up arrow[EM]smiling face[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+high hope
+[EM]up arrow[EM]smiling face with halo[EM]crossed fingers[EM]
+[1, 0, 0, 0]
+
+=> Label mismatch:
+high hope
+[EM]up arrow[EM]folded hands[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+high temperature
+[EM]thermometer[EM]sun[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+high ceiling
+[EM]thermometer[EM]sun[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+high point
+[EM]up arrow[EM]index pointing up[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+cool breeze
+[EM]snowflake[EM]wind face[EM]dashing away[EM]
+[0, 1, 1, 1]
+
+=> Label mismatch:
+domestic happiness
+[EM]house with garden[EM]people hugging[EM]smiling face with smiling eyes[EM]house with garden[EM]
+[0, 1, 0, 0, 0]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+intelligent question
+[EM]person raising hand[EM]brain[EM]thought balloon[EM]student[EM]
+[1, 0, 1, 1, 1]
+
+=> Label mismatch:
+intelligent life
+[EM]person standing[EM]woman standing[EM]man standing[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+dry land
+[EM]desert[EM]desert island[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dry land
+[EM]sun[EM]desert[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+dry greeting
+[EM]sun[EM]woman raising hand light skin tone[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dry climate
+[EM]sun[EM]sun[EM]sun[EM]hot face[EM]
+[0, 1, 1, 1, 0]
+
+=> Label mismatch:
+effective step
+[EM]thumbs up[EM]footprints[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+effective entrance
+[EM]door[EM]clinking glasses[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+delicate negotiation
+[EM]speaking head[EM]grinning face with big eyes[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]sparkles[EM]bread[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]man cook[EM]hourglass done[EM]bread[EM]
+[0, 1, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[1, 1, 0, 0]
+
+=> Label mismatch:
+fresh lettuce
+[EM]woman farmer[EM]leafy green[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+fresh lettuce
+[EM]face savoring food[EM]leafy green[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[1, 1, 1, 0, 0, 1]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[0, 0, 1, 0]
+
+=> Label mismatch:
+sound approach
+[EM]brain[EM]speaker high volume[EM]person walking[EM]
+[1, 1, 1, 0]
+
+=> Label mismatch:
+sound approach
+[EM]thumbs up[EM]fast-forward button[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[0, 1, 0]
+
+Accuracy: 0.957907396271798
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-2.jpg
+Begin clustering with 3-clusters
+Fitted features into KMeans model: KMeans(n_clusters=3, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+hot forehead
+[EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+[2, 0, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+hot forehead
+[EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+bright future
+[EM]sun[EM]crystal ball[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[2, 0, 0, 2, 2]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[2, 0, 2, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]water wave[EM]sweat droplets[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+dark undercurrent
+[EM]spade suit[EM]angry face with horns[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+far side
+[EM]prohibited[EM]SOON arrow[EM]straight ruler[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]backpack[EM]evergreen tree[EM]evergreen tree[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+far country
+[EM]globe showing Americas[EM]left-right arrow[EM]globe showing Asia-Australia[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+average people
+[EM]girl[EM]child[EM]boy[EM]
+[1, 0, 1, 1]
+
+=> Label mismatch:
+average people
+[EM]man standing[EM]woman standing[EM]person standing[EM]
+[2, 0, 0, 2]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[1, 1, 1, 1, 1, 1, 2]
+
+=> Label mismatch:
+common procedure
+[EM]play button[EM]ladder[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+common procedure
+[EM]screwdriver[EM]wrench[EM]handshake[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+common knowledge
+[EM]brain[EM]thinking face[EM]unamused face[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+common land
+[EM]busts in silhouette[EM]mountain[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+common land
+[EM]palms up together[EM]cityscape at dusk[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+common land
+[EM]globe showing Americas[EM]Åland Islands[EM]British Indian Ocean Territory[EM]British Virgin Islands[EM]Caribbean Netherlands[EM]Caribbean Netherlands[EM]Cayman Islands[EM]
+[1, 1, 2, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+common nuisance
+[EM]busts in silhouette[EM]fly[EM]cockroach[EM]spider[EM]busts in silhouette[EM]
+[2, 2, 1, 2, 2, 2]
+
+=> Label mismatch:
+common parlance
+[EM]busts in silhouette[EM]speaking head[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+common parlance
+[EM]clapping hands[EM]boy[EM]person curly hair[EM]
+[2, 0, 0, 2]
+
+=> Label mismatch:
+common parlance
+[EM]speaking head[EM]left-right arrow[EM]speaking head[EM]
+[0, 2, 0, 2]
+
+=> Label mismatch:
+full attention
+[EM]man pilot[EM]
+[0, 2]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+ample supply
+[EM]chart decreasing[EM]clipboard[EM]check mark button[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+puzzling statement
+[EM]woman shrugging[EM]speaking head[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+low supply
+[EM]down-right arrow[EM]thumbs down[EM]slightly frowning face[EM]frowning face with open mouth[EM]
+[1, 1, 1, 2, 2]
+
+=> Label mismatch:
+low cloud
+[EM]cloud[EM]sun behind large cloud[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+low bow
+[EM]red triangle pointed down[EM]woman bowing light skin tone[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+immediate influence
+[EM]woman dancing[EM]man dancing[EM]person raising hand[EM]woman raising hand[EM]man raising hand[EM]
+[1, 1, 1, 1, 2, 2]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]dashing away[EM]fog[EM]fog[EM]
+[2, 2, 2, 2, 1]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+warm room
+[EM]fire[EM]house[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+warm coat
+[EM]coat[EM]
+[0, 1]
+
+=> Label mismatch:
+warm coat
+[EM]coat[EM]
+[0, 1]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[2, 0, 2, 2, 0, 2]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+deep sleep
+[EM]sleeping face[EM]sleeping face[EM]sleeping face[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+deep sleep
+[EM]sleeping face[EM]person in bed[EM]zzz[EM]zzz[EM]
+[1, 2, 2, 2, 2]
+
+=> Label mismatch:
+deep sleep
+[EM]sleepy face[EM]zzz[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+deep sleep
+[EM]sleeping face[EM]sleeping face[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]thumbs down[EM]woman lifting weights[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+domestic happiness
+[EM]house with garden[EM]people hugging[EM]smiling face with smiling eyes[EM]house with garden[EM]
+[2, 0, 2, 2, 2]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[2, 0, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[2, 2, 1, 1, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[2, 2, 2, 1, 1]
+
+=> Label mismatch:
+intelligent question
+[EM]person raising hand[EM]brain[EM]thought balloon[EM]student[EM]
+[2, 2, 0, 0, 0]
+
+=> Label mismatch:
+intelligent life
+[EM]person standing[EM]woman standing[EM]man standing[EM]
+[2, 0, 2, 2]
+
+=> Label mismatch:
+dry greeting
+[EM]face without mouth[EM]neutral face[EM]expressionless face[EM]waving hand[EM]
+[2, 2, 2, 2, 1]
+
+=> Label mismatch:
+effective step
+[EM]thumbs up[EM]footprints[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+effective entrance
+[EM]door[EM]clinking glasses[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]Venezuela[EM]Montenegro[EM]Myanmar (Burma)[EM]studio microphone[EM]speaking head[EM]
+[2, 2, 1, 1, 2, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]France[EM]Japan[EM]woman curly hair[EM]
+[2, 2, 1, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]globe showing Asia-Australia[EM]speaking head[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+foreign nation
+[EM]Venezuela[EM]Montenegro[EM]Myanmar (Burma)[EM]United Nations[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+foreign city
+[EM]Venezuela[EM]Montenegro[EM]Myanmar (Burma)[EM]cityscape at dusk[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+delicate wing
+[EM]hatching chick[EM]money with wings[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+delicate negotiation
+[EM]speaking head[EM]grinning face with big eyes[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]sparkles[EM]bread[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]man cook[EM]hourglass done[EM]bread[EM]
+[2, 2, 0, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[0, 0, 0, 2, 2, 0]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[2, 2, 0, 2]
+
+=> Label mismatch:
+sound approach
+[EM]brain[EM]speaker high volume[EM]person walking[EM]
+[2, 0, 2, 2]
+
+=> Label mismatch:
+sound approach
+[EM]thumbs up[EM]fast-forward button[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[2, 0, 2]
+
+Accuracy: 0.947083583884546
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-3.jpg
+Begin clustering with 4-clusters
+Fitted features into KMeans model: KMeans(n_clusters=4, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big day
+[EM]anxious face with sweat[EM]sun[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+hot forehead
+[EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+[1, 1, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+hot forehead
+[EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+hot forehead
+[EM]thermometer[EM]face with thermometer[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+bright future
+[EM]sun[EM]crystal ball[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[1, 1, 1, 2, 2]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[0, 0, 0, 2]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[3, 0, 3, 3, 3]
+
+=> Label mismatch:
+dark purpose
+[EM]angry face with horns[EM]ogre[EM]goblin[EM]smirking face[EM]
+[0, 0, 0, 0, 2]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+short hair
+[EM]shorts[EM]woman light skin tone red hair[EM]
+[2, 3, 2]
+
+=> Label mismatch:
+far journey
+[EM]railway track[EM]ship[EM]world map[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+far side
+[EM]down-left arrow[EM]motorway[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+far trek
+[EM]man walking[EM]hiking boot[EM]
+[2, 2, 3]
+
+=> Label mismatch:
+far country
+[EM]world map[EM]passenger ship[EM]airplane departure[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+average people
+[EM]man standing[EM]woman standing[EM]person standing[EM]
+[2, 1, 1, 2]
+
+=> Label mismatch:
+average merit
+[EM]neutral face[EM]briefcase[EM]3rd place medal[EM]
+[2, 2, 2, 3]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[0, 0, 0, 0, 2]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[2, 0, 0, 0, 0, 2, 2]
+
+=> Label mismatch:
+dirty fighter
+[EM]expressionless face[EM]unamused face[EM]boxing glove[EM]
+[3, 3, 0, 0]
+
+=> Label mismatch:
+common procedure
+[EM]play button[EM]ladder[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+common land
+[EM]cityscape at dusk[EM]cityscape[EM]bridge at night[EM]desert island[EM]
+[2, 2, 3, 3, 3]
+
+=> Label mismatch:
+common land
+[EM]busts in silhouette[EM]mountain[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+common land
+[EM]palms up together[EM]cityscape at dusk[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+common housefly
+[EM]house[EM]fly[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+common parlance
+[EM]busts in silhouette[EM]speaking head[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+common parlance
+[EM]clapping hands[EM]boy[EM]person curly hair[EM]
+[2, 1, 1, 1]
+
+=> Label mismatch:
+common parlance
+[EM]speaking head[EM]left-right arrow[EM]speaking head[EM]
+[1, 2, 1, 2]
+
+=> Label mismatch:
+full attention
+[EM]man pilot[EM]
+[1, 2]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+ample supply
+[EM]chart decreasing[EM]clipboard[EM]check mark button[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+ample waistline
+[EM]woman gesturing OK light skin tone[EM]shorts[EM]
+[2, 2, 3]
+
+=> Label mismatch:
+puzzling statement
+[EM]woman shrugging[EM]speaking head[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[0, 0, 0, 2]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[3, 1, 3]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[0, 0, 3, 3]
+
+=> Label mismatch:
+low supply
+[EM]down-right arrow[EM]thumbs down[EM]slightly frowning face[EM]frowning face with open mouth[EM]
+[3, 3, 3, 2, 2]
+
+=> Label mismatch:
+low bow
+[EM]red triangle pointed down[EM]woman bowing light skin tone[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[0, 0, 0, 0, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[2, 0, 0, 2]
+
+=> Label mismatch:
+thick soup
+[EM]bowl with spoon[EM]
+[3, 2]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[2, 0, 0, 2, 3, 3, 3, 3]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[0, 0, 0, 2]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+warm room
+[EM]fire[EM]house[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[2, 1, 2, 2, 1, 2]
+
+=> Label mismatch:
+clear indication
+[EM]speech balloon[EM]check mark[EM]cross mark[EM]red question mark[EM]
+[2, 2, 2, 0, 0]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+high temperature
+[EM]thermometer[EM]face with thermometer[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[2, 0, 2, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[0, 0, 0, 0, 3]
+
+=> Label mismatch:
+inadequate training
+[EM]cross mark[EM]people wrestling[EM]person fencing[EM]
+[0, 0, 0, 3]
+
+=> Label mismatch:
+inadequate training
+[EM]thumbs down[EM]woman lifting weights[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[0, 0, 0, 0, 3]
+
+=> Label mismatch:
+domestic happiness
+[EM]house with garden[EM]people hugging[EM]smiling face with smiling eyes[EM]house with garden[EM]
+[2, 1, 2, 2, 2]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[2, 2, 0, 0, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[2, 0, 2, 0, 0]
+
+=> Label mismatch:
+intelligent question
+[EM]person raising hand[EM]brain[EM]thought balloon[EM]student[EM]
+[2, 2, 1, 1, 1]
+
+=> Label mismatch:
+intelligent life
+[EM]person standing[EM]woman standing[EM]man standing[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[2, 2, 0, 2]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+dry greeting
+[EM]face without mouth[EM]neutral face[EM]expressionless face[EM]waving hand[EM]
+[2, 2, 2, 3, 3]
+
+=> Label mismatch:
+effective step
+[EM]thumbs up[EM]footprints[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+effective entrance
+[EM]door[EM]clinking glasses[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+[2, 2, 2, 0, 2]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[0, 0, 0, 2]
+
+=> Label mismatch:
+delicate negotiation
+[EM]speaking head[EM]grinning face with big eyes[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+delicate flavor
+[EM]tongue[EM]thinking face[EM]
+[3, 2, 3]
+
+=> Label mismatch:
+fresh bread
+[EM]sparkles[EM]bread[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]man cook[EM]hourglass done[EM]bread[EM]
+[2, 2, 1, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[1, 1, 1, 2, 2, 1]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[2, 2, 1, 2]
+
+=> Label mismatch:
+sound explanation
+[EM]person raising hand[EM]deaf woman[EM]thumbs up[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+sound approach
+[EM]brain[EM]speaker high volume[EM]person walking[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+sound approach
+[EM]thumbs up[EM]fast-forward button[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[2, 1, 2]
+
+Accuracy: 0.9380637402285027
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-4.jpg
+Begin clustering with 5-clusters
+Fitted features into KMeans model: KMeans(n_clusters=5, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+big voice
+[EM]loudspeaker[EM]megaphone[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+big voice
+[EM]face with symbols on mouth[EM]face with symbols on mouth[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+big man
+[EM]flexed biceps[EM]man standing[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+big tipper
+[EM]pancakes[EM]money with wings[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+big tipper
+[EM]money with wings[EM]money with wings[EM]money with wings[EM]
+[3, 3, 3, 0]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[3, 3, 3, 3, 3, 0, 0, 0, 0]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[3, 3, 3, 3, 0, 0, 0]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[0, 0, 0, 3]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+bright future
+[EM]bright button[EM]crystal ball[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[0, 0, 3, 0, 3]
+
+=> Label mismatch:
+bright future
+[EM]hourglass not done[EM]fast-forward button[EM]thumbs up[EM]thumbs up[EM]
+[0, 0, 0, 0, 3]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[1, 1, 1, 3, 0]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[3, 1, 0, 3]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]black circle[EM]busts in silhouette[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]cross mark[EM]light bulb[EM]person standing[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]men’s room[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dark day
+[EM]black circle[EM]tear-off calendar[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dark glass
+[EM]sunglasses[EM]glass of milk[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[4, 4, 0, 0]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[2, 4, 2, 2, 2]
+
+=> Label mismatch:
+dark purpose
+[EM]angry face with horns[EM]ogre[EM]goblin[EM]smirking face[EM]
+[0, 0, 0, 4, 0]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[2, 2, 2, 0]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+far trek
+[EM]prohibited[EM]SOON arrow[EM]hiking boot[EM]person walking[EM]
+[2, 2, 0, 0, 0]
+
+=> Label mismatch:
+average people
+[EM]man standing[EM]woman standing[EM]person standing[EM]
+[0, 1, 1, 0]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[4, 4, 0, 4, 0]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[0, 4, 4, 0, 4, 0, 0]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+dirty fighter
+[EM]expressionless face[EM]unamused face[EM]boxing glove[EM]
+[0, 0, 4, 0]
+
+=> Label mismatch:
+common procedure
+[EM]play button[EM]ladder[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+common procedure
+[EM]busts in silhouette[EM]syringe[EM]stethoscope[EM]adhesive bandage[EM]drop of blood[EM]health worker[EM]busts in silhouette[EM]
+[0, 3, 3, 3, 0, 3, 0, 3]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[0, 3, 3, 0, 0]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[0, 4]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+common housefly
+[EM]house[EM]fly[EM]
+[0, 0, 4]
+
+=> Label mismatch:
+common man
+[EM]man[EM]man[EM]man[EM]man[EM]
+[0, 3, 3, 3, 3]
+
+=> Label mismatch:
+common parlance
+[EM]busts in silhouette[EM]speaking head[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+common parlance
+[EM]clapping hands[EM]boy[EM]person curly hair[EM]
+[3, 1, 1, 3]
+
+=> Label mismatch:
+common parlance
+[EM]speaking head[EM]left-right arrow[EM]speaking head[EM]
+[1, 3, 1, 3]
+
+=> Label mismatch:
+heavy metal
+[EM]sign of the horns[EM]
+[0, 4]
+
+=> Label mismatch:
+heavy load
+[EM]collision[EM]person lifting weights[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]foggy[EM]multiply[EM]hundred points[EM]
+[3, 3, 3, 3, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]man lifting weights[EM]fog[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face in clouds[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]dashing away[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+full attention
+[EM]man pilot[EM]
+[1, 3]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[0, 0, 0, 0, 0, 3, 0]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[0, 0, 0, 2]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[3, 3, 3, 0, 0]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]burrito[EM]sandwich[EM]pizza[EM]
+[3, 3, 3, 0, 3, 3, 3]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+ample supply
+[EM]smiling face with smiling eyes[EM]chart increasing[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[3, 3, 0, 0, 0, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+
+=> Label mismatch:
+ample waistline
+[EM]straight ruler[EM]jeans[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[0, 0, 0, 3, 0]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+puzzling statement
+[EM]face with spiral eyes[EM]face with raised eyebrow[EM]red question mark[EM]
+[0, 4, 4, 4]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[0, 0, 3, 0]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+dull glow
+[EM]thumbs down[EM]glowing star[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[4, 4, 0, 0]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[1, 1, 0, 1]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[2, 2, 0, 0]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+low sun
+[EM]droplet[EM]ice[EM]snowflake[EM]
+[2, 1, 1, 1]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[2, 2, 0, 0]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[2, 2, 0, 0]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[2, 2, 0, 2]
+
+=> Label mismatch:
+critical mass
+[EM]police car light[EM]woman lifting weights[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+critical stage
+[EM]double exclamation mark[EM]footprints[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+critical stage
+[EM]police car light[EM]crossed fingers[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bread[EM]skull and crossbones[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[4, 4, 4, 4, 0]
+
+=> Label mismatch:
+critical element
+[EM]Japanese bargain button[EM]SOS button[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]dashing away[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+thick fog
+[EM]dashing away[EM]eye[EM]fog[EM]
+[3, 0, 3, 3]
+
+=> Label mismatch:
+thick fog
+[EM]straight ruler[EM]fog[EM]fog[EM]fog[EM]foggy[EM]foggy[EM]
+[0, 0, 3, 3, 3, 0, 0]
+
+=> Label mismatch:
+thick fog
+[EM]fog[EM]face in clouds[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[0, 4, 0, 0, 0, 0, 0, 0]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+wrong assumption
+[EM]mouth[EM]cross mark[EM]mouth[EM]speech balloon[EM]
+[4, 4, 4, 4, 0]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[3, 3, 3, 0]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+warm coat
+[EM]hot springs[EM]coat[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[0, 1, 0, 0, 1, 0]
+
+=> Label mismatch:
+clear indication
+[EM]speech balloon[EM]check mark[EM]cross mark[EM]red question mark[EM]
+[0, 0, 0, 4, 0]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+clear glass
+[EM]check mark[EM]glass of milk[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[0, 0, 2, 2, 0]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+deep sigh
+[EM]hole[EM]face exhaling[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+deep voice
+[EM]speaking head[EM]
+[1, 3]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[0, 4, 0, 0]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+deep concentration
+[EM]fast down button[EM]face with monocle[EM]nerd face[EM]
+[3, 0, 3, 0]
+
+=> Label mismatch:
+deep breath
+[EM]hole[EM]face exhaling[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[0, 3, 0, 0]
+
+=> Label mismatch:
+high price
+[EM]money with wings[EM]money-mouth face[EM]bank[EM]
+[3, 0, 3, 3]
+
+=> Label mismatch:
+high price
+[EM]label[EM]money bag[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+high hope
+[EM]folded hands[EM]relieved face[EM]backhand index pointing up[EM]
+[0, 3, 3, 3]
+
+=> Label mismatch:
+high mountain
+[EM]snow-capped mountain[EM]astonished face[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[3, 3, 0]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[0, 3, 3, 0]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+cool relation
+[EM]face without mouth[EM]cold face[EM]person pouting[EM]
+[0, 3, 0, 0]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[0, 4, 0, 0]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[0, 4, 0]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[0, 2, 0, 0]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[4, 4, 4, 4, 0]
+
+=> Label mismatch:
+inadequate training
+[EM]cross mark[EM]people wrestling[EM]person fencing[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[4, 4, 4, 4, 0]
+
+=> Label mismatch:
+inadequate staff
+[EM]cross mark[EM]office worker[EM]man office worker[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[0, 0, 4, 4, 0, 0]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[0, 0, 0, 4, 0]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]technologist[EM]woman technologist[EM]man technologist[EM]thumbs down[EM]thumbs down[EM]
+[3, 3, 3, 3, 3, 0]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[0, 3, 3, 0, 0, 0, 0, 3, 0]
+
+=> Label mismatch:
+intelligent question
+[EM]person raising hand[EM]brain[EM]thought balloon[EM]student[EM]
+[0, 0, 1, 1, 1]
+
+=> Label mismatch:
+constant pain
+[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]
+[0, 0, 3, 0, 0, 0, 0]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[3, 0, 0]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[0, 0, 4, 0]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[4, 4, 0]
+
+=> Label mismatch:
+effective step
+[EM]thumbs up[EM]footprints[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[0, 0, 3, 0]
+
+=> Label mismatch:
+effective entrance
+[EM]door[EM]clinking glasses[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[3, 1, 3]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[0, 4, 0]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[4, 4, 4, 0]
+
+=> Label mismatch:
+delicate negotiation
+[EM]speaking head[EM]grinning face with big eyes[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]grinning face[EM]bread[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]NEW button[EM]bread[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+fresh bread
+[EM]face savoring food[EM]bread[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[1, 1, 0, 0]
+
+=> Label mismatch:
+fresh air
+[EM]dashing away[EM]nose[EM]no smoking[EM]
+[1, 1, 1, 3]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[1, 1, 1, 0, 0, 1]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[0, 0, 1, 0]
+
+=> Label mismatch:
+sound approach
+[EM]brain[EM]speaker high volume[EM]person walking[EM]
+[1, 1, 0, 0]
+
+=> Label mismatch:
+sound approach
+[EM]thumbs up[EM]fast-forward button[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[1, 1, 0]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[0, 1, 0]
+
+Accuracy: 0.8971737823211064
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-5.jpg
+Begin clustering with 6-clusters
+Fitted features into KMeans model: KMeans(n_clusters=6, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+big voice
+[EM]loudspeaker[EM]megaphone[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+big voice
+[EM]face with symbols on mouth[EM]face with symbols on mouth[EM]
+[0, 1, 0]
+
+=> Label mismatch:
+big man
+[EM]flexed biceps[EM]man standing[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+big tipper
+[EM]pancakes[EM]money with wings[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+big tipper
+[EM]money with wings[EM]money with wings[EM]money with wings[EM]
+[0, 0, 0, 1]
+
+=> Label mismatch:
+big day
+[EM]1st place medal[EM]sun[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[0, 0, 0, 0, 0, 1, 1, 1, 1]
+
+=> Label mismatch:
+hot topic
+[EM]star-struck[EM]speech balloon[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[0, 0, 0, 0, 1, 1, 1]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[1, 1, 1, 0]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+hot forehead
+[EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+[0, 3, 0, 0, 0, 0, 0]
+
+=> Label mismatch:
+hot forehead
+[EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+[3, 0, 0, 0]
+
+=> Label mismatch:
+bright future
+[EM]bright button[EM]crystal ball[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[1, 1, 0, 1, 1]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[0, 3, 3, 0, 1]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[0, 2, 1, 0]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]dress[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+dark shadow
+[EM]black circle[EM]busts in silhouette[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+dark shadow
+[EM]cross mark[EM]light bulb[EM]person standing[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]men’s room[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dark day
+[EM]black circle[EM]tear-off calendar[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dark glass
+[EM]sunglasses[EM]glass of milk[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[4, 4, 1, 1]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[5, 4, 5, 5, 5]
+
+=> Label mismatch:
+dark purpose
+[EM]angry face with horns[EM]ogre[EM]goblin[EM]smirking face[EM]
+[1, 1, 1, 4, 1]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+right man
+[EM]thumbs up[EM]person in suit levitating[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[5, 5, 5, 1]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+far trek
+[EM]prohibited[EM]SOON arrow[EM]hiking boot[EM]person walking[EM]
+[5, 5, 1, 1, 1]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[4, 4, 1, 4, 1]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[5, 1, 1]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[1, 4, 4, 1, 4, 1, 1]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+dirty fighter
+[EM]expressionless face[EM]unamused face[EM]boxing glove[EM]
+[1, 1, 4, 1]
+
+=> Label mismatch:
+common procedure
+[EM]busts in silhouette[EM]syringe[EM]stethoscope[EM]adhesive bandage[EM]drop of blood[EM]health worker[EM]busts in silhouette[EM]
+[1, 0, 0, 0, 1, 0, 1, 1]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[1, 1, 2, 1, 1]
+
+=> Label mismatch:
+common land
+[EM]handshake[EM]desert island[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[1, 4]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[1, 1, 4]
+
+=> Label mismatch:
+common housefly
+[EM]house[EM]fly[EM]
+[1, 1, 4]
+
+=> Label mismatch:
+common man
+[EM]man[EM]man[EM]man[EM]man[EM]
+[1, 0, 0, 0, 0]
+
+=> Label mismatch:
+heavy metal
+[EM]sign of the horns[EM]
+[1, 4]
+
+=> Label mismatch:
+heavy load
+[EM]collision[EM]person lifting weights[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]foggy[EM]multiply[EM]hundred points[EM]
+[0, 0, 0, 0, 1]
+
+=> Label mismatch:
+heavy fog
+[EM]man lifting weights[EM]fog[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face in clouds[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]dashing away[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[1, 1, 1, 1, 1, 0, 1]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[1, 1, 1, 5]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[0, 0, 0, 1, 1]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]burrito[EM]sandwich[EM]pizza[EM]
+[0, 0, 0, 1, 0, 0, 0]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+ample supply
+[EM]smiling face with smiling eyes[EM]chart increasing[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+
+=> Label mismatch:
+ample waistline
+[EM]straight ruler[EM]jeans[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[1, 1, 1, 0, 1]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+puzzling statement
+[EM]face with spiral eyes[EM]face with raised eyebrow[EM]red question mark[EM]
+[1, 4, 4, 4]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[1, 1, 0, 1]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]moon viewing ceremony[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[5, 3, 1]
+
+=> Label mismatch:
+dull glow
+[EM]thumbs down[EM]glowing star[EM]
+[1, 1, 5]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[4, 4, 1, 1]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[3, 3, 1, 3]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[5, 1, 1]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[5, 5, 1, 1]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[5, 1, 1]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[5, 5, 1, 1]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[5, 5, 1, 1]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[5, 5, 1, 5]
+
+=> Label mismatch:
+critical mass
+[EM]police car light[EM]woman lifting weights[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+critical stage
+[EM]double exclamation mark[EM]footprints[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+critical stage
+[EM]police car light[EM]crossed fingers[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bread[EM]skull and crossbones[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[4, 4, 4, 4, 1]
+
+=> Label mismatch:
+critical element
+[EM]Japanese bargain button[EM]SOS button[EM]
+[1, 0, 0]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]dashing away[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[0, 1, 1]
+
+=> Label mismatch:
+thick fog
+[EM]dashing away[EM]eye[EM]fog[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+thick fog
+[EM]straight ruler[EM]fog[EM]fog[EM]fog[EM]foggy[EM]foggy[EM]
+[1, 1, 0, 0, 0, 1, 1]
+
+=> Label mismatch:
+thick fog
+[EM]fog[EM]face in clouds[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[1, 4, 1, 1, 1, 1, 1, 1]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+wrong assumption
+[EM]mouth[EM]cross mark[EM]mouth[EM]speech balloon[EM]
+[4, 4, 4, 4, 1]
+
+=> Label mismatch:
+warm greeting
+[EM]hot springs[EM]waving hand[EM]
+[5, 5, 3]
+
+=> Label mismatch:
+warm debate
+[EM]man detective[EM]woman detective[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[0, 0, 0, 1]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+warm coat
+[EM]hot springs[EM]coat[EM]
+[1, 5, 1]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[1, 3, 1, 1, 3, 1]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+clear indication
+[EM]speech balloon[EM]check mark[EM]cross mark[EM]red question mark[EM]
+[1, 1, 1, 4, 1]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]tumbler glass[EM]
+[2, 3, 3]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[1, 1, 5, 5, 1]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[1, 5, 5]
+
+=> Label mismatch:
+deep sigh
+[EM]hole[EM]face exhaling[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[1, 4, 1, 1]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+deep concentration
+[EM]fast down button[EM]face with monocle[EM]nerd face[EM]
+[0, 1, 0, 1]
+
+=> Label mismatch:
+deep breath
+[EM]hole[EM]face exhaling[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[1, 0, 1, 1]
+
+=> Label mismatch:
+high price
+[EM]money with wings[EM]money-mouth face[EM]bank[EM]
+[0, 1, 0, 0]
+
+=> Label mismatch:
+high price
+[EM]label[EM]money bag[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+high hope
+[EM]up arrow[EM]smiling face[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+high hope
+[EM]folded hands[EM]relieved face[EM]backhand index pointing up[EM]
+[1, 0, 0, 0]
+
+=> Label mismatch:
+high mountain
+[EM]snow-capped mountain[EM]astonished face[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[0, 0, 1]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[1, 0, 0, 1]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[1, 0, 1]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+cool relation
+[EM]face without mouth[EM]cold face[EM]person pouting[EM]
+[1, 0, 1, 1]
+
+=> Label mismatch:
+cool reception
+[EM]neutral face[EM]waving hand[EM]
+[5, 3, 3]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[1, 4, 1, 1]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[1, 4, 1]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[1, 5, 1, 1]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[4, 4, 4, 4, 1]
+
+=> Label mismatch:
+inadequate training
+[EM]cross mark[EM]people wrestling[EM]person fencing[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[4, 4, 4, 4, 1]
+
+=> Label mismatch:
+inadequate staff
+[EM]cross mark[EM]office worker[EM]man office worker[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[1, 3, 1, 1]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[1, 1, 4, 4, 1, 1]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[1, 1, 1, 4, 1]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]technologist[EM]woman technologist[EM]man technologist[EM]thumbs down[EM]thumbs down[EM]
+[0, 0, 0, 0, 0, 1]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[1, 0, 0, 1, 1, 1, 1, 0, 1]
+
+=> Label mismatch:
+constant pain
+[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]worried face[EM]
+[1, 1, 0, 1, 1, 1, 1]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[1, 1, 4, 1]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+dry greeting
+[EM]hot springs[EM]waving hand[EM]
+[5, 5, 3]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[1, 1, 0, 1]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[1, 4, 1]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[4, 4, 4, 1]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+fresh bread
+[EM]NEW button[EM]bread[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[3, 1, 1]
+
+=> Label mismatch:
+fresh bread
+[EM]face savoring food[EM]bread[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[3, 3, 1, 1]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[3, 3, 1]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[3, 3, 3, 1, 1, 3]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[1, 1, 2, 1]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[2, 2, 1]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[1, 2, 1]
+
+Accuracy: 0.8965724594107035
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-6.jpg
+Begin clustering with 7-clusters
+Fitted features into KMeans model: KMeans(n_clusters=7, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[2, 5, 2]
+
+=> Label mismatch:
+big expenditure
+[EM]money-mouth face[EM]money with wings[EM]
+[2, 5, 2]
+
+=> Label mismatch:
+big voice
+[EM]loudspeaker[EM]megaphone[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+big voice
+[EM]face with symbols on mouth[EM]face with symbols on mouth[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+big man
+[EM]flexed biceps[EM]man standing[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+big tipper
+[EM]pancakes[EM]money with wings[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+big tipper
+[EM]money with wings[EM]money with wings[EM]money with wings[EM]
+[2, 2, 2, 5]
+
+=> Label mismatch:
+big day
+[EM]1st place medal[EM]sun[EM]
+[5, 1, 1]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[2, 2, 2, 2, 2, 5, 5, 5, 5]
+
+=> Label mismatch:
+hot topic
+[EM]star-struck[EM]speech balloon[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[2, 2, 2, 2, 5, 5, 5]
+
+=> Label mismatch:
+hot argument
+[EM]pouting face[EM]face with symbols on mouth[EM]speaking head[EM]
+[2, 2, 2, 5]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[5, 5, 5, 2]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+hot forehead
+[EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+[2, 1, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+hot forehead
+[EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+[1, 2, 2, 2]
+
+=> Label mismatch:
+bright future
+[EM]bright button[EM]crystal ball[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[5, 5, 2, 5, 5]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[2, 1, 1, 2, 5]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[2, 4, 5, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[5, 1, 5]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]dress[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[5, 1, 5]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[0, 0, 5]
+
+=> Label mismatch:
+dark day
+[EM]smiling face with horns[EM]footprints[EM]
+[6, 0, 6]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[0, 0, 5, 5]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[0, 0, 0, 6, 6]
+
+=> Label mismatch:
+dark purpose
+[EM]new moon[EM]smiling face with horns[EM]ogre[EM]
+[6, 6, 0, 6]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[4, 4, 5]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[4, 4, 5]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[4, 4, 5]
+
+=> Label mismatch:
+right man
+[EM]thumbs up[EM]person in suit levitating[EM]
+[4, 5, 5]
+
+=> Label mismatch:
+right road
+[EM]automobile[EM]motorway[EM]check mark[EM]
+[2, 2, 4, 2]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[6, 6, 6, 5]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+short life
+[EM]pinching hand[EM]skull and crossbones[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+far journey
+[EM]stopwatch[EM]world map[EM]smiling face with tear[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+far side
+[EM]prohibited[EM]SOON arrow[EM]straight ruler[EM]
+[0, 0, 5, 5]
+
+=> Label mismatch:
+far side
+[EM]up arrow[EM]
+[0, 5]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]sheaf of rice[EM]snow-capped mountain[EM]compass[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]backpack[EM]evergreen tree[EM]evergreen tree[EM]
+[5, 0, 5, 5, 5]
+
+=> Label mismatch:
+far country
+[EM]prohibited[EM]SOON arrow[EM]United States[EM]Clipperton Island[EM]Côte d’Ivoire[EM]Ascension Island[EM]Åland Islands[EM]
+[0, 0, 5, 5, 5, 5, 5, 5]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[6, 5, 5]
+
+=> Label mismatch:
+dirty money
+[EM]thumbs down[EM]money bag[EM]
+[3, 3, 5]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[5, 5, 5, 5, 0, 5, 5]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+common procedure
+[EM]busts in silhouette[EM]syringe[EM]stethoscope[EM]adhesive bandage[EM]drop of blood[EM]health worker[EM]busts in silhouette[EM]
+[5, 5, 2, 2, 5, 2, 5, 5]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[5, 5, 4, 5, 5]
+
+=> Label mismatch:
+common land
+[EM]handshake[EM]desert island[EM]
+[5, 5, 1]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[5, 3]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[5, 0, 0]
+
+=> Label mismatch:
+common man
+[EM]man[EM]man[EM]man[EM]man[EM]
+[5, 2, 2, 2, 2]
+
+=> Label mismatch:
+heavy load
+[EM]collision[EM]person lifting weights[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]foggy[EM]multiply[EM]hundred points[EM]
+[2, 2, 2, 2, 5]
+
+=> Label mismatch:
+heavy fog
+[EM]man lifting weights[EM]fog[EM]
+[5, 2, 0]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face in clouds[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]dashing away[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+full game
+[EM]hundred points[EM]FREE button[EM]video game[EM]
+[2, 2, 5, 5]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[5, 5, 5, 5, 5, 2, 5]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[5, 5, 5, 6]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[2, 2, 2, 5, 5]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]burrito[EM]sandwich[EM]pizza[EM]
+[2, 2, 5, 5, 2, 2, 2]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[5, 4, 5]
+
+=> Label mismatch:
+ample supply
+[EM]smiling face with smiling eyes[EM]chart increasing[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[5, 4, 4]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[5, 2, 5, 5, 5, 5, 5, 5, 2, 5, 2, 5, 5, 5, 5, 5, 5, 5, 5]
+
+=> Label mismatch:
+ample waistline
+[EM]straight ruler[EM]jeans[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[5, 5, 5, 2, 5]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+puzzling statement
+[EM]speech balloon[EM]red question mark[EM]red question mark[EM]face with spiral eyes[EM]
+[5, 0, 0, 0, 0]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[5, 5, 2, 5]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]moon viewing ceremony[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[3, 5, 5]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[6, 1, 5]
+
+=> Label mismatch:
+dull glow
+[EM]thumbs down[EM]glowing star[EM]
+[5, 5, 6]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[1, 1, 5, 1]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[6, 5, 5]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[6, 6, 5, 5]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[6, 5, 5]
+
+=> Label mismatch:
+low cloud
+[EM]cloud[EM]foggy[EM]
+[5, 0, 5]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[6, 6, 5]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[6, 6, 5, 5]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[6, 6, 5, 5]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[6, 6, 5, 6]
+
+=> Label mismatch:
+critical mass
+[EM]police car light[EM]woman lifting weights[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+critical stage
+[EM]double exclamation mark[EM]footprints[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+critical stage
+[EM]police car light[EM]crossed fingers[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+critical element
+[EM]Japanese bargain button[EM]SOS button[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+immediate influence
+[EM]people holding hands[EM]left-right arrow[EM]red exclamation mark[EM]
+[2, 2, 5, 2]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]dashing away[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]dashing away[EM]fog[EM]fog[EM]
+[5, 5, 5, 0, 0]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[2, 5, 5]
+
+=> Label mismatch:
+thick fog
+[EM]straight ruler[EM]fog[EM]fog[EM]fog[EM]foggy[EM]foggy[EM]
+[5, 2, 2, 2, 2, 5, 5]
+
+=> Label mismatch:
+thick fog
+[EM]fog[EM]face in clouds[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[5, 0, 5, 5, 5, 5, 5, 5]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+warm greeting
+[EM]hot springs[EM]waving hand[EM]
+[6, 6, 1]
+
+=> Label mismatch:
+warm debate
+[EM]man detective[EM]woman detective[EM]
+[4, 5, 2]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[2, 2, 2, 5]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[1, 1, 5]
+
+=> Label mismatch:
+warm coat
+[EM]hot springs[EM]coat[EM]
+[5, 6, 5]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[3, 3, 5]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[5, 1, 5, 5, 1, 5]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[4, 5, 5]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]tumbler glass[EM]
+[4, 1, 1]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[5, 6, 6]
+
+=> Label mismatch:
+deep sigh
+[EM]hole[EM]face exhaling[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[5, 3, 5, 5]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+deep concentration
+[EM]thinking face[EM]face with monocle[EM]
+[2, 5, 2]
+
+=> Label mismatch:
+deep concentration
+[EM]fast down button[EM]face with monocle[EM]nerd face[EM]
+[5, 5, 2, 5]
+
+=> Label mismatch:
+deep breath
+[EM]hole[EM]face exhaling[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[5, 2, 5, 5]
+
+=> Label mismatch:
+high price
+[EM]money with wings[EM]money-mouth face[EM]bank[EM]
+[2, 5, 2, 2]
+
+=> Label mismatch:
+high price
+[EM]label[EM]money bag[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+high hope
+[EM]up arrow[EM]smiling face[EM]
+[4, 2, 2]
+
+=> Label mismatch:
+high hope
+[EM]folded hands[EM]relieved face[EM]backhand index pointing up[EM]
+[5, 2, 2, 2]
+
+=> Label mismatch:
+high mountain
+[EM]snow-capped mountain[EM]astonished face[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+high mountain
+[EM]TOP arrow[EM]mount fuji[EM]
+[2, 2, 5]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[5, 2, 2, 5]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[5, 2, 5]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+cool relation
+[EM]face without mouth[EM]cold face[EM]person pouting[EM]
+[5, 2, 5, 5]
+
+=> Label mismatch:
+cool reception
+[EM]neutral face[EM]waving hand[EM]
+[6, 1, 1]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[5, 0, 5, 5]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[0, 0, 5]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[5, 6, 5, 5]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[0, 0, 0, 0, 5]
+
+=> Label mismatch:
+inadequate staff
+[EM]red triangle pointed down[EM]woman office worker[EM]man office worker[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+domestic worry
+[EM]house[EM]confounded face[EM]
+[3, 3, 5]
+
+=> Label mismatch:
+domestic happiness
+[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+[5, 1, 5, 5]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[5, 5, 3, 3, 5, 5]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[5, 5, 5, 3, 5]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]technologist[EM]woman technologist[EM]man technologist[EM]thumbs down[EM]thumbs down[EM]
+[2, 2, 2, 2, 2, 5]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[5, 2, 2, 5, 5, 5, 5, 2, 5]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[4, 4, 5]
+
+=> Label mismatch:
+internal mechanism
+[EM]dna[EM]gear[EM]
+[5, 3, 3]
+
+=> Label mismatch:
+internal mechanism
+[EM]face with medical mask[EM]microbe[EM]pill[EM]crossed swords[EM]
+[5, 3, 3, 3, 3]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[5, 5, 0, 5]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[5, 3, 5]
+
+=> Label mismatch:
+dry greeting
+[EM]hot springs[EM]waving hand[EM]
+[6, 6, 1]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[5, 5, 2, 5]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[5, 0, 5]
+
+=> Label mismatch:
+foreign accent
+[EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+[5, 5, 5, 0, 5]
+
+=> Label mismatch:
+foreign nation
+[EM]airplane[EM]world map[EM]
+[0, 0, 5]
+
+=> Label mismatch:
+foreign nation
+[EM]alien[EM]United Nations[EM]
+[0, 0, 5]
+
+=> Label mismatch:
+foreign nation
+[EM]red question mark[EM]red question mark[EM]St. Barthélemy[EM]Northern Mariana Islands[EM]Diego Garcia[EM]Tristan da Cunha[EM]
+[5, 0, 5, 5, 5, 5, 5]
+
+=> Label mismatch:
+foreign nation
+[EM]luggage[EM]British Indian Ocean Territory[EM]Bosnia & Herzegovina[EM]Guyana[EM]Equatorial Guinea[EM]crossed flags[EM]Georgia[EM]
+[0, 5, 5, 5, 5, 0, 0, 0]
+
+=> Label mismatch:
+foreign city
+[EM]red question mark[EM]red question mark[EM]cityscape at dusk[EM]
+[5, 0, 5, 5]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[0, 0, 0, 5]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[5, 1, 5]
+
+=> Label mismatch:
+fresh bread
+[EM]grinning face[EM]bread[EM]
+[6, 5, 5]
+
+=> Label mismatch:
+fresh bread
+[EM]NEW button[EM]bread[EM]
+[5, 1, 5]
+
+=> Label mismatch:
+fresh bread
+[EM]soap[EM]bread[EM]
+[5, 1, 5]
+
+=> Label mismatch:
+fresh bread
+[EM]cook[EM]bread[EM]
+[1, 5, 5]
+
+=> Label mismatch:
+fresh bread
+[EM]face savoring food[EM]bread[EM]
+[1, 1, 5]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[1, 1, 5, 5]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[1, 1, 5]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[1, 1, 1, 5, 5, 1]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[5, 5, 4, 5]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[4, 4, 5]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[5, 4, 5]
+
+Accuracy: 0.889356584485869
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-7.jpg
+Begin clustering with 8-clusters
+Fitted features into KMeans model: KMeans(random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money with wings[EM]money with wings[EM]
+[4, 2, 2]
+
+=> Label mismatch:
+big voice
+[EM]loudspeaker[EM]megaphone[EM]
+[2, 4, 4]
+
+=> Label mismatch:
+big voice
+[EM]face with symbols on mouth[EM]face with symbols on mouth[EM]
+[2, 2, 4]
+
+=> Label mismatch:
+big tipper
+[EM]money-mouth face[EM]man red hair[EM]money bag[EM]
+[4, 4, 2, 4]
+
+=> Label mismatch:
+big day
+[EM]1st place medal[EM]sun[EM]
+[2, 0, 0]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[4, 4, 4, 4, 4, 2, 2, 2, 2]
+
+=> Label mismatch:
+hot topic
+[EM]star-struck[EM]speech balloon[EM]
+[4, 5, 4]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[4, 3, 4]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[4, 3, 4]
+
+=> Label mismatch:
+hot merchandise
+[EM]fire[EM]shopping bags[EM]teddy bear[EM]t-shirt[EM]dress[EM]pencil[EM]notebook with decorative cover[EM]
+[3, 3, 3, 4, 4, 4, 4, 4]
+
+=> Label mismatch:
+hot merchandise
+[EM]left speech bubble[EM]t-shirt[EM]
+[2, 3, 3]
+
+=> Label mismatch:
+hot temper
+[EM]pouting face[EM]face with steam from nose[EM]face with symbols on mouth[EM]
+[3, 3, 4, 4]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[4, 4, 4, 4, 2, 2, 2]
+
+=> Label mismatch:
+hot argument
+[EM]pouting face[EM]face with symbols on mouth[EM]speaking head[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[2, 2, 2, 4]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[2, 2, 4, 2, 4]
+
+=> Label mismatch:
+bright future
+[EM]hourglass not done[EM]fast-forward button[EM]thumbs up[EM]thumbs up[EM]
+[2, 2, 4, 4, 4]
+
+=> Label mismatch:
+bright sun
+[EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+[2, 0, 0, 2, 2]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[4, 5, 2, 4]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+bright dress
+[EM]dress[EM]sparkles[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+bright room
+[EM]light bulb[EM]candle[EM]house[EM]
+[4, 2, 4, 4]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+dark day
+[EM]smiling face with horns[EM]footprints[EM]
+[6, 1, 6]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[1, 1, 1, 6, 6]
+
+=> Label mismatch:
+dark purpose
+[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]
+[2, 4, 2, 2, 4]
+
+=> Label mismatch:
+dark purpose
+[EM]new moon[EM]smiling face with horns[EM]ogre[EM]
+[6, 6, 1, 6]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+right man
+[EM]thumbs up[EM]person in suit levitating[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[6, 6, 6, 2]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+far journey
+[EM]stopwatch[EM]world map[EM]smiling face with tear[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+far side
+[EM]prohibited[EM]SOON arrow[EM]straight ruler[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+far side
+[EM]up arrow[EM]
+[1, 2]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]sheaf of rice[EM]snow-capped mountain[EM]compass[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]backpack[EM]evergreen tree[EM]evergreen tree[EM]
+[2, 1, 2, 2, 2]
+
+=> Label mismatch:
+far country
+[EM]prohibited[EM]SOON arrow[EM]United States[EM]Clipperton Island[EM]Côte d’Ivoire[EM]Ascension Island[EM]Åland Islands[EM]
+[1, 1, 2, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[6, 2, 2]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[6, 2, 2]
+
+=> Label mismatch:
+dirty money
+[EM]thumbs down[EM]money bag[EM]
+[7, 7, 2]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[2, 2, 2, 2, 1, 2, 2]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+dirty fighter
+[EM]cross mark[EM]balance scale[EM]flexed biceps[EM]man bald[EM]anger symbol[EM]
+[2, 2, 2, 2, 4, 2]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[2, 4, 4, 2, 2]
+
+=> Label mismatch:
+common land
+[EM]handshake[EM]desert island[EM]
+[2, 2, 0]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[2, 7]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+heavy metal
+[EM]balance scale[EM]link[EM]
+[2, 2, 4]
+
+=> Label mismatch:
+heavy fog
+[EM]man lifting weights[EM]fog[EM]
+[4, 4, 1]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]dashing away[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[2, 2, 2, 2, 2, 4, 2]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[2, 2, 2, 6]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[4, 4, 4, 2, 2]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]burrito[EM]sandwich[EM]pizza[EM]
+[4, 4, 2, 2, 4, 4, 4]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[2, 5, 2]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[4, 5, 5]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[4, 4, 4, 4, 2, 4, 2, 2, 4, 2, 4, 2, 2, 2, 2, 2, 2, 4, 2]
+
+=> Label mismatch:
+ample waistline
+[EM]straight ruler[EM]jeans[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[2, 2, 2, 4, 2]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[2, 4, 4]
+
+=> Label mismatch:
+puzzling statement
+[EM]speech balloon[EM]red question mark[EM]red question mark[EM]face with spiral eyes[EM]
+[2, 1, 1, 1, 1]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[2, 2, 4, 2]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]framed picture[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[7, 2, 2]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[6, 0, 2]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+cozy nook
+[EM]smiling face with smiling eyes[EM]bed[EM]
+[0, 2, 0]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[0, 0, 2, 0]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[6, 2, 2]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[6, 6, 2, 2]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[6, 2, 2]
+
+=> Label mismatch:
+low cloud
+[EM]cloud[EM]foggy[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[6, 6, 2, 2]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[6, 6, 2, 2]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[6, 6, 2, 2]
+
+=> Label mismatch:
+critical stage
+[EM]chart increasing[EM]chart decreasing[EM]red exclamation mark[EM]red exclamation mark[EM]
+[2, 4, 2, 2, 2]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]thermometer[EM]
+[2, 4, 4]
+
+=> Label mismatch:
+critical temperature
+[EM]hot springs[EM]face with head-bandage[EM]
+[3, 3, 4]
+
+=> Label mismatch:
+critical temperature
+[EM]thermometer[EM]red exclamation mark[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]red exclamation mark[EM]thermometer[EM]thermometer[EM]thermometer[EM]
+[4, 4, 4, 3, 3, 3]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+critical element
+[EM]atom symbol[EM]petri dish[EM]double exclamation mark[EM]
+[2, 4, 2, 2]
+
+=> Label mismatch:
+immediate influence
+[EM]man police officer[EM]backhand index pointing down[EM]folded hands[EM]handshake[EM]
+[2, 4, 2, 4, 2]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]eye[EM]cross mark[EM]
+[4, 4, 3, 4]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]volcano[EM]volcano[EM]face with medical mask[EM]
+[3, 3, 3, 3, 4]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]dashing away[EM]fog[EM]fog[EM]
+[2, 2, 2, 1, 1]
+
+=> Label mismatch:
+thick smoke
+[EM]fire[EM]dashing away[EM]dashing away[EM]dashing away[EM]dashing away[EM]
+[3, 3, 4, 4, 4, 4]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[3, 2, 2]
+
+=> Label mismatch:
+thick cream
+[EM]cupcake[EM]
+[2, 4]
+
+=> Label mismatch:
+thick cream
+[EM]sake[EM]sake[EM]
+[2, 3, 3]
+
+=> Label mismatch:
+thick cream
+[EM]soft ice cream[EM]
+[0, 2]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[2, 1, 2, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+warm support
+[EM]fire[EM]flexed biceps light skin tone[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+warm greeting
+[EM]hot springs[EM]waving hand[EM]
+[6, 6, 0]
+
+=> Label mismatch:
+warm debate
+[EM]fire[EM]speaking head[EM]
+[4, 3, 4]
+
+=> Label mismatch:
+warm debate
+[EM]man detective[EM]woman detective[EM]
+[5, 4, 4]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[7, 7, 2]
+
+=> Label mismatch:
+clear complexion
+[EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+[2, 0, 2, 2, 0, 2]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[4, 5, 4]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]tumbler glass[EM]
+[5, 0, 0]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[2, 6, 6]
+
+=> Label mismatch:
+deep sigh
+[EM]hole[EM]face exhaling[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[2, 7, 2, 2]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+deep breath
+[EM]hole[EM]face exhaling[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[4, 4, 2, 2]
+
+=> Label mismatch:
+high temperature
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[4, 3, 3, 4]
+
+=> Label mismatch:
+high ceiling
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[4, 3, 3, 4]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+high risk
+[EM]mount fuji[EM]skull and crossbones[EM]biohazard[EM]
+[4, 2, 4, 2]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[4, 5, 4]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[5, 5, 4]
+
+=> Label mismatch:
+cool reception
+[EM]neutral face[EM]waving hand[EM]
+[6, 0, 0]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[2, 6, 2, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[1, 1, 1, 1, 2]
+
+=> Label mismatch:
+inadequate staff
+[EM]red triangle pointed down[EM]woman office worker[EM]man office worker[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+domestic worry
+[EM]house[EM]confounded face[EM]
+[7, 7, 2]
+
+=> Label mismatch:
+domestic happiness
+[EM]house[EM]grinning face with smiling eyes[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[2, 2, 7, 7, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[2, 2, 2, 7, 2]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]prince[EM]crown[EM]chart decreasing[EM]thumbs down[EM]
+[2, 4, 4, 2, 2]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[4, 4, 4, 2, 2, 2, 2, 4, 2]
+
+=> Label mismatch:
+ineffectual therapy
+[EM]person[EM]ear[EM]cross mark[EM]cross mark[EM]
+[2, 2, 4, 2, 2]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[5, 4, 4]
+
+=> Label mismatch:
+internal mechanism
+[EM]dna[EM]gear[EM]
+[2, 7, 7]
+
+=> Label mismatch:
+internal mechanism
+[EM]face with medical mask[EM]microbe[EM]pill[EM]crossed swords[EM]
+[2, 7, 7, 7, 7]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[2, 2, 1, 2]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[2, 7, 2]
+
+=> Label mismatch:
+dry critique
+[EM]sun[EM]face with symbols on mouth[EM]
+[3, 3, 4]
+
+=> Label mismatch:
+dry greeting
+[EM]hot springs[EM]waving hand[EM]
+[6, 6, 0]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[2, 2, 4, 2]
+
+=> Label mismatch:
+effective reprimand
+[EM]dashing away[EM]face with symbols on mouth[EM]
+[4, 3, 3]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[3, 0, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+[2, 2, 2, 1, 2]
+
+=> Label mismatch:
+foreign nation
+[EM]airplane[EM]world map[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+foreign nation
+[EM]alien[EM]United Nations[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+foreign nation
+[EM]red question mark[EM]red question mark[EM]St. Barthélemy[EM]Northern Mariana Islands[EM]Diego Garcia[EM]Tristan da Cunha[EM]
+[2, 1, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+foreign nation
+[EM]luggage[EM]British Indian Ocean Territory[EM]Bosnia & Herzegovina[EM]Guyana[EM]Equatorial Guinea[EM]crossed flags[EM]Georgia[EM]
+[1, 2, 2, 2, 2, 1, 1, 1]
+
+=> Label mismatch:
+foreign city
+[EM]red question mark[EM]red question mark[EM]cityscape at dusk[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[4, 5, 4]
+
+=> Label mismatch:
+delicate flavor
+[EM]revolving hearts[EM]steaming bowl[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+delicate flavor
+[EM]warning[EM]package[EM]face savoring food[EM]
+[2, 4, 2, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]NEW button[EM]bread[EM]
+[2, 0, 2]
+
+=> Label mismatch:
+fresh bread
+[EM]face savoring food[EM]bread[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh scent
+[EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+[0, 0, 2, 2]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[0, 0, 0, 2, 2, 0]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[2, 2, 5, 2]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[2, 5, 2]
+
+Accuracy: 0.8923631990378833
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-8.jpg
+Begin clustering with 9-clusters
+Fitted features into KMeans model: KMeans(n_clusters=9, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money with wings[EM]money with wings[EM]
+[6, 8, 8]
+
+=> Label mismatch:
+big voice
+[EM]face with symbols on mouth[EM]face with symbols on mouth[EM]
+[8, 8, 6]
+
+=> Label mismatch:
+big tipper
+[EM]money-mouth face[EM]man red hair[EM]money bag[EM]
+[6, 6, 8, 6]
+
+=> Label mismatch:
+big day
+[EM]1st place medal[EM]sun[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[6, 6, 6, 6, 6, 8, 8, 8, 8]
+
+=> Label mismatch:
+hot topic
+[EM]star-struck[EM]speech balloon[EM]
+[6, 5, 6]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[6, 4, 6]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[6, 4, 6]
+
+=> Label mismatch:
+hot merchandise
+[EM]fire[EM]shopping bags[EM]teddy bear[EM]t-shirt[EM]dress[EM]pencil[EM]notebook with decorative cover[EM]
+[4, 4, 6, 6, 6, 6, 6, 6]
+
+=> Label mismatch:
+hot merchandise
+[EM]left speech bubble[EM]t-shirt[EM]
+[6, 4, 4]
+
+=> Label mismatch:
+hot temper
+[EM]pouting face[EM]face with steam from nose[EM]face with symbols on mouth[EM]
+[4, 4, 6, 6]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[6, 6, 6, 6, 8, 8, 8]
+
+=> Label mismatch:
+hot argument
+[EM]pouting face[EM]face with symbols on mouth[EM]speaking head[EM]
+[6, 6, 6, 8]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[8, 8, 8, 6]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[6, 8, 6, 8, 6]
+
+=> Label mismatch:
+bright future
+[EM]hourglass not done[EM]fast-forward button[EM]thumbs up[EM]thumbs up[EM]
+[6, 8, 6, 6, 6]
+
+=> Label mismatch:
+bright sun
+[EM]sun[EM]bright button[EM]
+[3, 0, 0]
+
+=> Label mismatch:
+bright dress
+[EM]sparkler[EM]dress[EM]
+[8, 6, 8]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[6, 5, 6, 6]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]dress[EM]
+[0, 3, 0]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[2, 2, 8]
+
+=> Label mismatch:
+dark day
+[EM]smiling face with horns[EM]footprints[EM]
+[1, 2, 1]
+
+=> Label mismatch:
+dark glass
+[EM]sunglasses[EM]glass of milk[EM]
+[2, 2, 8]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[2, 2, 8, 8]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[2, 2, 2, 1, 1]
+
+=> Label mismatch:
+dark purpose
+[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]
+[8, 8, 8, 8, 6]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[5, 5, 8]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[5, 5, 8]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[5, 5, 8]
+
+=> Label mismatch:
+right man
+[EM]thumbs up[EM]person in suit levitating[EM]
+[5, 8, 8]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+short story
+[EM]hourglass not done[EM]closed book[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[1, 1, 1, 8]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+far journey
+[EM]stopwatch[EM]world map[EM]smiling face with tear[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+far journey
+[EM]sleepy face[EM]world map[EM]
+[8, 8, 2]
+
+=> Label mismatch:
+far side
+[EM]prohibited[EM]SOON arrow[EM]straight ruler[EM]
+[2, 2, 8, 8]
+
+=> Label mismatch:
+far side
+[EM]up arrow[EM]
+[2, 8]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]sheaf of rice[EM]snow-capped mountain[EM]compass[EM]
+[2, 2, 8, 2, 8]
+
+=> Label mismatch:
+far trek
+[EM]person walking[EM]backpack[EM]evergreen tree[EM]evergreen tree[EM]
+[8, 2, 8, 8, 8]
+
+=> Label mismatch:
+far country
+[EM]prohibited[EM]SOON arrow[EM]United States[EM]Clipperton Island[EM]Côte d’Ivoire[EM]Ascension Island[EM]Åland Islands[EM]
+[2, 2, 8, 8, 8, 8, 8, 8]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[2, 2, 2, 2, 8]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[1, 8, 8]
+
+=> Label mismatch:
+dirty money
+[EM]thumbs down[EM]money bag[EM]
+[7, 7, 8]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[8, 8, 8, 8, 2, 8, 8]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+dirty fighter
+[EM]cross mark[EM]balance scale[EM]flexed biceps[EM]man bald[EM]anger symbol[EM]
+[8, 8, 8, 8, 6, 8]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[6, 6, 6, 8, 6]
+
+=> Label mismatch:
+common land
+[EM]handshake[EM]desert island[EM]
+[8, 8, 3]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[8, 7]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[8, 8, 2]
+
+=> Label mismatch:
+common brand
+[EM]handbag[EM]
+[6, 8]
+
+=> Label mismatch:
+heavy metal
+[EM]balance scale[EM]link[EM]
+[8, 8, 6]
+
+=> Label mismatch:
+heavy fog
+[EM]man lifting weights[EM]fog[EM]
+[8, 6, 2]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face in clouds[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]dashing away[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+full life
+[EM]moon viewing ceremony[EM]snow-capped mountain[EM]sunrise over mountains[EM]
+[6, 8, 8, 8]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[8, 8, 8, 8, 8, 6, 8]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[8, 8, 8, 1]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[6, 6, 6, 8, 6]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[8, 0, 6]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[6, 5, 5]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 6, 8, 8, 8, 8, 6, 6, 6, 6]
+
+=> Label mismatch:
+ample waistline
+[EM]pregnant woman[EM]chart increasing[EM]
+[8, 8, 6]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[8, 8, 8, 6, 8]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[8, 6, 6]
+
+=> Label mismatch:
+puzzling statement
+[EM]speech balloon[EM]red question mark[EM]red question mark[EM]face with spiral eyes[EM]
+[8, 8, 8, 2, 8]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[8, 8, 6, 8]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]framed picture[EM]
+[8, 6, 8]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[7, 8, 8]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+dull silver
+[EM]black small square[EM]ring[EM]
+[8, 2, 2]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[1, 3, 1]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+cozy nook
+[EM]smiling face with smiling eyes[EM]bed[EM]
+[3, 1, 3]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[3, 3, 8, 3]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[1, 8, 8]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[1, 1, 8, 8]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[1, 8, 8]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[1, 1, 8, 8]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[1, 1, 8, 8]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[1, 1, 8, 8]
+
+=> Label mismatch:
+low furniture
+[EM]couch and lamp[EM]
+[1, 3]
+
+=> Label mismatch:
+critical mass
+[EM]police car light[EM]woman lifting weights[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+critical stage
+[EM]chart increasing[EM]chart decreasing[EM]red exclamation mark[EM]red exclamation mark[EM]
+[8, 6, 8, 8, 8]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]thermometer[EM]
+[8, 6, 6]
+
+=> Label mismatch:
+critical temperature
+[EM]hot springs[EM]face with head-bandage[EM]
+[4, 4, 6]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]red exclamation mark[EM]thermometer[EM]thermometer[EM]thermometer[EM]
+[6, 6, 6, 4, 4, 4]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[2, 2, 2, 2, 8]
+
+=> Label mismatch:
+critical shortage
+[EM]red exclamation mark[EM]avocado[EM]red apple[EM]cheese wedge[EM]cooked rice[EM]red exclamation mark[EM]sad but relieved face[EM]
+[8, 8, 6, 8, 8, 8, 8, 8]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+immediate influence
+[EM]man police officer[EM]backhand index pointing down[EM]folded hands[EM]handshake[EM]
+[8, 6, 8, 6, 8]
+
+=> Label mismatch:
+thick soup
+[EM]bowl with spoon[EM]
+[0, 8]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]eye[EM]cross mark[EM]
+[6, 6, 4, 6]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]volcano[EM]volcano[EM]face with medical mask[EM]
+[4, 4, 4, 4, 6]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]dashing away[EM]fog[EM]fog[EM]
+[8, 8, 8, 6, 2]
+
+=> Label mismatch:
+thick smoke
+[EM]fire[EM]dashing away[EM]dashing away[EM]dashing away[EM]dashing away[EM]
+[4, 4, 6, 6, 6, 6]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[0, 8, 8]
+
+=> Label mismatch:
+thick fog
+[EM]straight ruler[EM]fog[EM]fog[EM]fog[EM]foggy[EM]foggy[EM]
+[8, 6, 6, 6, 6, 6, 6]
+
+=> Label mismatch:
+thick fog
+[EM]fog[EM]face in clouds[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[8, 2, 8, 8, 8, 8, 8, 8]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+warm support
+[EM]fire[EM]flexed biceps light skin tone[EM]
+[4, 4, 8]
+
+=> Label mismatch:
+warm greeting
+[EM]hot springs[EM]waving hand[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+warm debate
+[EM]fire[EM]speaking head[EM]
+[6, 4, 6]
+
+=> Label mismatch:
+warm debate
+[EM]man detective[EM]woman detective[EM]
+[5, 6, 6]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[6, 6, 6, 8]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[3, 3, 8]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[4, 4, 8]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[7, 7, 8]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[5, 8, 8]
+
+=> Label mismatch:
+clear air
+[EM]thumbs up light skin tone[EM]wind face[EM]
+[5, 3, 3]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[6, 5, 6]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]tumbler glass[EM]
+[5, 5, 3]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]magnifying glass tilted left[EM]sparkles[EM]sparkles[EM]
+[5, 5, 3, 3, 3]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[2, 2, 2, 2, 8]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[8, 1, 1]
+
+=> Label mismatch:
+deep sigh
+[EM]hole[EM]face exhaling[EM]
+[8, 6, 8]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[8, 7, 8, 8]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[6, 6, 8]
+
+=> Label mismatch:
+deep breath
+[EM]hole[EM]face exhaling[EM]
+[8, 6, 8]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[6, 6, 8, 8]
+
+=> Label mismatch:
+high temperature
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[6, 4, 4, 6]
+
+=> Label mismatch:
+high ceiling
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[6, 4, 4, 6]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[6, 6, 6, 8]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[8, 6, 8]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[6, 5, 6]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[5, 5, 6]
+
+=> Label mismatch:
+cool reception
+[EM]neutral face[EM]waving hand[EM]
+[1, 3, 3]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[8, 2, 8, 8]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[2, 2, 8]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[8, 1, 8, 8]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[2, 2, 2, 2, 8]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[2, 2, 2, 2, 8]
+
+=> Label mismatch:
+inadequate staff
+[EM]red triangle pointed down[EM]woman office worker[EM]man office worker[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+domestic worry
+[EM]house[EM]confounded face[EM]
+[7, 7, 8]
+
+=> Label mismatch:
+domestic happiness
+[EM]house[EM]grinning face with smiling eyes[EM]
+[3, 3, 8]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[8, 8, 7, 7, 8, 8]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[8, 8, 8, 7, 8]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]prince[EM]crown[EM]chart decreasing[EM]thumbs down[EM]
+[8, 6, 8, 8, 8]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[8, 6, 6, 8, 8, 8, 8, 6, 8]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[5, 6, 6]
+
+=> Label mismatch:
+internal mechanism
+[EM]dna[EM]gear[EM]
+[8, 7, 7]
+
+=> Label mismatch:
+internal mechanism
+[EM]face with medical mask[EM]microbe[EM]pill[EM]crossed swords[EM]
+[8, 7, 7, 7, 7]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[8, 8, 2, 8]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[8, 7, 8]
+
+=> Label mismatch:
+dry critique
+[EM]sun[EM]face with symbols on mouth[EM]
+[4, 4, 6]
+
+=> Label mismatch:
+dry greeting
+[EM]hot springs[EM]waving hand[EM]
+[1, 1, 3]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[8, 8, 6, 8]
+
+=> Label mismatch:
+effective reprimand
+[EM]dashing away[EM]face with symbols on mouth[EM]
+[6, 4, 4]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[4, 3, 8]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[8, 2, 8]
+
+=> Label mismatch:
+foreign accent
+[EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+[8, 8, 8, 2, 8]
+
+=> Label mismatch:
+foreign nation
+[EM]airplane[EM]world map[EM]
+[2, 2, 8]
+
+=> Label mismatch:
+foreign nation
+[EM]alien[EM]United Nations[EM]
+[8, 2, 8]
+
+=> Label mismatch:
+foreign nation
+[EM]red question mark[EM]red question mark[EM]St. Barthélemy[EM]Northern Mariana Islands[EM]Diego Garcia[EM]Tristan da Cunha[EM]
+[8, 2, 8, 8, 8, 8, 8]
+
+=> Label mismatch:
+foreign nation
+[EM]luggage[EM]British Indian Ocean Territory[EM]Bosnia & Herzegovina[EM]Guyana[EM]Equatorial Guinea[EM]crossed flags[EM]Georgia[EM]
+[8, 8, 8, 8, 8, 2, 2, 2]
+
+=> Label mismatch:
+foreign city
+[EM]red question mark[EM]red question mark[EM]cityscape at dusk[EM]
+[8, 2, 8, 8]
+
+=> Label mismatch:
+exotic cuisine
+[EM]bento box[EM]croissant[EM]pizza[EM]
+[8, 0, 0, 8]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[2, 2, 2, 8]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[6, 5, 6]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[0, 0, 8]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[0, 3, 0, 0, 0, 0]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[8, 8, 5, 8]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[5, 5, 8]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[8, 5, 8]
+
+Accuracy: 0.8935658448586891
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-9.jpg
+Begin clustering with 10-clusters
+Fitted features into KMeans model: KMeans(n_clusters=10, random_state=27)
+Succesfully augmented cluster information into dataset
+=> Label mismatch:
+big expenditure
+[EM]money with wings[EM]money with wings[EM]
+[3, 2, 2]
+
+=> Label mismatch:
+big tipper
+[EM]man beard[EM]money bag[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+big tipper
+[EM]money-mouth face[EM]man red hair[EM]money bag[EM]
+[3, 2, 2, 3]
+
+=> Label mismatch:
+big day
+[EM]1st place medal[EM]sun[EM]
+[5, 5, 8]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]
+[3, 3, 3, 3, 3, 2, 2, 2, 2]
+
+=> Label mismatch:
+hot topic
+[EM]star-struck[EM]speech balloon[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[3, 7, 3]
+
+=> Label mismatch:
+hot topic
+[EM]fire[EM]speaking head[EM]
+[3, 7, 3]
+
+=> Label mismatch:
+hot merchandise
+[EM]fire[EM]shopping bags[EM]teddy bear[EM]t-shirt[EM]dress[EM]pencil[EM]notebook with decorative cover[EM]
+[7, 7, 3, 3, 3, 3, 3, 3]
+
+=> Label mismatch:
+hot merchandise
+[EM]left speech bubble[EM]t-shirt[EM]
+[2, 7, 7]
+
+=> Label mismatch:
+hot temper
+[EM]pouting face[EM]face with steam from nose[EM]face with symbols on mouth[EM]
+[7, 7, 3, 3]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]speaking head[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM]
+[3, 3, 3, 3, 2, 2, 2]
+
+=> Label mismatch:
+hot argument
+[EM]pouting face[EM]face with symbols on mouth[EM]speaking head[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+hot argument
+[EM]face with symbols on mouth[EM]speaking head[EM]megaphone[EM]
+[2, 2, 2, 3]
+
+=> Label mismatch:
+hot argument
+[EM]fire[EM]face with symbols on mouth[EM]
+[3, 7, 3]
+
+=> Label mismatch:
+hot argument
+[EM]anger symbol[EM]speaking head[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+bright future
+[EM]smiling face with sunglasses[EM]man scientist[EM]woman health worker[EM]technologist[EM]
+[3, 2, 3, 2, 3]
+
+=> Label mismatch:
+bright future
+[EM]sun[EM]fog[EM]
+[9, 8, 8]
+
+=> Label mismatch:
+bright future
+[EM]hourglass not done[EM]fast-forward button[EM]thumbs up[EM]thumbs up[EM]
+[3, 2, 3, 3, 3]
+
+=> Label mismatch:
+bright sun
+[EM]sun[EM]bright button[EM]
+[8, 5, 5]
+
+=> Label mismatch:
+bright dress
+[EM]sparkler[EM]dress[EM]
+[2, 3, 2]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]artist palette[EM]dress[EM]
+[3, 0, 3, 3]
+
+=> Label mismatch:
+bright dress
+[EM]sun[EM]dress[EM]
+[5, 8, 5]
+
+=> Label mismatch:
+dark shadow
+[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]bust in silhouette[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+dark shadow
+[EM]new moon[EM]men’s room[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+dark glass
+[EM]sunglasses[EM]glass of milk[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+dark undercurrent
+[EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+[4, 4, 2, 2]
+
+=> Label mismatch:
+dark corner
+[EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+[4, 4, 4, 1, 1]
+
+=> Label mismatch:
+dark purpose
+[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]
+[2, 2, 2, 2, 3]
+
+=> Label mismatch:
+right bank
+[EM]check mark button[EM]bank[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+right bank
+[EM]check mark[EM]bank[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+right decision
+[EM]right arrow[EM]handshake[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+right man
+[EM]thumbs up[EM]person in suit levitating[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+short ration
+[EM]cross mark button[EM]shallow pan of food[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+short money
+[EM]shorts[EM]dollar banknote[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+short money
+[EM]cross mark button[EM]money bag[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+short story
+[EM]shorts[EM]open book[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]notebook with decorative cover[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+short story
+[EM]pinching hand[EM]speaking head[EM]open book[EM]
+[1, 1, 1, 2]
+
+=> Label mismatch:
+short story
+[EM]hourglass done[EM]open book[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+short life
+[EM]pinching hand[EM]skull and crossbones[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+far side
+[EM]sleepy face[EM]backhand index pointing right[EM]
+[2, 9, 9]
+
+=> Label mismatch:
+far country
+[EM]globe showing Americas[EM]right arrow curving up[EM]up-right arrow[EM]
+[2, 9, 2, 2]
+
+=> Label mismatch:
+average people
+[EM]man pouting[EM]woman pouting[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+average merit
+[EM]sports medal[EM]person shrugging[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+average size
+[EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+[4, 4, 4, 4, 2]
+
+=> Label mismatch:
+average size
+[EM]wavy dash[EM]balance scale[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+dirty money
+[EM]thumbs down[EM]money bag[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+dirty money
+[EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+[2, 2, 2, 2, 4, 2, 2]
+
+=> Label mismatch:
+dirty overall
+[EM]thumbs down[EM]coat[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+common knowledge
+[EM]busts in silhouette[EM]books[EM]open book[EM]busts in silhouette[EM]
+[3, 3, 3, 2, 3]
+
+=> Label mismatch:
+common land
+[EM]handshake[EM]desert island[EM]
+[2, 2, 8]
+
+=> Label mismatch:
+common nuisance
+[EM]face with symbols on mouth[EM]
+[2, 6]
+
+=> Label mismatch:
+common nuisance
+[EM]palms up together[EM]man gesturing NO[EM]
+[2, 2, 4]
+
+=> Label mismatch:
+common brand
+[EM]handbag[EM]
+[3, 2]
+
+=> Label mismatch:
+heavy fog
+[EM]fog[EM]face with raised eyebrow[EM]
+[9, 9, 2]
+
+=> Label mismatch:
+full life
+[EM]moon viewing ceremony[EM]snow-capped mountain[EM]sunrise over mountains[EM]
+[3, 2, 2, 2]
+
+=> Label mismatch:
+full life
+[EM]party popper[EM]smiling face with smiling eyes[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM]
+[2, 2, 2, 2, 2, 3, 2]
+
+=> Label mismatch:
+little house
+[EM]house[EM]up-down arrow[EM]pinching hand[EM]
+[2, 2, 2, 1]
+
+=> Label mismatch:
+ample food
+[EM]hamburger[EM]hot dog[EM]taco[EM]smiling face with smiling eyes[EM]
+[3, 3, 3, 2, 3]
+
+=> Label mismatch:
+ample food
+[EM]open hands[EM]face savoring food[EM]
+[2, 5, 3]
+
+=> Label mismatch:
+ample supply
+[EM]fork and knife with plate[EM]check mark button[EM]
+[3, 0, 0]
+
+=> Label mismatch:
+ample supply
+[EM]green apple[EM]banana[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM]
+[3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 2, 2, 2, 2, 3, 3, 3, 3]
+
+=> Label mismatch:
+ample waistline
+[EM]pregnant woman[EM]chart increasing[EM]
+[2, 2, 3]
+
+=> Label mismatch:
+ample waistline
+[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM]
+[2, 2, 2, 3, 2]
+
+=> Label mismatch:
+ample waistline
+[EM]pinched fingers light skin tone[EM]dress[EM]
+[2, 3, 3]
+
+=> Label mismatch:
+remarkable sight
+[EM]national park[EM]eyes[EM]check mark button[EM]
+[2, 2, 3, 2]
+
+=> Label mismatch:
+remarkable sight
+[EM]eyes[EM]framed picture[EM]
+[2, 3, 2]
+
+=> Label mismatch:
+dull mood
+[EM]thumbs down[EM]face with steam from nose[EM]
+[6, 2, 2]
+
+=> Label mismatch:
+dull silver
+[EM]ring[EM]cross mark[EM]glowing star[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+dull silver
+[EM]new moon[EM]2nd place medal[EM]
+[2, 1, 2]
+
+=> Label mismatch:
+dull silver
+[EM]black small square[EM]ring[EM]
+[1, 1, 4]
+
+=> Label mismatch:
+dull glow
+[EM]fog[EM]light bulb[EM]
+[1, 8, 1]
+
+=> Label mismatch:
+dull glow
+[EM]cross mark[EM]light bulb[EM]candle[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+cozy nook
+[EM]smiling face with smiling eyes[EM]bed[EM]
+[8, 1, 8]
+
+=> Label mismatch:
+cozy nook
+[EM]maple leaf[EM]fallen leaf[EM]fire[EM]
+[8, 8, 2, 8]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+low hill
+[EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+low hill
+[EM]down-right arrow[EM]snow-capped mountain[EM]
+[1, 2, 2]
+
+=> Label mismatch:
+low cloud
+[EM]cloud[EM]foggy[EM]
+[9, 9, 2]
+
+=> Label mismatch:
+low ceiling
+[EM]red triangle pointed down[EM]office building[EM]
+[1, 1, 2]
+
+=> Label mismatch:
+low reservoir
+[EM]down arrow[EM]woman rowing boat[EM]water wave[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+low price
+[EM]chart decreasing[EM]money bag[EM]money bag[EM]
+[1, 1, 2, 2]
+
+=> Label mismatch:
+low price
+[EM]heavy dollar sign[EM]money-mouth face[EM]money-mouth face[EM]
+[1, 1, 2, 1]
+
+=> Label mismatch:
+low furniture
+[EM]couch and lamp[EM]
+[1, 8]
+
+=> Label mismatch:
+critical mass
+[EM]police car light[EM]woman lifting weights[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+critical stage
+[EM]chart increasing[EM]chart decreasing[EM]red exclamation mark[EM]red exclamation mark[EM]
+[2, 3, 2, 2, 2]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]thermometer[EM]
+[2, 3, 3]
+
+=> Label mismatch:
+critical temperature
+[EM]hot springs[EM]face with head-bandage[EM]
+[7, 7, 3]
+
+=> Label mismatch:
+critical temperature
+[EM]thermometer[EM]red exclamation mark[EM]
+[2, 3, 2]
+
+=> Label mismatch:
+critical temperature
+[EM]red exclamation mark[EM]red exclamation mark[EM]thermometer[EM]thermometer[EM]thermometer[EM]
+[3, 3, 3, 7, 7, 7]
+
+=> Label mismatch:
+critical shortage
+[EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+[4, 4, 4, 4, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]red exclamation mark[EM]avocado[EM]red apple[EM]cheese wedge[EM]cooked rice[EM]red exclamation mark[EM]sad but relieved face[EM]
+[2, 2, 3, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+critical shortage
+[EM]hourglass done[EM]cross mark[EM]basket[EM]
+[2, 4, 4, 2]
+
+=> Label mismatch:
+immediate influence
+[EM]man police officer[EM]backhand index pointing down[EM]folded hands[EM]handshake[EM]
+[2, 3, 2, 3, 2]
+
+=> Label mismatch:
+thick soup
+[EM]bowl with spoon[EM]
+[5, 2]
+
+=> Label mismatch:
+thick smoke
+[EM]dashing away[EM]eye[EM]cross mark[EM]
+[3, 3, 7, 3]
+
+=> Label mismatch:
+thick smoke
+[EM]volcano[EM]volcano[EM]volcano[EM]face with medical mask[EM]
+[7, 7, 7, 7, 3]
+
+=> Label mismatch:
+thick smoke
+[EM]fire[EM]dashing away[EM]dashing away[EM]dashing away[EM]dashing away[EM]
+[7, 7, 3, 3, 3, 3]
+
+=> Label mismatch:
+thick cream
+[EM]ice cream[EM]soft ice cream[EM]
+[5, 2, 2]
+
+=> Label mismatch:
+wrong cheating
+[EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+[2, 4, 2, 2, 2, 2, 2, 2]
+
+=> Label mismatch:
+wrong medicine
+[EM]cross mark[EM]pill[EM]face with thermometer[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+wrong assumption
+[EM]mouth[EM]cross mark[EM]mouth[EM]speech balloon[EM]
+[4, 4, 4, 4, 2]
+
+=> Label mismatch:
+warm support
+[EM]fire[EM]flexed biceps light skin tone[EM]
+[7, 7, 2]
+
+=> Label mismatch:
+warm greeting
+[EM]hot springs[EM]waving hand[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+warm debate
+[EM]fire[EM]speaking head[EM]
+[3, 7, 3]
+
+=> Label mismatch:
+warm debate
+[EM]man detective[EM]woman detective[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+warm debate
+[EM]speaking head[EM]fire[EM]speaking head[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+warm room
+[EM]hot face[EM]house with garden[EM]
+[8, 8, 2]
+
+=> Label mismatch:
+warm climate
+[EM]face with thermometer[EM]hot face[EM]fire[EM]sun[EM]
+[3, 3, 3, 7, 3]
+
+=> Label mismatch:
+warm climate
+[EM]thermometer[EM]globe showing Asia-Australia[EM]
+[2, 9, 9]
+
+=> Label mismatch:
+warm personality
+[EM]fire[EM]squinting face with tongue[EM]
+[7, 7, 2]
+
+=> Label mismatch:
+warm personality
+[EM]oncoming fist[EM]people holding hands[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+clear indication
+[EM]magnifying glass tilted right[EM]backhand index pointing right[EM]
+[0, 2, 2]
+
+=> Label mismatch:
+clear indication
+[EM]speech balloon[EM]check mark[EM]cross mark[EM]red question mark[EM]
+[4, 2, 4, 4, 4]
+
+=> Label mismatch:
+clear air
+[EM]thumbs up light skin tone[EM]wind face[EM]
+[0, 8, 8]
+
+=> Label mismatch:
+clear case
+[EM]eyes[EM]speaking head[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]tumbler glass[EM]
+[0, 0, 8]
+
+=> Label mismatch:
+clear glass
+[EM]glasses[EM]magnifying glass tilted left[EM]sparkles[EM]sparkles[EM]
+[0, 0, 8, 8, 8]
+
+=> Label mismatch:
+unclear action
+[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]
+[2, 4, 4, 4, 2]
+
+=> Label mismatch:
+deep trance
+[EM]face with spiral eyes[EM]down arrow[EM]
+[2, 1, 1]
+
+=> Label mismatch:
+deep emotion
+[EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+[2, 6, 2, 2]
+
+=> Label mismatch:
+deep concentration
+[EM]hole[EM]shushing face[EM]
+[3, 3, 2]
+
+=> Label mismatch:
+high price
+[EM]TOP arrow[EM]dollar banknote[EM]money with wings[EM]
+[3, 3, 2, 2]
+
+=> Label mismatch:
+high temperature
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[3, 7, 7, 3]
+
+=> Label mismatch:
+high ceiling
+[EM]thermometer[EM]face with thermometer[EM]backhand index pointing up[EM]
+[3, 7, 7, 3]
+
+=> Label mismatch:
+high risk
+[EM]radioactive[EM]biohazard[EM]warning[EM]
+[3, 3, 3, 2]
+
+=> Label mismatch:
+high risk
+[EM]skull[EM]red exclamation mark[EM]
+[2, 3, 2]
+
+=> Label mismatch:
+high opinion
+[EM]TOP arrow[EM]speaking head[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+high opinion
+[EM]up arrow[EM]speaking head[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+cool reception
+[EM]neutral face[EM]waving hand[EM]
+[1, 8, 8]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+[2, 4, 2, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]disappointed face[EM]money bag[EM]
+[4, 4, 2]
+
+=> Label mismatch:
+inadequate income
+[EM]cross mark[EM]money bag[EM]purse[EM]
+[2, 1, 2, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+[4, 4, 4, 4, 2]
+
+=> Label mismatch:
+inadequate training
+[EM]cross mark[EM]people wrestling[EM]person fencing[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+inadequate staff
+[EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+[4, 4, 4, 4, 2]
+
+=> Label mismatch:
+inadequate staff
+[EM]red triangle pointed down[EM]woman office worker[EM]man office worker[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+domestic worry
+[EM]house[EM]confounded face[EM]
+[6, 6, 2]
+
+=> Label mismatch:
+domestic happiness
+[EM]house[EM]grinning face with smiling eyes[EM]
+[8, 8, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+[2, 2, 6, 6, 2, 2]
+
+=> Label mismatch:
+domestic chore
+[EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+[2, 2, 2, 6, 2]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]prince[EM]crown[EM]chart decreasing[EM]thumbs down[EM]
+[2, 3, 2, 2, 2]
+
+=> Label mismatch:
+ineffectual ruler
+[EM]castle[EM]crown[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM]
+[2, 3, 3, 2, 2, 2, 2, 3, 2]
+
+=> Label mismatch:
+internal sense
+[EM]thought balloon[EM]thought balloon[EM]
+[0, 3, 3]
+
+=> Label mismatch:
+internal mechanism
+[EM]dna[EM]gear[EM]
+[2, 6, 6]
+
+=> Label mismatch:
+internal mechanism
+[EM]face with medical mask[EM]microbe[EM]pill[EM]crossed swords[EM]
+[2, 6, 6, 6, 6]
+
+=> Label mismatch:
+dry paint
+[EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+[2, 2, 4, 2]
+
+=> Label mismatch:
+dry critique
+[EM]thumbs down[EM]speaking head[EM]
+[2, 6, 2]
+
+=> Label mismatch:
+dry critique
+[EM]sun[EM]face with symbols on mouth[EM]
+[7, 7, 3]
+
+=> Label mismatch:
+dry greeting
+[EM]hot springs[EM]waving hand[EM]
+[1, 1, 8]
+
+=> Label mismatch:
+effective step
+[EM]thumbs up[EM]person walking[EM]
+[2, 2, 9]
+
+=> Label mismatch:
+effective reprimand
+[EM]face with steam from nose[EM]speaking head[EM]speech balloon[EM]
+[2, 2, 3, 2]
+
+=> Label mismatch:
+effective reprimand
+[EM]dashing away[EM]face with symbols on mouth[EM]
+[3, 7, 7]
+
+=> Label mismatch:
+effective entrance
+[EM]dashing away[EM]door[EM]
+[7, 8, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]alien[EM]speaking head[EM]
+[2, 4, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]Venezuela[EM]Montenegro[EM]Myanmar (Burma)[EM]studio microphone[EM]speaking head[EM]
+[2, 9, 9, 2, 2, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+[2, 2, 2, 4, 2]
+
+=> Label mismatch:
+foreign accent
+[EM]France[EM]Japan[EM]woman curly hair[EM]
+[2, 9, 9, 2]
+
+=> Label mismatch:
+exotic cuisine
+[EM]bento box[EM]croissant[EM]pizza[EM]
+[2, 5, 5, 2]
+
+=> Label mismatch:
+delicate wing
+[EM]warning[EM]package[EM]hatching chick[EM]
+[4, 4, 4, 2]
+
+=> Label mismatch:
+delicate negotiation
+[EM]white exclamation mark[EM]speech balloon[EM]
+[3, 0, 3]
+
+=> Label mismatch:
+fresh air
+[EM]soap[EM]dashing away[EM]
+[5, 5, 2]
+
+=> Label mismatch:
+fresh air
+[EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+[5, 8, 5, 5, 5, 5]
+
+=> Label mismatch:
+sound explanation
+[EM]speaking head[EM]ear[EM]thumbs up[EM]
+[2, 2, 0, 2]
+
+=> Label mismatch:
+sound approach
+[EM]thumbs up[EM]fast-forward button[EM]
+[0, 0, 3]
+
+=> Label mismatch:
+sound approach
+[EM]hundred points[EM]light bulb[EM]
+[0, 0, 2]
+
+=> Label mismatch:
+sound advice
+[EM]ear[EM]speech balloon[EM]
+[2, 0, 2]
+
+Accuracy: 0.8983764281419122
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/3700/experiment/cluster-10.jpg
