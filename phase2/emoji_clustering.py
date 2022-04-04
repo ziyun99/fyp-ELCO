@@ -7,16 +7,9 @@ import torch
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-from feature_extraction import DEVICE, EXPERIMENT_FOLDER, FEATURES_FILEPATH
+from feature_extraction import DEVICE
 
 RAND_SEED = 27
-
-LOG_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "logfile")
-logging.basicConfig(
-    filename=LOG_FILEPATH, filemode="w", format="%(message)s", level=logging.INFO
-)
-logger = logging.getLogger(__name__)
-
 
 def visualizePCA(n, kmeans, features, labels, filename="cluster"):
     """
@@ -35,18 +28,17 @@ def visualizePCA(n, kmeans, features, labels, filename="cluster"):
         c="b",
     )
 
-    # label each EM point with english sentence
-    for i, label in enumerate(labels):
-        plt.annotate(label,
-                        xy=(reduced_features[i][0], reduced_features[i][1]),
-                        xytext=(5, 2),
-                        textcoords='offset points',
-                        ha='right',
-                        va='bottom')
+    # annotate each EM point with english sentence
+    # for i, label in enumerate(labels):
+    #     plt.annotate(label,
+    #                     xy=(reduced_features[i][0], reduced_features[i][1]),
+    #                     xytext=(5, 2),
+    #                     textcoords='offset points',
+    #                     ha='right',
+    #                     va='bottom')
 
     PLOT_FILEPATH = os.path.join(EXPERIMENT_FOLDER, f"{filename}.jpg")
     plt.savefig(PLOT_FILEPATH)
-
     logging.info(f"Generated graph: {PLOT_FILEPATH}")
 
     # save pca model
@@ -91,7 +83,7 @@ def evaluateLabels(dataset):
     logging.info(f"Accuracy: {correct / total}")
 
 
-def plot_elbow_method(x_value, y_value, title, x_label, y_label, filename):
+def plot(x_value, y_value, title, x_label, y_label, filename):
     """
     Plot helper
     """
@@ -105,7 +97,7 @@ def plot_elbow_method(x_value, y_value, title, x_label, y_label, filename):
     plt.savefig(FILEPATH)
 
 
-def main():
+def main(EXPERIMENT_FOLDER, FEATURES_FILEPATH):
     """
     Load feature embeddings from filepath into device.
     """
@@ -147,15 +139,31 @@ def main():
         pickle.dump(kmeans, open(kmeans_model_file, "wb"))
 
 
-    plot_elbow_method(
-        x_value=N,
-        y_value=inertias,
-        title="Elbow method",
-        x_label="n_clusters",
-        y_label="inertias",
-        filename="elbow-method",
-    )
+    # plot(
+    #     x_value=N,
+    #     y_value=inertias,
+    #     title="Elbow method",
+    #     x_label="n_clusters",
+    #     y_label="inertias",
+    #     filename="elbow-method",
+    # )
 
 
 if __name__ == "__main__":
-    main()
+    # Change line below to use other model
+    model_name = input()
+    MODEL_FOLDER = os.path.join("output", "multilingual/model-bert-xlm/checkpoints", model_name)
+    EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
+    if not os.path.exists(EXPERIMENT_FOLDER):
+        os.makedirs(EXPERIMENT_FOLDER)
+    FEATURES_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "extracted_features.pt")
+
+    LOG_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "logfile")
+    logging.basicConfig(
+        filename=LOG_FILEPATH, filemode="w", format="%(message)s", level=logging.INFO
+    )
+    global logger
+    logger = logging.getLogger(__name__)
+
+    print("Processing: {}".format(MODEL_FOLDER))
+    main(EXPERIMENT_FOLDER, FEATURES_FILEPATH)

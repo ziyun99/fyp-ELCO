@@ -8,14 +8,8 @@ DEVICE = torch.device("cpu")
 
 from data_filepath import TRAIN_DATA_FOLDER
 
-# Change line below to use other model
-model_file = "model-2022-03-25_14-11-old-model-phase2"
-MODEL_FOLDER = os.path.join("output", "multilingual", model_file)
 DATA_FILEPATH = os.path.join(TRAIN_DATA_FOLDER, "parallel_data.txt")
-EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
-if not os.path.exists(EXPERIMENT_FOLDER):
-    os.makedirs(EXPERIMENT_FOLDER)
-FEATURES_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "extracted_features.pt")
+
 
 EM = "[EM]"  # Special emoji token
 
@@ -68,7 +62,7 @@ def getEmbeddings(emoji_sent, model, EM_ID):
     return torch.stack(embeddings)
 
 
-def main():
+def main(MODEL_FOLDER, FEATURES_FILEPATH):
     """
     Load pre-trained model from MODEL_FOLDER.
     """
@@ -136,4 +130,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Change line below to use other model/checkpoints
+    checkpoint_range = 50
+    for i in range(checkpoint_range, checkpoint_range*13, checkpoint_range):
+        model_file = "model-bert-xlm/checkpoints/{}".format(i)
+        MODEL_FOLDER = os.path.join("output", "multilingual", model_file)
+        EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
+        if not os.path.exists(EXPERIMENT_FOLDER):
+            os.makedirs(EXPERIMENT_FOLDER)
+        FEATURES_FILEPATH = os.path.join(EXPERIMENT_FOLDER, "extracted_features.pt")
+
+        main(MODEL_FOLDER, FEATURES_FILEPATH)
