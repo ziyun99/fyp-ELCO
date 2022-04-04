@@ -5,19 +5,18 @@ from datetime import datetime
 
 import numpy as np
 import pandas as pd
-from sentence_transformers import SentenceTransformer, evaluation, losses, models
+from sentence_transformers import (SentenceTransformer, evaluation, losses,
+                                   models)
 from sentence_transformers.datasets import ParallelSentencesDataset
 from sentence_transformers.readers import InputExample
 from torch.utils.data import DataLoader
 
-from data_filepath import DATASET_ID, TRAIN_DATA_FOLDER
+### Filepath
+from data_filepath import TRAIN_DATA_FOLDER
 
 output_path = "output/multilingual/model-" + datetime.now().strftime("%Y-%m-%d_%H-%M")
 
-gpu_id = 0
-device = "cuda:{}".format(gpu_id)
-
-#### Just some code to print debug information to stdout
+### Logging
 log_filename = output_path + "/logfile"
 os.makedirs(os.path.dirname(log_filename), exist_ok=True)
 logging.basicConfig(
@@ -27,42 +26,49 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
     level=logging.INFO,
 )
-# handlers=[LoggingHandler()])
 logger = logging.getLogger(__name__)
 logging.info("=> Input train data from folder: {}".format(TRAIN_DATA_FOLDER))
 
-###### CREATE MODEL ######
-MODEL_ID = 0
-teacher_model = [
-    "bert-base-nli-stsb-mean-tokens",
-    "all-mpnet-base-v2",
-    "all-MiniLM-L6-v2",
-]
-teacher_model_name = teacher_model[
-    MODEL_ID
-]  # Our monolingual teacher model, we want to convert to multiple languages
-student_model_name = (
-    "xlm-roberta-base"  # Multilingual base model we use to imitate the teacher model
-)
 
+### Hyperparameters
 max_seq_length = 128  # Student model max. lengths for inputs (number of word pieces)
 train_batch_size = 32  # Batch size for training
 inference_batch_size = 32  # Batch size at inference
-
 num_epochs = 600  # Train for x epochs
 num_warmup_steps = 5000  # Warumup steps
-
 num_evaluation_steps = 1000  # Evaluate performance after every xxxx steps
-
 num_epochs_to_save = 50  # Save the model checkpoint after xxxx epochs
+
+is_train_mse = True
+is_train_cossim = True
+
+
+###### CREATE MODEL ######
+gpu_id = 0
+device = "cuda:{}".format(gpu_id)
+
+# Our monolingual teacher model, we want to convert to multiple languages
+TEACHER_MODEL_ID = 2
+TEACHER_MODEL = [
+    "bert-base-nli-stsb-mean-tokens",
+    "all-mpnet-base-v2",
+]
+teacher_model = TEACHER_MODEL[TEACHER_MODEL_ID]
+
+# Multilingual base model we use to imitate the teacher model
+STUDENT_MODEL_ID = 0
+STUDENT_MODEL = ["xlm-roberta-base", "microsoft/mpnet-base"]
+student_model = STUDENT_MODEL[STUDENT_MODEL_ID]
+
+logging.info("=> teacher model: {}, student model: {}".format(teacher_model, student_model))
 
 # Load teacher model
 logging.info("=> Load teacher model")
-teacher_model = SentenceTransformer(teacher_model_name, device=device)
+teacher_model = SentenceTransformer(teacher_model, device=device)
 
 # Create student model
 logging.info("=> Create student model")
-word_embedding_model = models.Transformer(student_model_name)
+word_embedding_model = models.Transformer(student_model)
 
 # Apply mean pooling to get one fixed sized sentence vector
 pooling_model = models.Pooling(
@@ -135,7 +141,8 @@ for df_name in ["train", "validate", "test"]:
     )
     evaluators.append(mse_evaluator)
 
-    # TranslationEvaluator computes the embeddings for all parallel sentences. It then check if the embedding of source[i] is the closest to target[i] out of all available target sentences
+    # TranslationEvaluator computes the embeddings for all parallel sentences.
+    # It then check if the embedding of source[i] is the closest to target[i] out of all available target sentences
     trans_acc_evaluator = evaluation.TranslationEvaluator(
         src_sentences,
         trg_sentences,
@@ -242,11 +249,9 @@ logging.info("=> Evaluators:")
 for i, e in enumerate(evaluators):
     logging.info("{}: {}".format(i, e.name))
 
+
 ###### Train model ######
 train_objectives = []
-
-is_train_mse = False
-is_train_cossim = True
 
 if is_train_mse:
     # steps_per_epoch {0: 27, 1: 37}
@@ -263,15 +268,17 @@ logging.info(
 
 steps_per_epoch = (
     len(train_dataloader_mse) if is_train_mse else len(train_dataloader_sim)
-)  # {0: 27, 1: 37}
+)
 logging.info(f"Steps per epoch: {steps_per_epoch}")
 
 model.fit(
     train_objectives=train_objectives,
+    # np.mean(scores))
+    # # np.mean([scores[i] for i in range(len(evaluators)) if "validate" in evaluators[i].name])
     evaluator=evaluation.SequentialEvaluator(
         evaluators,
         main_score_function=lambda scores: np.mean([scores[2], scores[3], scores[7]]),
-    ),  # np.mean(scores)) np.mean([scores[i] for i in range(len(evaluators)) if "validate" in evaluators[i].name ])
+    ),
     epochs=num_epochs,
     evaluation_steps=num_evaluation_steps,
     warmup_steps=num_warmup_steps,
