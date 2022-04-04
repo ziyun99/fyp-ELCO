@@ -1,0 +1,2387 @@
+{
+    "health worker": {
+        "unicode": "1F9D1 200D 2695 FE0F",
+        "name": ":health_worker:",
+        "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\u2695\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":medical_symbol:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udc69",
+            "\u2695\ufe0f",
+            "\ud83d\udc77"
+        ],
+        "baseline_emojis_text": [
+            ":woman:",
+            ":medical_symbol:",
+            ":construction_worker:"
+        ],
+        "baseline_text": [
+            ":woman_health_worker:",
+            ":construction_worker:"
+        ],
+        "conceptnet": "['health', 'worker'] -> [':woman_health_worker:', ':construction_worker:']",
+        "randneg_emojis": [
+            "\ud83c\udf3d",
+            "\ud83d\udc3a"
+        ],
+        "randneg_text": [
+            ":ear_of_corn:",
+            ":wolf:"
+        ],
+        "definition": "Together these health workers, in all their diversity, make up the global health workforce. This chapter gives an overview of what is known about them. It\u00a0...",
+        "zwj_score": [
+            0.711,
+            0.3865
+        ],
+        "baseline_score": [
+            0.6225,
+            0.1305
+        ],
+        "randneg_score": [
+            0.1624,
+            0.3459
+        ],
+        "scores": [
+            [
+                0.1624,
+                0.6225,
+                0.711
+            ],
+            [
+                0.3459,
+                0.1305,
+                0.3865
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "judge": {
+        "unicode": "1F9D1 200D 2696 FE0F",
+        "name": ":judge:",
+        "emoji": "\ud83e\uddd1\u200d\u2696\ufe0f",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\u2696\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":balance_scale:"
+        ],
+        "baseline_emojis": [
+            "\ud83e\udd3e",
+            "\u2640\ufe0f",
+            "\ud83d\udc85"
+        ],
+        "baseline_emojis_text": [
+            ":person_playing_handball:",
+            ":female_sign:",
+            ":nail_polish:"
+        ],
+        "baseline_text": [
+            ":woman_playing_handball:",
+            ":nail_polish:"
+        ],
+        "conceptnet": "['pass', 'sentence'] -> [':woman_playing_handball:', ':nail_polish:']",
+        "randneg_emojis": [
+            "\ud83e\udd3d\ud83c\udffd\u200d\u2642\ufe0f",
+            "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe"
+        ],
+        "randneg_text": [
+            ":man_playing_water_polo_medium_skin_tone:",
+            ":men_holding_hands_medium_skin_tone_medium-dark_skin_tone:"
+        ],
+        "definition": "a public officer appointed to decide cases in a law court.",
+        "zwj_score": [
+            0.6156,
+            0.3638
+        ],
+        "baseline_score": [
+            0.0948,
+            0.1428
+        ],
+        "randneg_score": [
+            0.0299,
+            0.033
+        ],
+        "scores": [
+            [
+                0.0299,
+                0.0948,
+                0.6156
+            ],
+            [
+                0.033,
+                0.1428,
+                0.3638
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "pilot": {
+        "unicode": "1F9D1 200D 2708 FE0F",
+        "name": ":pilot:",
+        "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\u2708\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":airplane:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude9c",
+            "\ud83d\udc68",
+            "\u2708\ufe0f"
+        ],
+        "baseline_emojis_text": [
+            ":tractor:",
+            ":man:",
+            ":airplane:"
+        ],
+        "baseline_text": [
+            ":tractor:",
+            ":man_pilot:"
+        ],
+        "conceptnet": "['land', 'plane'] -> [':tractor:', ':man_pilot:']",
+        "randneg_emojis": [
+            "\ud83e\uddd9\ud83c\udffc\u200d\u2640\ufe0f",
+            "\ud83e\udd3e\ud83c\udffe"
+        ],
+        "randneg_text": [
+            ":woman_mage_medium-light_skin_tone:",
+            ":person_playing_handball_medium-dark_skin_tone:"
+        ],
+        "definition": "a person who operates the flying controls of an aircraft.",
+        "zwj_score": [
+            0.3557,
+            0.5172
+        ],
+        "baseline_score": [
+            0.867,
+            0.632
+        ],
+        "randneg_score": [
+            0.0085,
+            0.0342
+        ],
+        "scores": [
+            [
+                0.0085,
+                0.867,
+                0.3557
+            ],
+            [
+                0.0342,
+                0.632,
+                0.5172
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "farmer": {
+        "unicode": "1F9D1 200D 1F33E",
+        "name": ":farmer:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udf3e"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":sheaf_of_rice:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udc16",
+            "\ud83d\ude9c"
+        ],
+        "baseline_emojis_text": [
+            ":pig:",
+            ":tractor:"
+        ],
+        "baseline_text": [
+            ":pig:",
+            ":tractor:"
+        ],
+        "conceptnet": "['farm', 'land'] -> [':pig:', ':tractor:']",
+        "randneg_emojis": [
+            "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf7c",
+            "\ud83c\udfca\ud83c\udffc\u200d\u2640\ufe0f"
+        ],
+        "randneg_text": [
+            ":woman_feeding_baby_light_skin_tone:",
+            ":woman_swimming_medium-light_skin_tone:"
+        ],
+        "definition": "a person who owns or manages a farm.",
+        "zwj_score": [
+            0.6418,
+            0.1814
+        ],
+        "baseline_score": [
+            0.487,
+            0.1927
+        ],
+        "randneg_score": [
+            0.0441,
+            0.1123
+        ],
+        "scores": [
+            [
+                0.0441,
+                0.487,
+                0.6418
+            ],
+            [
+                0.1123,
+                0.1927,
+                0.1814
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "cook": {
+        "unicode": "1F9D1 200D 1F373",
+        "name": ":cook:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf73",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udf73"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":cooking:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udf21",
+            "\ud83e\udd56"
+        ],
+        "baseline_emojis_text": [
+            ":thermometer:",
+            ":baguette_bread:"
+        ],
+        "baseline_text": [
+            ":thermometer:",
+            ":baguette_bread:"
+        ],
+        "conceptnet": "['measure', 'flour'] -> [':thermometer:', ':baguette_bread:']",
+        "randneg_emojis": [
+            "\ud83c\udde7\ud83c\uddeb",
+            "\ud83e\udd48"
+        ],
+        "randneg_text": [
+            ":Burkina_Faso:",
+            ":2nd_place_medal:"
+        ],
+        "definition": "prepare (food, a dish, or a meal) by mixing, combining, and heating the ingredients.",
+        "zwj_score": [
+            0.775,
+            0.7674
+        ],
+        "baseline_score": [
+            0.7504,
+            0.3532
+        ],
+        "randneg_score": [
+            0.0108,
+            0.1387
+        ],
+        "scores": [
+            [
+                0.0108,
+                0.7504,
+                0.775
+            ],
+            [
+                0.1387,
+                0.3532,
+                0.7674
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "person feeding baby": {
+        "unicode": "1F9D1 200D 1F37C",
+        "name": ":person_feeding_baby:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf7c",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udf7c"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":baby_bottle:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude4e",
+            "\ud83c\udf7c"
+        ],
+        "baseline_emojis_text": [
+            ":person_pouting:",
+            ":baby_bottle:"
+        ],
+        "baseline_text": [
+            ":person_pouting:",
+            ":baby_bottle:"
+        ],
+        "conceptnet": "['person', 'feeding'] -> [':person_pouting:', ':baby_bottle:']",
+        "randneg_emojis": [
+            "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+            "\ud83e\udd3d\ud83c\udffd"
+        ],
+        "randneg_text": [
+            ":people_holding_hands_medium_skin_tone_dark_skin_tone:",
+            ":person_playing_water_polo_medium_skin_tone:"
+        ],
+        "definition": "Deciding to breastfeed or bottle feed a baby is usually based on the ... for cancer and moms who are infected with human immunodeficiency virus (HIV,\u00a0...Missing:  define | Must include:define",
+        "zwj_score": [
+            0.9356,
+            0.1929
+        ],
+        "baseline_score": [
+            0.0266,
+            0.4412
+        ],
+        "randneg_score": [
+            0.0744,
+            0.0663
+        ],
+        "scores": [
+            [
+                0.0744,
+                0.0266,
+                0.9356
+            ],
+            [
+                0.0663,
+                0.4412,
+                0.1929
+            ]
+        ],
+        "scores_ranked": [
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "student": {
+        "unicode": "1F9D1 200D 1F393",
+        "name": ":student:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf93",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udf93"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":graduation_cap:"
+        ],
+        "baseline_emojis": [
+            "\u2753",
+            "\ud83d\udc69",
+            "\ud83c\udfeb"
+        ],
+        "baseline_emojis_text": [
+            ":red_question_mark:",
+            ":woman:",
+            ":school:"
+        ],
+        "baseline_text": [
+            ":red_question_mark:",
+            ":woman_teacher:"
+        ],
+        "conceptnet": "['question', 'teacher'] -> [':red_question_mark:', ':woman_teacher:']",
+        "randneg_emojis": [
+            "\ud83d\udcbe",
+            "\ud83d\ude4d\ud83c\udffe\u200d\u2640\ufe0f"
+        ],
+        "randneg_text": [
+            ":floppy_disk:",
+            ":woman_frowning_medium-dark_skin_tone:"
+        ],
+        "definition": "a person who is studying at a university or other place of higher education.",
+        "zwj_score": [
+            0.8694,
+            0.4432
+        ],
+        "baseline_score": [
+            0.1753,
+            0.2033
+        ],
+        "randneg_score": [
+            0.0625,
+            0.0664
+        ],
+        "scores": [
+            [
+                0.0625,
+                0.1753,
+                0.8694
+            ],
+            [
+                0.0664,
+                0.2033,
+                0.4432
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "singer": {
+        "unicode": "1F9D1 200D 1F3A4",
+        "name": ":singer:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udfa4",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udfa4"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":microphone:"
+        ],
+        "baseline_emojis": [
+            "\ud83e\udd12",
+            "\ud83e\udd12"
+        ],
+        "baseline_emojis_text": [
+            ":face_with_thermometer:",
+            ":face_with_thermometer:"
+        ],
+        "baseline_text": [
+            ":face_with_thermometer:",
+            ":face_with_thermometer:"
+        ],
+        "conceptnet": "['sore', 'throat'] -> [':face_with_thermometer:', ':face_with_thermometer:']",
+        "randneg_emojis": [
+            "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfa8",
+            "\ud83c\udfc4\ud83c\udffe\u200d\u2642\ufe0f"
+        ],
+        "randneg_text": [
+            ":woman_artist_medium-light_skin_tone:",
+            ":man_surfing_medium-dark_skin_tone:"
+        ],
+        "definition": "a person who sings, especially professionally.",
+        "zwj_score": [
+            0.6216,
+            0.3324
+        ],
+        "baseline_score": [
+            0.1115,
+            0.0316
+        ],
+        "randneg_score": [
+            0.0513,
+            0.2578
+        ],
+        "scores": [
+            [
+                0.0513,
+                0.1115,
+                0.6216
+            ],
+            [
+                0.2578,
+                0.0316,
+                0.3324
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "artist": {
+        "unicode": "1F9D1 200D 1F3A8",
+        "name": ":artist:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udfa8",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udfa8"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":artist_palette:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udfa8",
+            "\ud83e\udd33\ud83c\udffe"
+        ],
+        "baseline_emojis_text": [
+            ":artist_palette:",
+            ":selfie_medium-dark_skin_tone:"
+        ],
+        "baseline_text": [
+            ":artist_palette:",
+            ":selfie_medium-dark_skin_tone:"
+        ],
+        "conceptnet": "['paint', 'portrait'] -> [':artist_palette:', ':selfie_medium-dark_skin_tone:']",
+        "randneg_emojis": [
+            "\ud83e\uddda\ud83c\udffc\u200d\u2640\ufe0f",
+            "\ud83d\udca5"
+        ],
+        "randneg_text": [
+            ":woman_fairy_medium-light_skin_tone:",
+            ":collision:"
+        ],
+        "definition": "a person who creates paintings or drawings as a profession or hobby.",
+        "zwj_score": [
+            0.5167,
+            0.1525
+        ],
+        "baseline_score": [
+            0.0816,
+            0.0823
+        ],
+        "randneg_score": [
+            0.0442,
+            0.0529
+        ],
+        "scores": [
+            [
+                0.0442,
+                0.0816,
+                0.5167
+            ],
+            [
+                0.0529,
+                0.0823,
+                0.1525
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "teacher": {
+        "unicode": "1F9D1 200D 1F3EB",
+        "name": ":teacher:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udfeb",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udfeb"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":school:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udfeb",
+            "\ud83c\udf93"
+        ],
+        "baseline_emojis_text": [
+            ":school:",
+            ":graduation_cap:"
+        ],
+        "baseline_text": [
+            ":school:",
+            ":graduation_cap:"
+        ],
+        "conceptnet": "['school', 'students'] -> [':school:', ':graduation_cap:']",
+        "randneg_emojis": [
+            "\ud83e\udddd\ud83c\udffd\u200d\u2640\ufe0f",
+            "\ud83e\uddd4\u200d\u2640\ufe0f"
+        ],
+        "randneg_text": [
+            ":woman_elf_medium_skin_tone:",
+            ":woman_beard:"
+        ],
+        "definition": "a person who teaches, especially in a school.",
+        "zwj_score": [
+            0.479,
+            0.4212
+        ],
+        "baseline_score": [
+            0.7686,
+            0.6337
+        ],
+        "randneg_score": [
+            0.0421,
+            0.1176
+        ],
+        "scores": [
+            [
+                0.0421,
+                0.7686,
+                0.479
+            ],
+            [
+                0.1176,
+                0.6337,
+                0.4212
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "factory worker": {
+        "unicode": "1F9D1 200D 1F3ED",
+        "name": ":factory_worker:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udfed",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udfed"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":factory:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udfed",
+            "\ud83d\udc77"
+        ],
+        "baseline_emojis_text": [
+            ":factory:",
+            ":construction_worker:"
+        ],
+        "baseline_text": [
+            ":factory:",
+            ":construction_worker:"
+        ],
+        "conceptnet": "['factory', 'worker'] -> [':factory:', ':construction_worker:']",
+        "randneg_emojis": [
+            "\ud83c\uddf7\ud83c\uddf8",
+            "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfa4"
+        ],
+        "randneg_text": [
+            ":Serbia:",
+            ":woman_singer_medium-dark_skin_tone:"
+        ],
+        "definition": "a person employed in a factory.",
+        "zwj_score": [
+            0.554,
+            0.7868
+        ],
+        "baseline_score": [
+            0.9509,
+            0.593
+        ],
+        "randneg_score": [
+            0.4195,
+            0.7158
+        ],
+        "scores": [
+            [
+                0.4195,
+                0.9509,
+                0.554
+            ],
+            [
+                0.7158,
+                0.593,
+                0.7868
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "technologist": {
+        "unicode": "1F9D1 200D 1F4BB",
+        "name": ":technologist:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\udcbb"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":laptop:"
+        ],
+        "baseline_emojis": [],
+        "baseline_emojis_text": [],
+        "baseline_text": [
+            ""
+        ],
+        "conceptnet": null,
+        "randneg_emojis": [
+            "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf3e",
+            "\ud83d\udd5a"
+        ],
+        "randneg_text": [
+            ":woman_farmer_light_skin_tone:",
+            ":eleven_o\u2019clock:"
+        ],
+        "definition": "an expert in a particular field of technology.",
+        "zwj_score": [
+            0.2267,
+            0.1505
+        ],
+        "baseline_score": [
+            0.3381,
+            0.0195
+        ],
+        "randneg_score": [
+            0.1402,
+            0.1984
+        ],
+        "scores": [
+            [
+                0.1402,
+                0.3381,
+                0.2267
+            ],
+            [
+                0.1984,
+                0.0195,
+                0.1505
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                2,
+                0,
+                1
+            ]
+        ]
+    },
+    "office worker": {
+        "unicode": "1F9D1 200D 1F4BC",
+        "name": ":office_worker:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\udcbc"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":briefcase:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udfe2",
+            "\ud83d\udc77"
+        ],
+        "baseline_emojis_text": [
+            ":office_building:",
+            ":construction_worker:"
+        ],
+        "baseline_text": [
+            ":office_building:",
+            ":construction_worker:"
+        ],
+        "conceptnet": "['office', 'worker'] -> [':office_building:', ':construction_worker:']",
+        "randneg_emojis": [
+            "\ud83d\udc94",
+            "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe"
+        ],
+        "randneg_text": [
+            ":broken_heart:",
+            ":kiss_person_person_medium-light_skin_tone_medium-dark_skin_tone:"
+        ],
+        "definition": "an employee who works in an office, especially one engaged in clerical or administrative work.",
+        "zwj_score": [
+            0.2073,
+            0.2027
+        ],
+        "baseline_score": [
+            0.6427,
+            0.4871
+        ],
+        "randneg_score": [
+            0.056,
+            0.0672
+        ],
+        "scores": [
+            [
+                0.056,
+                0.6427,
+                0.2073
+            ],
+            [
+                0.0672,
+                0.4871,
+                0.2027
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "mechanic": {
+        "unicode": "1F9D1 200D 1F527",
+        "name": ":mechanic:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udd27",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\udd27"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":wrench:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\ude02",
+            "\ud83c\udfce"
+        ],
+        "baseline_emojis_text": [
+            ":Japanese_service_charge_button:",
+            ":racing_car:"
+        ],
+        "baseline_text": [
+            ":Japanese_service_charge_button:",
+            ":racing_car:"
+        ],
+        "conceptnet": "['service', 'car'] -> [':Japanese_service_charge_button:', ':racing_car:']",
+        "randneg_emojis": [
+            "\ud83c\udfcb\ud83c\udffd\u200d\u2642\ufe0f",
+            "\ud83e\udd9e"
+        ],
+        "randneg_text": [
+            ":man_lifting_weights_medium_skin_tone:",
+            ":lobster:"
+        ],
+        "definition": "a skilled worker who repairs and maintains vehicle engines and other machinery.",
+        "zwj_score": [
+            0.1395,
+            0.2589
+        ],
+        "baseline_score": [
+            0.2491,
+            0.4064
+        ],
+        "randneg_score": [
+            0.1194,
+            0.3208
+        ],
+        "scores": [
+            [
+                0.1194,
+                0.2491,
+                0.1395
+            ],
+            [
+                0.3208,
+                0.4064,
+                0.2589
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                1,
+                2,
+                0
+            ]
+        ]
+    },
+    "scientist": {
+        "unicode": "1F9D1 200D 1F52C",
+        "name": ":scientist:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\udd2c"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":microscope:"
+        ],
+        "baseline_emojis": [
+            "\u2753",
+            "\ud83d\udc73\ud83c\udffb"
+        ],
+        "baseline_emojis_text": [
+            ":red_question_mark:",
+            ":person_wearing_turban_light_skin_tone:"
+        ],
+        "baseline_text": [
+            ":red_question_mark:",
+            ":person_wearing_turban_light_skin_tone:"
+        ],
+        "conceptnet": "['question', 'theories'] -> [':red_question_mark:', ':person_wearing_turban_light_skin_tone:']",
+        "randneg_emojis": [
+            "\ud83e\uddcf\ud83c\udfff\u200d\u2642\ufe0f",
+            "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff"
+        ],
+        "randneg_text": [
+            ":deaf_man_dark_skin_tone:",
+            ":kiss_woman_woman_light_skin_tone_dark_skin_tone:"
+        ],
+        "definition": "a person who is studying or has expert knowledge of one or more of the natural or physical sciences.",
+        "zwj_score": [
+            0.5553,
+            0.573
+        ],
+        "baseline_score": [
+            0.0567,
+            0.0875
+        ],
+        "randneg_score": [
+            0.041,
+            0.0542
+        ],
+        "scores": [
+            [
+                0.041,
+                0.0567,
+                0.5553
+            ],
+            [
+                0.0542,
+                0.0875,
+                0.573
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "astronaut": {
+        "unicode": "1F9D1 200D 1F680",
+        "name": ":astronaut:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\ude80",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\ude80"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":rocket:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude80",
+            "\ud83d\udef6"
+        ],
+        "baseline_emojis_text": [
+            ":rocket:",
+            ":canoe:"
+        ],
+        "baseline_text": [
+            ":rocket:",
+            ":canoe:"
+        ],
+        "conceptnet": "['space', 'travel'] -> [':rocket:', ':canoe:']",
+        "randneg_emojis": [
+            "\ud83d\udd90\ud83c\udffd",
+            "\ud83c\udfc7\ud83c\udffb"
+        ],
+        "randneg_text": [
+            ":hand_with_fingers_splayed_medium_skin_tone:",
+            ":horse_racing_light_skin_tone:"
+        ],
+        "definition": "a person who is trained to travel in a spacecraft.",
+        "zwj_score": [
+            0.4903,
+            0.1693
+        ],
+        "baseline_score": [
+            0.4724,
+            0.1087
+        ],
+        "randneg_score": [
+            0.0495,
+            0.2675
+        ],
+        "scores": [
+            [
+                0.0495,
+                0.4724,
+                0.4903
+            ],
+            [
+                0.2675,
+                0.1087,
+                0.1693
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                2,
+                0,
+                1
+            ]
+        ]
+    },
+    "firefighter": {
+        "unicode": "1F9D1 200D 1F692",
+        "name": ":firefighter:",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\ude92",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83d\ude92"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":fire_engine:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udeac",
+            "\ud83e\udd35\ud83c\udfff",
+            "\u2642\ufe0f"
+        ],
+        "baseline_emojis_text": [
+            ":cigarette:",
+            ":person_in_tuxedo_dark_skin_tone:",
+            ":male_sign:"
+        ],
+        "baseline_text": [
+            ":cigarette:",
+            ":man_in_tuxedo_dark_skin_tone:"
+        ],
+        "conceptnet": "['smoke', 'jacket'] -> [':cigarette:', ':man_in_tuxedo_dark_skin_tone:']",
+        "randneg_emojis": [
+            "\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
+            "\ud83d\udca7"
+        ],
+        "randneg_text": [
+            ":family_woman_boy_boy:",
+            ":droplet:"
+        ],
+        "definition": "a person whose job is to extinguish fires.",
+        "zwj_score": [
+            0.7287,
+            0.6875
+        ],
+        "baseline_score": [
+            0.0783,
+            0.1091
+        ],
+        "randneg_score": [
+            0.0207,
+            -0.0002
+        ],
+        "scores": [
+            [
+                0.0207,
+                0.0783,
+                0.7287
+            ],
+            [
+                -0.0002,
+                0.1091,
+                0.6875
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "person with white cane": {
+        "unicode": "1F9D1 200D 1F9AF",
+        "name": ":person_with_white_cane:",
+        "emoji": "\ud83e\uddd1\u200d\ud83e\uddaf",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83e\uddaf"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":white_cane:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude4e",
+            "\ud83c\udff3"
+        ],
+        "baseline_emojis_text": [
+            ":person_pouting:",
+            ":white_flag:"
+        ],
+        "baseline_text": [
+            ":person_pouting:",
+            ":white_flag:"
+        ],
+        "conceptnet": "['person', 'white'] -> [':person_pouting:', ':white_flag:']",
+        "randneg_emojis": [
+            "\ud83e\ude93",
+            "\ud83d\udcc1"
+        ],
+        "randneg_text": [
+            ":axe:",
+            ":file_folder:"
+        ],
+        "definition": "26 Nov 2018 \u00b7 The white cane is a long cane that helps someone with low vision or vision loss navigate and avoid obstacles on the road.",
+        "zwj_score": [
+            0.8828,
+            0.1501
+        ],
+        "baseline_score": [
+            0.1888,
+            0.194
+        ],
+        "randneg_score": [
+            0.4735,
+            0.3132
+        ],
+        "scores": [
+            [
+                0.4735,
+                0.1888,
+                0.8828
+            ],
+            [
+                0.3132,
+                0.194,
+                0.1501
+            ]
+        ],
+        "scores_ranked": [
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                2,
+                1,
+                0
+            ]
+        ]
+    },
+    "person in motorized wheelchair": {
+        "unicode": "1F9D1 200D 1F9BC",
+        "name": ":person_in_motorized_wheelchair:",
+        "emoji": "\ud83e\uddd1\u200d\ud83e\uddbc",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83e\uddbc"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":motorized_wheelchair:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude4e",
+            "\ud83d\udea4"
+        ],
+        "baseline_emojis_text": [
+            ":person_pouting:",
+            ":speedboat:"
+        ],
+        "baseline_text": [
+            ":person_pouting:",
+            ":speedboat:"
+        ],
+        "conceptnet": "['person', 'motorized'] -> [':person_pouting:', ':speedboat:']",
+        "randneg_emojis": [
+            "\ud83d\ude45\ud83c\udffb",
+            "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddbd"
+        ],
+        "randneg_text": [
+            ":person_gesturing_NO_light_skin_tone:",
+            ":woman_in_manual_wheelchair_medium_skin_tone:"
+        ],
+        "definition": "A motorized wheelchair, powerchair, electric wheelchair or electric-powered wheelchair (EPW) is a wheelchair that is propelled by means of an electric motor\u00a0...",
+        "zwj_score": [
+            0.9312,
+            0.7091
+        ],
+        "baseline_score": [
+            0.3636,
+            0.3803
+        ],
+        "randneg_score": [
+            0.0857,
+            0.0646
+        ],
+        "scores": [
+            [
+                0.0857,
+                0.3636,
+                0.9312
+            ],
+            [
+                0.0646,
+                0.3803,
+                0.7091
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "person in manual wheelchair": {
+        "unicode": "1F9D1 200D 1F9BD",
+        "name": ":person_in_manual_wheelchair:",
+        "emoji": "\ud83e\uddd1\u200d\ud83e\uddbd",
+        "category": "Role",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83e\uddbd"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":manual_wheelchair:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude4e",
+            "\ud83d\udc69\ud83c\udffe",
+            "\ud83d\udd27"
+        ],
+        "baseline_emojis_text": [
+            ":person_pouting:",
+            ":woman_medium-dark_skin_tone:",
+            ":wrench:"
+        ],
+        "baseline_text": [
+            ":person_pouting:",
+            ":woman_mechanic_medium-dark_skin_tone:"
+        ],
+        "conceptnet": "['person', 'manual'] -> [':person_pouting:', ':woman_mechanic_medium-dark_skin_tone:']",
+        "randneg_emojis": [
+            "\u270a\ud83c\udffb",
+            "\ud83e\udd19\ud83c\udffc"
+        ],
+        "randneg_text": [
+            ":raised_fist_light_skin_tone:",
+            ":call_me_hand_medium-light_skin_tone:"
+        ],
+        "definition": "the Convention on the Rights of Persons with Disabilities and World Health ... defines an appropriate wheelchair; ... Manual wheelchairs are here defined.",
+        "zwj_score": [
+            0.6895,
+            0.4032
+        ],
+        "baseline_score": [
+            0.0292,
+            0.0474
+        ],
+        "randneg_score": [
+            0.0067,
+            0.0407
+        ],
+        "scores": [
+            [
+                0.0067,
+                0.0292,
+                0.6895
+            ],
+            [
+                0.0407,
+                0.0474,
+                0.4032
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "heart on fire": {
+        "unicode": "2764 FE0F 200D 1F525",
+        "name": ":heart_on_fire:",
+        "emoji": "\u2764\ufe0f\u200d\ud83d\udd25",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\u2764\ufe0f",
+            "\ud83d\udd25"
+        ],
+        "zwj_split_text": [
+            ":red_heart:",
+            ":fire:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udc9f",
+            "\ud83d\udd25"
+        ],
+        "baseline_emojis_text": [
+            ":heart_decoration:",
+            ":fire:"
+        ],
+        "baseline_text": [
+            ":heart_decoration:",
+            ":fire:"
+        ],
+        "conceptnet": "['heart', 'fire'] -> [':heart_decoration:', ':fire:']",
+        "randneg_emojis": [
+            "\ud83d\udebb",
+            "\ud83d\ude20"
+        ],
+        "randneg_text": [
+            ":restroom:",
+            ":angry_face:"
+        ],
+        "definition": "Definition of set my heart on fire Something makes you feel a burning desire to do something or be with someone (usually romantic meaning).",
+        "zwj_score": [
+            0.7758,
+            0.4204
+        ],
+        "baseline_score": [
+            0.7253,
+            0.4225
+        ],
+        "randneg_score": [
+            0.2798,
+            0.2364
+        ],
+        "scores": [
+            [
+                0.2798,
+                0.7253,
+                0.7758
+            ],
+            [
+                0.2364,
+                0.4225,
+                0.4204
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "mending heart": {
+        "unicode": "2764 FE0F 200D 1FA79",
+        "name": ":mending_heart:",
+        "emoji": "\u2764\ufe0f\u200d\ud83e\ude79",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\u2764\ufe0f",
+            "\ud83e\ude79"
+        ],
+        "zwj_split_text": [
+            ":red_heart:",
+            ":adhesive_bandage:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udc77",
+            "\u2640\ufe0f",
+            "\ud83d\udc9f"
+        ],
+        "baseline_emojis_text": [
+            ":construction_worker:",
+            ":female_sign:",
+            ":heart_decoration:"
+        ],
+        "baseline_text": [
+            ":woman_construction_worker:",
+            ":heart_decoration:"
+        ],
+        "conceptnet": "['repair', 'heart'] -> [':woman_construction_worker:', ':heart_decoration:']",
+        "randneg_emojis": [
+            "\ud83e\uddd4\ud83c\udffc",
+            "\ud83d\ude45\ud83c\udffd"
+        ],
+        "randneg_text": [
+            ":person_medium-light_skin_tone_beard:",
+            ":person_gesturing_NO_medium_skin_tone:"
+        ],
+        "definition": "11 Jul 2021",
+        "zwj_score": [
+            0.5459,
+            0.1846
+        ],
+        "baseline_score": [
+            0.0748,
+            0.2083
+        ],
+        "randneg_score": [
+            0.0686,
+            0.1854
+        ],
+        "scores": [
+            [
+                0.0686,
+                0.0748,
+                0.5459
+            ],
+            [
+                0.1854,
+                0.2083,
+                0.1846
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                2,
+                0
+            ]
+        ]
+    },
+    "transgender flag": {
+        "unicode": "1F3F3 FE0F 200D 26A7 FE0F",
+        "name": ":transgender_flag:",
+        "emoji": "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83c\udff3\ufe0f",
+            "\u26a7\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":white_flag:",
+            ":transgender_symbol:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udff3\ufe0f",
+            "\ud83c\udf08",
+            "\ud83d\udea9"
+        ],
+        "baseline_emojis_text": [
+            ":white_flag:",
+            ":rainbow:",
+            ":triangular_flag:"
+        ],
+        "baseline_text": [
+            ":rainbow_flag:",
+            ":triangular_flag:"
+        ],
+        "conceptnet": "['transgender', 'flag'] -> [':rainbow_flag:', ':triangular_flag:']",
+        "randneg_emojis": [
+            "\ud83e\uddab",
+            "\ud83c\uddec\ud83c\uddee"
+        ],
+        "randneg_text": [
+            ":beaver:",
+            ":Gibraltar:"
+        ],
+        "definition": "The transgender pride flag is a light blue, pink and white striped flag, designed by American trans woman Monica Helms in 1999, and is a symbol of the transgender community, organizations, and individuals. Wikipedia",
+        "zwj_score": [
+            0.8304,
+            0.6662
+        ],
+        "baseline_score": [
+            0.3323,
+            0.2542
+        ],
+        "randneg_score": [
+            0.6165,
+            0.3101
+        ],
+        "scores": [
+            [
+                0.6165,
+                0.3323,
+                0.8304
+            ],
+            [
+                0.3101,
+                0.2542,
+                0.6662
+            ]
+        ],
+        "scores_ranked": [
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "rainbow flag": {
+        "unicode": "1F3F3 FE0F 200D 1F308",
+        "name": ":rainbow_flag:",
+        "emoji": "\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83c\udff3\ufe0f",
+            "\ud83c\udf08"
+        ],
+        "zwj_split_text": [
+            ":white_flag:",
+            ":rainbow:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\udf08",
+            "\ud83d\udea9"
+        ],
+        "baseline_emojis_text": [
+            ":rainbow:",
+            ":triangular_flag:"
+        ],
+        "baseline_text": [
+            ":rainbow:",
+            ":triangular_flag:"
+        ],
+        "conceptnet": "['rainbow', 'flag'] -> [':rainbow:', ':triangular_flag:']",
+        "randneg_emojis": [
+            "\ud83e\uddce\ud83c\udffb",
+            "\ud83e\udddc\ud83c\udffc"
+        ],
+        "randneg_text": [
+            ":person_kneeling_light_skin_tone:",
+            ":merperson_medium-light_skin_tone:"
+        ],
+        "definition": "Use: Symbol of the LGBT community",
+        "zwj_score": [
+            0.828,
+            0.5129
+        ],
+        "baseline_score": [
+            0.7323,
+            0.5229
+        ],
+        "randneg_score": [
+            0.3108,
+            0.224
+        ],
+        "scores": [
+            [
+                0.3108,
+                0.7323,
+                0.828
+            ],
+            [
+                0.224,
+                0.5229,
+                0.5129
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "pirate flag": {
+        "unicode": "1F3F4 200D 2620 FE0F",
+        "name": ":pirate_flag:",
+        "emoji": "\ud83c\udff4\u200d\u2620\ufe0f",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83c\udff4",
+            "\u2620\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":black_flag:",
+            ":skull_and_crossbones:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\uddfa\ud83c\uddf2",
+            "\ud83d\udea9"
+        ],
+        "baseline_emojis_text": [
+            ":U.S._Outlying_Islands:",
+            ":triangular_flag:"
+        ],
+        "baseline_text": [
+            ":U.S._Outlying_Islands:",
+            ":triangular_flag:"
+        ],
+        "conceptnet": "['captain', 'flag'] -> [':U.S._Outlying_Islands:', ':triangular_flag:']",
+        "randneg_emojis": [
+            "\ud83d\udce5",
+            "\ud83d\udc70\ud83c\udffb\u200d\u2640\ufe0f"
+        ],
+        "randneg_text": [
+            ":inbox_tray:",
+            ":woman_with_veil_light_skin_tone:"
+        ],
+        "definition": "The flag was probably intended as communication of the pirates' identity, which may have given target ships an opportunity to decide to surrender without a\u00a0...Design \u00b7 Historical designs \u00b7 Use in practice \u00b7 In popular culture",
+        "zwj_score": [
+            0.2492,
+            0.6464
+        ],
+        "baseline_score": [
+            0.2269,
+            0.2255
+        ],
+        "randneg_score": [
+            0.1484,
+            0.2491
+        ],
+        "scores": [
+            [
+                0.1484,
+                0.2269,
+                0.2492
+            ],
+            [
+                0.2491,
+                0.2255,
+                0.6464
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "black cat": {
+        "unicode": "1F408 200D 2B1B",
+        "name": ":black_cat:",
+        "emoji": "\ud83d\udc08\u200d\u2b1b",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\udc08",
+            "\u2b1b"
+        ],
+        "zwj_split_text": [
+            ":cat:",
+            ":black_large_square:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udda4",
+            "\ud83d\udc08"
+        ],
+        "baseline_emojis_text": [
+            ":black_heart:",
+            ":cat:"
+        ],
+        "baseline_text": [
+            ":black_heart:",
+            ":cat:"
+        ],
+        "conceptnet": "['black', 'cat'] -> [':black_heart:', ':cat:']",
+        "randneg_emojis": [
+            "\ud83e\udddd\ud83c\udfff",
+            "\u2668"
+        ],
+        "randneg_text": [
+            ":elf_dark_skin_tone:",
+            ":hot_springs:"
+        ],
+        "definition": "A black cat is a domestic cat with black fur that may be a mixed or specific breed, or a common domestic cat of no particular breed. The Cat Fanciers'\u00a0...Coat \u00b7 Historical associations \u00b7 Superstition, prejudice, bringer ... \u00b7 Notable black cats",
+        "zwj_score": [
+            0.6873,
+            0.411
+        ],
+        "baseline_score": [
+            0.9873,
+            0.8102
+        ],
+        "randneg_score": [
+            0.1137,
+            0.0759
+        ],
+        "scores": [
+            [
+                0.1137,
+                0.9873,
+                0.6873
+            ],
+            [
+                0.0759,
+                0.8102,
+                0.411
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "service dog": {
+        "unicode": "1F415 200D 1F9BA",
+        "name": ":service_dog:",
+        "emoji": "\ud83d\udc15\u200d\ud83e\uddba",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\udc15",
+            "\ud83e\uddba"
+        ],
+        "zwj_split_text": [
+            ":dog:",
+            ":safety_vest:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\ude02",
+            "\ud83d\udc15"
+        ],
+        "baseline_emojis_text": [
+            ":Japanese_service_charge_button:",
+            ":dog:"
+        ],
+        "baseline_text": [
+            ":Japanese_service_charge_button:",
+            ":dog:"
+        ],
+        "conceptnet": "['service', 'dog'] -> [':Japanese_service_charge_button:', ':dog:']",
+        "randneg_emojis": [
+            "\ud83d\udeb4\ud83c\udffe",
+            "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfeb"
+        ],
+        "randneg_text": [
+            ":person_biking_medium-dark_skin_tone:",
+            ":man_teacher_light_skin_tone:"
+        ],
+        "definition": "a dog that has been trained to assist a person who has a disability.",
+        "zwj_score": [
+            0.8273,
+            0.7486
+        ],
+        "baseline_score": [
+            0.8706,
+            0.818
+        ],
+        "randneg_score": [
+            0.0405,
+            0.0411
+        ],
+        "scores": [
+            [
+                0.0405,
+                0.8706,
+                0.8273
+            ],
+            [
+                0.0411,
+                0.818,
+                0.7486
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "polar bear": {
+        "unicode": "1F43B 200D 2744 FE0F",
+        "name": ":polar_bear:",
+        "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\udc3b",
+            "\u2744\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":bear:",
+            ":snowflake:"
+        ],
+        "baseline_emojis": [
+            "\u274e",
+            ":bear_face:"
+        ],
+        "baseline_emojis_text": [
+            ":cross_mark_button:",
+            ":bear_face:"
+        ],
+        "baseline_text": [
+            ":cross_mark_button:",
+            ":bear_face:"
+        ],
+        "conceptnet": "['polar', 'bear'] -> [':cross_mark_button:', ':bear_face:']",
+        "randneg_emojis": [
+            "\ud83c\udfad",
+            "\ud83d\udefb"
+        ],
+        "randneg_text": [
+            ":performing_arts:",
+            ":pickup_truck:"
+        ],
+        "definition": "a large white arctic bear which lives mainly on the pack ice. It is a powerful swimmer and feeds chiefly on seals.",
+        "zwj_score": [
+            0.3561,
+            0.3413
+        ],
+        "baseline_score": [
+            0.0621,
+            0.0594
+        ],
+        "randneg_score": [
+            0.4408,
+            0.5045
+        ],
+        "scores": [
+            [
+                0.4408,
+                0.0621,
+                0.3561
+            ],
+            [
+                0.5045,
+                0.0594,
+                0.3413
+            ]
+        ],
+        "scores_ranked": [
+            [
+                2,
+                0,
+                1
+            ],
+            [
+                2,
+                0,
+                1
+            ]
+        ]
+    },
+    "eye in speech bubble": {
+        "unicode": "1F441 FE0F 200D 1F5E8 FE0F",
+        "name": ":eye_in_speech_bubble:",
+        "emoji": "\ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\udc41\ufe0f",
+            "\ud83d\udde8\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":eye:",
+            ":left_speech_bubble:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\udc41",
+            "\ud83d\udde8"
+        ],
+        "baseline_emojis_text": [
+            ":eye:",
+            ":left_speech_bubble:"
+        ],
+        "baseline_text": [
+            ":eye:",
+            ":left_speech_bubble:"
+        ],
+        "conceptnet": "['eye', 'speech'] -> [':eye:', ':left_speech_bubble:']",
+        "randneg_emojis": [
+            "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf7c",
+            "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd"
+        ],
+        "randneg_text": [
+            ":woman_feeding_baby_medium_skin_tone:",
+            ":people_holding_hands_medium-dark_skin_tone_medium_skin_tone:"
+        ],
+        "definition": "Eye In Speech Bubble emoji is a little bit of an odd emoji, considering it's a speech bubble with an \ud83d\udc41 Eye inside it. But this emoji represents something\u00a0...",
+        "zwj_score": [
+            0.8728,
+            0.6686
+        ],
+        "baseline_score": [
+            0.8728,
+            0.6686
+        ],
+        "randneg_score": [
+            0.0671,
+            0.0688
+        ],
+        "scores": [
+            [
+                0.0671,
+                0.8728,
+                0.8728
+            ],
+            [
+                0.0688,
+                0.6686,
+                0.6686
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ]
+        ]
+    },
+    "face exhaling": {
+        "unicode": "1F62E 200D 1F4A8",
+        "name": ":face_exhaling:",
+        "emoji": "\ud83d\ude2e\u200d\ud83d\udca8",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\ude2e",
+            "\ud83d\udca8"
+        ],
+        "zwj_split_text": [
+            ":face_with_open_mouth:",
+            ":dashing_away:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude1e",
+            "\ud83d\udeac"
+        ],
+        "baseline_emojis_text": [
+            ":disappointed_face:",
+            ":cigarette:"
+        ],
+        "baseline_text": [
+            ":disappointed_face:",
+            ":cigarette:"
+        ],
+        "conceptnet": "['face', 'exhale'] -> [':disappointed_face:', ':cigarette:']",
+        "randneg_emojis": [
+            "\ud83e\uddd1\ud83c\udffe\u200d\u2696\ufe0f",
+            "\ud83e\udd36\ud83c\udffe"
+        ],
+        "randneg_text": [
+            ":judge_medium-dark_skin_tone:",
+            ":Mrs._Claus_medium-dark_skin_tone:"
+        ],
+        "definition": "A face showing a visible breath of air being dispelled. Used to represent relief, exhaustion, or as a sigh of disappointment or displeasure. May also be used to\u00a0...",
+        "zwj_score": [
+            0.8614,
+            0.585
+        ],
+        "baseline_score": [
+            0.469,
+            0.6646
+        ],
+        "randneg_score": [
+            0.0336,
+            0.0441
+        ],
+        "scores": [
+            [
+                0.0336,
+                0.469,
+                0.8614
+            ],
+            [
+                0.0441,
+                0.6646,
+                0.585
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                2,
+                1
+            ]
+        ]
+    },
+    "face with spiral eyes": {
+        "unicode": "1F635 200D 1F4AB",
+        "name": ":face_with_spiral_eyes:",
+        "emoji": "\ud83d\ude35\u200d\ud83d\udcab",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\ude35",
+            "\ud83d\udcab"
+        ],
+        "zwj_split_text": [
+            ":knocked-out_face:",
+            ":dizzy:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude1e",
+            "\ud83d\udc1a"
+        ],
+        "baseline_emojis_text": [
+            ":disappointed_face:",
+            ":spiral_shell:"
+        ],
+        "baseline_text": [
+            ":disappointed_face:",
+            ":spiral_shell:"
+        ],
+        "conceptnet": "['face', 'spiral'] -> [':disappointed_face:', ':spiral_shell:']",
+        "randneg_emojis": [
+            "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+            "\ud83e\uddda\ud83c\udffd"
+        ],
+        "randneg_text": [
+            ":kiss_woman_woman_medium_skin_tone_light_skin_tone:",
+            ":fairy_medium_skin_tone:"
+        ],
+        "definition": "11 Jul 2021",
+        "zwj_score": [
+            0.8266,
+            0.2505
+        ],
+        "baseline_score": [
+            0.8417,
+            0.2303
+        ],
+        "randneg_score": [
+            0.0497,
+            0.3029
+        ],
+        "scores": [
+            [
+                0.0497,
+                0.8417,
+                0.8266
+            ],
+            [
+                0.3029,
+                0.2303,
+                0.2505
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                2,
+                0,
+                1
+            ]
+        ]
+    },
+    "face in clouds": {
+        "unicode": "1F636 200D 1F32B FE0F",
+        "name": ":face_in_clouds:",
+        "emoji": "\ud83d\ude36\u200d\ud83c\udf2b\ufe0f",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83d\ude36",
+            "\ud83c\udf2b\ufe0f"
+        ],
+        "zwj_split_text": [
+            ":face_without_mouth:",
+            ":fog:"
+        ],
+        "baseline_emojis": [
+            "\ud83d\ude1e",
+            "\ud83c\udf28"
+        ],
+        "baseline_emojis_text": [
+            ":disappointed_face:",
+            ":cloud_with_snow:"
+        ],
+        "baseline_text": [
+            ":disappointed_face:",
+            ":cloud_with_snow:"
+        ],
+        "conceptnet": "['face', 'clouds'] -> [':disappointed_face:', ':cloud_with_snow:']",
+        "randneg_emojis": [
+            "\ud83c\udf42",
+            "\ud83e\udd3d\ud83c\udfff\u200d\u2642\ufe0f"
+        ],
+        "randneg_text": [
+            ":fallen_leaf:",
+            ":man_playing_water_polo_dark_skin_tone:"
+        ],
+        "definition": "Based on the idiom, the    Face in Clouds emoji signifies absent-mindedness, a sense of being illogical, whimsical, and fanciful in one's ideas and\u00a0...",
+        "zwj_score": [
+            0.9609,
+            0.5169
+        ],
+        "baseline_score": [
+            0.7805,
+            0.3189
+        ],
+        "randneg_score": [
+            0.034,
+            0.0614
+        ],
+        "scores": [
+            [
+                0.034,
+                0.7805,
+                0.9609
+            ],
+            [
+                0.0614,
+                0.3189,
+                0.5169
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    },
+    "mx claus": {
+        "unicode": "1F9D1 200D 1F384",
+        "name": ":mx_claus:",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf84",
+        "category": "Other",
+        "zwj_split_emojis": [
+            "\ud83e\uddd1",
+            "\ud83c\udf84"
+        ],
+        "zwj_split_text": [
+            ":person:",
+            ":Christmas_tree:"
+        ],
+        "baseline_emojis": [
+            "\ud83c\uddf2\ud83c\uddfd",
+            "\ud83c\udf85"
+        ],
+        "baseline_emojis_text": [
+            ":Mexico:",
+            ":Santa_Claus:"
+        ],
+        "baseline_text": [
+            ":Mexico:",
+            ":Santa_Claus:"
+        ],
+        "conceptnet": "['mx', 'claus'] -> [':Mexico:', ':Santa_Claus:']",
+        "randneg_emojis": [
+            "\ud83c\udfca\ud83c\udffd",
+            "\ud83d\udce1"
+        ],
+        "randneg_text": [
+            ":person_swimming_medium_skin_tone:",
+            ":satellite_antenna:"
+        ],
+        "definition": "13 Oct 2020",
+        "zwj_score": [
+            0.222,
+            0.4259
+        ],
+        "baseline_score": [
+            0.3285,
+            0.4047
+        ],
+        "randneg_score": [
+            0.0735,
+            0.1279
+        ],
+        "scores": [
+            [
+                0.0735,
+                0.3285,
+                0.222
+            ],
+            [
+                0.1279,
+                0.4047,
+                0.4259
+            ]
+        ],
+        "scores_ranked": [
+            [
+                0,
+                2,
+                1
+            ],
+            [
+                0,
+                1,
+                2
+            ]
+        ]
+    }
+}

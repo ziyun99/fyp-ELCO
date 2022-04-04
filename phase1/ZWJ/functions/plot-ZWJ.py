@@ -13,8 +13,8 @@ datasets= ["ZWJ", "AN"]
 dataset_idx = 0 
 dataset_name = datasets[dataset_idx]
 
-def read_score_df():
-    f = open("data/ZWJ/zwj-scoring-mpnet.json")
+def read_score_df(score_file):
+    f = open(score_file)
     data_dict = json.load(f)
 
     scores = []
@@ -65,16 +65,16 @@ def plot_scores(score_df):
         fig = px.bar(score_df,  y=[col])
         fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
-def plot_line_graph(score_df, col, img_name):
-    img_path = "figures/{}/{}_{}.png".format(dataset_name, dataset_name, img_name)
+def plot_line_graph(score_df, col, img_path):
     fig = px.line(score_df,  y=col)
     fig.update_layout(xaxis_title="ZWJ concepts", yaxis_title="similarity scores", legend_title="Emoji sequences", margin = {'l':5,'r':5,'t':5,'b':5},)
     fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
-# score_df = read_score_df()
-# col = ['pos', 'augment_pos']
-# img_name = "line_graph_pos"
-# plot_line_graph(score_df, col, img_name)
+score_file = "/home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/ZWJ-scoring.json"
+score_df = read_score_df(score_file)
+col = ['randneg', 'baseline', 'pos']
+img_path = "/home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/figures/ZWJ_line_graph_all.png"
+plot_line_graph(score_df, col, img_path)
 
 # plot_scores(score_df)
 
@@ -100,10 +100,10 @@ def compute_mean_scores(score_df):
     mean = [round(m, 4) for m in mean]
     print(mean)
 
-score_df = read_score_df()
-compute_mean_scores(score_df)
-mean = score_df.mean()
-print(mean)
+# score_df = read_score_df()
+# compute_mean_scores(score_df)
+# mean = score_df.mean()
+# print(mean)
 
 from sklearn.metrics import ndcg_score
 from sklearn.metrics import label_ranking_loss
@@ -201,7 +201,7 @@ def run_metrics(score_df):
 
     return metrics_df
 
-metrics_df = run_metrics(score_df)
+# metrics_df = run_metrics(score_df)
 # metrics_df.to_csv("scores/zwj-metrics.csv")
 # metrics_df.to_excel("scores/zwj-metrics.xlsx")
 

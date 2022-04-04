@@ -111,11 +111,10 @@ def plot_scores(filepath, dataset_name, col, img_name):
         fig.write_image(img_path, format="png", width=600, height=350, scale=2)
 
 
-def plot_line_graph(filepath, dataset_name, col, img_name):
+def plot_line_graph(filepath, dataset_name, col, img_name, img_folder):
     score_df = score_json_to_csv(filepath)
     img_path = os.path.join(
-        data_folder,
-        "results",
+        img_folder,
         "figures",
         "{}_{}.png".format(dataset_name, img_name),
     )
@@ -138,22 +137,22 @@ def plot_line_graph(filepath, dataset_name, col, img_name):
 
     print(" Graph saved to: {}".format(img_path))
 
-def plot_graph(score_data_filepath_json):
+def plot_graph(score_data_filepath_json, img_folder):
     print("=> Plot graph from data file: {}".format(score_data_filepath_json))
 
     dataset_name = "AN"
 
     col = ["randneg", "baseline", "pos_max"]
     img_name = "line_graph_all"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["randneg", "semineg_max", "baseline", "pos_max"]
     img_name = "line_graph_all_semineg"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["augment_randneg", "augment_baseline", "augment_pos_max"]
     img_name = "line_graph_all_augment"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = [
         "augment_randneg",
@@ -162,23 +161,28 @@ def plot_graph(score_data_filepath_json):
         "augment_pos_max",
     ]
     img_name = "line_graph_all_augment_semineg"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["randneg", "augment_randneg"]
     img_name = "line_graph_randneg"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["semineg_max", "augment_semineg_max"]
     img_name = "line_graph_semineg"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["baseline", "augment_baseline"]
     img_name = "line_graph_baseline"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
     col = ["pos_max", "augment_pos_max"]
     img_name = "line_graph_pos"
-    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name)
+    plot_line_graph(score_data_filepath_json, dataset_name, col, img_name, img_folder)
 
 if __name__ == "__main__":
-    plot_graph(SCORE_DATA_FILEPATH_JSON)
+    ## config ##
+    SCORE_DATA_FILEPATH_JSON = "/home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/AN_scoring_model.json"
+    IMG_FOLDER = os.path.join(
+        data_folder,
+        "experiment")
+    plot_graph(SCORE_DATA_FILEPATH_JSON, IMG_FOLDER)

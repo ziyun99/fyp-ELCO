@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 
 from data_filepath_sublevel import RAW_DATA_FILEPATH_JSON, SCORE_DATA_FILEPATH_JSON, model_name
 
-def load_model():
+def load_model(model_name):
     print("Loading model: {}".format(model_name))
     model = SentenceTransformer(model_name, device='cuda:1') 
     return model
@@ -108,7 +108,8 @@ def assign_similarity_scores(model, raw_data_filepath):
         # if concept_count > 2:
         #     break
 
-    print('concept_count: {}'.format(concept_count))  
+    print('concept_count: {}'.format(concept_count)) 
+    return data_dict 
 
 def save_scored_data(data_dict, filepath):
     with open(filepath, "w") as outfile:
@@ -119,7 +120,12 @@ def save_scored_data(data_dict, filepath):
 if __name__ == "__main__":
     start_time = time.time()
 
-    model = load_model()
+    ## config ##
+    model_name = "/home/ziyun99/fyp-ELCO/phase2/output/multilingual/model-bert-xlm"
+    RAW_DATA_FILEPATH_JSON = RAW_DATA_FILEPATH_JSON
+    SCORE_DATA_FILEPATH_JSON = "/home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/AN_scoring_model.json"
+
+    model = load_model(model_name)
     data_dict = assign_similarity_scores(model, RAW_DATA_FILEPATH_JSON)
     save_scored_data(data_dict, SCORE_DATA_FILEPATH_JSON)
 
