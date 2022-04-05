@@ -1,0 +1,825 @@
+50 closest data in Cluster 0
+sent: wrong cheating, emoji: [EM]smirking face[EM]thumbs down[EM], pos: 1
+sent: wrong cheating, emoji: [EM]smirking face[EM]thumbs down[EM], pos: 0
+sent: wrong cheating, emoji: [EM]smirking face[EM]thumbs down[EM], pos: 2
+sent: full auditorium, emoji: [EM]cross mark[EM]flying saucer[EM]stadium[EM], pos: 0
+sent: full auditorium, emoji: [EM]cross mark[EM]flying saucer[EM]stadium[EM], pos: 1
+sent: full auditorium, emoji: [EM]cross mark[EM]flying saucer[EM]stadium[EM], pos: 2
+sent: critical shortage, emoji: [EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM], pos: 1
+sent: delicate china, emoji: [EM]warning[EM]package[EM]fork and knife with plate[EM], pos: 1
+sent: delicate wing, emoji: [EM]warning[EM]package[EM]hatching chick[EM], pos: 1
+sent: wrong cheating, emoji: [EM]person gesturing NO[EM]kiss woman man[EM]broken heart[EM], pos: 3
+sent: wrong cheating, emoji: [EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM], pos: 1
+sent: inadequate training, emoji: [EM]person in tuxedo[EM]man in tuxedo[EM]cross mark[EM], pos: 3
+sent: ineffectual ruler, emoji: [EM]crown[EM]person gesturing NO[EM], pos: 0
+sent: delicate china, emoji: [EM]warning[EM]package[EM]fork and knife with plate[EM], pos: 0
+sent: ineffectual ruler, emoji: [EM]crown[EM]person gesturing NO[EM], pos: 1
+sent: wrong medicine, emoji: [EM]cross mark[EM]pill[EM]face with thermometer[EM], pos: 1
+sent: inadequate training, emoji: [EM]person in tuxedo[EM]man in tuxedo[EM]cross mark[EM], pos: 2
+sent: critical shortage, emoji: [EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM], pos: 0
+sent: delicate wing, emoji: [EM]warning[EM]package[EM]hatching chick[EM], pos: 0
+sent: wrong medicine, emoji: [EM]woman gesturing NO[EM]pill[EM], pos: 0
+sent: delicate china, emoji: [EM]warning[EM]package[EM]fork and knife with plate[EM], pos: 2
+sent: dull silver, emoji: [EM]ring[EM]cross mark[EM]glowing star[EM], pos: 0
+sent: critical shortage, emoji: [EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM], pos: 3
+sent: wrong medicine, emoji: [EM]woman gesturing NO[EM]pill[EM], pos: 2
+sent: inadequate training, emoji: [EM]person in tuxedo[EM]man in tuxedo[EM]cross mark[EM], pos: 1
+sent: inadequate training, emoji: [EM]person in tuxedo[EM]man in tuxedo[EM]cross mark[EM], pos: 0
+sent: wrong paper, emoji: [EM]woman gesturing NO[EM]page with curl[EM], pos: 0
+sent: dark purpose, emoji: [EM]smiling face with horns[EM]red question mark[EM]woman shrugging[EM], pos: 2
+sent: wrong cheating, emoji: [EM]woman gesturing NO[EM]broken heart[EM], pos: 2
+sent: ineffectual ruler, emoji: [EM]crown[EM]person gesturing NO[EM], pos: 2
+sent: wrong cheating, emoji: [EM]person gesturing NO[EM]kiss woman man[EM]broken heart[EM], pos: 2
+sent: full auditorium, emoji: [EM]cross mark[EM]flying saucer[EM]stadium[EM], pos: 3
+sent: critical shortage, emoji: [EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM], pos: 2
+sent: wrong medicine, emoji: [EM]man gesturing NO[EM]pill[EM], pos: 2
+sent: inadequate staff, emoji: [EM]red triangle pointed down[EM]woman office worker[EM]man office worker[EM], pos: 1
+sent: inadequate staff, emoji: [EM]cross mark[EM]person in tuxedo[EM], pos: 2
+sent: low supply, emoji: [EM]woman gesturing NO[EM]woman gesturing NO[EM]woman gesturing NO[EM], pos: 2
+sent: wrong cheating, emoji: [EM]cross mark[EM]memo[EM]clipboard[EM], pos: 3
+sent: delicate wing, emoji: [EM]warning[EM]package[EM]hatching chick[EM], pos: 2
+sent: dark purpose, emoji: [EM]smiling face with horns[EM]red question mark[EM]woman shrugging[EM], pos: 1
+sent: low supply, emoji: [EM]woman gesturing NO[EM]woman gesturing NO[EM]woman gesturing NO[EM], pos: 1
+sent: wrong cheating, emoji: [EM]woman gesturing NO[EM]broken heart[EM], pos: 0
+sent: low supply, emoji: [EM]woman gesturing NO[EM]woman gesturing NO[EM]woman gesturing NO[EM], pos: 0
+sent: delicate china, emoji: [EM]warning[EM]package[EM]fork and knife with plate[EM], pos: 3
+sent: dull silver, emoji: [EM]ring[EM]cross mark[EM]glowing star[EM], pos: 2
+sent: wrong medicine, emoji: [EM]cross mark[EM]pill[EM]face with thermometer[EM], pos: 2
+sent: wrong paper, emoji: [EM]woman gesturing NO[EM]page with curl[EM], pos: 2
+sent: low supply, emoji: [EM]woman gesturing NO[EM]woman gesturing NO[EM]woman gesturing NO[EM], pos: 3
+sent: ineffectual therapy, emoji: [EM]cross mark[EM]man getting massage[EM]man health worker[EM], pos: 0
+sent: average size, emoji: [EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM], pos: 1
+
+50 closest data in Cluster 1
+sent: clear air, emoji: [EM]thumbs up light skin tone[EM]wind face[EM], pos: 0
+sent: clear air, emoji: [EM]thumbs up light skin tone[EM]wind face[EM], pos: 1
+sent: clear complexion, emoji: [EM]smiling face with heart-eyes[EM]lotion bottle[EM], pos: 2
+sent: clear air, emoji: [EM]thumbs up light skin tone[EM]wind face[EM], pos: 2
+sent: delicate flavor, emoji: [EM]face savoring food[EM]thinking face[EM], pos: 0
+sent: cozy room, emoji: [EM]couch and lamp[EM]hot beverage[EM]desktop computer[EM], pos: 0
+sent: clear glass, emoji: [EM]glasses[EM]tumbler glass[EM], pos: 2
+sent: cozy room, emoji: [EM]couch and lamp[EM]hot beverage[EM]desktop computer[EM], pos: 3
+sent: clear complexion, emoji: [EM]smiling face with heart-eyes[EM]lotion bottle[EM], pos: 1
+sent: clear complexion, emoji: [EM]smiling face with heart-eyes[EM]lotion bottle[EM], pos: 0
+sent: clear glass, emoji: [EM]glasses[EM]tumbler glass[EM], pos: 1
+sent: clear water, emoji: [EM]thumbs up[EM]sweat droplets[EM]droplet[EM], pos: 0
+sent: hot topic, emoji: [EM]sun[EM]studio microphone[EM]speaking head[EM], pos: 3
+sent: clear air, emoji: [EM]wind face[EM]leaf fluttering in wind[EM]thumbs up[EM], pos: 3
+sent: clear water, emoji: [EM]check mark[EM]droplet[EM], pos: 1
+sent: clear water, emoji: [EM]check mark[EM]droplet[EM], pos: 1
+sent: cozy room, emoji: [EM]couch and lamp[EM]hot beverage[EM]desktop computer[EM], pos: 2
+sent: clear water, emoji: [EM]thumbs up[EM]sweat droplets[EM]droplet[EM], pos: 2
+sent: delicate flavor, emoji: [EM]face savoring food[EM]thinking face[EM], pos: 1
+sent: clear glass, emoji: [EM]glasses[EM]tumbler glass[EM], pos: 0
+sent: clear complexion, emoji: [EM]woman getting massage[EM]OK hand[EM], pos: 2
+sent: clear water, emoji: [EM]magnifying glass tilted right[EM]sweat droplets[EM], pos: 2
+sent: clear water, emoji: [EM]droplet[EM]droplet[EM]microscope[EM]sparkles[EM]cross mark[EM]microbe[EM], pos: 6
+sent: effective entrance, emoji: [EM]thumbs up[EM]door[EM], pos: 2
+sent: effective entrance, emoji: [EM]thumbs up[EM]door[EM], pos: 2
+sent: clear air, emoji: [EM]wind face[EM]leaf fluttering in wind[EM]thumbs up[EM], pos: 0
+sent: clear water, emoji: [EM]magnifying glass tilted right[EM]sweat droplets[EM], pos: 0
+sent: clear air, emoji: [EM]wind face[EM]leaf fluttering in wind[EM]thumbs up[EM], pos: 1
+sent: clear complexion, emoji: [EM]woman tipping hand[EM], pos: 1
+sent: clear air, emoji: [EM]wind face[EM]leaf fluttering in wind[EM]thumbs up[EM], pos: 2
+sent: clear water, emoji: [EM]thumbs up[EM]sweat droplets[EM]droplet[EM], pos: 3
+sent: clear water, emoji: [EM]droplet[EM]droplet[EM]microscope[EM]sparkles[EM]cross mark[EM]microbe[EM], pos: 0
+sent: clear complexion, emoji: [EM]woman getting massage[EM]OK hand[EM], pos: 0
+sent: clear water, emoji: [EM]check mark[EM]droplet[EM], pos: 2
+sent: clear water, emoji: [EM]check mark[EM]droplet[EM], pos: 2
+sent: clear water, emoji: [EM]droplet[EM]droplet[EM]microscope[EM]sparkles[EM]cross mark[EM]microbe[EM], pos: 2
+sent: clear complexion, emoji: [EM]magnifying glass tilted right[EM]woman light skin tone[EM], pos: 2
+sent: clear air, emoji: [EM]mountain[EM]wind face[EM], pos: 0
+sent: effective entrance, emoji: [EM]thumbs up[EM]door[EM], pos: 0
+sent: effective entrance, emoji: [EM]thumbs up[EM]door[EM], pos: 0
+sent: high hope, emoji: [EM]smiling face with halo[EM]folded hands[EM], pos: 2
+sent: effective step, emoji: [EM]hundred points[EM]hundred points[EM]hundred points[EM]sparkles[EM], pos: 4
+sent: clear air, emoji: [EM]mountain[EM]wind face[EM], pos: 2
+sent: clear water, emoji: [EM]magnifying glass tilted right[EM]sweat droplets[EM], pos: 1
+sent: sound advice, emoji: [EM]thumbs up[EM]deaf woman[EM], pos: 0
+sent: clear complexion, emoji: [EM]woman tipping hand[EM], pos: 0
+sent: sound advice, emoji: [EM]thumbs up[EM]deaf woman[EM], pos: 2
+sent: intelligent life, emoji: [EM]thinking face[EM]woman shrugging[EM], pos: 1
+sent: clear complexion, emoji: [EM]magnifying glass tilted right[EM]woman light skin tone[EM], pos: 0
+sent: high hope, emoji: [EM]smiling face with halo[EM]folded hands[EM], pos: 1
+
+50 closest data in Cluster 2
+sent: common sailor, emoji: [EM]busts in silhouette[EM]man blond hair[EM]sailboat[EM], pos: 2
+sent: common sailor, emoji: [EM]busts in silhouette[EM]man blond hair[EM]sailboat[EM], pos: 0
+sent: big man, emoji: [EM]man blond hair[EM]left-right arrow[EM]up-down arrow[EM], pos: 0
+sent: big man, emoji: [EM]man blond hair[EM]left-right arrow[EM]up-down arrow[EM], pos: 1
+sent: deep concentration, emoji: [EM]fast down button[EM]face with monocle[EM]nerd face[EM], pos: 1
+sent: common sailor, emoji: [EM]busts in silhouette[EM]man blond hair[EM]sailboat[EM], pos: 3
+sent: high opinion, emoji: [EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM], pos: 3
+sent: deep concentration, emoji: [EM]fast down button[EM]face with monocle[EM]nerd face[EM], pos: 3
+sent: common sailor, emoji: [EM]busts in silhouette[EM]man blond hair[EM]sailboat[EM], pos: 1
+sent: common man, emoji: [EM]person standing[EM]person standing[EM]person shrugging[EM], pos: 3
+sent: big man, emoji: [EM]man blond hair[EM]left-right arrow[EM]up-down arrow[EM], pos: 3
+sent: deep concentration, emoji: [EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM], pos: 1
+sent: big man, emoji: [EM]man blond hair[EM]left-right arrow[EM]up-down arrow[EM], pos: 2
+sent: constant lover, emoji: [EM]men holding hands[EM]kiss man man[EM]hourglass not done[EM]hourglass done[EM]revolving hearts[EM]man white hair[EM]man white hair[EM], pos: 0
+sent: wrong way, emoji: [EM]cross mark[EM]up-right arrow[EM]up-left arrow[EM]cross mark button[EM], pos: 0
+sent: full life, emoji: [EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM], pos: 1
+sent: deep concentration, emoji: [EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM], pos: 3
+sent: dark purpose, emoji: [EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM], pos: 0
+sent: deep concentration, emoji: [EM]fast down button[EM]face with monocle[EM]nerd face[EM], pos: 0
+sent: average size, emoji: [EM]t-shirt[EM]thumbs up[EM]thumbs down[EM], pos: 1
+sent: full life, emoji: [EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM], pos: 7
+sent: common brand, emoji: [EM]glasses[EM]clutch bag[EM]dress[EM]necktie[EM]copyright[EM], pos: 2
+sent: common procedure, emoji: [EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM], pos: 2
+sent: constant lover, emoji: [EM]men holding hands[EM]kiss man man[EM]hourglass not done[EM]hourglass done[EM]revolving hearts[EM]man white hair[EM]man white hair[EM], pos: 1
+sent: deep concentration, emoji: [EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM], pos: 2
+sent: deep concentration, emoji: [EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM], pos: 0
+sent: common procedure, emoji: [EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM], pos: 0
+sent: common procedure, emoji: [EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM], pos: 1
+sent: full life, emoji: [EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM], pos: 0
+sent: constant lover, emoji: [EM]men holding hands[EM]kiss man man[EM]hourglass not done[EM]hourglass done[EM]revolving hearts[EM]man white hair[EM]man white hair[EM], pos: 6
+sent: common procedure, emoji: [EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM], pos: 5
+sent: common procedure, emoji: [EM]grimacing face[EM]clipboard[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM], pos: 3
+sent: common man, emoji: [EM]person standing[EM]person standing[EM]person shrugging[EM], pos: 0
+sent: high opinion, emoji: [EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM], pos: 2
+sent: low price, emoji: [EM]money-mouth face[EM]money-mouth face[EM]money-mouth face[EM]red envelope[EM], pos: 4
+sent: common brand, emoji: [EM]glasses[EM]clutch bag[EM]dress[EM]necktie[EM]copyright[EM], pos: 5
+sent: high mountain, emoji: [EM]TOP arrow[EM]mount fuji[EM], pos: 2
+sent: deep concentration, emoji: [EM]page with curl[EM]page facing up[EM]nerd face[EM]face with spiral eyes[EM], pos: 4
+sent: common brand, emoji: [EM]glasses[EM]clutch bag[EM]dress[EM]necktie[EM]copyright[EM], pos: 4
+sent: common brand, emoji: [EM]glasses[EM]clutch bag[EM]dress[EM]necktie[EM]copyright[EM], pos: 0
+sent: dark purpose, emoji: [EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM]smiling face with horns[EM], pos: 2
+sent: common brand, emoji: [EM]busts in silhouette[EM]woman tipping hand light skin tone[EM]handbag[EM], pos: 3
+sent: common brand, emoji: [EM]busts in silhouette[EM]luggage[EM]purse[EM]briefcase[EM]backpack[EM]handbag[EM]busts in silhouette[EM], pos: 7
+sent: high opinion, emoji: [EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM]thumbs up medium-light skin tone[EM], pos: 1
+sent: full life, emoji: [EM]heart suit[EM]family man woman girl boy[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM], pos: 2
+sent: big day, emoji: [EM]face with crossed-out eyes[EM]face with crossed-out eyes[EM]face with crossed-out eyes[EM], pos: 0
+sent: deep concentration, emoji: [EM]face with crossed-out eyes[EM]face with crossed-out eyes[EM]face with crossed-out eyes[EM], pos: 0
+sent: heavy load, emoji: [EM]flexed biceps[EM]purse[EM], pos: 1
+sent: average size, emoji: [EM]t-shirt[EM]thumbs up[EM]thumbs down[EM], pos: 2
+sent: common brand, emoji: [EM]busts in silhouette[EM]woman tipping hand light skin tone[EM]handbag[EM], pos: 2
+
+50 closest data in Cluster 3
+sent: low sun, emoji: [EM]down arrow[EM]dim button[EM], pos: 2
+sent: dull play, emoji: [EM]expressionless face[EM]piñata[EM]teddy bear[EM], pos: 2
+sent: thin line, emoji: [EM]pinching hand[EM]straight ruler[EM]minus[EM], pos: 3
+sent: low furniture, emoji: [EM]down-right arrow[EM]seat[EM]bed[EM], pos: 1
+sent: low furniture, emoji: [EM]down-right arrow[EM]seat[EM]bed[EM], pos: 0
+sent: dull play, emoji: [EM]expressionless face[EM]piñata[EM]teddy bear[EM], pos: 3
+sent: low furniture, emoji: [EM]down-right arrow[EM]couch and lamp[EM], pos: 0
+sent: low reservoir, emoji: [EM]down-right arrow[EM]mount fuji[EM], pos: 0
+sent: thin line, emoji: [EM]pinching hand[EM]straight ruler[EM]minus[EM], pos: 2
+sent: dull play, emoji: [EM]expressionless face[EM]piñata[EM]teddy bear[EM], pos: 1
+sent: low furniture, emoji: [EM]down-right arrow[EM]seat[EM]bed[EM], pos: 2
+sent: dull play, emoji: [EM]performing arts[EM]confused face[EM], pos: 1
+sent: low furniture, emoji: [EM]red triangle pointed down[EM]couch and lamp[EM], pos: 0
+sent: thin line, emoji: [EM]pinched fingers light skin tone[EM]wavy dash[EM], pos: 2
+sent: low furniture, emoji: [EM]chair[EM]chair[EM]down arrow[EM], pos: 3
+sent: dry critique, emoji: [EM]man pouting[EM]speaking head[EM]speech balloon[EM], pos: 1
+sent: low hill, emoji: [EM]down arrow[EM]snow-capped mountain[EM], pos: 0
+sent: low furniture, emoji: [EM]red triangle pointed down[EM]chair[EM]couch and lamp[EM], pos: 0
+sent: low furniture, emoji: [EM]red triangle pointed down[EM]couch and lamp[EM], pos: 1
+sent: low hill, emoji: [EM]down arrow[EM]snow-capped mountain[EM], pos: 1
+sent: low reservoir, emoji: [EM]down-right arrow[EM]mount fuji[EM], pos: 1
+sent: thin oil, emoji: [EM]pinching hand[EM]straight ruler[EM]oil drum[EM], pos: 0
+sent: thin air, emoji: [EM]pinching hand[EM]leaf fluttering in wind[EM], pos: 0
+sent: short smokestack, emoji: [EM]ship[EM]dashing away[EM], pos: 2
+sent: low furniture, emoji: [EM]down-right arrow[EM]couch and lamp[EM], pos: 1
+sent: common sailor, emoji: [EM]ship[EM]anchor[EM]men holding hands[EM], pos: 0
+sent: low hill, emoji: [EM]backhand index pointing down[EM]mountain[EM], pos: 2
+sent: full game, emoji: [EM]bullseye[EM]basketball[EM], pos: 0
+sent: thin line, emoji: [EM]pinched fingers light skin tone[EM]wavy dash[EM], pos: 1
+sent: thin air, emoji: [EM]pinching hand[EM]straight ruler[EM]dashing away[EM], pos: 2
+sent: dull play, emoji: [EM]thumbs down[EM]basketball[EM], pos: 0
+sent: thin line, emoji: [EM]pinched fingers light skin tone[EM]wavy dash[EM], pos: 0
+sent: low sun, emoji: [EM]backhand index pointing down[EM]sun with face[EM], pos: 0
+sent: dull play, emoji: [EM]expressionless face[EM]piñata[EM]teddy bear[EM], pos: 0
+sent: dull play, emoji: [EM]performing arts[EM]confused face[EM], pos: 0
+sent: dull play, emoji: [EM]yawning face[EM]performing arts[EM], pos: 2
+sent: dull play, emoji: [EM]yawning face[EM]performing arts[EM], pos: 2
+sent: full game, emoji: [EM]bullseye[EM]basketball[EM], pos: 1
+sent: low reservoir, emoji: [EM]national park[EM]down arrow[EM], pos: 2
+sent: low bow, emoji: [EM]ribbon[EM]backhand index pointing down[EM], pos: 2
+sent: low sun, emoji: [EM]down arrow[EM]dim button[EM], pos: 1
+sent: low hill, emoji: [EM]down arrow[EM]snow-capped mountain[EM]snow-capped mountain[EM], pos: 0
+sent: low hill, emoji: [EM]backhand index pointing down[EM]mountain[EM], pos: 1
+sent: low furniture, emoji: [EM]down-right arrow[EM]seat[EM]bed[EM], pos: 3
+sent: short holiday, emoji: [EM]pinching hand[EM]beach with umbrella[EM], pos: 2
+sent: dull play, emoji: [EM]performing arts[EM]confused face[EM], pos: 2
+sent: thin air, emoji: [EM]pinching hand[EM]straight ruler[EM]dashing away[EM], pos: 3
+sent: thin line, emoji: [EM]pinching hand[EM]straight ruler[EM]minus[EM], pos: 0
+sent: thin air, emoji: [EM]pinching hand[EM]leaf fluttering in wind[EM], pos: 2
+sent: low furniture, emoji: [EM]down arrow[EM]chair[EM], pos: 1
+
+Cluster distribution of sent: big day
+                              [EM]anxious face with sweat[EM]sun[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: hot forehead
+                              [EM]sun[EM]face with thermometer[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM]
+Cluster: 0    1    2    3
+Count:   0    2    5    0
+Percent: 0.0%  28.57142857142857%  71.42857142857143%  0.0
+
+Cluster distribution of sent: hot forehead
+                              [EM]hot face[EM]face with thermometer[EM]face with thermometer[EM]
+Cluster: 0    1    2    3
+Count:   0    2    2    0
+Percent: 0.0%  50.0%  50.0%  0.0
+
+Cluster distribution of sent: hot forehead
+                              [EM]thermometer[EM]face with thermometer[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: bright future
+                              [EM]sun[EM]crystal ball[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: bright sun
+                              [EM]glowing star[EM]sun behind small cloud[EM]sunset[EM]sunrise[EM]
+Cluster: 0    1    2    3
+Count:   0    3    2    0
+Percent: 0.0%  60.0%  40.0%  0.0
+
+Cluster distribution of sent: bright dress
+                              [EM]sun[EM]artist palette[EM]dress[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: bright dress
+                              [EM]dress[EM]sparkles[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: bright dress
+                              [EM]dress[EM]sparkles[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: dark shadow
+                              [EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM]
+Cluster: 0    1    2    3
+Count:   3    0    1    0
+Percent: 75.0%  0.0%  25.0%  0.0
+
+Cluster distribution of sent: dark shadow
+                              [EM]new moon[EM]bust in silhouette[EM]
+Cluster: 0    1    2    3
+Count:   2    0    0    1
+Percent: 66.66666666666666%  0.0%  0.0%  33.33333333333333
+
+Cluster distribution of sent: dark undercurrent
+                              [EM]new moon[EM]no one under eighteen[EM]water wave[EM]
+Cluster: 0    1    2    3
+Count:   2    0    2    0
+Percent: 50.0%  0.0%  50.0%  0.0
+
+Cluster distribution of sent: dark corner
+                              [EM]new moon[EM]school[EM]shushing face[EM]Japanese secret button[EM]
+Cluster: 0    1    2    3
+Count:   1    0    0    4
+Percent: 20.0%  0.0%  0.0%  80.0
+
+Cluster distribution of sent: dark purpose
+                              [EM]angry face with horns[EM]ogre[EM]goblin[EM]smirking face[EM]
+Cluster: 0    1    2    3
+Count:   4    0    1    0
+Percent: 80.0%  0.0%  20.0%  0.0
+
+Cluster distribution of sent: right bank
+                              [EM]check mark button[EM]bank[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: right bank
+                              [EM]check mark[EM]bank[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: short hair
+                              [EM]shorts[EM]woman light skin tone red hair[EM]
+Cluster: 0    1    2    3
+Count:   0    0    2    1
+Percent: 0.0%  0.0%  66.66666666666666%  33.33333333333333
+
+Cluster distribution of sent: far journey
+                              [EM]railway track[EM]ship[EM]world map[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    3
+Percent: 0.0%  0.0%  25.0%  75.0
+
+Cluster distribution of sent: far side
+                              [EM]down-left arrow[EM]motorway[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    2
+Percent: 0.0%  0.0%  33.33333333333333%  66.66666666666666
+
+Cluster distribution of sent: far trek
+                              [EM]man walking[EM]hiking boot[EM]
+Cluster: 0    1    2    3
+Count:   0    0    2    1
+Percent: 0.0%  0.0%  66.66666666666666%  33.33333333333333
+
+Cluster distribution of sent: far country
+                              [EM]world map[EM]passenger ship[EM]airplane departure[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    3
+Percent: 0.0%  0.0%  25.0%  75.0
+
+Cluster distribution of sent: average people
+                              [EM]man standing[EM]woman standing[EM]person standing[EM]
+Cluster: 0    1    2    3
+Count:   0    2    2    0
+Percent: 0.0%  50.0%  50.0%  0.0
+
+Cluster distribution of sent: average merit
+                              [EM]neutral face[EM]briefcase[EM]3rd place medal[EM]
+Cluster: 0    1    2    3
+Count:   0    0    3    1
+Percent: 0.0%  0.0%  75.0%  25.0
+
+Cluster distribution of sent: average size
+                              [EM]cross mark[EM]black large square[EM]cross mark[EM]black small square[EM]
+Cluster: 0    1    2    3
+Count:   4    0    1    0
+Percent: 80.0%  0.0%  20.0%  0.0
+
+Cluster distribution of sent: average size
+                              [EM]wavy dash[EM]balance scale[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    2
+Percent: 0.0%  0.0%  33.33333333333333%  66.66666666666666
+
+Cluster distribution of sent: dirty money
+                              [EM]smiling face with horns[EM]dollar banknote[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM]
+Cluster: 0    1    2    3
+Count:   4    0    3    0
+Percent: 57.14285714285714%  0.0%  42.857142857142854%  0.0
+
+Cluster distribution of sent: dirty fighter
+                              [EM]expressionless face[EM]unamused face[EM]boxing glove[EM]
+Cluster: 0    1    2    3
+Count:   2    0    0    2
+Percent: 50.0%  0.0%  0.0%  50.0
+
+Cluster distribution of sent: common procedure
+                              [EM]play button[EM]ladder[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: common land
+                              [EM]cityscape at dusk[EM]cityscape[EM]bridge at night[EM]desert island[EM]
+Cluster: 0    1    2    3
+Count:   0    0    2    3
+Percent: 0.0%  0.0%  40.0%  60.0
+
+Cluster distribution of sent: common land
+                              [EM]busts in silhouette[EM]mountain[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: common land
+                              [EM]palms up together[EM]cityscape at dusk[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: common nuisance
+                              [EM]palms up together[EM]man gesturing NO[EM]
+Cluster: 0    1    2    3
+Count:   2    0    1    0
+Percent: 66.66666666666666%  0.0%  33.33333333333333%  0.0
+
+Cluster distribution of sent: common housefly
+                              [EM]house[EM]fly[EM]
+Cluster: 0    1    2    3
+Count:   1    0    2    0
+Percent: 33.33333333333333%  0.0%  66.66666666666666%  0.0
+
+Cluster distribution of sent: common parlance
+                              [EM]busts in silhouette[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: common parlance
+                              [EM]clapping hands[EM]boy[EM]person curly hair[EM]
+Cluster: 0    1    2    3
+Count:   0    3    1    0
+Percent: 0.0%  75.0%  25.0%  0.0
+
+Cluster distribution of sent: common parlance
+                              [EM]speaking head[EM]left-right arrow[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   0    2    2    0
+Percent: 0.0%  50.0%  50.0%  0.0
+
+Cluster distribution of sent: full attention
+                              [EM]man pilot[EM]
+Cluster: 0    1    2    3
+Count:   0    1    1    0
+Percent: 0.0%  50.0%  50.0%  0.0
+
+Cluster distribution of sent: ample food
+                              [EM]open hands[EM]face savoring food[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: ample supply
+                              [EM]chart decreasing[EM]clipboard[EM]check mark button[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    3
+Percent: 0.0%  0.0%  25.0%  75.0
+
+Cluster distribution of sent: ample supply
+                              [EM]fork and knife with plate[EM]check mark button[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: ample waistline
+                              [EM]woman gesturing OK light skin tone[EM]shorts[EM]
+Cluster: 0    1    2    3
+Count:   0    0    2    1
+Percent: 0.0%  0.0%  66.66666666666666%  33.33333333333333
+
+Cluster distribution of sent: puzzling statement
+                              [EM]woman shrugging[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    2
+Percent: 0.0%  0.0%  33.33333333333333%  66.66666666666666
+
+Cluster distribution of sent: dull mood
+                              [EM]thumbs down[EM]face with steam from nose[EM]
+Cluster: 0    1    2    3
+Count:   2    0    1    0
+Percent: 66.66666666666666%  0.0%  33.33333333333333%  0.0
+
+Cluster distribution of sent: dull silver
+                              [EM]ring[EM]cross mark[EM]glowing star[EM]
+Cluster: 0    1    2    3
+Count:   3    0    1    0
+Percent: 75.0%  0.0%  25.0%  0.0
+
+Cluster distribution of sent: dull glow
+                              [EM]fog[EM]light bulb[EM]
+Cluster: 0    1    2    3
+Count:   0    1    0    2
+Percent: 0.0%  33.33333333333333%  0.0%  66.66666666666666
+
+Cluster distribution of sent: dull glow
+                              [EM]cross mark[EM]light bulb[EM]candle[EM]
+Cluster: 0    1    2    3
+Count:   2    0    0    2
+Percent: 50.0%  0.0%  0.0%  50.0
+
+Cluster distribution of sent: low supply
+                              [EM]down-right arrow[EM]thumbs down[EM]slightly frowning face[EM]frowning face with open mouth[EM]
+Cluster: 0    1    2    3
+Count:   0    0    2    3
+Percent: 0.0%  0.0%  40.0%  60.0
+
+Cluster distribution of sent: low bow
+                              [EM]red triangle pointed down[EM]woman bowing light skin tone[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    2
+Percent: 0.0%  0.0%  33.33333333333333%  66.66666666666666
+
+Cluster distribution of sent: critical shortage
+                              [EM]cross mark[EM]bento box[EM]cross mark[EM]baby bottle[EM]
+Cluster: 0    1    2    3
+Count:   4    0    1    0
+Percent: 80.0%  0.0%  20.0%  0.0
+
+Cluster distribution of sent: critical shortage
+                              [EM]hourglass done[EM]cross mark[EM]basket[EM]
+Cluster: 0    1    2    3
+Count:   2    0    2    0
+Percent: 50.0%  0.0%  50.0%  0.0
+
+Cluster distribution of sent: thick soup
+                              [EM]bowl with spoon[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    1
+Percent: 0.0%  0.0%  50.0%  50.0
+
+Cluster distribution of sent: thick cream
+                              [EM]ice cream[EM]soft ice cream[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: wrong cheating
+                              [EM]man gesturing NO[EM]smiling face with horns[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM]
+Cluster: 0    1    2    3
+Count:   2    0    2    4
+Percent: 25.0%  0.0%  25.0%  50.0
+
+Cluster distribution of sent: wrong medicine
+                              [EM]cross mark[EM]pill[EM]face with thermometer[EM]
+Cluster: 0    1    2    3
+Count:   3    0    1    0
+Percent: 75.0%  0.0%  25.0%  0.0
+
+Cluster distribution of sent: warm room
+                              [EM]hot face[EM]house with garden[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: warm room
+                              [EM]fire[EM]house[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: warm personality
+                              [EM]oncoming fist[EM]people holding hands[EM]
+Cluster: 0    1    2    3
+Count:   2    0    1    0
+Percent: 66.66666666666666%  0.0%  33.33333333333333%  0.0
+
+Cluster distribution of sent: clear complexion
+                              [EM]man[EM]potable water[EM]green salad[EM]mirror[EM]sparkles[EM]
+Cluster: 0    1    2    3
+Count:   0    2    4    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: clear indication
+                              [EM]speech balloon[EM]check mark[EM]cross mark[EM]red question mark[EM]
+Cluster: 0    1    2    3
+Count:   2    0    3    0
+Percent: 40.0%  0.0%  60.0%  0.0
+
+Cluster distribution of sent: clear glass
+                              [EM]check mark[EM]glass of milk[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: clear glass
+                              [EM]check mark[EM]glass of milk[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: deep emotion
+                              [EM]confounded face[EM]pleading face[EM]face with steam from nose[EM]
+Cluster: 0    1    2    3
+Count:   2    0    2    0
+Percent: 50.0%  0.0%  50.0%  0.0
+
+Cluster distribution of sent: high temperature
+                              [EM]thermometer[EM]face with thermometer[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: high opinion
+                              [EM]TOP arrow[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: high opinion
+                              [EM]up arrow[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: inadequate income
+                              [EM]cross mark[EM]heavy dollar sign[EM]heavy dollar sign[EM]
+Cluster: 0    1    2    3
+Count:   1    0    3    0
+Percent: 25.0%  0.0%  75.0%  0.0
+
+Cluster distribution of sent: inadequate income
+                              [EM]disappointed face[EM]money bag[EM]
+Cluster: 0    1    2    3
+Count:   2    0    0    1
+Percent: 66.66666666666666%  0.0%  0.0%  33.33333333333333
+
+Cluster distribution of sent: inadequate income
+                              [EM]cross mark[EM]money bag[EM]purse[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    3
+Percent: 0.0%  0.0%  25.0%  75.0
+
+Cluster distribution of sent: inadequate training
+                              [EM]warning[EM]woman running[EM]flexed biceps[EM]person lifting weights[EM]
+Cluster: 0    1    2    3
+Count:   4    0    0    1
+Percent: 80.0%  0.0%  0.0%  20.0
+
+Cluster distribution of sent: inadequate training
+                              [EM]cross mark[EM]people wrestling[EM]person fencing[EM]
+Cluster: 0    1    2    3
+Count:   3    0    0    1
+Percent: 75.0%  0.0%  0.0%  25.0
+
+Cluster distribution of sent: inadequate training
+                              [EM]thumbs down[EM]woman lifting weights[EM]
+Cluster: 0    1    2    3
+Count:   1    0    2    0
+Percent: 33.33333333333333%  0.0%  66.66666666666666%  0.0
+
+Cluster distribution of sent: inadequate staff
+                              [EM]warning[EM]teacher[EM]woman teacher[EM]man teacher[EM]
+Cluster: 0    1    2    3
+Count:   4    0    0    1
+Percent: 80.0%  0.0%  0.0%  20.0
+
+Cluster distribution of sent: domestic happiness
+                              [EM]house with garden[EM]people hugging[EM]smiling face with smiling eyes[EM]house with garden[EM]
+Cluster: 0    1    2    3
+Count:   0    1    4    0
+Percent: 0.0%  20.0%  80.0%  0.0
+
+Cluster distribution of sent: domestic happiness
+                              [EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: domestic chore
+                              [EM]broom[EM]cooking[EM]plunger[EM]shopping cart[EM]house[EM]
+Cluster: 0    1    2    3
+Count:   2    0    4    0
+Percent: 33.33333333333333%  0.0%  66.66666666666666%  0.0
+
+Cluster distribution of sent: domestic chore
+                              [EM]face with steam from nose[EM]broom[EM]sponge[EM]wastebasket[EM]
+Cluster: 0    1    2    3
+Count:   3    0    2    0
+Percent: 60.0%  0.0%  40.0%  0.0
+
+Cluster distribution of sent: intelligent question
+                              [EM]person raising hand[EM]brain[EM]thought balloon[EM]student[EM]
+Cluster: 0    1    2    3
+Count:   0    3    2    0
+Percent: 0.0%  60.0%  40.0%  0.0
+
+Cluster distribution of sent: intelligent life
+                              [EM]person standing[EM]woman standing[EM]man standing[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: dry paint
+                              [EM]paintbrush[EM]person gesturing NO[EM]sweat droplets[EM]
+Cluster: 0    1    2    3
+Count:   1    0    3    0
+Percent: 25.0%  0.0%  75.0%  0.0
+
+Cluster distribution of sent: dry critique
+                              [EM]thumbs down[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   2    0    1    0
+Percent: 66.66666666666666%  0.0%  33.33333333333333%  0.0
+
+Cluster distribution of sent: dry greeting
+                              [EM]face without mouth[EM]neutral face[EM]expressionless face[EM]waving hand[EM]
+Cluster: 0    1    2    3
+Count:   0    0    3    2
+Percent: 0.0%  0.0%  60.0%  40.0
+
+Cluster distribution of sent: effective step
+                              [EM]thumbs up[EM]footprints[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: effective entrance
+                              [EM]door[EM]clinking glasses[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: effective entrance
+                              [EM]dashing away[EM]door[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: foreign accent
+                              [EM]alien[EM]speaking head[EM]
+Cluster: 0    1    2    3
+Count:   1    0    2    0
+Percent: 33.33333333333333%  0.0%  66.66666666666666%  0.0
+
+Cluster distribution of sent: foreign accent
+                              [EM]speaker high volume[EM]thinking face[EM]red question mark[EM]red question mark[EM]
+Cluster: 0    1    2    3
+Count:   1    0    4    0
+Percent: 20.0%  0.0%  80.0%  0.0
+
+Cluster distribution of sent: delicate wing
+                              [EM]warning[EM]package[EM]hatching chick[EM]
+Cluster: 0    1    2    3
+Count:   3    0    1    0
+Percent: 75.0%  0.0%  25.0%  0.0
+
+Cluster distribution of sent: delicate negotiation
+                              [EM]speaking head[EM]grinning face with big eyes[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: delicate flavor
+                              [EM]revolving hearts[EM]steaming bowl[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: delicate flavor
+                              [EM]tongue[EM]thinking face[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    2
+Percent: 0.0%  0.0%  33.33333333333333%  66.66666666666666
+
+Cluster distribution of sent: fresh bread
+                              [EM]sparkles[EM]bread[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: fresh bread
+                              [EM]soap[EM]bread[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: fresh bread
+                              [EM]man cook[EM]hourglass done[EM]bread[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: fresh bread
+                              [EM]cook[EM]bread[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: fresh scent
+                              [EM]sparkles[EM]dashing away[EM]smiling face with heart-eyes[EM]
+Cluster: 0    1    2    3
+Count:   0    2    2    0
+Percent: 0.0%  50.0%  50.0%  0.0
+
+Cluster distribution of sent: fresh air
+                              [EM]soap[EM]dashing away[EM]
+Cluster: 0    1    2    3
+Count:   0    2    1    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: fresh air
+                              [EM]sun[EM]mountain[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM]
+Cluster: 0    1    2    3
+Count:   0    4    2    0
+Percent: 0.0%  66.66666666666666%  33.33333333333333%  0.0
+
+Cluster distribution of sent: sound explanation
+                              [EM]speaking head[EM]ear[EM]thumbs up[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: sound explanation
+                              [EM]person raising hand[EM]deaf woman[EM]thumbs up[EM]
+Cluster: 0    1    2    3
+Count:   0    0    1    3
+Percent: 0.0%  0.0%  25.0%  75.0
+
+Cluster distribution of sent: sound approach
+                              [EM]brain[EM]speaker high volume[EM]person walking[EM]
+Cluster: 0    1    2    3
+Count:   0    1    3    0
+Percent: 0.0%  25.0%  75.0%  0.0
+
+Cluster distribution of sent: sound approach
+                              [EM]thumbs up[EM]fast-forward button[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: sound approach
+                              [EM]hundred points[EM]light bulb[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0
+
+Cluster distribution of sent: sound advice
+                              [EM]ear[EM]speech balloon[EM]
+Cluster: 0    1    2    3
+Count:   0    1    2    0
+Percent: 0.0%  33.33333333333333%  66.66666666666666%  0.0

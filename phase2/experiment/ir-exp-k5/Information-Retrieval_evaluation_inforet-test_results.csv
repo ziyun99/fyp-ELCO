@@ -1,0 +1,2 @@
+epoch,steps,cos_sim-Accuracy@1,cos_sim-Accuracy@3,cos_sim-Accuracy@5,cos_sim-Accuracy@10,cos_sim-Precision@1,cos_sim-Recall@1,cos_sim-Precision@3,cos_sim-Recall@3,cos_sim-Precision@5,cos_sim-Recall@5,cos_sim-Precision@10,cos_sim-Recall@10,cos_sim-MRR@10,cos_sim-NDCG@10,cos_sim-MAP@100
+-1,-1,0.9952380952380953,0.9952380952380953,1.0,1.0,0.9952380952380953,0.13183673469387755,0.9571428571428572,0.3759939531368103,0.8628571428571428,0.5584561602418745,0.5485714285714285,0.7003930461073318,0.9961904761904762,0.7833061289720501,0.7041430524552067

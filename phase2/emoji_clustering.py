@@ -2,6 +2,7 @@ import logging
 import os
 import pickle
 
+import numpy as np
 import matplotlib.pyplot as plt
 import torch
 from sklearn.cluster import KMeans
@@ -11,15 +12,22 @@ from feature_extraction import DEVICE
 
 RAND_SEED = 27
 
+
 def visualizePCA(n, kmeans, features, labels, filename="cluster"):
     """
     Plot large dimension features into 2D space
     """
+    print(f"processing: k={n}")
+
     pca = PCA(random_state=RAND_SEED)
     reduced_features = pca.fit_transform(features)
     reduced_cluster_centers = pca.transform(kmeans.cluster_centers_)
 
-    plt.scatter(reduced_features[:, 0], reduced_features[:, 1], c=kmeans.labels_)
+    colors = np.array(["r", "g", "c", "y", "m", "yellow", "brown", "orange", "gray", "olive"])
+    kmeans_label = np.array(kmeans.labels_)
+
+    plt.scatter(reduced_features[:, 0], reduced_features[:, 1], c=colors[kmeans_label])
+
     plt.scatter(
         reduced_cluster_centers[:, 0],
         reduced_cluster_centers[:, 1],
@@ -44,6 +52,7 @@ def visualizePCA(n, kmeans, features, labels, filename="cluster"):
     # save pca model
     pca_model_file = os.path.join(EXPERIMENT_FOLDER, "pca-{}.pt".format(n))
     pickle.dump(pca, open(pca_model_file, "wb"))
+
 
 def augmentClusters(dataset, labels):
     """
@@ -138,7 +147,6 @@ def main(EXPERIMENT_FOLDER, FEATURES_FILEPATH):
         kmeans_model_file = os.path.join(EXPERIMENT_FOLDER, "kmeans-{}.pt".format(n))
         pickle.dump(kmeans, open(kmeans_model_file, "wb"))
 
-
     # plot(
     #     x_value=N,
     #     y_value=inertias,
@@ -152,7 +160,9 @@ def main(EXPERIMENT_FOLDER, FEATURES_FILEPATH):
 if __name__ == "__main__":
     # Change line below to use other model
     model_name = input()
-    MODEL_FOLDER = os.path.join("output", "multilingual/model-bert-xlm/checkpoints", model_name)
+    MODEL_FOLDER = os.path.join(
+        "output", "multilingual/model-bert-xlm/checkpoints", model_name
+    )
     EXPERIMENT_FOLDER = os.path.join(MODEL_FOLDER, "experiment")
     if not os.path.exists(EXPERIMENT_FOLDER):
         os.makedirs(EXPERIMENT_FOLDER)

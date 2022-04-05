@@ -1,0 +1,13 @@
+EXPERIMENT_NAME: ir-exp-k5
+MODEL_NAME: model-bert-xlm
+DATA_NAME: experiment/ir_data.json
+Load pretrained SentenceTransformer: output/multilingual/model-bert-xlm
+Use pytorch device: cuda
+=> Load information retrieval dataset
+  Input file: /home/ziyun99/fyp-ELCO/phase2/AN/data/experiment/ir_data.json.
+  Number of queries 210, nummber of corpus 1615, nummber of relavant docs 210
+Information Retrieval Evaluation on inforet-test dataset:
+Queries: 210
+Corpus: 1615
+
+Generating relevant docs score

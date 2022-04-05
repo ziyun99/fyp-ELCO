@@ -7,10 +7,14 @@ from evaluator import ir_eval
 
 from data_filepath import data_folder, TRAIN_DATA_FOLDER
 
+EXPERIMENT_NAMES = ["ir-original", "ir-exp-k5", "ir-exp-shuffled-k5"]
+DATA_NAMES = ["training/information_retrieval_data.json", "experiment/ir_data.json", "experiment/shuffled_ir_data.json"]
+
 ###### CONFIG ######
-EXPERIMENT_NAME = "ir-original"
+EXPERIMENT_ID = 1
+EXPERIMENT_NAME = EXPERIMENT_NAMES[EXPERIMENT_ID]
 MODEL_NAME = "model-bert-xlm"
-DATA_NAME = "training/information_retrieval_data.json"
+DATA_NAME = DATA_NAMES[EXPERIMENT_ID]
 
 
 ###### MAIN FILEPATH ######

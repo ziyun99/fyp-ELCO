@@ -1,13 +1,13 @@
-import torch
-from torch import Tensor
 import logging
-from tqdm import trange
-from sentence_transformers.util import cos_sim, dot_score
 import os
+from typing import Callable, Dict, List, Set
+
 import numpy as np
-from typing import List, Dict, Set, Callable
-
-
+import pandas as pd
+import torch
+from sentence_transformers.util import cos_sim, dot_score
+from torch import Tensor
+from tqdm import trange
 
 logger = logging.getLogger(__name__)
 
@@ -63,6 +63,8 @@ class InformationRetrievalEvaluator():
         self.score_function_names = sorted(list(self.score_functions.keys()))
         self.main_score_function = main_score_function
 
+        self.output_path = None
+
         if name:
             name = "_" + name
 
@@ -94,8 +96,9 @@ class InformationRetrievalEvaluator():
 
         logger.info("Information Retrieval Evaluation on " + self.name + " dataset" + out_txt)
 
-        scores = self.compute_metrices(model, *args, **kwargs)
+        scores = self.compute_metrices(model, output_path, *args, **kwargs)
 
+        self.output_path = output_path
         # Write results to disc
         if output_path is not None and self.write_csv:
             csv_path = os.path.join(output_path, self.csv_file)
@@ -134,7 +137,7 @@ class InformationRetrievalEvaluator():
         else:
             return scores[self.main_score_function]['map@k'][max(self.map_at_k)]
 
-    def compute_metrices(self, model, corpus_model = None, corpus_embeddings: Tensor = None) -> Dict[str, float]:
+    def compute_metrices(self, model, output_path, corpus_model = None, corpus_embeddings: Tensor = None) -> Dict[str, float]:
         if corpus_model is None:
             corpus_model = model
 
@@ -142,6 +145,7 @@ class InformationRetrievalEvaluator():
 
         # Compute embedding for the queries
         query_embeddings = model.encode(self.queries, show_progress_bar=self.show_progress_bar, batch_size=self.batch_size, convert_to_tensor=True)
+        corpus_embeddings = model.encode(self.corpus, show_progress_bar=self.show_progress_bar, batch_size=self.batch_size, convert_to_tensor=True)
 
         queries_result_list = {}
         for name in self.score_functions:
@@ -175,7 +179,7 @@ class InformationRetrievalEvaluator():
         logger.info("Corpus: {}\n".format(len(self.corpus)))
 
         #Compute scores
-        scores = {name: self.compute_metrics(queries_result_list[name]) for name in self.score_functions}
+        scores = {name: self.compute_metrics(queries_result_list[name], output_path) for name in self.score_functions}
 
         #Output
         for name in self.score_function_names:
@@ -185,7 +189,7 @@ class InformationRetrievalEvaluator():
         return scores
 
 
-    def compute_metrics(self, queries_result_list: List[object]):
+    def compute_metrics(self, queries_result_list: List[object], output_path):
         # Init score computation values
         num_hits_at_k = {k: 0 for k in self.accuracy_at_k}
         precisions_at_k = {k: [] for k in self.precision_recall_at_k}
@@ -193,6 +197,33 @@ class InformationRetrievalEvaluator():
         MRR = {k: 0 for k in self.mrr_at_k}
         ndcg = {k: [] for k in self.ndcg_at_k}
         AveP_at_k = {k: [] for k in self.map_at_k}
+
+        logger.info(f"Generating scores")
+        columns = ["query", "top_hits_corpus", "top_hits_score", "top_hits_status"]
+        df = {col:list() for col in columns}
+        # Compute scores on results
+        for query_itr in range(len(queries_result_list)):
+            query_id = self.queries_ids[query_itr]
+
+            # Sort scores
+            top_hits = sorted(queries_result_list[query_itr], key=lambda x: x['score'], reverse=True)
+            query_relevant_docs_id = self.relevant_docs[query_id]
+
+            k = 5
+            df["query"] += [self.queries[query_itr]]*k
+            df["top_hits_corpus"] += [self.corpus[int(top_hit['corpus_id'])] for top_hit in top_hits[0:k]]
+            df["top_hits_score"] += [top_hit['score'] for top_hit in top_hits[0:k]]
+            df["top_hits_status"] += [ (top_hit['corpus_id'] in query_relevant_docs_id) for top_hit in top_hits[0:k]]
+            # df["query_relevant_docs"].append([self.corpus[int(id)] for id in query_relevant_docs])
+            # df["query_relevant_score"].append(relevant_docs_scores[query_itr])
+
+        print(df)
+        df = pd.DataFrame.from_dict(df)
+        print(df)
+        score_csv_path = os.path.join(output_path, f'top{k}_scores.csv')
+        df.to_csv(score_csv_path)
+        logger.info(f"Save scores in {score_csv_path}")
+
 
         # Compute scores on results
         for query_itr in range(len(queries_result_list)):
@@ -211,12 +242,21 @@ class InformationRetrievalEvaluator():
                         acc_hit = True
                         break
                 if not acc_hit and k_val == 1:
-                    logger.info(f"k_val: {self.queries[query_itr]}")
-                    logger.info(f"k_val: {k_val}")
+                    logger.info(f"\nk_val: {k_val}")
                     logger.info(f"query_itr: {query_itr}")
-                    logger.info(f"top_hits: {[self.corpus[int(top_hit['corpus_id'])] for top_hit in top_hits[0:k_val]]}")
+                    logger.info(f"query: {self.queries[query_itr]}")
+                    logger.info(f"top_hits_corpus: {[self.corpus[int(top_hit['corpus_id'])] for top_hit in top_hits[0:k_val]]}")
+                    logger.info(f"top_hits_score: {[self.corpus[int(top_hit['score'])] for top_hit in top_hits[0:k_val]]}")
+                    logger.info(f"top_hits_status: {[ (hit['corpus_id'] in query_relevant_docs) for hit in top_hits[0:k_val]]}")
                     logger.info(f"query_relevant_docs: {[self.corpus[int(id)] for id in query_relevant_docs]}")
-
+                # if k_val == 3 and query_itr in [13, 53, 61, 75, 79, 81, 84, 87, 132, 142, 143, 170, 193]:
+                #     logger.info(f"\n print details")
+                #     logger.info(f"query: {self.queries[query_itr]}")
+                #     logger.info(f"k_val: {k_val}")
+                #     logger.info(f"query_itr: {query_itr}")
+                #     logger.info(f"top_hits: {[self.corpus[int(top_hit['corpus_id'])] for top_hit in top_hits[0:k_val]]}")
+                #     logger.info(f"query_relevant_docs: {[self.corpus[int(id)] for id in query_relevant_docs]}")
+                
             # Precision and Recall@k
             for k_val in self.precision_recall_at_k:
                 num_correct = 0

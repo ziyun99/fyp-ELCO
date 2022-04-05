@@ -1,4 +1,4 @@
-EXPERIMENT_NAME: ir-exp-eval
+EXPERIMENT_NAME: ir-exp
 MODEL_NAME: model-bert-xlm
 DATA_NAME: experiment/ir_data.json
 Load pretrained SentenceTransformer: output/multilingual/model-bert-xlm
@@ -10,11 +10,97 @@ Information Retrieval Evaluation on inforet-test dataset:
 Queries: 210
 Corpus: 1615
 
+
+k_val: big voice
+k_val: 1
+query_itr: 13
+top_hits: ['[EM]speaking head[EM]anger symbol[EM]']
+query_relevant_docs: ['[EM]loudspeaker[EM]megaphone[EM]', 
+'[EM]studio microphone[EM]speaking head[EM]', 
+'[EM]speaking head[EM]anger symbol[EM]', 
+'[EM]grinning face[EM]microphone[EM]', 
+'[EM]loudspeaker[EM]speaking head[EM]', 
+'[EM]speaking head[EM]loudspeaker[EM]']
+
+k_val: dark glass
+k_val: 1
+query_itr: 53
+top_hits: ['[EM]black circle[EM]glass of milk[EM]']
+query_relevant_docs: ['[EM]black circle[EM]glass of milk[EM]'
+'[EM]new moon[EM]wine glass[EM]'
+'[EM]sunglasses[EM]glass of milk[EM]']
+
+k_val: deep sigh
+k_val: 1
+query_itr: 61
+top_hits: ['[EM]face exhaling[EM]sad but relieved face[EM]confused face[EM]']
+query_relevant_docs: ['[EM]hole[EM]face exhaling[EM]', '[EM]face with steam from nose[EM]wind face[EM]', '[EM]thinking face[EM]double exclamation mark[EM]', '[EM]face exhaling[EM]sad but relieved face[EM]confused face[EM]']
+
+k_val: dirty slum
+k_val: 1
+query_itr: 75
+top_hits: ['[EM]face vomiting[EM]hut[EM]']F
+query_relevant_docs: ['[EM]fly[EM]house[EM]', '[EM]factory[EM]duck[EM]', '[EM]soap[EM]microbe[EM]derelict house[EM]', '[EM]persevering face[EM]no one under eighteen[EM]money with wings[EM]', '[EM]thumbs down[EM]derelict house[EM]', '[EM]microbe[EM]hut[EM]microbe[EM]', '[EM]woozy face[EM]man zombie[EM]', '[EM]pile of poo[EM]money with wings[EM]house[EM]', '[EM]face vomiting[EM]hut[EM]']
+
+k_val: domestic happiness
+k_val: 1
+query_itr: 79
+top_hits: ['[EM]house[EM]smiling face with hearts[EM]']
+query_relevant_docs: ['[EM]house[EM]grinning face with smiling eyes[EM]', '[EM]grinning face[EM]grinning face with big eyes[EM]grinning face with smiling eyes[EM]', '[EM]house[EM]smiling face with hearts[EM]', '[EM]girl[EM]beaming face with smiling eyes[EM]face with tears of joy[EM]', '[EM]house with garden[EM]smiling face with hearts[EM]family[EM]family woman woman boy[EM]family man man boy[EM]family man girl[EM]family woman boy[EM]', '[EM]house with garden[EM]people hugging[EM]smiling face with smiling eyes[EM]house with garden[EM]', '[EM]house with garden[EM]smiling face with hearts[EM]baby bottle[EM]baby[EM]money bag[EM]', '[EM]water buffalo[EM]Japanese congratulations button[EM]', '[EM]house[EM]grinning face with big eyes[EM]']
+
+k_val: dry climate
+k_val: 1
+query_itr: 81
+top_hits: ['[EM]hot springs[EM]globe showing Americas[EM]thermometer[EM]']
+query_relevant_docs: ['[EM]hot springs[EM]globe showing Americas[EM]thermometer[EM]', '[EM]cactus[EM]thermometer[EM]', '[EM]cloud with rain[EM]fish[EM]', '[EM]sun[EM]wind face[EM]', '[EM]cactus[EM]hot face[EM]hot face[EM]hot face[EM]hot face[EM]', '[EM]sun[EM]sun[EM]sun[EM]hot face[EM]', '[EM]non-potable water[EM]desert[EM]cactus[EM]', '[EM]desert[EM]sun[EM]']
+
+k_val: dry land
+k_val: 1
+query_itr: 84
+top_hits: ['[EM]desert[EM]desert island[EM]']
+query_relevant_docs: ['[EM]cloud with rain[EM]tractor[EM]', '[EM]sun[EM]desert[EM]', '[EM]hot springs[EM]sunset[EM]', '[EM]desert island[EM]cityscape[EM]sun[EM]', '[EM]desert[EM]desert island[EM]', '[EM]tornado[EM]desert island[EM]', '[EM]hot face[EM]desert[EM]prohibited[EM]COOL button[EM]', '[EM]umbrella on ground[EM]desert island[EM]']
+
+k_val: dull glow
+k_val: 1
+query_itr: 87
+top_hits: ['[EM]light bulb[EM]sunglasses[EM]unamused face[EM]']
+query_relevant_docs: ['[EM]fog[EM]glowing star[EM]', '[EM]new moon[EM]glowing star[EM]', '[EM]fog[EM]light bulb[EM]', '[EM]thumbs down[EM]glowing star[EM]', '[EM]light bulb[EM]sunglasses[EM]unamused face[EM]', '[EM]cross mark[EM]light bulb[EM]candle[EM]', '[EM]nerd face[EM]glowing star[EM]', '[EM]fog[EM]star[EM]', '[EM]light bulb[EM]cross mark[EM]glowing star[EM]']
+
+k_val: hot topic
+k_val: 1
+query_itr: 132
+top_hits: ['[EM]fire[EM]speech balloon[EM]']
+query_relevant_docs: ['[EM]fire[EM]fire[EM]fire[EM]fire[EM]newspaper[EM]', '[EM]fire[EM]speaker high volume[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM]', '[EM]sun[EM]studio microphone[EM]speaking head[EM]', '[EM]fire[EM]speaking head[EM]', '[EM]fire[EM]speech balloon[EM]', '[EM]hot springs[EM]person shrugging[EM]', '[EM]hot face[EM]speech balloon[EM]', '[EM]star-struck[EM]speech balloon[EM]']
+
+k_val: ineffectual therapy
+k_val: 1
+query_itr: 142
+top_hits: ['[EM]ear[EM]deaf woman[EM]thumbs down[EM]unamused face[EM]']
+query_relevant_docs: ['[EM]thumbs down[EM]hospital[EM]', '[EM]man health worker[EM]speaking head[EM]brain[EM]thumbs down[EM]frowning face[EM]', '[EM]ear[EM]deaf woman[EM]thumbs down[EM]unamused face[EM]', '[EM]person[EM]ear[EM]cross mark[EM]cross mark[EM]', '[EM]spiral notepad[EM]cross mark[EM]skull[EM]', '[EM]mouse face[EM]woman health worker medium-dark skin tone[EM]', '[EM]thumbs down[EM]person getting massage[EM]', '[EM]cross mark[EM]man getting massage[EM]man health worker[EM]', '[EM]pill[EM]woman gesturing NO[EM]']
+
+k_val: intelligent life
+k_val: 1
+query_itr: 143
+top_hits: ['[EM]thinking face[EM]woman shrugging[EM]']
+query_relevant_docs: ['[EM]robot[EM]paw prints[EM]', '[EM]student[EM]nerd face[EM]', '[EM]thumbs up[EM]man teacher[EM]', '[EM]man scientist[EM]microscope[EM]petri dish[EM]microbe[EM]brain[EM]brain[EM]', '[EM]person standing[EM]woman standing[EM]man standing[EM]', '[EM]graduation cap[EM]alien[EM]', '[EM]thinking face[EM]woman shrugging[EM]', '[EM]dolphin[EM]pensive face[EM]', '[EM]nerd face[EM]dog face[EM]fox[EM]bear[EM]squid[EM]deciduous tree[EM]spouting whale[EM]nerd face[EM]']
+
+k_val: right thing
+k_val: 1
+query_itr: 170
+top_hits: ['[EM]right arrow[EM]hundred points[EM]']
+query_relevant_docs: ['[EM]right arrow[EM]hundred points[EM]', '[EM]thumbs up[EM]check mark button[EM]', '[EM]check mark[EM]thumbs up[EM]', '[EM]grinning face[EM]thumbs up[EM]', '[EM]up-right arrow[EM]jeans[EM]', '[EM]speaking head[EM]check mark[EM]']
+
+k_val: unclear action
+k_val: 1
+query_itr: 193
+top_hits: ['[EM]red question mark[EM]face with raised eyebrow[EM]']
+query_relevant_docs: ['[EM]man teacher[EM]speaking head[EM]memo[EM]red question mark[EM]red question mark[EM]red question mark[EM]', '[EM]man dancing[EM]thinking face[EM]', '[EM]face with raised eyebrow[EM]face with monocle[EM]woman shrugging[EM]man shrugging[EM]', '[EM]confounded face[EM]bookmark tabs[EM]', '[EM]red question mark[EM]face with raised eyebrow[EM]', '[EM]thinking face[EM]woman running[EM]', '[EM]cross mark[EM]chess pawn[EM]']
+
 k_val: wrong medicine
 k_val: 1
 query_itr: 205
-top_hits: ['[EM]face with thermometer[EM]double exclamation mark[EM]']
-query_relevant_docs: ['[EM]cross mark[EM]pill[EM]', '[EM]woman gesturing NO[EM]pill[EM]', '[EM]man gesturing NO[EM]pill[EM]', '[EM]cross mark[EM]pill[EM]face with thermometer[EM]', '[EM]hollow red circle[EM]hospital[EM]']
+top_hits: ['[EM]face with thermometer[EM]double exclamation mark[EM]'] - critical illness
+query_relevant_docs: ['[EM]man gesturing NO[EM]pill[EM]', '[EM]cross mark[EM]pill[EM]face with thermometer[EM]', '[EM]hollow red circle[EM]hospital[EM]', '[EM]cross mark[EM]pill[EM]', '[EM]woman gesturing NO[EM]pill[EM]']
 Score-Function: cos_sim
 Accuracy@1: 99.52%
 Accuracy@3: 99.52%

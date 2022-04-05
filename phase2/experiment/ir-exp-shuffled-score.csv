@@ -1,0 +1,1640 @@
+,query,relevant_doc,relevant_score,set_name
+0,ample food,[EM]hot dog[EM]hamburger[EM]taco[EM]smiling face with smiling eyes[EM],0.99771648645401,baseline
+1,ample food,[EM]family man man girl girl[EM]family woman woman girl girl[EM]family man woman girl girl[EM]fork and knife with plate[EM]hundred points[EM],0.9955894351005554,baseline
+2,ample food,[EM]cooked rice[EM]rice ball[EM]rice cracker[EM]steaming bowl[EM],0.997952938079834,baseline
+3,ample food,[EM]pancakes[EM]baguette bread[EM]canned food[EM]curry rice[EM]pot of food[EM],0.998077392578125,baseline
+4,ample food,[EM]fork and knife with plate[EM]OK hand light skin tone[EM]red apple[EM],0.9968177676200867,baseline
+5,ample food,[EM]red apple[EM]green apple[EM]pear[EM]tangerine[EM]potato[EM]roasted sweet potato[EM]croissant[EM]bagel[EM]bread[EM]flatbread[EM]peach[EM]coconut[EM]kiwi fruit[EM],0.9967036843299866,baseline
+6,ample food,[EM]hot dog[EM]hamburger[EM]taco[EM]burrito[EM]sandwich[EM]pizza[EM],0.9891509413719177,baseline
+7,ample food,[EM]face savoring food[EM]open hands[EM],0.4938869774341583,baseline
+8,ample food,[EM]pot of food[EM]test tube[EM],0.35032063722610474,baseline
+9,ample supply,[EM]chart increasing[EM]smiling face with smiling eyes[EM],0.8399817943572998,baseline
+10,ample supply,[EM]family man man girl girl[EM]family woman woman girl girl[EM]family man woman girl girl[EM]chart increasing[EM],0.9965569376945496,baseline
+11,ample supply,[EM]clipboard[EM]chart decreasing[EM]check mark button[EM],0.42355993390083313,baseline
+12,ample supply,[EM]check mark button[EM]fork and knife with plate[EM],0.9186115264892578,baseline
+13,ample supply,[EM]locked[EM]OK hand light skin tone[EM],0.9814026355743408,baseline
+14,ample supply,[EM]banana[EM]green apple[EM]croissant[EM]taco[EM]sandwich[EM]pretzel[EM]cheese wedge[EM]egg[EM]pancakes[EM]leafy green[EM]hot pepper[EM]oden[EM]bubble tea[EM]chestnut[EM]cookie[EM]birthday cake[EM]clinking glasses[EM]ice cream[EM],0.9839947819709778,baseline
+15,ample supply,[EM]package[EM]woman gesturing OK light skin tone[EM],0.9945423007011414,baseline
+16,ample supply,[EM]chart increasing[EM]open hands[EM],0.7146477699279785,baseline
+17,ample waistline,[EM]chart increasing[EM]pregnant woman[EM],0.9661059379577637,baseline
+18,ample waistline,[EM]jeans[EM]straight ruler[EM],0.7759267091751099,baseline
+19,ample waistline,[EM]fork and knife[EM]fork and knife[EM]spaghetti[EM]Santa Claus[EM],0.9915504455566406,train
+20,ample waistline,[EM]dress[EM]pinched fingers light skin tone[EM],0.8604943752288818,baseline
+21,ample waistline,[EM]bank[EM]money with wings[EM]dollar banknote[EM]coin[EM]money bag[EM]chart increasing with yen[EM]ATM sign[EM]heavy dollar sign[EM]credit card[EM]money-mouth face[EM],0.9826169610023499,baseline
+22,ample waistline,[EM]shorts[EM]woman gesturing OK light skin tone[EM],0.2868708074092865,baseline
+23,ample waistline,[EM]pregnant woman[EM]open hands[EM],0.7630797028541565,baseline
+24,average merit,[EM]OK hand[EM]memo[EM],0.3025640845298767,baseline
+25,average merit,[EM]trophy[EM]trophy[EM]woman gesturing OK[EM],0.9969272613525391,train
+26,average merit,[EM]hundred points[EM]neutral face[EM],0.48614874482154846,baseline
+27,average merit,[EM]briefcase[EM]neutral face[EM]3rd place medal[EM],0.9965782165527344,baseline
+28,average merit,[EM]person gesturing OK[EM]man gesturing OK[EM],0.8197717666625977,baseline
+29,average merit,[EM]person shrugging[EM]sports medal[EM],0.8440328240394592,baseline
+30,average merit,[EM]trophy[EM]unamused face[EM],0.35748982429504395,baseline
+31,average people,[EM]child[EM]girl[EM]boy[EM],0.9971088171005249,baseline
+32,average people,[EM]women holding hands[EM]people holding hands[EM]men holding hands[EM]woman gesturing OK[EM],0.9963058233261108,baseline
+33,average people,[EM]man[EM]confused face[EM],0.8241201639175415,baseline
+34,average people,[EM]person[EM]man[EM]woman[EM]girl[EM],0.9973026514053345,baseline
+35,average people,[EM]woman standing[EM]man standing[EM]person standing[EM],0.6070282459259033,baseline
+36,average people,[EM]woman pouting[EM]man pouting[EM],0.17900513112545013,baseline
+37,average people,[EM]person[EM]man[EM]person shrugging[EM],0.7596306204795837,baseline
+38,average people,[EM]people wrestling[EM]OK button[EM],0.11556953191757202,baseline
+39,average size,[EM]thumbs up[EM]t-shirt[EM]thumbs down[EM],0.26599058508872986,baseline
+40,average size,[EM]palms up together[EM]face with raised eyebrow[EM],0.5245996117591858,baseline
+41,average size,[EM]black large square[EM]cross mark[EM]cross mark[EM]black small square[EM],0.29758313298225403,baseline
+42,average size,[EM]balance scale[EM]wavy dash[EM],0.9586209058761597,baseline
+43,average size,[EM]person standing[EM]man standing[EM],0.7240891456604004,baseline
+44,average size,[EM]straight ruler[EM]person shrugging[EM],0.3102882206439972,baseline
+45,average size,[EM]clutch bag[EM]slightly frowning face[EM],0.07411755621433258,baseline
+46,big business,[EM]chart increasing[EM]necktie[EM],0.967512845993042,baseline
+47,big business,[EM]money-mouth face[EM]office building[EM]money-mouth face[EM],0.9811721444129944,baseline
+48,big business,[EM]handshake[EM]man technologist[EM],0.9917876124382019,baseline
+49,big business,[EM]people holding hands[EM]office building[EM]people holding hands[EM]people holding hands[EM],0.9879187345504761,baseline
+50,big business,[EM]money-mouth face[EM]woman technologist[EM],0.8422771096229553,baseline
+51,big business,[EM]chart increasing[EM]money bag[EM],0.84694504737854,baseline
+52,big business,[EM]office building[EM]office building[EM]office building[EM]bar chart[EM]globe showing Europe-Africa[EM],0.9967901706695557,train
+53,big business,[EM]tear-off calendar[EM]handshake[EM],0.9948916435241699,baseline
+54,big business,[EM]person in suit levitating[EM]grinning face[EM],0.4862307608127594,baseline
+55,big city,[EM]red exclamation mark[EM]sunset[EM],0.5981942415237427,baseline
+56,big city,[EM]foggy[EM]sunset[EM]cityscape at dusk[EM]cityscape[EM]night with stars[EM]Statue of Liberty[EM],0.9975647330284119,baseline
+57,big city,[EM]exploding head[EM]cityscape at dusk[EM],0.9365788102149963,baseline
+58,big city,[EM]up-down arrow[EM]cityscape[EM]left-right arrow[EM],0.9654869437217712,baseline
+59,big city,[EM]cityscape[EM]sunset[EM],0.9974810481071472,baseline
+60,big city,[EM]cityscape[EM]grinning face[EM],0.744665801525116,baseline
+61,big day,[EM]tear-off calendar[EM]red exclamation mark[EM],0.9855706691741943,baseline
+62,big day,[EM]wedding[EM]person with veil[EM]man in tuxedo[EM],0.9343796372413635,baseline
+63,big day,[EM]person with veil[EM]couple with heart woman man[EM],0.9888428449630737,baseline
+64,big day,[EM]sun[EM]anxious face with sweat[EM],0.36949068307876587,baseline
+65,big day,[EM]woman with veil[EM]man with veil[EM]man in tuxedo[EM]woman in tuxedo[EM],0.9941460490226746,baseline
+66,big day,[EM]sun[EM]1st place medal[EM],0.2811400890350342,baseline
+67,big day,[EM]bouquet[EM]grinning face[EM],0.06503188610076904,baseline
+68,big expenditure,[EM]money with wings[EM]chart increasing[EM],0.9317662715911865,baseline
+69,big expenditure,[EM]burrito[EM]shallow pan of food[EM]burrito[EM]money-mouth face[EM]money-mouth face[EM]money with wings[EM]money with wings[EM],0.5297035574913025,baseline
+70,big expenditure,[EM]money with wings[EM]man technologist[EM],0.9942260384559631,baseline
+71,big expenditure,[EM]money with wings[EM]money-mouth face[EM],0.9696736335754395,baseline
+72,big expenditure,[EM]dollar banknote[EM]elephant[EM]money with wings[EM],0.6855722665786743,baseline
+73,big expenditure,[EM]sad but relieved face[EM]grinning face[EM],0.006985476706176996,baseline
+74,big group,[EM]woman and man holding hands[EM]people holding hands[EM]women holding hands[EM]men holding hands[EM],0.9938374757766724,baseline
+75,big group,[EM]women holding hands[EM]woman and man holding hands[EM]family man man girl girl[EM]men holding hands[EM]family man man girl[EM],0.9763248562812805,baseline
+76,big group,[EM]reminder ribbon[EM]grinning face[EM],0.04222046956419945,baseline
+77,big man,[EM]astonished face[EM]man beard[EM]up arrow[EM],0.9389244318008423,baseline
+78,big man,[EM]flexed biceps[EM]man standing[EM],0.9964848756790161,train
+79,big man,[EM]man beard[EM]flexed biceps[EM],0.937568724155426,baseline
+80,big man,[EM]left-right arrow[EM]man blond hair[EM]up-down arrow[EM],0.4155804514884949,baseline
+81,big man,[EM]man superhero[EM]superhero[EM],0.6111643314361572,baseline
+82,big man,[EM]man standing[EM]flexed biceps[EM],0.9915295839309692,validate
+83,big man,[EM]man[EM]grinning face[EM],0.5032216906547546,baseline
+84,big tipper,[EM]money bag[EM]man beard[EM],0.9598976373672485,baseline
+85,big tipper,[EM]money with wings[EM]pancakes[EM],0.41681280732154846,baseline
+86,big tipper,[EM]yen banknote[EM]yen banknote[EM]man getting massage[EM]man getting haircut[EM],0.9609171748161316,validate
+87,big tipper,[EM]man red hair[EM]money-mouth face[EM]money bag[EM],0.9918406009674072,baseline
+88,big tipper,[EM]money with wings[EM]thumbs up[EM],0.6285170912742615,baseline
+89,big voice,[EM]speaking head[EM]loudspeaker[EM],0.8360960483551025,validate
+90,big voice,[EM]megaphone[EM]loudspeaker[EM],0.5189828872680664,baseline
+91,big voice,[EM]loudspeaker[EM]speaking head[EM],0.42331498861312866,validate
+92,big voice,[EM]anger symbol[EM]speaking head[EM],0.4875088334083557,baseline
+93,big voice,[EM]speaking head[EM]studio microphone[EM],0.6056025624275208,baseline
+94,big voice,[EM]microphone[EM]grinning face[EM],0.42224326729774475,baseline
+95,bright dress,[EM]dress[EM]sparkler[EM],0.9937117099761963,baseline
+96,bright dress,[EM]dress[EM]bright button[EM],0.9036844372749329,baseline
+97,bright dress,[EM]dress[EM]sparkles[EM],0.979263961315155,test
+98,bright dress,[EM]dress[EM]bright button[EM]woman dancing[EM],0.9920556545257568,baseline
+99,bright dress,[EM]artist palette[EM]sun[EM]dress[EM],0.9876298308372498,baseline
+100,bright dress,[EM]sparkles[EM]dress[EM],0.9959230422973633,test
+101,bright dress,[EM]dress[EM]sun[EM],0.9245035648345947,baseline
+102,bright future,[EM]crystal ball[EM]sparkler[EM],0.989439845085144,baseline
+103,bright future,[EM]crystal ball[EM]bright button[EM],0.8932395577430725,baseline
+104,bright future,[EM]graduation cap[EM]glowing star[EM],0.6356804966926575,baseline
+105,bright future,[EM]man scientist[EM]smiling face with sunglasses[EM]woman health worker[EM]technologist[EM],0.9800534248352051,baseline
+106,bright future,[EM]crystal ball[EM]sun[EM],0.9517038464546204,baseline
+107,bright future,[EM]woman student[EM]man scientist[EM]man health worker[EM],0.7047393321990967,baseline
+108,bright future,[EM]fog[EM]sun[EM],0.17890706658363342,baseline
+109,bright future,[EM]fast-forward button[EM]hourglass not done[EM]thumbs up[EM]thumbs up[EM],0.9900788068771362,baseline
+110,bright room,[EM]school[EM]sparkler[EM],0.9355261325836182,baseline
+111,bright room,[EM]men’s room[EM]bright button[EM]women’s room[EM],0.921416699886322,baseline
+112,bright room,[EM]house[EM]sparkles[EM],0.44709157943725586,baseline
+113,bright room,[EM]candle[EM]light bulb[EM]house[EM],0.9449647665023804,baseline
+114,bright room,[EM]school[EM]sun[EM],0.902309000492096,baseline
+115,bright room,[EM]wedding[EM]light bulb[EM],0.6563887596130371,baseline
+116,bright room,[EM]women’s room[EM]bright button[EM],0.5794398784637451,baseline
+117,bright sun,[EM]sun[EM]sparkler[EM],0.9750513434410095,baseline
+118,bright sun,[EM]sun[EM]bright button[EM],0.9977813959121704,train
+119,bright sun,[EM]sun behind small cloud[EM]glowing star[EM]sunset[EM]sunrise[EM],0.9630653262138367,baseline
+120,bright sun,[EM]bright button[EM]sun[EM],0.9209988713264465,train
+121,bright sun,[EM]sun[EM]sparkles[EM],0.9844222068786621,baseline
+122,bright sun,[EM]glowing star[EM]sun[EM],0.9816293716430664,baseline
+123,clear air,[EM]wind face[EM]mountain[EM],0.5663574934005737,baseline
+124,clear air,[EM]dashing away[EM]dashing away[EM]sparkles[EM],0.8736166954040527,validate
+125,clear air,[EM]cross mark[EM]leaf fluttering in wind[EM]cigarette[EM]broom[EM],0.13498181104660034,baseline
+126,clear air,[EM]leaf fluttering in wind[EM]wind face[EM]thumbs up[EM],0.9849069118499756,baseline
+127,clear air,[EM]sparkles[EM]dashing away[EM]cross mark[EM]microbe[EM],0.978205680847168,baseline
+128,clear air,[EM]wind face[EM]thumbs up light skin tone[EM],0.9827564358711243,baseline
+129,clear air,[EM]helicopter[EM]rainbow[EM],0.42061781883239746,baseline
+130,clear case,[EM]briefcase[EM]magnifying glass tilted right[EM],0.9213665127754211,baseline
+131,clear case,[EM]briefcase[EM]check mark[EM],0.9549379944801331,baseline
+132,clear case,[EM]speaking head[EM]eyes[EM],0.35091108083724976,baseline
+133,clear case,[EM]briefcase[EM]window[EM],0.9688345193862915,baseline
+134,clear case,[EM]microscope[EM]detective[EM]kitchen knife[EM]drop of blood[EM]light bulb[EM],0.9835900068283081,baseline
+135,clear case,[EM]computer disk[EM]rainbow[EM],0.38840803503990173,baseline
+136,clear complexion,[EM]woman light skin tone[EM]magnifying glass tilted right[EM],0.9900689125061035,baseline
+137,clear complexion,[EM]sparkles[EM]woman[EM],0.8639474511146545,baseline
+138,clear complexion,[EM]sparkles[EM]relieved face[EM]sparkles[EM],0.6606207489967346,baseline
+139,clear complexion,[EM]OK hand[EM]woman getting massage[EM],0.9235981106758118,baseline
+140,clear complexion,[EM]potable water[EM]man[EM]green salad[EM]mirror[EM]sparkles[EM],0.5030460953712463,baseline
+141,clear complexion,[EM]lotion bottle[EM]smiling face with heart-eyes[EM],0.9686555862426758,baseline
+142,clear complexion,[EM]artist palette[EM]rainbow[EM],0.19546964764595032,baseline
+143,clear explanation,[EM]speaking head[EM]magnifying glass tilted right[EM],0.9730300903320312,baseline
+144,clear explanation,[EM]speaking head[EM]check mark[EM],0.7535957098007202,baseline
+145,clear explanation,[EM]astonished face[EM]speech balloon[EM]OK button[EM],0.9205098748207092,baseline
+146,clear explanation,[EM]hundred points[EM]woman teacher[EM]speaking head[EM],0.9955246448516846,baseline
+147,clear explanation,[EM]light bulb[EM]speaking head[EM],0.9772120714187622,baseline
+148,clear explanation,[EM]white question mark[EM]thinking face[EM]man teacher[EM]speaking head[EM]light bulb[EM]check mark button[EM]grinning face[EM],0.9912928342819214,baseline
+149,clear explanation,[EM]speaking head[EM]thumbs up light skin tone[EM],0.9791103601455688,baseline
+150,clear explanation,[EM]thought balloon[EM]rainbow[EM],0.2770061194896698,baseline
+151,clear glass,[EM]glass of milk[EM]magnifying glass tilted right[EM],0.9867631793022156,baseline
+152,clear glass,[EM]glass of milk[EM]check mark[EM],0.6944617629051208,baseline
+153,clear glass,[EM]sparkles[EM]tumbler glass[EM],0.9888800978660583,baseline
+154,clear glass,[EM]tumbler glass[EM]glasses[EM],0.9982877969741821,baseline
+155,clear glass,[EM]magnifying glass tilted left[EM]glasses[EM]sparkles[EM]sparkles[EM],0.99320387840271,baseline
+156,clear glass,[EM]magnifying glass tilted right[EM]tumbler glass[EM],0.9958411455154419,baseline
+157,clear glass,[EM]glass of milk[EM]rainbow[EM],0.4665939509868622,baseline
+158,clear idea,[EM]light bulb[EM]magnifying glass tilted right[EM],0.8915876746177673,baseline
+159,clear idea,[EM]light bulb[EM]check mark[EM],0.6706035733222961,baseline
+160,clear idea,[EM]astonished face[EM]brain[EM]OK button[EM],0.9934701323509216,baseline
+161,clear idea,[EM]light bulb[EM]window[EM],0.9611881971359253,baseline
+162,clear idea,[EM]thought balloon[EM]thinking face[EM]light bulb[EM]check mark button[EM],0.6750281453132629,baseline
+163,clear idea,[EM]thumbs up light skin tone[EM]bookmark tabs[EM],0.9526816606521606,baseline
+164,clear idea,[EM]light bulb[EM]rainbow[EM],0.13295115530490875,baseline
+165,clear indication,[EM]backhand index pointing right[EM]magnifying glass tilted right[EM],0.6997260451316833,baseline
+166,clear indication,[EM]astonished face[EM]astonished face[EM]OK button[EM],0.99488765001297,train
+167,clear indication,[EM]glasses[EM]crystal ball[EM],0.4578307867050171,baseline
+168,clear indication,[EM]writing hand[EM]check mark[EM],0.7697586417198181,baseline
+169,clear indication,[EM]check mark[EM]speech balloon[EM]cross mark[EM]red question mark[EM],0.18272513151168823,baseline
+170,clear indication,[EM]thumbs up light skin tone[EM]speaking head[EM],0.9545046091079712,baseline
+171,clear indication,[EM]FREE button[EM]rainbow[EM],0.09418132901191711,baseline
+172,clear water,[EM]sweat droplets[EM]magnifying glass tilted right[EM],0.9725867509841919,baseline
+173,clear water,[EM]droplet[EM]check mark[EM],0.9811524152755737,baseline
+174,clear water,[EM]droplet[EM]droplet[EM]sparkles[EM],0.9931182265281677,train
+175,clear water,[EM]sweat droplets[EM]thumbs up[EM]droplet[EM],0.9936434626579285,baseline
+176,clear water,[EM]droplet[EM]droplet[EM]microscope[EM]sparkles[EM]cross mark[EM]microbe[EM],0.9931421875953674,train
+177,clear water,[EM]white circle[EM]droplet[EM],0.9145054817199707,baseline
+178,clear water,[EM]water buffalo[EM]rainbow[EM],0.42002686858177185,baseline
+179,clear-cut evidence,[EM]bookmark tabs[EM]magnifying glass tilted right[EM],0.93414705991745,baseline
+180,clear-cut evidence,[EM]page with curl[EM]check mark[EM],0.9843862056732178,baseline
+181,clear-cut evidence,[EM]face with open mouth[EM]antenna bars[EM]sparkles[EM]thumbs up[EM],0.9892392754554749,baseline
+182,clear-cut evidence,[EM]man detective[EM]magnifying glass tilted left[EM]party popper[EM],0.995035707950592,baseline
+183,clear-cut evidence,[EM]scissors[EM]detective[EM]scroll[EM],0.8611949682235718,baseline
+184,clear-cut evidence,[EM]red question mark[EM]kitchen knife[EM]microscope[EM]light bulb[EM]check mark[EM],0.8889015316963196,baseline
+185,clear-cut evidence,[EM]magnifying glass tilted right[EM]scroll[EM],0.9864954352378845,baseline
+186,clear-cut evidence,[EM]detective[EM]rainbow[EM],0.42745810747146606,baseline
+187,common brand,[EM]clutch bag[EM]glasses[EM]dress[EM]necktie[EM]copyright[EM],0.9950016140937805,baseline
+188,common brand,[EM]woman tipping hand light skin tone[EM]busts in silhouette[EM]handbag[EM],0.98463374376297,baseline
+189,common brand,[EM]shopping cart[EM]play button[EM]purse[EM],0.9957424402236938,baseline
+190,common brand,[EM]mobile phone[EM]palms up together[EM],0.9269476532936096,baseline
+191,common brand,[EM]down-left arrow[EM]down-right arrow[EM],0.99555903673172,baseline
+192,common brand,[EM]luggage[EM]busts in silhouette[EM]purse[EM]briefcase[EM]backpack[EM]handbag[EM]busts in silhouette[EM],0.9965351223945618,baseline
+193,common brand,[EM]shopping bags[EM]shopping bags[EM]counterclockwise arrows button[EM],0.9968427419662476,train
+194,common brand,[EM]video game[EM]face with thermometer[EM],0.41103196144104004,baseline
+195,common housefly,[EM]neutral face[EM]fly[EM],0.989207923412323,baseline
+196,common housefly,[EM]fly[EM]busts in silhouette[EM],0.9721499085426331,baseline
+197,common housefly,[EM]houses[EM]houses[EM]houses[EM]fly[EM]fly[EM]fly[EM]fly[EM]fly[EM],0.9467963576316833,test
+198,common housefly,[EM]fly[EM]palms up together[EM],0.9772669076919556,baseline
+199,common housefly,[EM]busts in silhouette[EM]busts in silhouette[EM]fly[EM],0.9824591279029846,validate
+200,common housefly,[EM]fly[EM]house[EM],-0.07148289680480957,baseline
+201,common housefly,[EM]dove[EM]face with thermometer[EM],0.14629502594470978,baseline
+202,common knowledge,[EM]brain[EM]face with monocle[EM],0.785812497138977,baseline
+203,common knowledge,[EM]thinking face[EM]brain[EM]unamused face[EM],0.20623020827770233,baseline
+204,common knowledge,[EM]books[EM]busts in silhouette[EM],0.9709057211875916,baseline
+205,common knowledge,[EM]brain[EM]play button[EM],0.7561744451522827,baseline
+206,common knowledge,[EM]brain[EM]palms up together[EM],0.9833595752716064,baseline
+207,common knowledge,[EM]woman and man holding hands[EM]disguised face[EM]palms up together[EM],0.9704011678695679,baseline
+208,common knowledge,[EM]books[EM]busts in silhouette[EM]open book[EM]busts in silhouette[EM],0.9847304224967957,baseline
+209,common knowledge,[EM]brain[EM]brain[EM]globe showing Americas[EM],0.9890225529670715,train
+210,common knowledge,[EM]person shrugging[EM]face with thermometer[EM],0.20010732114315033,baseline
+211,common land,[EM]cityscape[EM]cityscape at dusk[EM]bridge at night[EM]desert island[EM],0.9851545095443726,baseline
+212,common land,[EM]mountain[EM]busts in silhouette[EM],0.9709708094596863,baseline
+213,common land,[EM]brick[EM]play button[EM],0.18347595632076263,baseline
+214,common land,[EM]cityscape at dusk[EM]palms up together[EM],0.9788388609886169,baseline
+215,common land,[EM]desert island[EM]handshake[EM],0.38791424036026,baseline
+216,common land,[EM]desert island[EM]busts in silhouette[EM]raising hands[EM]busts in silhouette[EM],0.743061900138855,baseline
+217,common land,[EM]Åland Islands[EM]globe showing Americas[EM]British Indian Ocean Territory[EM]British Virgin Islands[EM]Caribbean Netherlands[EM]Caribbean Netherlands[EM]Cayman Islands[EM],0.2920983135700226,baseline
+218,common land,[EM]tractor[EM]face with thermometer[EM],0.3266685903072357,baseline
+219,common man,[EM]person standing[EM]person standing[EM]person shrugging[EM],0.9968246221542358,train
+220,common man,[EM]man standing[EM]busts in silhouette[EM],0.9551447629928589,baseline
+221,common man,[EM]boy[EM]play button[EM]boy[EM]boy[EM],0.996139407157898,baseline
+222,common man,[EM]man[EM]palms up together[EM],0.8902996182441711,baseline
+223,common man,[EM]person curly hair[EM]man[EM]man curly hair[EM],0.1943519115447998,baseline
+224,common man,[EM]man[EM]face with thermometer[EM],0.3566132187843323,baseline
+225,common nuisance,[EM]weary face[EM]busts in silhouette[EM],0.5070812702178955,baseline
+226,common nuisance,[EM]face with head-bandage[EM]face with thermometer[EM],0.371831476688385,baseline
+227,common nuisance,[EM]man gesturing NO[EM]palms up together[EM],0.7703139781951904,baseline
+228,common nuisance,[EM]anger symbol[EM]unamused face[EM]man frowning[EM],0.9955840110778809,baseline
+229,common nuisance,[EM]fly[EM]busts in silhouette[EM]cockroach[EM]spider[EM]busts in silhouette[EM],0.9887018799781799,baseline
+230,common nuisance,[EM]squinting face with tongue[EM]squinting face with tongue[EM]counterclockwise arrows button[EM],0.38936594128608704,validate
+231,common parlance,[EM]speaking head[EM]woman office worker[EM]briefcase[EM],0.7636918425559998,baseline
+232,common parlance,[EM]check mark button[EM]speaking head[EM]OK button[EM],0.9820526838302612,baseline
+233,common parlance,[EM]speaking head[EM]busts in silhouette[EM],0.986594021320343,baseline
+234,common parlance,[EM]speaking head[EM]play button[EM],0.9350900053977966,baseline
+235,common parlance,[EM]handshake[EM]palms up together[EM],0.9788042902946472,baseline
+236,common parlance,[EM]boy[EM]clapping hands[EM]person curly hair[EM],0.9893820285797119,baseline
+237,common parlance,[EM]left-right arrow[EM]speaking head[EM]speaking head[EM],0.9937096238136292,baseline
+238,common parlance,[EM]notebook with decorative cover[EM]notebook[EM]speech balloon[EM]thought balloon[EM],0.9951196312904358,baseline
+239,common parlance,[EM]sad but relieved face[EM]face with thermometer[EM],0.29707252979278564,baseline
+240,common procedure,[EM]clipboard[EM]grimacing face[EM]keycap 1[EM]keycap 2[EM]keycap 3[EM],0.8008986115455627,baseline
+241,common procedure,[EM]clockwise vertical arrows[EM]busts in silhouette[EM],0.97871333360672,baseline
+242,common procedure,[EM]ladder[EM]play button[EM],0.9198859333992004,baseline
+243,common procedure,[EM]writing hand[EM]palms up together[EM],0.8878025412559509,baseline
+244,common procedure,[EM]wrench[EM]screwdriver[EM]handshake[EM],0.2539695203304291,baseline
+245,common procedure,[EM]syringe[EM]busts in silhouette[EM]stethoscope[EM]adhesive bandage[EM]drop of blood[EM]health worker[EM]busts in silhouette[EM],0.9809572100639343,baseline
+246,common procedure,[EM]health worker[EM]counterclockwise arrows button[EM]syringe[EM],0.7923417687416077,baseline
+247,common procedure,[EM]chains[EM]face with thermometer[EM],0.170902281999588,baseline
+248,common sailor,[EM]man light skin tone[EM]sailboat[EM]anchor[EM],0.9959377646446228,baseline
+249,common sailor,[EM]anchor[EM]ship[EM]men holding hands[EM],0.4448034167289734,baseline
+250,common sailor,[EM]man blond hair[EM]busts in silhouette[EM]sailboat[EM],0.7834050059318542,baseline
+251,common sailor,[EM]sailboat[EM]play button[EM],0.9768296480178833,baseline
+252,common sailor,[EM]sailboat[EM]palms up together[EM]man[EM],0.8824405670166016,baseline
+253,common sailor,[EM]boy[EM]speedboat[EM],0.048640139400959015,baseline
+254,common sailor,[EM]anchor[EM]man pilot[EM],0.9915085434913635,baseline
+255,common sailor,[EM]speedboat[EM]pilot[EM],0.5390878319740295,baseline
+256,common sailor,[EM]sailboat[EM]face with thermometer[EM],0.20118288695812225,baseline
+257,constant lover,[EM]red heart[EM]woman frowning[EM]man frowning[EM]infinity[EM],0.9971280694007874,baseline
+258,constant lover,[EM]couple with heart[EM]repeat single button[EM]couple with heart woman man[EM]couple with heart woman woman[EM],0.9979341626167297,baseline
+259,constant lover,[EM]man with veil[EM]ring[EM]woman with veil[EM]man in tuxedo[EM]couple with heart[EM],0.10625506937503815,baseline
+260,constant lover,[EM]older person[EM]red heart[EM]old woman[EM],0.1712297648191452,baseline
+261,constant lover,[EM]zzz[EM]mantelpiece clock[EM]people hugging[EM],0.9956853985786438,baseline
+262,constant lover,[EM]couple with heart woman man[EM]heart with arrow[EM]clockwise vertical arrows[EM],0.9962464570999146,baseline
+263,constant lover,[EM]kiss man man[EM]men holding hands[EM]hourglass not done[EM]hourglass done[EM]revolving hearts[EM]man white hair[EM]man white hair[EM],0.7551468014717102,baseline
+264,constant lover,[EM]beaming face with smiling eyes[EM]couple with heart[EM],0.5137176513671875,baseline
+265,constant lover,[EM]red heart[EM]O button (blood type)[EM],0.1612650752067566,baseline
+266,constant pain,[EM]broken heart[EM]infinity[EM],0.9768471121788025,baseline
+267,constant pain,[EM]confounded face[EM]repeat single button[EM],0.3848143517971039,baseline
+268,constant pain,[EM]health worker[EM]face with head-bandage[EM],0.861805260181427,baseline
+269,constant pain,[EM]persevering face[EM]hourglass not done[EM]face with head-bandage[EM],0.9935956597328186,baseline
+270,constant pain,[EM]face with head-bandage[EM]clockwise vertical arrows[EM],0.4483616054058075,baseline
+271,constant pain,[EM]hammer[EM]bone[EM]person in manual wheelchair[EM]hourglass not done[EM]loudly crying face[EM],0.7260109186172485,baseline
+272,constant pain,[EM]syringe[EM]sad but relieved face[EM]face with head-bandage[EM],0.9514575004577637,baseline
+273,constant pain,[EM]face with head-bandage[EM]O button (blood type)[EM],0.6092751622200012,baseline
+274,cool breeze,[EM]wind face[EM]ice[EM],0.9524962306022644,baseline
+275,cool breeze,[EM]leaf fluttering in wind[EM]COOL button[EM],0.8948575258255005,baseline
+276,cool breeze,[EM]dashing away[EM]cold face[EM],0.9805675745010376,baseline
+277,cool breeze,[EM]wind face[EM]snowflake[EM]dashing away[EM],0.8148967027664185,baseline
+278,cool breeze,[EM]dashing away[EM]snowflake[EM],0.7142566442489624,baseline
+279,cool breeze,[EM]wind face[EM]ice[EM]dashing away[EM],0.9915489554405212,baseline
+280,cool drink,[EM]tumbler glass[EM]ice[EM],0.9854110479354858,baseline
+281,cool drink,[EM]cup with straw[EM]COOL button[EM],0.9975430369377136,baseline
+282,cool drink,[EM]bottle with popping cork[EM]ice[EM],0.9938065409660339,baseline
+283,cool drink,[EM]tropical drink[EM]ice[EM]beer mug[EM],0.9964789152145386,baseline
+284,cool drink,[EM]tropical drink[EM]COOL button[EM],0.6139458417892456,baseline
+285,cool drink,[EM]cocktail glass[EM]ice[EM],0.45935022830963135,baseline
+286,cool drink,[EM]beverage box[EM]cup with straw[EM],0.9962824583053589,baseline
+287,cool drink,[EM]cup with straw[EM]dashing away[EM],0.9921364784240723,baseline
+288,cool reception,[EM]handshake[EM]ice[EM],0.9384655952453613,baseline
+289,cool reception,[EM]hotel[EM]COOL button[EM]bellhop bell[EM]telephone[EM],0.970470130443573,baseline
+290,cool reception,[EM]confetti ball[EM]smiling face with sunglasses[EM],0.9723896980285645,baseline
+291,cool reception,[EM]smiling face[EM]slightly smiling face[EM]waving hand[EM],0.970363438129425,baseline
+292,cool reception,[EM]person tipping hand[EM]COOL button[EM],0.41422197222709656,baseline
+293,cool reception,[EM]waving hand[EM]neutral face[EM],0.6355773210525513,baseline
+294,cool reception,[EM]studio microphone[EM]woman standing[EM]telephone[EM],0.9788806438446045,baseline
+295,cool reception,[EM]woman[EM]dashing away[EM]desktop computer[EM],0.956498920917511,baseline
+296,cool reception,[EM]bellhop bell[EM]COOL button[EM],0.1442917287349701,baseline
+297,cool relation,[EM]men holding hands[EM]ice[EM],0.9514129161834717,baseline
+298,cool relation,[EM]people holding hands[EM]COOL button[EM],0.9685972332954407,baseline
+299,cool relation,[EM]men holding hands[EM]smiling face with sunglasses[EM],0.9280970096588135,baseline
+300,cool relation,[EM]left-facing fist[EM]right-facing fist[EM]handshake[EM],0.2774125337600708,baseline
+301,cool relation,[EM]woman and man holding hands[EM]COOL button[EM],0.9695202112197876,baseline
+302,cool relation,[EM]cold face[EM]face without mouth[EM]person pouting[EM],0.30976539850234985,baseline
+303,cool relation,[EM]man standing[EM]ice[EM]woman standing[EM],0.9944965839385986,baseline
+304,cool relation,[EM]men holding hands[EM]dashing away[EM],0.9312981963157654,baseline
+305,cool relation,[EM]pancakes[EM]COOL button[EM],0.3345394730567932,baseline
+306,cool room,[EM]house[EM]ice[EM],0.8350615501403809,baseline
+307,cool room,[EM]couch and lamp[EM]COOL button[EM],0.9644193053245544,baseline
+308,cool room,[EM]cold face[EM]thermometer[EM]house[EM],0.9331058263778687,baseline
+309,cool room,[EM]gloves[EM]cold face[EM]scarf[EM]wind face[EM]coat[EM]house[EM],0.9881888628005981,baseline
+310,cool room,[EM]house[EM]COOL button[EM],0.8746528625488281,baseline
+311,cool room,[EM]dashing away[EM]snowflake[EM]house[EM],0.8526282906532288,baseline
+312,cool room,[EM]post office[EM]ice[EM],0.9628750681877136,baseline
+313,cool room,[EM]person in bed[EM]dashing away[EM],0.8806790113449097,baseline
+314,cool room,[EM]women’s room[EM]COOL button[EM],0.6302798986434937,baseline
+315,cozy nook,[EM]bed[EM]smiling face with smiling eyes[EM],0.9974208474159241,baseline
+316,cozy nook,[EM]smiling face[EM]relieved face[EM]sun[EM]sunrise over mountains[EM],0.9938191175460815,baseline
+317,cozy nook,[EM]smiling face with hearts[EM]couch and lamp[EM],0.9938779473304749,validate
+318,cozy nook,[EM]couch and lamp[EM]smiling face with hearts[EM],0.99241042137146,train
+319,cozy nook,[EM]hot beverage[EM]couch and lamp[EM]relieved face[EM],0.9343352317810059,baseline
+320,cozy nook,[EM]fallen leaf[EM]maple leaf[EM]fire[EM],0.9927363395690918,baseline
+321,cozy nook,[EM]couch and lamp[EM]sleeping face[EM],0.996931254863739,baseline
+322,cozy nook,[EM]repeat single button[EM]house with garden[EM],0.5652318000793457,baseline
+323,cozy room,[EM]house[EM]smiling face with smiling eyes[EM],0.6875858902931213,baseline
+324,cozy room,[EM]house[EM]relieved face[EM]house with garden[EM]window[EM],0.994535505771637,baseline
+325,cozy room,[EM]smiling face with hearts[EM]bed[EM],0.9849251508712769,baseline
+326,cozy room,[EM]door[EM]smiling face with hearts[EM],0.9722882509231567,baseline
+327,cozy room,[EM]hot beverage[EM]couch and lamp[EM]desktop computer[EM],0.9140276908874512,baseline
+328,cozy room,[EM]person in bed[EM]grinning face with smiling eyes[EM],0.9756063222885132,baseline
+329,cozy room,[EM]couch and lamp[EM]bed[EM]zzz[EM]candle[EM],0.9913416504859924,baseline
+330,cozy room,[EM]couch and lamp[EM]sleeping face[EM],0.9698229432106018,baseline
+331,cozy room,[EM]women’s room[EM]house with garden[EM],0.34297657012939453,baseline
+332,critical element,[EM]warning[EM]old key[EM]warning[EM],0.7303494215011597,baseline
+333,critical element,[EM]droplet[EM]fire[EM]snowflake[EM]high voltage[EM]dragon[EM],0.9957796931266785,baseline
+334,critical element,[EM]person walking[EM]red exclamation mark[EM],0.21142646670341492,baseline
+335,critical element,[EM]rescue worker’s helmet[EM]double exclamation mark[EM],0.9913198351860046,baseline
+336,critical element,[EM]petri dish[EM]atom symbol[EM]double exclamation mark[EM],0.9910744428634644,baseline
+337,critical element,[EM]SOS button[EM]Japanese bargain button[EM],0.9828757047653198,baseline
+338,critical element,[EM]red exclamation mark[EM]woman scientist[EM],0.6398051381111145,baseline
+339,critical element,[EM]radio button[EM]unamused face[EM],0.14939193427562714,baseline
+340,critical illness,[EM]face with thermometer[EM]face with medical mask[EM]face with head-bandage[EM],0.9965201020240784,baseline
+341,critical illness,[EM]sneezing face[EM]skull and crossbones[EM],0.6005908846855164,baseline
+342,critical illness,[EM]health worker[EM]face with head-bandage[EM]pill[EM]face with medical mask[EM]microbe[EM]headstone[EM],0.9239054322242737,baseline
+343,critical illness,[EM]man health worker[EM]face vomiting[EM],0.9807279109954834,baseline
+344,critical illness,[EM]police car light[EM]face with thermometer[EM],0.4759865701198578,baseline
+345,critical illness,[EM]double exclamation mark[EM]face with thermometer[EM],0.6591556668281555,baseline
+346,critical illness,[EM]face with thermometer[EM]face vomiting[EM]thermometer[EM]thermometer[EM],0.3933054506778717,baseline
+347,critical illness,[EM]thermometer[EM]unamused face[EM],0.531826913356781,baseline
+348,critical mass,[EM]warning[EM]balance scale[EM]warning[EM],0.6842561960220337,baseline
+349,critical mass,[EM]balance scale[EM]red exclamation mark[EM]elephant[EM],0.9951460957527161,baseline
+350,critical mass,[EM]woman judge[EM]balance scale[EM]man judge[EM],0.9924496412277222,baseline
+351,critical mass,[EM]balance scale[EM]double exclamation mark[EM],0.940864086151123,baseline
+352,critical mass,[EM]woman lifting weights[EM]police car light[EM],0.6078949570655823,baseline
+353,critical mass,[EM]atom symbol[EM]pinching hand[EM]red exclamation mark[EM],0.9876315593719482,baseline
+354,critical mass,[EM]red exclamation mark[EM]balance scale[EM]red exclamation mark[EM]red exclamation mark[EM],0.9933218359947205,baseline
+355,critical mass,[EM]sun behind large cloud[EM]unamused face[EM],0.09817579388618469,baseline
+356,critical shortage,[EM]red question mark[EM]cross mark[EM]warning[EM]warning[EM],0.7877196669578552,baseline
+357,critical shortage,[EM]bread[EM]cross mark[EM]skull and crossbones[EM],0.9952684640884399,baseline
+358,critical shortage,[EM]bento box[EM]cross mark[EM]cross mark[EM]baby bottle[EM],0.881795346736908,baseline
+359,critical shortage,[EM]shrimp[EM]double exclamation mark[EM]squid[EM]bread[EM]kiwi fruit[EM],0.2865767478942871,baseline
+360,critical shortage,[EM]chart decreasing[EM]police car light[EM],0.9639636278152466,baseline
+361,critical shortage,[EM]avocado[EM]red exclamation mark[EM]red apple[EM]cheese wedge[EM]cooked rice[EM]red exclamation mark[EM]sad but relieved face[EM],0.2767511010169983,baseline
+362,critical shortage,[EM]bread[EM]pinching hand[EM],0.3576163649559021,baseline
+363,critical shortage,[EM]cross mark[EM]hourglass done[EM]basket[EM],0.9937006831169128,baseline
+364,critical stage,[EM]chart increasing[EM]old key[EM],0.9952055215835571,baseline
+365,critical stage,[EM]thumbs up[EM]check mark[EM]cross mark[EM]skull and crossbones[EM],0.9957498908042908,baseline
+366,critical stage,[EM]footprints[EM]double exclamation mark[EM],0.9118613004684448,baseline
+367,critical stage,[EM]crossed fingers[EM]police car light[EM],0.686885416507721,baseline
+368,critical stage,[EM]red exclamation mark[EM]chart increasing[EM],0.8762723207473755,baseline
+369,critical stage,[EM]chart decreasing[EM]chart increasing[EM]red exclamation mark[EM]red exclamation mark[EM],0.9952136278152466,baseline
+370,critical stage,[EM]person bouncing ball[EM]unamused face[EM],0.04158102720975876,baseline
+371,critical temperature,[EM]warning[EM]thermometer[EM],0.9894012212753296,baseline
+372,critical temperature,[EM]thermometer[EM]red exclamation mark[EM],0.9882926940917969,validate
+373,critical temperature,[EM]hospital[EM]face with thermometer[EM],0.9942350387573242,baseline
+374,critical temperature,[EM]face with head-bandage[EM]hot springs[EM],0.613957405090332,baseline
+375,critical temperature,[EM]thermometer[EM]police car light[EM],0.9738621711730957,baseline
+376,critical temperature,[EM]red exclamation mark[EM]thermometer[EM],0.9982617497444153,train
+377,critical temperature,[EM]hushed face[EM]thermometer[EM],0.6579956412315369,baseline
+378,critical temperature,[EM]red exclamation mark[EM]red exclamation mark[EM]thermometer[EM]thermometer[EM]thermometer[EM],0.9975951313972473,train
+379,critical temperature,[EM]thermometer[EM]unamused face[EM],0.47621962428092957,baseline
+380,dark corner,[EM]ballot box with ballot[EM]sunglasses[EM],0.9714272618293762,baseline
+381,dark corner,[EM]brick[EM]black circle[EM],0.9811910390853882,baseline
+382,dark corner,[EM]prohibited[EM]flashlight[EM]prohibited[EM],0.9780566692352295,baseline
+383,dark corner,[EM]cross mark[EM]new moon[EM]light bulb[EM],0.9767813086509705,baseline
+384,dark corner,[EM]school[EM]new moon[EM]shushing face[EM]Japanese secret button[EM],0.991500198841095,baseline
+385,dark corner,[EM]ogre[EM]fearful face[EM],0.24766840040683746,baseline
+386,dark corner,[EM]boomerang[EM]new moon[EM],0.9662927985191345,baseline
+387,dark corner,[EM]house[EM]sunglasses[EM],0.8924426436424255,baseline
+388,dark corner,[EM]repeat single button[EM]new moon[EM],0.4516163766384125,baseline
+389,dark day,[EM]sunrise[EM]sunglasses[EM],0.9587268829345703,baseline
+390,dark day,[EM]tear-off calendar[EM]black circle[EM],0.8125181198120117,baseline
+391,dark day,[EM]fog[EM]tornado[EM]fog[EM],0.9969086050987244,baseline
+392,dark day,[EM]fog[EM]cloud with lightning and rain[EM]new moon[EM],0.9952202439308167,baseline
+393,dark day,[EM]tear-off calendar[EM]new moon[EM],0.5122214555740356,baseline
+394,dark day,[EM]footprints[EM]smiling face with horns[EM],0.9340217709541321,baseline
+395,dark day,[EM]night with stars[EM]new moon[EM],0.940841794013977,baseline
+396,dark day,[EM]calendar[EM]new moon[EM],0.5568572878837585,baseline
+397,dark glass,[EM]glass of milk[EM]sunglasses[EM],0.38203519582748413,baseline
+398,dark glass,[EM]glass of milk[EM]black circle[EM],0.92066490650177,baseline
+399,dark glass,[EM]wine glass[EM]new moon[EM],0.5238848924636841,baseline
+400,dark purpose,[EM]angry face with horns[EM]sunglasses[EM],0.6508646607398987,baseline
+401,dark purpose,[EM]smiling face with horns[EM]black circle[EM],0.75958251953125,baseline
+402,dark purpose,[EM]face with crossed-out eyes[EM]new moon[EM]skull[EM],0.9837995171546936,baseline
+403,dark purpose,[EM]red question mark[EM]smiling face with horns[EM]woman shrugging[EM],0.7793639302253723,baseline
+404,dark purpose,[EM]ogre[EM]angry face with horns[EM]goblin[EM]smirking face[EM],0.6353572010993958,baseline
+405,dark purpose,[EM]smiling face with horns[EM]angry face with horns[EM],0.7985190749168396,baseline
+406,dark purpose,[EM]smiling face with horns[EM]new moon[EM]ogre[EM],0.8162145614624023,baseline
+407,dark purpose,[EM]play or pause button[EM]new moon[EM],0.4514318108558655,baseline
+408,dark shadow,[EM]person in suit levitating[EM]sunglasses[EM],0.8580906391143799,baseline
+409,dark shadow,[EM]busts in silhouette[EM]black circle[EM],0.9182476997375488,baseline
+410,dark shadow,[EM]sunglasses[EM]sunglasses[EM]bust in silhouette[EM],0.9961586594581604,train
+411,dark shadow,[EM]light bulb[EM]cross mark[EM]person standing[EM],0.9868360161781311,baseline
+412,dark shadow,[EM]bust in silhouette[EM]new moon[EM],0.965538740158081,baseline
+413,dark shadow,[EM]men’s room[EM]new moon[EM],0.9152222275733948,baseline
+414,dark shadow,[EM]person in suit levitating[EM]new moon[EM],0.3669773042201996,baseline
+415,dark undercurrent,[EM]water wave[EM]sunglasses[EM],0.5617731213569641,baseline
+416,dark undercurrent,[EM]water wave[EM]black circle[EM],0.9645386338233948,baseline
+417,dark undercurrent,[EM]cloud with lightning and rain[EM]black circle[EM],0.6315510869026184,baseline
+418,dark undercurrent,[EM]water wave[EM]new moon[EM]sweat droplets[EM],0.2599044740200043,baseline
+419,dark undercurrent,[EM]no one under eighteen[EM]new moon[EM]water wave[EM],0.9734827280044556,baseline
+420,dark undercurrent,[EM]face screaming in fear[EM]angry face with horns[EM]fearful face[EM],0.6598840355873108,baseline
+421,dark undercurrent,[EM]angry face with horns[EM]spade suit[EM],0.8555622100830078,baseline
+422,dark undercurrent,[EM]chart increasing[EM]smiling face with horns[EM],0.7123574018478394,baseline
+423,dark undercurrent,[EM]information[EM]new moon[EM],0.48734450340270996,baseline
+424,deep breath,[EM]face exhaling[EM]hole[EM],0.9787726402282715,baseline
+425,deep breath,[EM]lungs[EM]face with open mouth[EM],0.9815896153450012,baseline
+426,deep breath,[EM]face with open mouth[EM]yawning face[EM]face exhaling[EM],0.9977308511734009,baseline
+427,deep breath,[EM]dashing away[EM]nose[EM],0.38524964451789856,baseline
+428,deep breath,[EM]lungs[EM]wind face[EM],0.9923783540725708,baseline
+429,deep breath,[EM]face screaming in fear[EM]thinking face[EM],0.583173394203186,baseline
+430,deep concentration,[EM]shushing face[EM]hole[EM],0.9266772270202637,baseline
+431,deep concentration,[EM]face with monocle[EM]thinking face[EM],0.6918625235557556,baseline
+432,deep concentration,[EM]woman technologist[EM]face with monocle[EM]pencil[EM],0.5826552510261536,baseline
+433,deep concentration,[EM]face with monocle[EM]fast down button[EM]nerd face[EM],0.6343739032745361,baseline
+434,deep concentration,[EM]page facing up[EM]page with curl[EM]nerd face[EM]face with spiral eyes[EM],0.7443194389343262,baseline
+435,deep concentration,[EM]frowning face with open mouth[EM]thinking face[EM],0.47282788157463074,baseline
+436,deep cut,[EM]scissors[EM]hole[EM],0.8339398503303528,baseline
+437,deep cut,[EM]scissors[EM]face with head-bandage[EM],0.4874093532562256,baseline
+438,deep cut,[EM]face screaming in fear[EM]drop of blood[EM]face with crossed-out eyes[EM]kitchen knife[EM],0.9933415651321411,baseline
+439,deep cut,[EM]kitchen knife[EM]index pointing up[EM]drop of blood[EM]drop of blood[EM],0.8951905369758606,baseline
+440,deep cut,[EM]drop of blood[EM]scissors[EM],0.991884171962738,baseline
+441,deep cut,[EM]face with head-bandage[EM]drop of blood[EM],0.44775018095970154,baseline
+442,deep cut,[EM]scissors[EM]thinking face[EM],0.7877020239830017,baseline
+443,deep emotion,[EM]face savoring food[EM]hole[EM],0.7833927273750305,baseline
+444,deep emotion,[EM]water wave[EM]loudly crying face[EM],0.7083814144134521,baseline
+445,deep emotion,[EM]exploding head[EM]face with monocle[EM],0.5024923086166382,baseline
+446,deep emotion,[EM]crying face[EM]fast down button[EM]loudly crying face[EM],0.9915585517883301,baseline
+447,deep emotion,[EM]exploding head[EM]face with symbols on mouth[EM]loudly crying face[EM]pensive face[EM],0.6215096712112427,baseline
+448,deep emotion,[EM]pleading face[EM]confounded face[EM]face with steam from nose[EM],0.4380476176738739,baseline
+449,deep emotion,[EM]neutral face[EM]thinking face[EM],0.4890638589859009,baseline
+450,deep sigh,[EM]face exhaling[EM]hole[EM],0.8978116512298584,baseline
+451,deep sigh,[EM]sad but relieved face[EM]face exhaling[EM]confused face[EM],0.9890773892402649,baseline
+452,deep sigh,[EM]wind face[EM]face with steam from nose[EM],0.9946938753128052,baseline
+453,deep sigh,[EM]double exclamation mark[EM]thinking face[EM],0.36776700615882874,baseline
+454,deep sleep,[EM]person in bed[EM]hole[EM],0.9976653456687927,baseline
+455,deep sleep,[EM]sleepy face[EM]sleeping face[EM]person in bed[EM],0.998549222946167,baseline
+456,deep sleep,[EM]drooling face[EM]sleepy face[EM]sleeping face[EM]face with crossed-out eyes[EM],0.997506856918335,baseline
+457,deep sleep,[EM]person in bed[EM]sleeping face[EM]zzz[EM]zzz[EM],0.9976762533187866,baseline
+458,deep sleep,[EM]zzz[EM]sleepy face[EM],0.9990121126174927,baseline
+459,deep sleep,[EM]sleeping face[EM]sleeping face[EM]zzz[EM]zzz[EM],0.9981535077095032,train
+460,deep sleep,[EM]person in bed[EM]thinking face[EM],0.22248943150043488,baseline
+461,deep trance,[EM]eyes[EM]hole[EM],0.8331272602081299,baseline
+462,deep trance,[EM]face with crossed-out eyes[EM]Aquarius[EM],0.9742494225502014,baseline
+463,deep trance,[EM]face without mouth[EM]face with spiral eyes[EM],0.7090887427330017,baseline
+464,deep trance,[EM]down arrow[EM]face with spiral eyes[EM],0.29648154973983765,baseline
+465,deep trance,[EM]selfie light skin tone[EM]thinking face[EM],0.41753995418548584,baseline
+466,deep voice,[EM]speaking head[EM]hole[EM],0.9043031334877014,baseline
+467,deep voice,[EM]speaking head[EM]thinking face[EM],0.967968761920929,baseline
+468,deep voice,[EM]microphone[EM]bear[EM],0.23757043480873108,baseline
+469,deep voice,[EM]man white hair[EM]speaking head[EM],0.9222638607025146,baseline
+470,deep voice,[EM]speaker high volume[EM]speaking head[EM]downwards button[EM],0.36864396929740906,baseline
+471,deep voice,[EM]deaf man[EM]speaking head[EM],0.9093364477157593,baseline
+472,deep voice,[EM]down arrow[EM]speaking head[EM],0.13653741776943207,baseline
+473,deep voice,[EM]microphone[EM]thinking face[EM],0.6268647313117981,baseline
+474,delicate china,[EM]China[EM]red exclamation mark[EM],0.7467628121376038,baseline
+475,delicate china,[EM]package[EM]warning[EM]fork and knife with plate[EM],0.24759019911289215,baseline
+476,delicate china,[EM]flexed biceps light skin tone[EM]cross mark[EM]China[EM]hot beverage[EM],0.9793200492858887,baseline
+477,delicate china,[EM]China[EM]flexed biceps[EM],0.9912086725234985,baseline
+478,delicate china,[EM]beaming face with smiling eyes[EM]China[EM]thumbs up[EM],0.9965611696243286,baseline
+479,delicate china,[EM]fork and knife with plate[EM]teapot[EM]China[EM],0.9975720643997192,baseline
+480,delicate china,[EM]raising hands[EM]fork and knife with plate[EM],0.2615628242492676,baseline
+481,delicate china,[EM]China[EM]thinking face[EM],0.8787406086921692,baseline
+482,delicate china,[EM]China[EM]fireworks[EM],0.229969322681427,baseline
+483,delicate flavor,[EM]steaming bowl[EM]revolving hearts[EM],0.9650334715843201,baseline
+484,delicate flavor,[EM]package[EM]warning[EM]face savoring food[EM],0.33171141147613525,baseline
+485,delicate flavor,[EM]hot pepper[EM]cross mark[EM]tongue[EM],0.26110535860061646,baseline
+486,delicate flavor,[EM]squinting face with tongue[EM]smiling face with horns[EM],0.9947084188461304,baseline
+487,delicate flavor,[EM]face savoring food[EM]squinting face with tongue[EM],0.9674870371818542,baseline
+488,delicate flavor,[EM]thumbs up[EM]face savoring food[EM],0.5751558542251587,baseline
+489,delicate flavor,[EM]thinking face[EM]tongue[EM],0.893501341342926,baseline
+490,delicate flavor,[EM]thinking face[EM]face savoring food[EM],0.4076831340789795,baseline
+491,delicate flavor,[EM]shaved ice[EM]fireworks[EM],0.6454330682754517,baseline
+492,delicate negotiation,[EM]speech balloon[EM]white exclamation mark[EM],0.2981497645378113,baseline
+493,delicate negotiation,[EM]package[EM]warning[EM]speaking head[EM]speech balloon[EM],0.9929696321487427,baseline
+494,delicate negotiation,[EM]dove[EM]person in lotus position[EM]peace symbol[EM]speaking head[EM],0.9979570508003235,baseline
+495,delicate negotiation,[EM]speaking head[EM]double exclamation mark[EM],0.2493024468421936,baseline
+496,delicate negotiation,[EM]grinning face with big eyes[EM]speaking head[EM],0.28848886489868164,baseline
+497,delicate negotiation,[EM]dove[EM]handshake[EM]peace symbol[EM],0.26068276166915894,baseline
+498,delicate negotiation,[EM]deaf man[EM]person raising hand[EM]man pouting[EM]man raising hand[EM]deaf person[EM]person pouting[EM],0.9980598092079163,baseline
+499,delicate negotiation,[EM]busts in silhouette[EM]thinking face[EM],0.29762178659439087,baseline
+500,delicate negotiation,[EM]handshake[EM]fireworks[EM],0.47613078355789185,baseline
+501,delicate wing,[EM]honeybee[EM]stop sign[EM],0.11078771203756332,baseline
+502,delicate wing,[EM]package[EM]warning[EM]hatching chick[EM],0.1146039366722107,baseline
+503,delicate wing,[EM]flexed biceps light skin tone[EM]cross mark[EM]butterfly[EM],0.9662060737609863,baseline
+504,delicate wing,[EM]money with wings[EM]hatching chick[EM],0.06951502710580826,baseline
+505,delicate wing,[EM]sewing needle[EM]wind face[EM]person rowing boat[EM],0.9948936104774475,baseline
+506,delicate wing,[EM]dove[EM]eagle[EM],0.9882594347000122,baseline
+507,delicate wing,[EM]dove[EM]thinking face[EM],0.32912999391555786,baseline
+508,delicate wing,[EM]oncoming bus[EM]fireworks[EM],0.2288636416196823,baseline
+509,dirty dish,[EM]fish[EM]thumbs down[EM],0.5122482776641846,baseline
+510,dirty dish,[EM]fly[EM]fork and knife with plate[EM],0.707312285900116,baseline
+511,dirty dish,[EM]anxious face with sweat[EM]fork and knife with plate[EM]thumbs down[EM],0.9975999593734741,baseline
+512,dirty dish,[EM]fork and knife with plate[EM]soap[EM],0.9851495623588562,baseline
+513,dirty dish,[EM]fork and knife with plate[EM]face vomiting[EM],0.9960534572601318,baseline
+514,dirty dish,[EM]fork and knife with plate[EM]pile of poo[EM],0.9951465725898743,baseline
+515,dirty dish,[EM]fork and knife with plate[EM]soap[EM]petri dish[EM],0.9976721405982971,baseline
+516,dirty dish,[EM]satellite antenna[EM]factory[EM],0.06852231174707413,baseline
+517,dirty fighter,[EM]boxing glove[EM]thumbs down[EM],0.9944953322410583,baseline
+518,dirty fighter,[EM]pouting face[EM]face with symbols on mouth[EM],0.3184075951576233,baseline
+519,dirty fighter,[EM]balance scale[EM]cross mark[EM]flexed biceps[EM]man bald[EM]anger symbol[EM],0.11159113049507141,baseline
+520,dirty fighter,[EM]men wrestling[EM]face with symbols on mouth[EM],0.44798436760902405,baseline
+521,dirty fighter,[EM]martial arts uniform[EM]face vomiting[EM],0.9723507761955261,baseline
+522,dirty fighter,[EM]oncoming fist[EM]pile of poo[EM]boxing glove[EM],0.9990919828414917,baseline
+523,dirty fighter,[EM]unamused face[EM]expressionless face[EM]boxing glove[EM],0.9953232407569885,baseline
+524,dirty fighter,[EM]oncoming fist[EM]angry face with horns[EM]boxing glove[EM]people wrestling[EM],0.9985606074333191,baseline
+525,dirty fighter,[EM]military medal[EM]factory[EM],0.08768615871667862,baseline
+526,dirty foot,[EM]foot[EM]thumbs down[EM],0.9962041974067688,baseline
+527,dirty foot,[EM]foot[EM]nauseated face[EM],0.9986029267311096,baseline
+528,dirty foot,[EM]foot[EM]hot face[EM]pile of poo[EM],0.9987423419952393,baseline
+529,dirty foot,[EM]foot[EM]soap[EM],0.998567521572113,baseline
+530,dirty foot,[EM]foot[EM]face vomiting[EM],0.9986426830291748,baseline
+531,dirty foot,[EM]footprints[EM]pile of poo[EM],0.9958658814430237,baseline
+532,dirty foot,[EM]foot[EM]confounded face[EM],0.9988617897033691,baseline
+533,dirty foot,[EM]foot[EM]nose[EM]nauseated face[EM],0.999226450920105,baseline
+534,dirty foot,[EM]footprints[EM]factory[EM],0.06832698732614517,baseline
+535,dirty job,[EM]memo[EM]thumbs down[EM],0.8354529142379761,baseline
+536,dirty job,[EM]broom[EM]pile of poo[EM],0.9823717474937439,baseline
+537,dirty job,[EM]toilet[EM]plunger[EM]broom[EM],0.8528791666030884,baseline
+538,dirty job,[EM]bomb[EM]microbe[EM]man supervillain[EM]microbe[EM]supervillain[EM]bomb[EM]microbe[EM],0.9960678219795227,baseline
+539,dirty job,[EM]nauseated face[EM]face vomiting[EM]man construction worker[EM],0.9969803690910339,baseline
+540,dirty job,[EM]briefcase[EM]pile of poo[EM],0.8564635515213013,baseline
+541,dirty job,[EM]luggage[EM]nauseated face[EM],0.9358189105987549,baseline
+542,dirty job,[EM]construction worker[EM]toilet[EM]hammer and wrench[EM],0.9942145347595215,baseline
+543,dirty job,[EM]briefcase[EM]factory[EM],0.21341288089752197,baseline
+544,dirty money,[EM]money bag[EM]thumbs down[EM],0.4658283293247223,baseline
+545,dirty money,[EM]money with wings[EM]money-mouth face[EM]supervillain[EM],0.9976269006729126,baseline
+546,dirty money,[EM]dollar banknote[EM]smiling face with horns[EM]dollar banknote[EM]prohibited[EM]backhand index pointing right[EM]police officer[EM],0.9622268676757812,baseline
+547,dirty money,[EM]zipper-mouth face[EM]microbe[EM]money-mouth face[EM]money with wings[EM]microbe[EM],0.41687139868736267,baseline
+548,dirty money,[EM]dollar banknote[EM]face vomiting[EM],0.9958249926567078,baseline
+549,dirty money,[EM]dollar banknote[EM]pile of poo[EM]money bag[EM],0.9958586692810059,baseline
+550,dirty money,[EM]money bag[EM]unamused face[EM],0.9255422353744507,baseline
+551,dirty money,[EM]stop sign[EM]police car[EM]dollar banknote[EM]dollar banknote[EM]dollar banknote[EM],0.9977211356163025,baseline
+552,dirty money,[EM]money-mouth face[EM]factory[EM],0.38910332322120667,baseline
+553,dirty overall,[EM]coat[EM]thumbs down[EM],0.5090650320053101,baseline
+554,dirty overall,[EM]face vomiting[EM]nauseated face[EM]unamused face[EM],0.9950750470161438,baseline
+555,dirty overall,[EM]confounded face[EM]face with spiral eyes[EM]backhand index pointing right[EM]bathtub[EM],0.9972735643386841,baseline
+556,dirty overall,[EM]t-shirt[EM]soap[EM],0.17572759091854095,baseline
+557,dirty overall,[EM]dress[EM]face vomiting[EM]woman’s clothes[EM],0.9975413680076599,baseline
+558,dirty overall,[EM]kimono[EM]pile of poo[EM],0.8184552788734436,baseline
+559,dirty overall,[EM]nauseated face[EM]man standing[EM],0.5815224647521973,baseline
+560,dirty overall,[EM]jeans[EM]pile of poo[EM],0.8594232797622681,baseline
+561,dirty overall,[EM]hospital[EM]factory[EM],0.052658043801784515,baseline
+562,dirty slum,[EM]derelict house[EM]thumbs down[EM],0.8873681426048279,baseline
+563,dirty slum,[EM]house[EM]fly[EM],0.278054416179657,baseline
+564,dirty slum,[EM]hut[EM]microbe[EM]microbe[EM],0.9973722100257874,baseline
+565,dirty slum,[EM]microbe[EM]soap[EM]derelict house[EM],0.9973086714744568,baseline
+566,dirty slum,[EM]hut[EM]face vomiting[EM],0.9929808974266052,baseline
+567,dirty slum,[EM]money with wings[EM]pile of poo[EM]house[EM],0.9967342019081116,baseline
+568,dirty slum,[EM]man zombie[EM]woozy face[EM],0.13212747871875763,baseline
+569,dirty slum,[EM]no one under eighteen[EM]persevering face[EM]money with wings[EM],0.9971548914909363,baseline
+570,dirty slum,[EM]duck[EM]factory[EM],0.10060290992259979,baseline
+571,dirty work,[EM]memo[EM]thumbs down[EM],0.8593034148216248,baseline
+572,dirty work,[EM]page with curl[EM]oncoming police car[EM],0.9709800481796265,baseline
+573,dirty work,[EM]toilet[EM]plunger[EM]broom[EM]money bag[EM]old woman[EM]old man[EM],0.992182731628418,baseline
+574,dirty work,[EM]briefcase[EM]microbe[EM],0.9281700253486633,baseline
+575,dirty work,[EM]hammer and wrench[EM]face vomiting[EM],0.8901296854019165,baseline
+576,dirty work,[EM]rescue worker’s helmet[EM]pile of poo[EM]briefcase[EM],0.9952518343925476,baseline
+577,dirty work,[EM]luggage[EM]unamused face[EM],0.9578306078910828,baseline
+578,dirty work,[EM]construction worker[EM]toilet[EM]hammer and wrench[EM],0.9860637187957764,baseline
+579,dirty work,[EM]flexed biceps[EM]factory[EM],0.20134492218494415,baseline
+580,domestic animal,[EM]cow[EM]house[EM]goat[EM]guide dog[EM]chicken[EM]house[EM],0.997818648815155,baseline
+581,domestic animal,[EM]dog[EM]house[EM],0.996985912322998,baseline
+582,domestic animal,[EM]dog face[EM]house[EM]cat face[EM]rabbit face[EM]hamster[EM]mouse face[EM],0.9981984496116638,baseline
+583,domestic animal,[EM]dog face[EM]grinning cat[EM],0.9986322522163391,baseline
+584,domestic animal,[EM]dog face[EM]house[EM]cat face[EM],0.998865008354187,baseline
+585,domestic animal,[EM]cat face[EM]dog face[EM]rabbit face[EM],0.998538076877594,baseline
+586,domestic animal,[EM]dog face[EM]house[EM]cat face[EM]smiling face with heart-eyes[EM],0.9985355734825134,baseline
+587,domestic animal,[EM]guide dog[EM]house[EM],0.9965501427650452,baseline
+588,domestic animal,[EM]pig[EM]water buffalo[EM],0.09499429166316986,baseline
+589,domestic chore,[EM]cooking[EM]broom[EM]plunger[EM]shopping cart[EM]house[EM],0.9873146414756775,baseline
+590,domestic chore,[EM]keyboard[EM]house[EM],0.9633951187133789,baseline
+591,domestic chore,[EM]broom[EM]house[EM],0.9903815388679504,baseline
+592,domestic chore,[EM]soap[EM]broom[EM]lotion bottle[EM]face with medical mask[EM],0.9971033334732056,baseline
+593,domestic chore,[EM]broom[EM]face with steam from nose[EM]sponge[EM]wastebasket[EM],0.8354276418685913,baseline
+594,domestic chore,[EM]loudly crying face[EM]house[EM]broom[EM]wastebasket[EM]sponge[EM]fork and knife with plate[EM]fork and knife with plate[EM],0.9971879720687866,baseline
+595,domestic chore,[EM]woman singer light skin tone[EM]water buffalo[EM],0.08045922964811325,baseline
+596,domestic happiness,[EM]people hugging[EM]house with garden[EM]smiling face with smiling eyes[EM]house with garden[EM],0.9892064332962036,baseline
+597,domestic happiness,[EM]grinning face with smiling eyes[EM]house[EM],0.8480539917945862,baseline
+598,domestic happiness,[EM]smiling face with hearts[EM]house[EM],0.9459244012832642,baseline
+599,domestic happiness,[EM]smiling face with hearts[EM]house with garden[EM]family[EM]family woman woman boy[EM]family man man boy[EM]family man girl[EM]family woman boy[EM],0.9714236855506897,baseline
+600,domestic happiness,[EM]grinning face with big eyes[EM]house[EM],0.9244343638420105,baseline
+601,domestic happiness,[EM]beaming face with smiling eyes[EM]girl[EM]face with tears of joy[EM],0.9902415871620178,baseline
+602,domestic happiness,[EM]smiling face with hearts[EM]house with garden[EM]baby bottle[EM]baby[EM]money bag[EM],0.8757852911949158,baseline
+603,domestic happiness,[EM]grinning face with big eyes[EM]grinning face[EM]grinning face with smiling eyes[EM],0.994324266910553,baseline
+604,domestic happiness,[EM]Japanese congratulations button[EM]water buffalo[EM],0.16163882613182068,baseline
+605,domestic worry,[EM]classical building[EM]house[EM]woman police officer[EM]chart increasing[EM]Singapore[EM],0.2739488184452057,baseline
+606,domestic worry,[EM]pleading face[EM]house[EM],0.8918589949607849,baseline
+607,domestic worry,[EM]confounded face[EM]house[EM],0.4395856559276581,baseline
+608,domestic worry,[EM]pleading face[EM]house with garden[EM]worried face[EM],0.9747028946876526,baseline
+609,domestic worry,[EM]worried face[EM]house[EM],0.7397106289863586,baseline
+610,domestic worry,[EM]worried face[EM]girl[EM]anxious face with sweat[EM],0.2988618016242981,baseline
+611,domestic worry,[EM]derelict house[EM]worried face[EM]money with wings[EM]bowl with spoon[EM]baby[EM],0.9941548705101013,baseline
+612,domestic worry,[EM]woman frowning[EM]house[EM],0.23930272459983826,baseline
+613,domestic worry,[EM]worried face[EM]water buffalo[EM],0.40070924162864685,baseline
+614,dry climate,[EM]sun[EM]sun[EM]sun[EM]hot face[EM],0.9965303540229797,train
+615,dry climate,[EM]sun[EM]desert[EM],0.9198796153068542,baseline
+616,dry climate,[EM]desert[EM]non-potable water[EM]cactus[EM],0.8558050990104675,baseline
+617,dry climate,[EM]hot face[EM]cactus[EM]hot face[EM]hot face[EM]hot face[EM],0.09143988788127899,baseline
+618,dry climate,[EM]wind face[EM]sun[EM],0.47071921825408936,baseline
+619,dry climate,[EM]thermometer[EM]cactus[EM],0.47173911333084106,baseline
+620,dry climate,[EM]globe showing Americas[EM]hot springs[EM]thermometer[EM],0.9734238982200623,baseline
+621,dry climate,[EM]fish[EM]cloud with rain[EM],0.2174600213766098,baseline
+622,dry critique,[EM]face with symbols on mouth[EM]desert[EM],0.9937825798988342,baseline
+623,dry critique,[EM]speaking head[EM]man pouting[EM]speech balloon[EM],0.9933466911315918,baseline
+624,dry critique,[EM]speaking head[EM]desert[EM],0.8943334817886353,baseline
+625,dry critique,[EM]face with rolling eyes[EM]weary face[EM]writing hand light skin tone[EM]memo[EM],0.32620924711227417,baseline
+626,dry critique,[EM]disappointed face[EM]face with steam from nose[EM],0.3394996225833893,baseline
+627,dry critique,[EM]speaking head[EM]thumbs down[EM],0.21117053925991058,baseline
+628,dry critique,[EM]face with symbols on mouth[EM]sun[EM],0.15605829656124115,baseline
+629,dry critique,[EM]teacher[EM]hot springs[EM],0.9669412970542908,baseline
+630,dry critique,[EM]stopwatch[EM]cloud with rain[EM],0.17359592020511627,baseline
+631,dry greeting,[EM]partying face[EM]desert[EM],0.823013186454773,baseline
+632,dry greeting,[EM]unamused face[EM]waving hand[EM]neutral face[EM]expressionless face[EM],0.993294358253479,baseline
+633,dry greeting,[EM]woman raising hand[EM]desert[EM],0.9277644157409668,baseline
+634,dry greeting,[EM]neutral face[EM]face without mouth[EM]expressionless face[EM]waving hand[EM],0.9850940704345703,baseline
+635,dry greeting,[EM]expressionless face[EM]person raising hand[EM]expressionless face[EM]expressionless face[EM],0.9923660159111023,baseline
+636,dry greeting,[EM]face with rolling eyes[EM]waving hand[EM],0.9197712540626526,baseline
+637,dry greeting,[EM]woman raising hand light skin tone[EM]sun[EM],0.8556951880455017,baseline
+638,dry greeting,[EM]waving hand[EM]hot springs[EM],0.9698783755302429,baseline
+639,dry greeting,[EM]handshake[EM]cloud with rain[EM],0.32618120312690735,baseline
+640,dry land,[EM]cityscape[EM]desert island[EM]sun[EM],0.9635040163993835,baseline
+641,dry land,[EM]desert island[EM]desert[EM],0.9975862503051758,baseline
+642,dry land,[EM]desert[EM]hot face[EM]prohibited[EM]COOL button[EM],0.93222975730896,baseline
+643,dry land,[EM]desert island[EM]tornado[EM],0.9963916540145874,baseline
+644,dry land,[EM]desert island[EM]umbrella on ground[EM],0.9957345128059387,baseline
+645,dry land,[EM]desert[EM]sun[EM],0.9235371351242065,baseline
+646,dry land,[EM]sunset[EM]hot springs[EM],-0.012388081289827824,baseline
+647,dry land,[EM]tractor[EM]cloud with rain[EM],0.42880216240882874,baseline
+648,dry paint,[EM]sweat droplets[EM]cross mark[EM]artist palette[EM],0.9950939416885376,baseline
+649,dry paint,[EM]person gesturing NO[EM]paintbrush[EM]sweat droplets[EM],0.48639413714408875,baseline
+650,dry paint,[EM]artist palette[EM]desert[EM],0.984935998916626,baseline
+651,dry paint,[EM]artist palette[EM]non-potable water[EM],0.9965066313743591,baseline
+652,dry paint,[EM]artist palette[EM]tornado[EM],0.9777892231941223,baseline
+653,dry paint,[EM]nail polish[EM]wind face[EM],0.9863967299461365,baseline
+654,dry paint,[EM]artist palette[EM]sun[EM],0.332965224981308,baseline
+655,dry paint,[EM]paintbrush[EM]hot springs[EM],0.9944265484809875,baseline
+656,dry paint,[EM]artist palette[EM]cloud with rain[EM],0.48078516125679016,baseline
+657,dull day,[EM]yawning face[EM]expressionless face[EM]tear-off calendar[EM],0.913794994354248,baseline
+658,dull day,[EM]cityscape[EM]sun behind large cloud[EM],0.23262076079845428,baseline
+659,dull day,[EM]calendar[EM]expressionless face[EM],0.9649454951286316,baseline
+660,dull day,[EM]new moon face[EM]new moon[EM],0.9899975657463074,baseline
+661,dull day,[EM]sun behind large cloud[EM]fog[EM],0.9047949314117432,baseline
+662,dull day,[EM]eleven-thirty[EM]thumbs down[EM],0.9041059613227844,baseline
+663,dull day,[EM]worried face[EM]sad but relieved face[EM],0.52434903383255,baseline
+664,dull day,[EM]bouquet[EM]nerd face[EM],0.08715500682592392,baseline
+665,dull glow,[EM]glowing star[EM]fog[EM],0.7269772291183472,baseline
+666,dull glow,[EM]light bulb[EM]fog[EM],0.717155933380127,baseline
+667,dull glow,[EM]cross mark[EM]light bulb[EM]glowing star[EM],0.5915567278862,baseline
+668,dull glow,[EM]glowing star[EM]new moon[EM],0.9348791241645813,baseline
+669,dull glow,[EM]sunglasses[EM]light bulb[EM]unamused face[EM],0.6506633758544922,baseline
+670,dull glow,[EM]glowing star[EM]thumbs down[EM],0.8459008932113647,baseline
+671,dull glow,[EM]light bulb[EM]cross mark[EM]candle[EM],0.20335085690021515,baseline
+672,dull glow,[EM]star[EM]fog[EM],0.7664890885353088,baseline
+673,dull glow,[EM]glowing star[EM]nerd face[EM],0.08872056752443314,baseline
+674,dull mood,[EM]yawning face[EM]expressionless face[EM],0.9320465922355652,baseline
+675,dull mood,[EM]expressionless face[EM]confused face[EM]face without mouth[EM],0.811843752861023,baseline
+676,dull mood,[EM]unamused face[EM]yawning face[EM],0.9583305716514587,baseline
+677,dull mood,[EM]face with steam from nose[EM]thumbs down[EM],0.3953567445278168,baseline
+678,dull mood,[EM]sleepy face[EM]pensive face[EM],0.4696800410747528,baseline
+679,dull mood,[EM]crying face[EM]nerd face[EM],0.37374597787857056,baseline
+680,dull play,[EM]yawning face[EM]expressionless face[EM]soccer ball[EM],0.9965218305587769,baseline
+681,dull play,[EM]piñata[EM]expressionless face[EM]teddy bear[EM],0.9966928362846375,baseline
+682,dull play,[EM]performing arts[EM]yawning face[EM],0.9977625608444214,baseline
+683,dull play,[EM]soccer ball[EM]unamused face[EM],0.9911710023880005,baseline
+684,dull play,[EM]basketball[EM]thumbs down[EM],0.9952701330184937,baseline
+685,dull play,[EM]video game[EM]sleepy face[EM],0.021655743941664696,baseline
+686,dull play,[EM]confused face[EM]performing arts[EM],0.9980591535568237,baseline
+687,dull play,[EM]play button[EM]nerd face[EM],0.16171962022781372,baseline
+688,dull silver,[EM]2nd place medal[EM]fog[EM],0.7973716259002686,baseline
+689,dull silver,[EM]fork and knife[EM]fog[EM]spoon[EM],0.9005371928215027,baseline
+690,dull silver,[EM]cross mark[EM]ring[EM]glowing star[EM],0.23009052872657776,baseline
+691,dull silver,[EM]2nd place medal[EM]new moon[EM],0.38878223299980164,baseline
+692,dull silver,[EM]gear[EM]2nd place medal[EM]new moon[EM],0.18659497797489166,baseline
+693,dull silver,[EM]ring[EM]black small square[EM],0.35848453640937805,baseline
+694,dull silver,[EM]pensive face[EM]2nd place medal[EM],0.49480554461479187,baseline
+695,dull silver,[EM]coin[EM]fog[EM],0.576415479183197,baseline
+696,dull silver,[EM]2nd place medal[EM]nerd face[EM],0.09948930889368057,baseline
+697,dull sky,[EM]yawning face[EM]expressionless face[EM]fog[EM],0.9861477017402649,baseline
+698,dull sky,[EM]cloud with rain[EM]sun behind large cloud[EM]window[EM],0.8592515587806702,baseline
+699,dull sky,[EM]night with stars[EM]new moon[EM],0.7933492064476013,baseline
+700,dull sky,[EM]fog[EM]unamused face[EM],0.9706756472587585,baseline
+701,dull sky,[EM]cloud with lightning and rain[EM]black small square[EM],0.8465139269828796,baseline
+702,dull sky,[EM]fog[EM]cloud with lightning[EM],0.9728052616119385,baseline
+703,dull sky,[EM]cityscape at dusk[EM]nerd face[EM],0.18718881905078888,baseline
+704,effective entrance,[EM]door[EM]thumbs up[EM],0.9875056743621826,baseline
+705,effective entrance,[EM]door[EM]thumbs up[EM]person[EM],0.9935040473937988,baseline
+706,effective entrance,[EM]clapping hands[EM]woman dancing[EM],0.7629208564758301,baseline
+707,effective entrance,[EM]clinking glasses[EM]door[EM],0.9943360090255737,baseline
+708,effective entrance,[EM]right arrow[EM]thumbs up[EM],0.7031754851341248,baseline
+709,effective entrance,[EM]door[EM]dashing away[EM],0.5101473927497864,baseline
+710,effective entrance,[EM]door[EM]thumbs up[EM]unlocked[EM],0.9968960285186768,baseline
+711,effective entrance,[EM]door[EM]ambulance[EM],0.13831013441085815,baseline
+712,effective reprimand,[EM]face with symbols on mouth[EM]thumbs up[EM],0.544807493686676,baseline
+713,effective reprimand,[EM]speaking head[EM]face with steam from nose[EM]speech balloon[EM],0.49032628536224365,baseline
+714,effective reprimand,[EM]deaf woman[EM]speaking head[EM]thumbs up[EM],0.3907771706581116,baseline
+715,effective reprimand,[EM]angry face[EM]thumbs up[EM]pouting face[EM]face with steam from nose[EM],0.994789719581604,baseline
+716,effective reprimand,[EM]face with steam from nose[EM]face with steam from nose[EM]pensive face[EM]pensive face[EM]pensive face[EM]sad but relieved face[EM],0.17843620479106903,test
+717,effective reprimand,[EM]thumbs up[EM]pouting face[EM],0.9603380560874939,baseline
+718,effective reprimand,[EM]face with symbols on mouth[EM]dashing away[EM],0.28883737325668335,baseline
+719,effective reprimand,[EM]face with steam from nose[EM]thumbs up[EM],0.4410962760448456,baseline
+720,effective reprimand,[EM]anguished face[EM]ambulance[EM],0.41162124276161194,baseline
+721,effective step,[EM]ladder[EM]thumbs up[EM],0.8509246706962585,baseline
+722,effective step,[EM]footprints[EM]thumbs up[EM]right arrow[EM],0.9894493222236633,baseline
+723,effective step,[EM]ladder[EM]clapping hands[EM],0.8883007168769836,baseline
+724,effective step,[EM]footprints[EM]thumbs up[EM]light bulb[EM]speech balloon[EM],0.9963839650154114,baseline
+725,effective step,[EM]hundred points[EM]hundred points[EM]hundred points[EM]sparkles[EM],0.9957718849182129,train
+726,effective step,[EM]person walking[EM]thumbs up[EM],0.3281443417072296,baseline
+727,effective step,[EM]ladder[EM]dashing away[EM],0.44589707255363464,baseline
+728,effective step,[EM]footprints[EM]thumbs up[EM],0.9777145385742188,baseline
+729,effective step,[EM]motor scooter[EM]ambulance[EM],0.06131988763809204,baseline
+730,exotic cuisine,[EM]fork and knife with plate[EM]OK hand[EM],0.27393054962158203,baseline
+731,exotic cuisine,[EM]shallow pan of food[EM]alien[EM],0.9576106667518616,baseline
+732,exotic cuisine,[EM]Montenegro[EM]Venezuela[EM]Myanmar (Burma)[EM]taco[EM]bento box[EM]sushi[EM],0.9981480240821838,baseline
+733,exotic cuisine,[EM]stuffed flatbread[EM]smiling face with horns[EM],0.9692315459251404,baseline
+734,exotic cuisine,[EM]croissant[EM]bento box[EM]pizza[EM],0.5886713862419128,baseline
+735,exotic cuisine,[EM]mouth[EM]exploding head[EM]cup with straw[EM]bread[EM],0.9871225953102112,baseline
+736,exotic cuisine,[EM]cook[EM]thinking face[EM]taco[EM],0.7911261916160583,baseline
+737,exotic cuisine,[EM]clinking glasses[EM]globe showing Asia-Australia[EM],0.40446552634239197,baseline
+738,exotic cuisine,[EM]cooked rice[EM]pizza[EM],0.5159915685653687,baseline
+739,far country,[EM]left-right arrow[EM]globe showing Americas[EM]globe showing Asia-Australia[EM],0.8533439636230469,baseline
+740,far country,[EM]airplane departure[EM]luggage[EM]twelve-thirty[EM],0.9971365332603455,baseline
+741,far country,[EM]Åland Islands[EM]face with spiral eyes[EM],0.9956759810447693,baseline
+742,far country,[EM]SOON arrow[EM]prohibited[EM]United States[EM]Clipperton Island[EM]Côte d’Ivoire[EM]Ascension Island[EM]Åland Islands[EM],0.997444748878479,baseline
+743,far country,[EM]left-right arrow[EM]world map[EM],0.9392954707145691,baseline
+744,far country,[EM]passenger ship[EM]world map[EM]airplane departure[EM],0.7769092321395874,baseline
+745,far country,[EM]right arrow curving up[EM]globe showing Americas[EM]up-right arrow[EM],0.5936101078987122,baseline
+746,far country,[EM]map of Japan[EM]dashing away[EM],0.33768776059150696,baseline
+747,far journey,[EM]world map[EM]stopwatch[EM]smiling face with tear[EM],0.9949007630348206,baseline
+748,far journey,[EM]motorway[EM]footprints[EM],0.9953776597976685,baseline
+749,far journey,[EM]world map[EM]sleepy face[EM],0.9914268255233765,baseline
+750,far journey,[EM]automobile[EM]hourglass not done[EM]airplane[EM]railway track[EM],0.9961669445037842,baseline
+751,far journey,[EM]ship[EM]railway track[EM]world map[EM],0.9927915334701538,baseline
+752,far journey,[EM]bus[EM]motorway[EM],0.918214738368988,baseline
+753,far journey,[EM]telescope[EM]world map[EM],0.9958111047744751,baseline
+754,far journey,[EM]left luggage[EM]dashing away[EM],0.13687999546527863,baseline
+755,far side,[EM]globe showing Americas[EM]person standing[EM]person standing[EM],0.9943627715110779,baseline
+756,far side,[EM]motorway[EM]down-left arrow[EM],0.988656759262085,baseline
+757,far side,[EM]backhand index pointing right[EM]sleepy face[EM],0.8441000580787659,baseline
+758,far side,[EM]SOON arrow[EM]prohibited[EM]straight ruler[EM],0.9953383803367615,baseline
+759,far side,[EM]raised back of hand[EM]bridge at night[EM],0.4294684827327728,baseline
+760,far trek,[EM]sheaf of rice[EM]person walking[EM]snow-capped mountain[EM]compass[EM],0.9946395754814148,baseline
+761,far trek,[EM]person walking[EM]woman walking[EM]sweat droplets[EM],0.9937554001808167,baseline
+762,far trek,[EM]woman walking[EM]face with spiral eyes[EM],0.9901668429374695,baseline
+763,far trek,[EM]SOON arrow[EM]prohibited[EM]hiking boot[EM]person walking[EM],0.9689029455184937,baseline
+764,far trek,[EM]world map[EM]man climbing[EM],0.991195797920227,baseline
+765,far trek,[EM]hiking boot[EM]man walking[EM],0.9952379465103149,baseline
+766,far trek,[EM]backpack[EM]person walking[EM]evergreen tree[EM]evergreen tree[EM],0.986338198184967,baseline
+767,far trek,[EM]snow-capped mountain[EM]dashing away[EM],0.4406362771987915,baseline
+768,foreign accent,[EM]speaking head[EM]airplane[EM],0.4882044196128845,baseline
+769,foreign accent,[EM]speaking head[EM]alien[EM],0.7698311805725098,baseline
+770,foreign accent,[EM]Montenegro[EM]Venezuela[EM]Myanmar (Burma)[EM]studio microphone[EM]speaking head[EM],0.9981462359428406,baseline
+771,foreign accent,[EM]thinking face[EM]speaker high volume[EM]red question mark[EM]red question mark[EM],0.9917842745780945,baseline
+772,foreign accent,[EM]Japan[EM]France[EM]woman curly hair[EM],0.9983678460121155,baseline
+773,foreign accent,[EM]speaking head[EM]airplane[EM]ear[EM],0.6660714745521545,baseline
+774,foreign accent,[EM]woman shrugging[EM]speaking head[EM],0.37688666582107544,baseline
+775,foreign accent,[EM]speaking head[EM]globe showing Asia-Australia[EM],0.9893558025360107,baseline
+776,foreign accent,[EM]anxious face with sweat[EM]sneezing face[EM],0.44759833812713623,baseline
+777,foreign city,[EM]cityscape[EM]airplane[EM],0.9448439478874207,baseline
+778,foreign city,[EM]cityscape[EM]alien[EM],0.996614396572113,baseline
+779,foreign city,[EM]Montenegro[EM]Venezuela[EM]Myanmar (Burma)[EM]cityscape at dusk[EM],0.9979398846626282,baseline
+780,foreign city,[EM]red question mark[EM]red question mark[EM]cityscape at dusk[EM],0.9975797533988953,train
+781,foreign city,[EM]Georgia[EM]Czechia[EM]Ghana[EM],0.9982782006263733,baseline
+782,foreign city,[EM]desert island[EM]airplane[EM],0.30548080801963806,baseline
+783,foreign city,[EM]British Indian Ocean Territory[EM]luggage[EM],0.9825259447097778,baseline
+784,foreign city,[EM]cityscape[EM]globe showing Asia-Australia[EM],0.9870205521583557,baseline
+785,foreign city,[EM]cityscape[EM]sneezing face[EM],0.3426518142223358,baseline
+786,foreign nation,[EM]world map[EM]airplane[EM],0.48881104588508606,baseline
+787,foreign nation,[EM]United Nations[EM]alien[EM],0.9958457946777344,baseline
+788,foreign nation,[EM]Montenegro[EM]Venezuela[EM]Myanmar (Burma)[EM]United Nations[EM],0.9969274997711182,baseline
+789,foreign nation,[EM]red question mark[EM]red question mark[EM]St. Barthélemy[EM]Northern Mariana Islands[EM]Diego Garcia[EM]Tristan da Cunha[EM],0.99701988697052,train
+790,foreign nation,[EM]Åland Islands[EM]Afghanistan[EM]Albania[EM],0.9967873096466064,baseline
+791,foreign nation,[EM]desert island[EM]airplane[EM],0.23819440603256226,baseline
+792,foreign nation,[EM]British Indian Ocean Territory[EM]luggage[EM]Bosnia & Herzegovina[EM]Guyana[EM]Equatorial Guinea[EM]crossed flags[EM]Georgia[EM],0.9937843680381775,baseline
+793,foreign nation,[EM]United Kingdom[EM]globe showing Asia-Australia[EM],0.946768045425415,baseline
+794,foreign nation,[EM]Mauritius[EM]sneezing face[EM],0.07702716439962387,baseline
+795,fresh air,[EM]face exhaling[EM]wind face[EM],0.9014362692832947,baseline
+796,fresh air,[EM]thumbs up[EM]globe showing Europe-Africa[EM]dashing away[EM]multiply[EM]cigarette[EM],0.4211563467979431,baseline
+797,fresh air,[EM]airplane[EM]NEW button[EM],0.4018040895462036,baseline
+798,fresh air,[EM]sparkles[EM]wind face[EM],0.9820240139961243,baseline
+799,fresh air,[EM]nose[EM]dashing away[EM]no smoking[EM],0.45569542050361633,baseline
+800,fresh air,[EM]dashing away[EM]soap[EM],0.8097398281097412,baseline
+801,fresh air,[EM]mountain[EM]sun[EM]dashing away[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM],0.824567437171936,baseline
+802,fresh air,[EM]tornado[EM]face savoring food[EM],0.7663736343383789,baseline
+803,fresh air,[EM]helicopter[EM]turtle[EM],0.3204941153526306,baseline
+804,fresh bread,[EM]bread[EM]grinning face[EM],0.9912944436073303,baseline
+805,fresh bread,[EM]alarm clock[EM]control knobs[EM]bread[EM]hot springs[EM],0.9979324340820312,baseline
+806,fresh bread,[EM]bread[EM]NEW button[EM],0.997193455696106,baseline
+807,fresh bread,[EM]bread[EM]sparkles[EM],0.9975071549415588,baseline
+808,fresh bread,[EM]timer clock[EM]bread[EM]hot springs[EM],0.9886868596076965,baseline
+809,fresh bread,[EM]bread[EM]soap[EM],0.9968643188476562,baseline
+810,fresh bread,[EM]hourglass done[EM]man cook[EM]bread[EM],0.43843045830726624,baseline
+811,fresh bread,[EM]bread[EM]cook[EM],0.9926452040672302,baseline
+812,fresh bread,[EM]bread[EM]face savoring food[EM],0.9785336852073669,baseline
+813,fresh bread,[EM]bread[EM]woman tipping hand[EM],0.8671577572822571,baseline
+814,fresh lettuce,[EM]leafy green[EM]woman farmer[EM],0.996168315410614,baseline
+815,fresh lettuce,[EM]leafy green[EM]NEW button[EM],0.992464005947113,baseline
+816,fresh lettuce,[EM]leafy green[EM]sparkles[EM],0.9963923692703247,baseline
+817,fresh lettuce,[EM]leafy green[EM]man farmer[EM],0.996680736541748,baseline
+818,fresh lettuce,[EM]leafy green[EM]soap[EM],0.9936753511428833,baseline
+819,fresh lettuce,[EM]leafy green[EM]leaf fluttering in wind[EM]leaf fluttering in wind[EM],0.9960824847221375,baseline
+820,fresh lettuce,[EM]leafy green[EM]farmer[EM]leafy green[EM],0.9966735243797302,baseline
+821,fresh lettuce,[EM]leafy green[EM]face savoring food[EM],0.9857966899871826,baseline
+822,fresh lettuce,[EM]green salad[EM]woman tipping hand[EM],0.821067750453949,baseline
+823,fresh scent,[EM]nose[EM]wind face[EM]OK hand[EM]relieved face[EM],0.7645801305770874,baseline
+824,fresh scent,[EM]nose[EM]dashing away[EM]grinning face with big eyes[EM],0.957920491695404,baseline
+825,fresh scent,[EM]nose[EM]NEW button[EM],0.8618467450141907,baseline
+826,fresh scent,[EM]dashing away[EM]sparkles[EM]smiling face with heart-eyes[EM],0.9901853799819946,baseline
+827,fresh scent,[EM]lemon[EM]tangerine[EM]nose[EM],0.997774600982666,baseline
+828,fresh scent,[EM]nose[EM]soap[EM]dashing away[EM],0.9964322447776794,baseline
+829,fresh scent,[EM]shower[EM]boy[EM]soap[EM]hibiscus[EM],0.22931523621082306,baseline
+830,fresh scent,[EM]nose[EM]face savoring food[EM],0.9499369263648987,baseline
+831,fresh scent,[EM]lemon[EM]turtle[EM],0.37605583667755127,baseline
+832,full attention,[EM]red exclamation mark[EM]hundred points[EM],0.9579718708992004,baseline
+833,full attention,[EM]face with monocle[EM]woman[EM]exploding head[EM],0.9933875203132629,baseline
+834,full attention,[EM]man technologist[EM]nerd face[EM]man teacher[EM]man student[EM],0.9939283728599548,baseline
+835,full attention,[EM]writing hand[EM]face with monocle[EM],0.9934754371643066,baseline
+836,full attention,[EM]ear with hearing aid[EM]man raising hand[EM]school[EM],0.9924429059028625,baseline
+837,full attention,[EM]bellhop bell[EM]full moon[EM],0.44170790910720825,baseline
+838,full auditorium,[EM]person[EM]ticket[EM]man[EM]person curly hair[EM]woman curly hair[EM]Japanese no vacancy button[EM],-0.20956048369407654,baseline
+839,full auditorium,[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]man standing[EM]synagogue[EM],0.9914836883544922,train
+840,full auditorium,[EM]man technologist[EM]woman technologist[EM]school[EM],0.9978381991386414,baseline
+841,full auditorium,[EM]flying saucer[EM]cross mark[EM]stadium[EM],-0.16338446736335754,baseline
+842,full auditorium,[EM]school[EM]Japanese no vacancy button[EM],0.07799369841814041,baseline
+843,full auditorium,[EM]school[EM]fuel pump[EM],0.9928534626960754,baseline
+844,full auditorium,[EM]admission tickets[EM]admission tickets[EM]performing arts[EM],0.9964434504508972,train
+845,full auditorium,[EM]person bouncing ball[EM]full moon[EM],0.051131732761859894,baseline
+846,full game,[EM]FREE button[EM]hundred points[EM]video game[EM],0.9984368085861206,baseline
+847,full game,[EM]basketball[EM]bullseye[EM],-0.05283353850245476,baseline
+848,full game,[EM]hundred points[EM]video game[EM],0.9975461363792419,baseline
+849,full game,[EM]chequered flag[EM]video game[EM],0.9965654611587524,baseline
+850,full game,[EM]video game[EM]thumbs up[EM],0.9848657250404358,baseline
+851,full game,[EM]alien monster[EM]twelve o’clock[EM],0.1830788552761078,baseline
+852,full game,[EM]men holding hands[EM]video game[EM]men holding hands[EM],0.9497096538543701,baseline
+853,full game,[EM]video game[EM]full moon[EM],0.5848970413208008,baseline
+854,full glass,[EM]plus[EM]glass of milk[EM]potable water[EM]potable water[EM]potable water[EM]potable water[EM]potable water[EM]Japanese no vacancy button[EM],0.9926215410232544,baseline
+855,full glass,[EM]Japanese no vacancy button[EM]glass of milk[EM],0.6197975277900696,baseline
+856,full glass,[EM]glass of milk[EM]hundred points[EM],0.9987227320671082,baseline
+857,full glass,[EM]glass of milk[EM]potable water[EM],0.9962884187698364,baseline
+858,full glass,[EM]check mark button[EM]potable water[EM],0.8191929459571838,baseline
+859,full glass,[EM]clinking glasses[EM]glass of milk[EM],0.97873854637146,baseline
+860,full glass,[EM]glass of milk[EM]full moon[EM],0.6777404546737671,baseline
+861,full life,[EM]family man woman girl boy[EM]heart suit[EM]briefcase[EM]money bag[EM]money bag[EM]money bag[EM]hundred points[EM],0.5304661989212036,baseline
+862,full life,[EM]snow-capped mountain[EM]moon viewing ceremony[EM]sunrise over mountains[EM],0.4909527003765106,baseline
+863,full life,[EM]smiling face[EM]smiling face with hearts[EM]house with garden[EM],0.995628297328949,baseline
+864,full life,[EM]smiling face with smiling eyes[EM]party popper[EM]relieved face[EM]smiling face with open hands[EM]partying face[EM]star-struck[EM],0.9884840250015259,baseline
+865,full life,[EM]heart suit[EM]smiling face with smiling eyes[EM],0.9742026329040527,baseline
+866,full life,[EM]rolling on the floor laughing[EM]hot face[EM]hot face[EM]rolling on the floor laughing[EM],0.9941913485527039,baseline
+867,full life,[EM]partying face[EM]grinning squinting face[EM]couple with heart[EM],0.39683178067207336,baseline
+868,full life,[EM]pensive face[EM]full moon[EM],0.3510317802429199,baseline
+869,heavy fog,[EM]foggy[EM]fog[EM]multiply[EM]hundred points[EM],0.9972031712532043,baseline
+870,heavy fog,[EM]fog[EM]man lifting weights[EM],0.9861618280410767,baseline
+871,heavy fog,[EM]face in clouds[EM]fog[EM],0.8014880418777466,baseline
+872,heavy fog,[EM]face with raised eyebrow[EM]fog[EM],0.6201024651527405,baseline
+873,heavy fog,[EM]face in clouds[EM]downcast face with sweat[EM],0.37715670466423035,baseline
+874,heavy fog,[EM]dashing away[EM]fog[EM],0.9907932877540588,baseline
+875,heavy fog,[EM]fog[EM]check mark[EM],0.34661316871643066,baseline
+876,heavy load,[EM]package[EM]package[EM]package[EM]package[EM]package[EM]package[EM]package[EM]package[EM]package[EM]multiply[EM]hundred points[EM],0.9897305965423584,train
+877,heavy load,[EM]backpack[EM]person lifting weights[EM],0.993687629699707,baseline
+878,heavy load,[EM]package[EM]man lifting weights[EM],0.9966052770614624,baseline
+879,heavy load,[EM]tractor[EM]person lifting weights light skin tone[EM]luggage[EM],0.9927778244018555,baseline
+880,heavy load,[EM]person lifting weights[EM]collision[EM],0.9938501715660095,baseline
+881,heavy load,[EM]package[EM]downcast face with sweat[EM],0.905902087688446,baseline
+882,heavy load,[EM]purse[EM]flexed biceps[EM],0.47321707010269165,baseline
+883,heavy load,[EM]credit card[EM]check mark[EM],0.4578552544116974,baseline
+884,heavy metal,[EM]gear[EM]person lifting weights[EM],0.9864940643310547,baseline
+885,heavy metal,[EM]link[EM]balance scale[EM],0.329890638589859,baseline
+886,heavy metal,[EM]hammer and wrench[EM]person lifting weights light skin tone[EM]anchor[EM]link[EM]nut and bolt[EM]crossed swords[EM],0.6903280019760132,baseline
+887,heavy metal,[EM]chains[EM]hammer and pick[EM],0.9955935478210449,baseline
+888,heavy metal,[EM]rock[EM]downcast face with sweat[EM],0.9432601928710938,baseline
+889,heavy metal,[EM]gear[EM]balance scale[EM],0.9596540927886963,baseline
+890,heavy metal,[EM]anchor[EM]check mark[EM],0.4144577085971832,baseline
+891,high building,[EM]office building[EM]TOP arrow[EM],0.944482147693634,baseline
+892,high building,[EM]Tokyo tower[EM]TOP arrow[EM],0.9974594116210938,baseline
+893,high building,[EM]Tokyo tower[EM]up arrow[EM],0.9973273873329163,baseline
+894,high building,[EM]office building[EM]TOP arrow[EM]cityscape at dusk[EM],0.9772111177444458,baseline
+895,high building,[EM]castle[EM]Tokyo tower[EM]Japanese castle[EM],0.9966088533401489,baseline
+896,high building,[EM]cityscape[EM]up arrow[EM],0.9139396548271179,baseline
+897,high building,[EM]office building[EM]ladder[EM],0.9541818499565125,baseline
+898,high building,[EM]backhand index pointing up[EM]office building[EM],0.9953724145889282,baseline
+899,high building,[EM]office building[EM]high voltage[EM],0.10725916922092438,baseline
+900,high ceiling,[EM]hot springs[EM]sun[EM]hot face[EM]thermometer[EM],0.9373047947883606,baseline
+901,high ceiling,[EM]hot face[EM]TOP arrow[EM],0.7011263966560364,baseline
+902,high ceiling,[EM]sun[EM]hot face[EM],0.6270832419395447,baseline
+903,high ceiling,[EM]woozy face[EM]face with thermometer[EM]hot face[EM],0.9100414514541626,baseline
+904,high ceiling,[EM]hot springs[EM]hot face[EM]sun[EM]bed[EM],0.9569673538208008,baseline
+905,high ceiling,[EM]sun[EM]thermometer[EM],0.7104502320289612,baseline
+906,high ceiling,[EM]face with thermometer[EM]thermometer[EM]backhand index pointing up[EM],0.7313272356987,baseline
+907,high ceiling,[EM]office building[EM]high voltage[EM],0.09550347179174423,baseline
+908,high forehead,[EM]pinching hand[EM]man bald[EM],0.2641690671443939,baseline
+909,high forehead,[EM]woman bald[EM]TOP arrow[EM],0.9878249168395996,baseline
+910,high forehead,[EM]old man[EM]up arrow[EM],0.9381880760192871,baseline
+911,high forehead,[EM]cross mark[EM]man bald[EM]boy[EM]man[EM],0.26855596899986267,baseline
+912,high forehead,[EM]woman bald[EM]up arrow[EM],0.9926497340202332,baseline
+913,high forehead,[EM]man bald[EM]index pointing up[EM],0.9683922529220581,baseline
+914,high forehead,[EM]woman facepalming light skin tone[EM]ladder[EM],0.6590819358825684,baseline
+915,high forehead,[EM]backhand index pointing up[EM]man bald[EM],0.987619161605835,baseline
+916,high forehead,[EM]anxious face with sweat[EM]high-heeled shoe[EM],0.5078577399253845,baseline
+917,high hope,[EM]folded hands[EM]smiling face with halo[EM],0.838758111000061,baseline
+918,high hope,[EM]star of David[EM]TOP arrow[EM],0.41629520058631897,baseline
+919,high hope,[EM]smiling face[EM]up arrow[EM],0.9501066207885742,baseline
+920,high hope,[EM]crossed fingers[EM]TOP arrow[EM]folded hands[EM]shooting star[EM]dizzy[EM]four leaf clover[EM]smiling face with open hands[EM],0.9880944490432739,baseline
+921,high hope,[EM]smiling face with halo[EM]up arrow[EM]crossed fingers[EM],0.9746955037117004,baseline
+922,high hope,[EM]folded hands[EM]up arrow[EM],0.9872636198997498,baseline
+923,high hope,[EM]folded hands medium-light skin tone[EM]ladder[EM],0.22228127717971802,baseline
+924,high hope,[EM]relieved face[EM]folded hands[EM]backhand index pointing up[EM],0.9939138889312744,baseline
+925,high hope,[EM]folded hands[EM]high voltage[EM],0.2978421151638031,baseline
+926,high mountain,[EM]astonished face[EM]snow-capped mountain[EM],0.865959107875824,baseline
+927,high mountain,[EM]mount fuji[EM]TOP arrow[EM],0.23039238154888153,baseline
+928,high mountain,[EM]snow-capped mountain[EM]up arrow[EM],0.9943922758102417,baseline
+929,high mountain,[EM]mountain[EM]TOP arrow[EM],0.9845127463340759,baseline
+930,high mountain,[EM]snow-capped mountain[EM]mountain[EM]mount fuji[EM],0.7727451324462891,baseline
+931,high mountain,[EM]mountain[EM]up arrow[EM],0.9970880150794983,baseline
+932,high mountain,[EM]snow-capped mountain[EM]ladder[EM],0.9919607639312744,baseline
+933,high mountain,[EM]backhand index pointing up[EM]snow-capped mountain[EM],0.9902441501617432,baseline
+934,high mountain,[EM]mountain[EM]high voltage[EM],0.40073105692863464,baseline
+935,high opinion,[EM]hundred points[EM]speaking head[EM],0.8755789399147034,baseline
+936,high opinion,[EM]speaking head[EM]TOP arrow[EM],0.9395796656608582,baseline
+937,high opinion,[EM]man student[EM]woman health worker[EM]thumbs up[EM],0.987395167350769,baseline
+938,high opinion,[EM]man health worker[EM]TOP arrow[EM]woman health worker[EM],0.9109776020050049,baseline
+939,high opinion,[EM]double exclamation mark[EM]red exclamation mark[EM],0.9950087666511536,baseline
+940,high opinion,[EM]speaking head[EM]up arrow[EM],0.9782259464263916,baseline
+941,high opinion,[EM]backhand index pointing up[EM]speaking head[EM],0.7393094897270203,baseline
+942,high opinion,[EM]thinking face[EM]high voltage[EM],0.14944632351398468,baseline
+943,high point,[EM]index pointing up[EM]TOP arrow[EM],0.9879674315452576,baseline
+944,high point,[EM]backhand index pointing up[EM]TOP arrow[EM],0.9846165180206299,baseline
+945,high point,[EM]backhand index pointing right[EM]up arrow[EM],0.46554136276245117,baseline
+946,high point,[EM]backhand index pointing right[EM]TOP arrow[EM]Tokyo tower[EM],0.8496789336204529,baseline
+947,high point,[EM]index pointing up[EM]up arrow[EM],0.9897036552429199,baseline
+948,high point,[EM]backhand index pointing up[EM]ladder[EM],0.9773057103157043,baseline
+949,high point,[EM]backhand index pointing up[EM]red triangle pointed up[EM],0.994773268699646,baseline
+950,high point,[EM]index pointing up[EM]high voltage[EM],0.10721148550510406,baseline
+951,high price,[EM]money with wings[EM]TOP arrow[EM],0.41929805278778076,baseline
+952,high price,[EM]heavy dollar sign[EM]up arrow[EM],0.9742077589035034,baseline
+953,high price,[EM]dollar banknote[EM]TOP arrow[EM]money with wings[EM],0.8632601499557495,baseline
+954,high price,[EM]money-mouth face[EM]money with wings[EM]bank[EM],0.9952903389930725,baseline
+955,high price,[EM]money bag[EM]label[EM],0.9373324513435364,baseline
+956,high price,[EM]heavy dollar sign[EM]ladder[EM],0.939829409122467,baseline
+957,high price,[EM]exploding head[EM]heavy dollar sign[EM]backhand index pointing up[EM],0.9967442750930786,baseline
+958,high price,[EM]bookmark[EM]high voltage[EM],0.11779072135686874,baseline
+959,high risk,[EM]warning[EM]face with medical mask[EM]skull and crossbones[EM],0.9899213910102844,baseline
+960,high risk,[EM]skull and crossbones[EM]TOP arrow[EM],0.8742232322692871,baseline
+961,high risk,[EM]biohazard[EM]radioactive[EM]warning[EM],0.9438790082931519,baseline
+962,high risk,[EM]SOS button[EM]TOP arrow[EM],0.9044044613838196,baseline
+963,high risk,[EM]skull and crossbones[EM]mount fuji[EM]biohazard[EM],0.7486927509307861,baseline
+964,high risk,[EM]red exclamation mark[EM]skull[EM],0.5703769326210022,baseline
+965,high risk,[EM]biohazard[EM]radioactive[EM]person gesturing NO[EM]backhand index pointing up[EM],0.9975085854530334,baseline
+966,high risk,[EM]radioactive[EM]high voltage[EM],0.14735980331897736,baseline
+967,high river,[EM]national park[EM]TOP arrow[EM],0.980292797088623,baseline
+968,high river,[EM]national park[EM]up arrow[EM],0.9904487133026123,baseline
+969,high river,[EM]water wave[EM]TOP arrow[EM]national park[EM],0.9832100868225098,baseline
+970,high river,[EM]national park[EM]ladder[EM],0.9810804128646851,baseline
+971,high river,[EM]backhand index pointing up[EM]water wave[EM],0.9773781299591064,baseline
+972,high river,[EM]national park[EM]high voltage[EM],0.18853594362735748,baseline
+973,high temperature,[EM]hot springs[EM]sun[EM]hot face[EM]thermometer[EM],0.9413293600082397,baseline
+974,high temperature,[EM]hot face[EM]TOP arrow[EM],0.758403480052948,baseline
+975,high temperature,[EM]face with thermometer[EM]thermometer[EM],0.621565580368042,baseline
+976,high temperature,[EM]woozy face[EM]face with thermometer[EM]hot face[EM],0.954382061958313,baseline
+977,high temperature,[EM]hot springs[EM]hot face[EM]sun[EM]bed[EM],0.922019362449646,baseline
+978,high temperature,[EM]sun[EM]thermometer[EM],0.9573179483413696,baseline
+979,high temperature,[EM]face with thermometer[EM]thermometer[EM]backhand index pointing up[EM],0.9909458756446838,baseline
+980,high temperature,[EM]thermometer[EM]high voltage[EM],0.44808512926101685,baseline
+981,hot argument,[EM]speaking head[EM]fire[EM]multiply[EM]speaking head[EM]check mark[EM]loudspeaker[EM],0.7359493970870972,baseline
+982,hot argument,[EM]man gesturing NO[EM]person gesturing NO[EM]face with steam from nose[EM]right anger bubble[EM],0.9953141212463379,baseline
+983,hot argument,[EM]face with symbols on mouth[EM]pouting face[EM]speaking head[EM],0.3767678439617157,baseline
+984,hot argument,[EM]speaking head[EM]face with symbols on mouth[EM]megaphone[EM],0.9953042268753052,baseline
+985,hot argument,[EM]speech balloon[EM]face with symbols on mouth[EM]pouting face[EM],0.8395369052886963,baseline
+986,hot argument,[EM]face with symbols on mouth[EM]fire[EM],0.8249875903129578,baseline
+987,hot argument,[EM]speaking head[EM]anger symbol[EM],0.3805547058582306,baseline
+988,hot argument,[EM]speech balloon[EM]face with symbols on mouth[EM],0.9420746564865112,baseline
+989,hot argument,[EM]oncoming fist[EM]hot springs[EM],0.07570505887269974,baseline
+990,hot doll,[EM]girl[EM]hot face[EM],0.3157797157764435,baseline
+991,hot doll,[EM]fire[EM]nesting dolls[EM]fire[EM],0.9982485771179199,baseline
+992,hot doll,[EM]woman blond hair[EM]nail polish[EM],0.9912495017051697,baseline
+993,hot doll,[EM]nesting dolls[EM]fire[EM],0.9989271759986877,baseline
+994,hot doll,[EM]nesting dolls[EM]keycap 1[EM]Japanese dolls[EM],0.9988688230514526,baseline
+995,hot doll,[EM]teddy bear[EM]fire[EM],0.9979513883590698,baseline
+996,hot doll,[EM]nesting dolls[EM]hot springs[EM],0.9986931085586548,baseline
+997,hot doll,[EM]teddy bear[EM]hot face[EM],0.9973741769790649,baseline
+998,hot doll,[EM]Japanese dolls[EM]hot pepper[EM],0.16141174733638763,baseline
+999,hot forehead,[EM]face with thermometer[EM]sun[EM]thermometer[EM]face with medical mask[EM]sleeping face[EM]cold face[EM],0.9971373677253723,baseline
+1000,hot forehead,[EM]face with thermometer[EM]woozy face[EM]man health worker[EM],0.44042283296585083,baseline
+1001,hot forehead,[EM]face with thermometer[EM]fire[EM]thermometer[EM],0.9616380929946899,baseline
+1002,hot forehead,[EM]face with thermometer[EM]hot face[EM]face with thermometer[EM],0.9880547523498535,baseline
+1003,hot forehead,[EM]face with thermometer[EM]thermometer[EM],0.985152006149292,baseline
+1004,hot forehead,[EM]exploding head[EM]hot springs[EM],0.9670583009719849,baseline
+1005,hot forehead,[EM]face with thermometer[EM]stethoscope[EM],0.9458392262458801,baseline
+1006,hot forehead,[EM]face with head-bandage[EM]face with thermometer[EM],0.18100321292877197,baseline
+1007,hot forehead,[EM]anxious face with sweat[EM]fire[EM],0.6216966509819031,baseline
+1008,hot merchandise,[EM]eyes[EM]fire[EM]raised hand[EM]raised back of hand[EM]folded hands[EM]pleading face[EM]money bag[EM],0.9958862662315369,baseline
+1009,hot merchandise,[EM]fire[EM]fire[EM]t-shirt[EM]flat shoe[EM]sunglasses[EM],0.9984952211380005,train
+1010,hot merchandise,[EM]wrapped gift[EM]fire[EM]wrapped gift[EM],0.9525119066238403,baseline
+1011,hot merchandise,[EM]label[EM]fire[EM],0.9892992973327637,baseline
+1012,hot merchandise,[EM]shopping bags[EM]fire[EM]teddy bear[EM]t-shirt[EM]dress[EM]pencil[EM]notebook with decorative cover[EM],0.9940611124038696,baseline
+1013,hot merchandise,[EM]mobile phone[EM]fire[EM],0.9851722717285156,baseline
+1014,hot merchandise,[EM]t-shirt[EM]left speech bubble[EM],0.8259459137916565,baseline
+1015,hot merchandise,[EM]teddy bear[EM]thumbs up[EM]t-shirt[EM],0.8160315155982971,baseline
+1016,hot merchandise,[EM]shopping cart[EM]hot pepper[EM],0.4711737632751465,baseline
+1017,hot stove,[EM]hot springs[EM]thermometer[EM]cooking[EM],0.9979183077812195,baseline
+1018,hot stove,[EM]cooking[EM]hot springs[EM],0.9974782466888428,baseline
+1019,hot stove,[EM]control knobs[EM]hot springs[EM]fire[EM],0.9978820085525513,baseline
+1020,hot stove,[EM]cooking[EM]fire[EM],0.9985367655754089,baseline
+1021,hot stove,[EM]cooking[EM]hot face[EM]fire[EM],0.9984707832336426,baseline
+1022,hot stove,[EM]fire[EM]hot springs[EM],0.999019980430603,train
+1023,hot stove,[EM]hot springs[EM]fire[EM],0.9988402128219604,train
+1024,hot stove,[EM]thermometer[EM]name badge[EM]fondue[EM],0.369509756565094,baseline
+1025,hot stove,[EM]cook[EM]hot pepper[EM],0.4513579308986664,baseline
+1026,hot temper,[EM]neutral face[EM]fire[EM]pouting face[EM],0.9973741173744202,baseline
+1027,hot temper,[EM]face with symbols on mouth[EM]face with steam from nose[EM]man gesturing NO[EM]man gesturing NO[EM],0.9977023601531982,baseline
+1028,hot temper,[EM]face with steam from nose[EM]pouting face[EM]face with symbols on mouth[EM],0.9973345994949341,baseline
+1029,hot temper,[EM]face with steam from nose[EM]pouting face[EM],0.5529770255088806,baseline
+1030,hot temper,[EM]pouting face[EM]fire[EM],0.9972825646400452,baseline
+1031,hot temper,[EM]face with symbols on mouth[EM]anger symbol[EM],0.8610811233520508,baseline
+1032,hot temper,[EM]face with symbols on mouth[EM]pouting face[EM],0.3233996331691742,baseline
+1033,hot temper,[EM]face with thermometer[EM]hot springs[EM],0.1198735237121582,baseline
+1034,hot topic,[EM]speaker high volume[EM]fire[EM]speaking head[EM]speaking head[EM]thinking face[EM]thinking face[EM]thumbs up[EM]thumbs down[EM],0.8616392612457275,baseline
+1035,hot topic,[EM]speech balloon[EM]star-struck[EM],0.5805383324623108,baseline
+1036,hot topic,[EM]studio microphone[EM]sun[EM]speaking head[EM],0.4341437518596649,baseline
+1037,hot topic,[EM]fire[EM]fire[EM]fire[EM]fire[EM]newspaper[EM],0.5738817453384399,test
+1038,hot topic,[EM]speech balloon[EM]fire[EM],0.8355007171630859,baseline
+1039,hot topic,[EM]speaking head[EM]fire[EM],0.6771019101142883,baseline
+1040,hot topic,[EM]speech balloon[EM]hot face[EM],0.39286506175994873,baseline
+1041,hot topic,[EM]person shrugging[EM]hot springs[EM],0.19437825679779053,baseline
+1042,hot water,[EM]sweat droplets[EM]hot springs[EM],0.9895775318145752,baseline
+1043,hot water,[EM]potable water[EM]hot face[EM],0.6311774849891663,baseline
+1044,hot water,[EM]droplet[EM]hot springs[EM],0.945187509059906,baseline
+1045,hot water,[EM]sweat droplets[EM]fire[EM],0.9182295799255371,baseline
+1046,hot water,[EM]droplet[EM]hot springs[EM]potable water[EM],0.9972254037857056,baseline
+1047,hot water,[EM]potable water[EM]hot springs[EM],0.9026551246643066,baseline
+1048,hot water,[EM]sweat droplets[EM]name badge[EM],0.18367382884025574,baseline
+1049,hot water,[EM]person playing water polo[EM]hot pepper[EM],0.2555571496486664,baseline
+1050,idyllic life,[EM]man getting massage[EM]woman in steamy room[EM]man in steamy room[EM]smiling face with halo[EM],0.9930455684661865,baseline
+1051,idyllic life,[EM]party popper[EM]thumbs up[EM],0.6880541443824768,baseline
+1052,idyllic life,[EM]rainbow[EM]smiling face[EM],0.10663247853517532,baseline
+1053,idyllic life,[EM]woman tipping hand[EM]person tipping hand[EM]handbag[EM]money with wings[EM],0.9947078824043274,baseline
+1054,idyllic life,[EM]raising hands[EM]party popper[EM]hundred points[EM]family man woman girl boy[EM],0.9957457184791565,baseline
+1055,idyllic life,[EM]yawning face[EM]woman[EM]sleeping face[EM],0.9942680597305298,baseline
+1056,idyllic life,[EM]house with garden[EM]beaming face with smiling eyes[EM]person in bed[EM],0.9747095704078674,baseline
+1057,idyllic life,[EM]pensive face[EM]violin[EM],0.3985501229763031,baseline
+1058,idyllic spot,[EM]sunrise over mountains[EM]framed picture[EM],0.9807703495025635,baseline
+1059,idyllic spot,[EM]flashlight[EM]thumbs up[EM],0.6617285013198853,baseline
+1060,idyllic spot,[EM]national park[EM]sparkles[EM],0.9136369228363037,baseline
+1061,idyllic spot,[EM]person gesturing OK[EM]thumbs up[EM]woman gesturing OK[EM]hundred points[EM],0.9954949617385864,baseline
+1062,idyllic spot,[EM]raising hands[EM]party popper[EM]hundred points[EM]beach with umbrella[EM],0.9930226802825928,baseline
+1063,idyllic spot,[EM]palm tree[EM]woman[EM]mate[EM],0.9939115047454834,baseline
+1064,idyllic spot,[EM]sun behind large cloud[EM]beaming face with smiling eyes[EM]bento box[EM]camping[EM],0.9785705804824829,baseline
+1065,idyllic spot,[EM]sunglasses[EM]grinning face with big eyes[EM]palm tree[EM],0.9857433438301086,baseline
+1066,idyllic spot,[EM]play or pause button[EM]rose[EM],0.4695615768432617,baseline
+1067,immediate influence,[EM]dashing away[EM]dashing away[EM]man standing[EM]shuffle tracks button[EM]woman standing[EM],0.9934951066970825,train
+1068,immediate influence,[EM]man dancing[EM]woman dancing[EM]person raising hand[EM]woman raising hand[EM]man raising hand[EM],0.07139188796281815,baseline
+1069,immediate influence,[EM]woman judge[EM]fast-forward button[EM]man judge[EM],0.7541124820709229,baseline
+1070,immediate influence,[EM]family man woman girl boy[EM]SOON arrow[EM],0.9068580269813538,baseline
+1071,immediate influence,[EM]backhand index pointing down[EM]man police officer[EM]folded hands[EM]handshake[EM],0.11573179066181183,baseline
+1072,immediate influence,[EM]left-right arrow[EM]people holding hands[EM]red exclamation mark[EM],0.8430835604667664,baseline
+1073,immediate influence,[EM]battery[EM]SOS button[EM],0.3739866614341736,baseline
+1074,immediate reply,[EM]dashing away[EM]dashing away[EM]repeat button[EM]speech balloon[EM],0.9974409937858582,train
+1075,immediate reply,[EM]outbox tray[EM]red exclamation mark[EM],0.9786416292190552,baseline
+1076,immediate reply,[EM]telephone receiver[EM]fast-forward button[EM]mobile phone[EM],0.9971129894256592,baseline
+1077,immediate reply,[EM]incoming envelope[EM]SOON arrow[EM],0.9959908127784729,baseline
+1078,immediate reply,[EM]mobile phone with arrow[EM]police car light[EM],0.9924868941307068,baseline
+1079,immediate reply,[EM]telephone receiver[EM]man running[EM]thought balloon[EM],0.9973611831665039,baseline
+1080,immediate reply,[EM]incoming envelope[EM]fast-forward button[EM],0.997195839881897,baseline
+1081,immediate reply,[EM]mobile phone with arrow[EM]stopwatch[EM],0.7522354125976562,baseline
+1082,immediate reply,[EM]right arrow curving left[EM]SOS button[EM],0.219109907746315,baseline
+1083,inadequate income,[EM]heavy dollar sign[EM]cross mark[EM]heavy dollar sign[EM],0.9818788766860962,baseline
+1084,inadequate income,[EM]money bag[EM]warning[EM],0.8862928748130798,baseline
+1085,inadequate income,[EM]money bag[EM]disappointed face[EM],0.9214373230934143,baseline
+1086,inadequate income,[EM]money bag[EM]cross mark[EM]purse[EM],0.9971317052841187,baseline
+1087,inadequate income,[EM]money with wings[EM]person shrugging[EM]houses[EM],0.9894163608551025,baseline
+1088,inadequate income,[EM]dollar banknote[EM]crossed fingers[EM],0.8851459622383118,baseline
+1089,inadequate income,[EM]money bag[EM]chart decreasing[EM],0.9836910963058472,baseline
+1090,inadequate income,[EM]BACK arrow[EM]disappointed face[EM],0.4062749743461609,baseline
+1091,inadequate staff,[EM]person in tuxedo[EM]cross mark[EM],0.9377620220184326,baseline
+1092,inadequate staff,[EM]teacher[EM]warning[EM]woman teacher[EM]man teacher[EM],0.9941697120666504,baseline
+1093,inadequate staff,[EM]necktie[EM]confounded face[EM],0.3027045726776123,baseline
+1094,inadequate staff,[EM]office worker[EM]cross mark[EM]man office worker[EM],0.982187032699585,baseline
+1095,inadequate staff,[EM]person tipping hand[EM]cross mark[EM],0.9019137620925903,baseline
+1096,inadequate staff,[EM]office worker[EM]person shrugging[EM]keycap 0[EM],0.615453839302063,baseline
+1097,inadequate staff,[EM]men holding hands[EM]pinching hand[EM]people holding hands[EM],0.26274871826171875,baseline
+1098,inadequate staff,[EM]woman office worker[EM]red triangle pointed down[EM]man office worker[EM],0.995254635810852,baseline
+1099,inadequate staff,[EM]medical symbol[EM]thermometer[EM],0.038717709481716156,baseline
+1100,inadequate training,[EM]teacher[EM]cross mark[EM],0.9831476211547852,baseline
+1101,inadequate training,[EM]woman running[EM]warning[EM]flexed biceps[EM]person lifting weights[EM],0.9931203126907349,baseline
+1102,inadequate training,[EM]men holding hands[EM]persevering face[EM]men holding hands[EM]women holding hands[EM],0.1385372430086136,baseline
+1103,inadequate training,[EM]man in tuxedo[EM]person in tuxedo[EM]cross mark[EM],0.992853581905365,baseline
+1104,inadequate training,[EM]people wrestling[EM]cross mark[EM]person fencing[EM],0.9927938580513,baseline
+1105,inadequate training,[EM]light rail[EM]person shrugging[EM]clipboard[EM],0.011453386396169662,baseline
+1106,inadequate training,[EM]woman lifting weights[EM]thumbs down[EM],0.30917027592658997,baseline
+1107,inadequate training,[EM]woman raising hand light skin tone[EM]red triangle pointed down[EM]Japanese post office[EM],0.9928638935089111,baseline
+1108,inadequate training,[EM]person lifting weights[EM]expressionless face[EM],0.40422528982162476,baseline
+1109,ineffectual ruler,[EM]crown[EM]prince[EM]chart decreasing[EM]thumbs down[EM],0.9964874982833862,baseline
+1110,ineffectual ruler,[EM]straight ruler[EM]thumbs down[EM],0.9677814245223999,baseline
+1111,ineffectual ruler,[EM]prince[EM]thumbs down[EM]princess[EM],0.979961633682251,baseline
+1112,ineffectual ruler,[EM]woman technologist[EM]technologist[EM]man technologist[EM]thumbs down[EM]thumbs down[EM],0.8954406380653381,baseline
+1113,ineffectual ruler,[EM]prince[EM]cross mark[EM],0.4835822880268097,baseline
+1114,ineffectual ruler,[EM]police officer[EM]pouting face[EM],0.9163722395896912,baseline
+1115,ineffectual ruler,[EM]crown[EM]castle[EM]thumbs down[EM]thumbs down[EM]thumbs down[EM]men holding hands[EM]women holding hands[EM]pouting face[EM],0.8847394585609436,baseline
+1116,ineffectual ruler,[EM]person gesturing NO[EM]crown[EM],0.2005360871553421,baseline
+1117,ineffectual ruler,[EM]triangular ruler[EM]mouse face[EM],0.2950635552406311,baseline
+1118,ineffectual therapy,[EM]deaf woman[EM]ear[EM]thumbs down[EM]unamused face[EM],0.997432291507721,baseline
+1119,ineffectual therapy,[EM]person getting massage[EM]thumbs down[EM],0.9592374563217163,baseline
+1120,ineffectual therapy,[EM]hospital[EM]thumbs down[EM],0.992112398147583,baseline
+1121,ineffectual therapy,[EM]ear[EM]person[EM]cross mark[EM]cross mark[EM],0.9973883032798767,baseline
+1122,ineffectual therapy,[EM]man getting massage[EM]cross mark[EM]man health worker[EM],0.5653981566429138,baseline
+1123,ineffectual therapy,[EM]cross mark[EM]spiral notepad[EM]skull[EM],0.2029394805431366,baseline
+1124,ineffectual therapy,[EM]speaking head[EM]man health worker[EM]brain[EM]thumbs down[EM]frowning face[EM],0.7318447232246399,baseline
+1125,ineffectual therapy,[EM]woman gesturing NO[EM]pill[EM],0.1815272569656372,baseline
+1126,ineffectual therapy,[EM]woman health worker medium-dark skin tone[EM]mouse face[EM],0.06442742049694061,baseline
+1127,intelligent life,[EM]man teacher[EM]thumbs up[EM],0.6882680654525757,baseline
+1128,intelligent life,[EM]woman standing[EM]person standing[EM]man standing[EM],0.44277170300483704,baseline
+1129,intelligent life,[EM]nerd face[EM]student[EM],0.25783392786979675,baseline
+1130,intelligent life,[EM]alien[EM]graduation cap[EM],0.4125887453556061,baseline
+1131,intelligent life,[EM]paw prints[EM]robot[EM],0.06777150928974152,baseline
+1132,intelligent life,[EM]dog face[EM]nerd face[EM]fox[EM]bear[EM]squid[EM]deciduous tree[EM]spouting whale[EM]nerd face[EM],0.1396641731262207,baseline
+1133,intelligent life,[EM]microscope[EM]man scientist[EM]petri dish[EM]microbe[EM]brain[EM]brain[EM],0.7497311234474182,baseline
+1134,intelligent life,[EM]woman shrugging[EM]thinking face[EM],0.8940463662147522,baseline
+1135,intelligent life,[EM]pensive face[EM]dolphin[EM],0.03556453064084053,baseline
+1136,intelligent question,[EM]thinking face[EM]brain[EM],0.9680741429328918,baseline
+1137,intelligent question,[EM]red question mark[EM]brain[EM]speech balloon[EM],0.4632299542427063,baseline
+1138,intelligent question,[EM]brain[EM]person raising hand[EM]thought balloon[EM]student[EM],0.9978432655334473,baseline
+1139,intelligent question,[EM]red question mark[EM]man student[EM],0.2521500587463379,baseline
+1140,intelligent question,[EM]speaking head[EM]light bulb[EM]red question mark[EM],0.6740749478340149,baseline
+1141,intelligent question,[EM]nerd face[EM]thinking face[EM]red question mark[EM],0.7650998830795288,baseline
+1142,intelligent question,[EM]brain[EM]student[EM]red question mark[EM],0.9987351894378662,baseline
+1143,intelligent question,[EM]red question mark[EM]face with monocle[EM],0.30048897862434387,baseline
+1144,intelligent question,[EM]exclamation question mark[EM]dolphin[EM],0.46095848083496094,baseline
+1145,intelligent solution,[EM]light bulb[EM]brain[EM],0.9970951676368713,baseline
+1146,intelligent solution,[EM]red exclamation mark[EM]brain[EM]red exclamation mark[EM],0.9951009750366211,baseline
+1147,intelligent solution,[EM]magnifying glass tilted left[EM]nerd face[EM],0.978184700012207,baseline
+1148,intelligent solution,[EM]test tube[EM]graduation cap[EM],0.995284914970398,baseline
+1149,intelligent solution,[EM]check mark button[EM]light bulb[EM],0.6610875725746155,baseline
+1150,intelligent solution,[EM]light bulb[EM]nerd face[EM],0.9915172457695007,baseline
+1151,intelligent solution,[EM]thought balloon[EM]thinking face[EM]light bulb[EM]brain[EM],0.9125385284423828,baseline
+1152,intelligent solution,[EM]hundred points[EM]brain[EM],0.8191779255867004,baseline
+1153,intelligent solution,[EM]dragon[EM]dolphin[EM],0.4760412573814392,baseline
+1154,internal mechanism,[EM]joystick[EM]mobile phone with arrow[EM]woman technologist[EM],0.26957967877388,baseline
+1155,internal mechanism,[EM]gear[EM]dna[EM],0.946747362613678,baseline
+1156,internal mechanism,[EM]gear[EM]clockwise vertical arrows[EM],0.9127928018569946,baseline
+1157,internal mechanism,[EM]gear[EM]backhand index pointing right[EM]gear[EM]backhand index pointing left[EM],0.9952701926231384,baseline
+1158,internal mechanism,[EM]microbe[EM]face with medical mask[EM]pill[EM]crossed swords[EM],0.24980071187019348,baseline
+1159,internal mechanism,[EM]woman mechanic[EM]mechanical leg[EM],0.9938943982124329,baseline
+1160,internal mechanism,[EM]timer clock[EM]door[EM],0.0818793773651123,baseline
+1161,internal organ,[EM]man health worker[EM]brain[EM]stethoscope[EM],0.9937688112258911,baseline
+1162,internal organ,[EM]eyes[EM]brain[EM]anatomical heart[EM],0.9963604807853699,baseline
+1163,internal organ,[EM]brain[EM]anatomical heart[EM]lungs[EM],0.9963644742965698,test
+1164,internal organ,[EM]lungs[EM]anatomical heart[EM],0.997097909450531,train
+1165,internal organ,[EM]anatomical heart[EM]lungs[EM],0.9972068071365356,train
+1166,internal organ,[EM]anatomical heart[EM]brain[EM]lungs[EM],0.9965265393257141,train
+1167,internal organ,[EM]backhand index pointing left[EM]man office worker[EM]brain[EM]anatomical heart[EM]lungs[EM],0.9932408332824707,baseline
+1168,internal organ,[EM]dna[EM]syringe[EM],0.735978364944458,baseline
+1169,internal organ,[EM]face with rolling eyes[EM]door[EM],0.36836445331573486,baseline
+1170,internal sense,[EM]peace symbol[EM]dna[EM],0.9875248074531555,baseline
+1171,internal sense,[EM]person shrugging[EM]thinking face[EM],0.8485593199729919,baseline
+1172,internal sense,[EM]crystal ball[EM]face with monocle[EM],0.050302065908908844,baseline
+1173,internal sense,[EM]eyes[EM]backhand index pointing right[EM]backhand index pointing left[EM],0.9952243566513062,baseline
+1174,internal sense,[EM]backhand index pointing left[EM]man[EM]thought balloon[EM],0.9961649179458618,baseline
+1175,internal sense,[EM]brain[EM]nerd face[EM],0.20468932390213013,baseline
+1176,internal sense,[EM]upside-down face[EM]door[EM],0.46477586030960083,baseline
+1177,little boy,[EM]person standing[EM]boy[EM],0.9813095331192017,baseline
+1178,little boy,[EM]baby[EM]pinching hand[EM]boy[EM],0.35824352502822876,baseline
+1179,little boy,[EM]boy[EM]backhand index pointing down light skin tone[EM],0.9978565573692322,baseline
+1180,little boy,[EM]backhand index pointing left[EM]boy[EM]baby[EM],0.9790645837783813,baseline
+1181,little boy,[EM]boy[EM]pinching hand[EM],0.9812731146812439,baseline
+1182,little boy,[EM]boy[EM]call me hand[EM],0.5663429498672485,baseline
+1183,little house,[EM]up-down arrow[EM]house[EM]pinching hand[EM],0.9592011570930481,baseline
+1184,little house,[EM]downwards button[EM]house[EM],0.6736738681793213,baseline
+1185,little house,[EM]house with garden[EM]pinching hand[EM],0.9924634099006653,baseline
+1186,little house,[EM]house with garden[EM]framed picture[EM],0.9891958832740784,baseline
+1187,little house,[EM]house[EM]pinching hand light skin tone[EM],0.9935454726219177,baseline
+1188,little house,[EM]house[EM]pinching hand[EM],0.9964830875396729,baseline
+1189,little house,[EM]house[EM]call me hand[EM],0.3943706154823303,baseline
+1190,little man,[EM]up-down arrow[EM]person standing[EM]pinching hand[EM],0.7260008454322815,baseline
+1191,little man,[EM]person red hair[EM]boy[EM],0.9206153750419617,baseline
+1192,little man,[EM]man standing[EM]pinching hand[EM],0.4931313097476959,baseline
+1193,little man,[EM]man walking[EM]backhand index pointing down light skin tone[EM],0.8520731925964355,baseline
+1194,little man,[EM]boy[EM]flexed biceps[EM],0.8476009964942932,baseline
+1195,little man,[EM]man light skin tone[EM]pinching hand light skin tone[EM],0.9963462352752686,baseline
+1196,little man,[EM]man blond hair[EM]pinching hand[EM],0.24456262588500977,baseline
+1197,little man,[EM]man[EM]call me hand[EM],0.4508599638938904,baseline
+1198,low bow,[EM]woman bowing[EM]down-right arrow[EM],0.9902063608169556,baseline
+1199,low bow,[EM]backhand index pointing down[EM]ribbon[EM],0.9808335900306702,baseline
+1200,low bow,[EM]person bowing[EM]woman bowing[EM]man bowing[EM],0.9969837665557861,baseline
+1201,low bow,[EM]person bowing[EM]down-right arrow[EM]woman bowing[EM]man bowing[EM],0.9957554936408997,baseline
+1202,low bow,[EM]man bowing[EM]down arrow[EM],0.9886457920074463,baseline
+1203,low bow,[EM]man bowing[EM]woman bowing[EM],0.997174859046936,baseline
+1204,low bow,[EM]woman bowing light skin tone[EM]red triangle pointed down[EM],0.7223851084709167,baseline
+1205,low bow,[EM]bow and arrow[EM]speaker low volume[EM],0.4556208848953247,baseline
+1206,low ceiling,[EM]house[EM]down-right arrow[EM],0.582196831703186,baseline
+1207,low ceiling,[EM]house[EM]backhand index pointing down[EM],0.880328357219696,baseline
+1208,low ceiling,[EM]houses[EM]down-right arrow[EM],0.7839763164520264,baseline
+1209,low ceiling,[EM]TOP arrow[EM]down arrow[EM],0.9876548051834106,baseline
+1210,low ceiling,[EM]collision[EM]house[EM],0.969668447971344,baseline
+1211,low ceiling,[EM]office building[EM]red triangle pointed down[EM],0.7099896669387817,baseline
+1212,low ceiling,[EM]office building[EM]speaker low volume[EM],0.30811819434165955,baseline
+1213,low cloud,[EM]cloud[EM]down-right arrow[EM],0.9868428111076355,baseline
+1214,low cloud,[EM]cloud[EM]backhand index pointing down[EM],0.9914194941520691,baseline
+1215,low cloud,[EM]foggy[EM]cloud[EM],0.6131522059440613,baseline
+1216,low cloud,[EM]fog[EM]down-right arrow[EM],0.7357832789421082,baseline
+1217,low cloud,[EM]cloud[EM]down arrow[EM],0.9907093644142151,baseline
+1218,low cloud,[EM]sun behind large cloud[EM]cloud[EM],0.7934132814407349,baseline
+1219,low cloud,[EM]cloud[EM]cross mark[EM],0.61775141954422,baseline
+1220,low cloud,[EM]cloud[EM]red triangle pointed down[EM],0.9697719216346741,baseline
+1221,low cloud,[EM]cloud[EM]speaker low volume[EM],0.23468221724033356,baseline
+1222,low furniture,[EM]couch and lamp[EM]down-right arrow[EM],0.9837598204612732,baseline
+1223,low furniture,[EM]chair[EM]red triangle pointed down[EM]couch and lamp[EM],0.9934864044189453,baseline
+1224,low furniture,[EM]chair[EM]chair[EM]down arrow[EM],0.9941526651382446,train
+1225,low furniture,[EM]seat[EM]down-right arrow[EM]bed[EM],0.9654347896575928,baseline
+1226,low furniture,[EM]chair[EM]down arrow[EM],0.985054075717926,baseline
+1227,low furniture,[EM]bed[EM]cross mark[EM],0.665142834186554,baseline
+1228,low furniture,[EM]couch and lamp[EM]red triangle pointed down[EM],0.9906359314918518,baseline
+1229,low furniture,[EM]couch and lamp[EM]speaker low volume[EM],0.4781424105167389,baseline
+1230,low hill,[EM]snow-capped mountain[EM]down-right arrow[EM],0.7475309371948242,baseline
+1231,low hill,[EM]mountain[EM]backhand index pointing down[EM],0.995625913143158,baseline
+1232,low hill,[EM]snow-capped mountain[EM]down arrow[EM]snow-capped mountain[EM],0.9835261702537537,baseline
+1233,low hill,[EM]down arrow[EM]snow-capped mountain[EM],0.9976744055747986,train
+1234,low hill,[EM]snow-capped mountain[EM]down arrow[EM],0.9881569743156433,test
+1235,low hill,[EM]mount fuji[EM]red triangle pointed down[EM],0.7051319479942322,baseline
+1236,low hill,[EM]foggy[EM]speaker low volume[EM],0.13833770155906677,baseline
+1237,low price,[EM]label[EM]down-right arrow[EM],0.9644959568977356,baseline
+1238,low price,[EM]money bag[EM]chart decreasing[EM]money bag[EM],0.9660655856132507,baseline
+1239,low price,[EM]money-mouth face[EM]money-mouth face[EM]money-mouth face[EM]red envelope[EM],0.22361178696155548,test
+1240,low price,[EM]heavy dollar sign[EM]down-right arrow[EM]money with wings[EM],0.9970141053199768,baseline
+1241,low price,[EM]label[EM]down arrow[EM]heavy dollar sign[EM],0.9942256808280945,baseline
+1242,low price,[EM]money-mouth face[EM]heavy dollar sign[EM]money-mouth face[EM],0.9105179309844971,baseline
+1243,low price,[EM]heavy dollar sign[EM]down arrow[EM],0.9961864352226257,baseline
+1244,low price,[EM]label[EM]red triangle pointed down[EM],0.8921568393707275,baseline
+1245,low price,[EM]label[EM]speaker low volume[EM],0.0742839127779007,baseline
+1246,low reservoir,[EM]national park[EM]down-right arrow[EM],0.988491415977478,baseline
+1247,low reservoir,[EM]down arrow[EM]national park[EM],0.9640776515007019,baseline
+1248,low reservoir,[EM]prohibited[EM]sweat droplets[EM]prohibited[EM],0.9859336018562317,baseline
+1249,low reservoir,[EM]mount fuji[EM]down-right arrow[EM],0.9904420971870422,baseline
+1250,low reservoir,[EM]woman rowing boat[EM]down arrow[EM]water wave[EM],0.8769916892051697,baseline
+1251,low reservoir,[EM]crocodile[EM]national park[EM],0.9749821424484253,baseline
+1252,low reservoir,[EM]down-right arrow[EM]first quarter moon face[EM],0.6974810361862183,baseline
+1253,low reservoir,[EM]national park[EM]red triangle pointed down[EM],0.9896222949028015,baseline
+1254,low reservoir,[EM]fountain pen[EM]speaker low volume[EM],0.18942901492118835,baseline
+1255,low sun,[EM]sun[EM]down-right arrow[EM],0.8813877105712891,baseline
+1256,low sun,[EM]sun with face[EM]backhand index pointing down[EM],0.9433298707008362,baseline
+1257,low sun,[EM]sun[EM]down-right arrow[EM]sun with face[EM]sun behind large cloud[EM]dim button[EM],0.9180599451065063,baseline
+1258,low sun,[EM]dim button[EM]down arrow[EM],0.9419747591018677,baseline
+1259,low sun,[EM]ice[EM]droplet[EM]snowflake[EM],0.5048332810401917,baseline
+1260,low sun,[EM]sun[EM]chart decreasing[EM],0.8619958758354187,baseline
+1261,low sun,[EM]sun[EM]red triangle pointed down[EM],0.9601613879203796,baseline
+1262,low sun,[EM]sun[EM]speaker low volume[EM],0.43992578983306885,baseline
+1263,low supply,[EM]chart decreasing[EM]down-right arrow[EM],0.9858500957489014,baseline
+1264,low supply,[EM]package[EM]chart decreasing[EM],0.8544897437095642,baseline
+1265,low supply,[EM]thumbs down[EM]down-right arrow[EM]slightly frowning face[EM]frowning face with open mouth[EM],0.2429017573595047,baseline
+1266,low supply,[EM]chart decreasing[EM]down arrow[EM],0.9851178526878357,baseline
+1267,low supply,[EM]shopping bags[EM]face screaming in fear[EM]shopping cart[EM],0.1909845620393753,baseline
+1268,low supply,[EM]keycap 0[EM]down arrow[EM],0.9865850210189819,baseline
+1269,low supply,[EM]package[EM]red triangle pointed down[EM],0.9909362196922302,baseline
+1270,low supply,[EM]electric plug[EM]speaker low volume[EM],0.13528680801391602,baseline
+1271,puzzling statement,[EM]thinking face[EM]face with spiral eyes[EM],0.2326282560825348,baseline
+1272,puzzling statement,[EM]red question mark[EM]speech balloon[EM]red question mark[EM]face with spiral eyes[EM],0.9669134020805359,baseline
+1273,puzzling statement,[EM]red question mark[EM]speaking head[EM]exclamation question mark[EM]thinking face[EM]person shrugging[EM],0.9945443868637085,baseline
+1274,puzzling statement,[EM]red question mark[EM]face with monocle[EM],0.6448440551757812,baseline
+1275,puzzling statement,[EM]exclamation question mark[EM]exclamation question mark[EM]red question mark[EM]white question mark[EM]woman shrugging[EM]person shrugging[EM]man shrugging[EM],0.990877091884613,test
+1276,puzzling statement,[EM]face with raised eyebrow[EM]face with spiral eyes[EM]red question mark[EM],0.6096981763839722,baseline
+1277,puzzling statement,[EM]speaking head[EM]woman shrugging[EM],0.22053702175617218,baseline
+1278,remarkable sight,[EM]star-struck[EM]exploding head[EM],0.9978527426719666,baseline
+1279,remarkable sight,[EM]exploding head[EM]star-struck[EM]fireworks[EM],0.9975541234016418,baseline
+1280,remarkable sight,[EM]hundred points[EM]astonished face[EM]smiling face with hearts[EM]eyes[EM],0.9921312928199768,baseline
+1281,remarkable sight,[EM]eyes[EM]national park[EM]check mark button[EM],0.6133111119270325,baseline
+1282,remarkable sight,[EM]national park[EM]star-struck[EM],0.9431214928627014,baseline
+1283,remarkable sight,[EM]moon viewing ceremony[EM]eyes[EM],0.9946876764297485,baseline
+1284,remarkable sight,[EM]framed picture[EM]eyes[EM],0.2035388946533203,baseline
+1285,right answer,[EM]page facing up[EM]check mark[EM]writing hand[EM],0.7057845592498779,baseline
+1286,right answer,[EM]writing hand[EM]right arrow[EM]check mark button[EM],0.9510546922683716,baseline
+1287,right answer,[EM]memo[EM]check mark button[EM],0.9744237661361694,baseline
+1288,right answer,[EM]red question mark[EM]thinking face[EM]memo[EM]light bulb[EM]pencil[EM]check mark[EM],0.30862322449684143,baseline
+1289,right answer,[EM]thumbs up[EM]woman raising hand[EM]check mark button[EM],0.9838048219680786,baseline
+1290,right answer,[EM]person raising hand[EM]right arrow[EM],0.3763032555580139,baseline
+1291,right bank,[EM]national park[EM]backhand index pointing right[EM],0.7319868206977844,baseline
+1292,right bank,[EM]bank[EM]backhand index pointing right[EM],0.9976718425750732,baseline
+1293,right bank,[EM]bank[EM]right arrow[EM]money bag[EM],0.9946271777153015,baseline
+1294,right bank,[EM]bank[EM]check mark button[EM],0.996179461479187,baseline
+1295,right bank,[EM]bank[EM]check mark[EM],0.9979182481765747,baseline
+1296,right bank,[EM]bank[EM]thumbs up[EM]money bag[EM]money bag[EM]money bag[EM],0.9970361590385437,baseline
+1297,right bank,[EM]bank[EM]thumbs up[EM]money with wings[EM]chart increasing with yen[EM],0.9957940578460693,baseline
+1298,right bank,[EM]bank[EM]down-right arrow[EM],0.5090183019638062,baseline
+1299,right decision,[EM]light bulb[EM]check mark[EM]woman[EM]thumbs up[EM],0.993208110332489,baseline
+1300,right decision,[EM]handshake[EM]right arrow[EM],0.7180183529853821,baseline
+1301,right decision,[EM]brain[EM]check mark button[EM],0.9931854009628296,baseline
+1302,right decision,[EM]thought balloon[EM]thinking face[EM]light bulb[EM]chart increasing[EM],0.99346524477005,baseline
+1303,right decision,[EM]check mark button[EM]thinking face[EM],0.9929757714271545,baseline
+1304,right decision,[EM]call me hand[EM]down-right arrow[EM],0.40597227215766907,baseline
+1305,right hand,[EM]backhand index pointing right[EM]raised hand[EM],0.9947887659072876,baseline
+1306,right hand,[EM]hand with fingers splayed[EM]backhand index pointing right[EM],0.9503224492073059,baseline
+1307,right hand,[EM]hand with fingers splayed[EM]right arrow[EM],0.9799273610115051,baseline
+1308,right hand,[EM]raised back of hand[EM]backhand index pointing right[EM],0.9349510073661804,baseline
+1309,right hand,[EM]waving hand[EM]backhand index pointing right[EM],0.9070208668708801,baseline
+1310,right hand,[EM]check mark[EM]backhand index pointing right[EM],0.8156507611274719,baseline
+1311,right hand,[EM]raised back of hand[EM]palms up together[EM],0.6313290596008301,baseline
+1312,right hand,[EM]raised hand[EM]down-right arrow[EM],0.32783815264701843,baseline
+1313,right man,[EM]man[EM]check mark[EM],0.9901841878890991,baseline
+1314,right man,[EM]man[EM]check mark[EM]two hearts[EM],0.9878234267234802,baseline
+1315,right man,[EM]man[EM]right arrow[EM]OK hand[EM],0.6582484841346741,baseline
+1316,right man,[EM]person in suit levitating[EM]thumbs up[EM],0.9474610090255737,baseline
+1317,right man,[EM]man[EM]thumbs up[EM],0.9380426406860352,baseline
+1318,right man,[EM]man light skin tone blond hair[EM]backhand index pointing right[EM],0.40061044692993164,baseline
+1319,right man,[EM]smiling face with heart-eyes[EM]woman[EM]man[EM]check mark[EM],0.991500973701477,baseline
+1320,right man,[EM]family man woman boy boy[EM]kiss woman man[EM],0.7147963643074036,baseline
+1321,right man,[EM]man[EM]up-right arrow[EM],0.40728622674942017,baseline
+1322,right road,[EM]motorway[EM]backhand index pointing right[EM],0.8882590532302856,baseline
+1323,right road,[EM]motorway[EM]right arrow[EM],0.9567623734474182,baseline
+1324,right road,[EM]motorway[EM]check mark button[EM],0.9929966926574707,baseline
+1325,right road,[EM]motorway[EM]check mark[EM],0.9952619671821594,baseline
+1326,right road,[EM]motorway[EM]automobile[EM]check mark[EM],0.8561818599700928,baseline
+1327,right road,[EM]up-right arrow[EM]motorway[EM],0.6045433282852173,baseline
+1328,right side,[EM]woman tipping hand[EM]right arrow[EM],0.9888970851898193,baseline
+1329,right side,[EM]person standing[EM]backhand index pointing right[EM],0.7966930270195007,baseline
+1330,right side,[EM]backhand index pointing right[EM]bust in silhouette[EM],0.9459455013275146,baseline
+1331,right side,[EM]people holding hands[EM]right arrow[EM]backhand index pointing left[EM],0.970342755317688,baseline
+1332,right side,[EM]raised back of hand[EM]down-right arrow[EM],0.47921231389045715,baseline
+1333,right thing,[EM]thumbs up[EM]check mark[EM],0.9924947619438171,baseline
+1334,right thing,[EM]hundred points[EM]right arrow[EM],0.8782708644866943,baseline
+1335,right thing,[EM]check mark button[EM]thumbs up[EM],0.9813064336776733,baseline
+1336,right thing,[EM]check mark[EM]speaking head[EM],0.7728005647659302,baseline
+1337,right thing,[EM]thumbs up[EM]grinning face[EM],0.8828257322311401,baseline
+1338,right thing,[EM]jeans[EM]up-right arrow[EM],0.37140125036239624,baseline
+1339,short flight,[EM]airplane[EM]shorts[EM],0.988097071647644,baseline
+1340,short flight,[EM]airplane[EM]smiling face with tear[EM],0.9954177737236023,baseline
+1341,short flight,[EM]airplane[EM]hourglass not done[EM],0.9792722463607788,baseline
+1342,short flight,[EM]airplane[EM]hourglass not done[EM]airplane departure[EM]airplane arrival[EM],0.9983270764350891,baseline
+1343,short flight,[EM]airplane[EM]pinching hand[EM],0.9947676062583923,baseline
+1344,short flight,[EM]pinching hand[EM]airplane departure[EM]hourglass done[EM]airplane arrival[EM],0.9990494251251221,baseline
+1345,short flight,[EM]airplane arrival[EM]airplane departure[EM],0.9973943829536438,baseline
+1346,short flight,[EM]airplane[EM]tram car[EM],0.10479804873466492,baseline
+1347,short hair,[EM]woman light skin tone red hair[EM]shorts[EM],0.6337345242500305,baseline
+1348,short hair,[EM]right arrow[EM]woman getting haircut[EM]woman red hair[EM],0.9956203699111938,baseline
+1349,short hair,[EM]curly hair[EM]pinching hand[EM],0.9940890669822693,baseline
+1350,short hair,[EM]woman curly hair[EM]woman red hair[EM]person curly hair[EM],0.9959627985954285,baseline
+1351,short hair,[EM]woman getting haircut[EM]pinching hand[EM],0.9934088587760925,baseline
+1352,short hair,[EM]woman curly hair[EM]man curly hair[EM],0.9868723154067993,baseline
+1353,short hair,[EM]man blond hair[EM]aerial tramway[EM],0.4100719690322876,baseline
+1354,short holiday,[EM]beach with umbrella[EM]shorts[EM],0.9891515970230103,baseline
+1355,short holiday,[EM]pinching hand[EM]smiling face with tear[EM]airplane[EM]shinto shrine[EM],0.9953874349594116,baseline
+1356,short holiday,[EM]beach with umbrella[EM]hourglass not done[EM]airplane[EM]luggage[EM],0.9946444034576416,baseline
+1357,short holiday,[EM]beach with umbrella[EM]hourglass done[EM],0.9841887354850769,baseline
+1358,short holiday,[EM]desert island[EM]left-right arrow[EM]bottle with popping cork[EM]person getting massage[EM]person in steamy room[EM]person in lotus position[EM],0.5448893308639526,baseline
+1359,short holiday,[EM]beach with umbrella[EM]pinching hand[EM],0.9841861128807068,baseline
+1360,short holiday,[EM]luggage[EM]pinching hand[EM]baggage claim[EM],0.7705944180488586,baseline
+1361,short holiday,[EM]airplane arrival[EM]airplane departure[EM],0.7653176188468933,baseline
+1362,short holiday,[EM]menorah[EM]tram[EM],0.08337442576885223,baseline
+1363,short life,[EM]alien[EM]shorts[EM],0.9462300539016724,baseline
+1364,short life,[EM]skull and crossbones[EM]pinching hand[EM],0.7996217012405396,baseline
+1365,short life,[EM]one o’clock[EM]hourglass not done[EM]woman white hair[EM]older person[EM],0.9932023882865906,baseline
+1366,short life,[EM]grinning face[EM]waving hand[EM]hourglass done[EM],0.8806554079055786,baseline
+1367,short life,[EM]anatomical heart[EM]hourglass not done[EM]beating heart[EM],0.9913679957389832,baseline
+1368,short life,[EM]backhand index pointing right[EM]family man woman girl girl[EM]skull[EM]family man woman girl[EM],0.9940201640129089,baseline
+1369,short life,[EM]older person[EM]baby[EM]coffin[EM]hourglass done[EM]pinching hand[EM],0.9974709153175354,baseline
+1370,short life,[EM]coffin[EM]hourglass done[EM],0.992933988571167,baseline
+1371,short life,[EM]pensive face[EM]tram[EM],0.10087503492832184,baseline
+1372,short money,[EM]dollar banknote[EM]shorts[EM],0.9877173900604248,baseline
+1373,short money,[EM]heavy dollar sign[EM]pinching hand[EM],0.8910814523696899,baseline
+1374,short money,[EM]money bag[EM]cross mark[EM],0.995736300945282,baseline
+1375,short money,[EM]money bag[EM]cross mark button[EM],0.9869524836540222,baseline
+1376,short money,[EM]money with wings[EM]person shrugging[EM]money with wings[EM]money with wings[EM],0.9790990948677063,baseline
+1377,short money,[EM]dollar banknote[EM]pinching hand[EM],0.9740663766860962,baseline
+1378,short money,[EM]money with wings[EM]money bag[EM]pensive face[EM],0.9864845275878906,baseline
+1379,short money,[EM]pound banknote[EM]pinching hand[EM],0.9867403507232666,baseline
+1380,short money,[EM]money bag[EM]tram car[EM],0.14427345991134644,baseline
+1381,short month,[EM]spiral calendar[EM]shorts[EM],0.9924853444099426,baseline
+1382,short month,[EM]calendar[EM]pinching hand[EM],0.9920253753662109,baseline
+1383,short month,[EM]spiral calendar[EM]hourglass not done[EM],0.9839325547218323,baseline
+1384,short month,[EM]spiral calendar[EM]hourglass done[EM],0.9585893154144287,baseline
+1385,short month,[EM]spiral calendar[EM]hourglass not done[EM]calendar[EM],0.9850907921791077,baseline
+1386,short month,[EM]calendar[EM]SOON arrow[EM],0.9066277146339417,baseline
+1387,short month,[EM]hourglass done[EM]pinching hand[EM]spiral calendar[EM],0.9978399276733398,baseline
+1388,short month,[EM]calendar[EM]hourglass done[EM],0.9961804151535034,baseline
+1389,short month,[EM]calendar[EM]tram[EM],0.4851762056350708,baseline
+1390,short ration,[EM]cooked rice[EM]shorts[EM],0.9656856656074524,baseline
+1391,short ration,[EM]roasted sweet potato[EM]pinching hand[EM]bread[EM]egg[EM],0.98636794090271,baseline
+1392,short ration,[EM]potato[EM]pinching hand[EM]roasted sweet potato[EM]cooked rice[EM],0.9942235350608826,baseline
+1393,short ration,[EM]shallow pan of food[EM]cross mark button[EM],0.44339850544929504,baseline
+1394,short ration,[EM]cooked rice[EM]fast down button[EM]steaming bowl[EM],0.6887433528900146,baseline
+1395,short ration,[EM]bread[EM]pinching hand[EM],0.9714880585670471,baseline
+1396,short ration,[EM]sheaf of rice[EM]pinching hand[EM],0.9554688334465027,baseline
+1397,short ration,[EM]potato[EM]pinching hand[EM],0.5770142674446106,baseline
+1398,short ration,[EM]shallow pan of food[EM]tram[EM],0.45598143339157104,baseline
+1399,short smokestack,[EM]passenger ship[EM]shorts[EM]dashing away[EM],0.9970421195030212,baseline
+1400,short smokestack,[EM]factory[EM]pinching hand[EM],0.6303693652153015,baseline
+1401,short smokestack,[EM]dashing away[EM]ship[EM],0.9912776350975037,baseline
+1402,short smokestack,[EM]lungs[EM]hot springs[EM]dashing away[EM],0.9935243129730225,baseline
+1403,short smokestack,[EM]nut and bolt[EM]pinching hand[EM]gear[EM],0.25095826387405396,baseline
+1404,short smokestack,[EM]ship[EM]pinching hand[EM],0.9880001544952393,baseline
+1405,short smokestack,[EM]cigarette[EM]pinching hand[EM]package[EM],0.9937333464622498,baseline
+1406,short smokestack,[EM]factory[EM]aerial tramway[EM],0.08859904855489731,baseline
+1407,short story,[EM]open book[EM]shorts[EM],0.9800458550453186,baseline
+1408,short story,[EM]orange book[EM]pinching hand[EM]open book[EM],0.9940688014030457,baseline
+1409,short story,[EM]closed book[EM]hourglass not done[EM],0.8939244151115417,baseline
+1410,short story,[EM]notebook with decorative cover[EM]hourglass done[EM],0.9896271228790283,baseline
+1411,short story,[EM]open book[EM]watch[EM],0.07448678463697433,baseline
+1412,short story,[EM]speaking head[EM]pinching hand[EM],0.7812411785125732,baseline
+1413,short story,[EM]speaking head[EM]pinching hand[EM]open book[EM],0.9625847339630127,baseline
+1414,short story,[EM]open book[EM]hourglass done[EM],0.9217258095741272,baseline
+1415,short story,[EM]closed book[EM]tram[EM],0.456655889749527,baseline
+1416,short supply,[EM]electric plug[EM]shorts[EM],0.2759416997432709,baseline
+1417,short supply,[EM]light bulb[EM]pinching hand[EM]high voltage[EM],0.9945481419563293,baseline
+1418,short supply,[EM]pencil[EM]cross mark[EM]axe[EM]wrench[EM],0.993394136428833,baseline
+1419,short supply,[EM]potable water[EM]cross mark button[EM],0.2673548460006714,baseline
+1420,short supply,[EM]coat[EM]fast down button[EM]woman’s clothes[EM]t-shirt[EM]jeans[EM],0.9928137063980103,baseline
+1421,short supply,[EM]warning[EM]double exclamation mark[EM]bread[EM],0.8354833722114563,baseline
+1422,short supply,[EM]cross mark[EM]hut[EM],0.9887487888336182,baseline
+1423,short supply,[EM]package[EM]pinching hand[EM],0.9845123291015625,baseline
+1424,short supply,[EM]paintbrush[EM]aerial tramway[EM],0.41283828020095825,baseline
+1425,sound advice,[EM]speaking head[EM]speaker high volume[EM],0.7665601372718811,baseline
+1426,sound advice,[EM]speaking head[EM]thumbs up[EM],0.8721916079521179,baseline
+1427,sound advice,[EM]deaf man[EM]speaking head[EM]hundred points[EM],0.9933530688285828,baseline
+1428,sound advice,[EM]studio microphone[EM]thumbs up light skin tone[EM]speaking head[EM],0.6961438655853271,baseline
+1429,sound advice,[EM]speaking head[EM]boy[EM]woman[EM]thinking face[EM]thumbs up[EM],0.7449854016304016,baseline
+1430,sound advice,[EM]deaf woman[EM]thumbs up[EM],0.8840663433074951,baseline
+1431,sound advice,[EM]speech balloon[EM]ear[EM],0.7596535682678223,baseline
+1432,sound advice,[EM]bell[EM]speaker high volume[EM],0.08261321485042572,baseline
+1433,sound approach,[EM]speaker high volume[EM]brain[EM]person walking[EM],0.9442980885505676,baseline
+1434,sound approach,[EM]fast-forward button[EM]thumbs up[EM],0.38117554783821106,baseline
+1435,sound approach,[EM]light bulb[EM]hundred points[EM],0.952114462852478,baseline
+1436,sound approach,[EM]person walking[EM]speaker high volume[EM],0.9853788614273071,baseline
+1437,sound approach,[EM]right arrow[EM]speaker low volume[EM]right arrow curving down[EM],0.990702748298645,baseline
+1438,sound approach,[EM]magnifying glass tilted left[EM]boy[EM]memo[EM],0.9801682829856873,baseline
+1439,sound approach,[EM]writing hand[EM]thumbs up[EM]bookmark tabs[EM],0.8852267265319824,baseline
+1440,sound approach,[EM]clipboard[EM]ear[EM],0.9943088293075562,baseline
+1441,sound approach,[EM]right arrow curving up[EM]speaker high volume[EM],0.5803871154785156,baseline
+1442,sound explanation,[EM]deaf woman[EM]speaking head[EM],0.8738331198692322,baseline
+1443,sound explanation,[EM]brain[EM]thinking face[EM]speaker high volume[EM]speaking head[EM]smiling face[EM]thumbs up[EM],0.9948119521141052,baseline
+1444,sound explanation,[EM]speaking head[EM]thumbs up[EM],0.9027038216590881,baseline
+1445,sound explanation,[EM]ear[EM]speaking head[EM]thumbs up[EM],0.987877368927002,baseline
+1446,sound explanation,[EM]brain[EM]thinking face[EM]speaking head[EM]slightly smiling face[EM]OK button[EM],0.9936948418617249,baseline
+1447,sound explanation,[EM]speaking head[EM]speaker low volume[EM],0.7079903483390808,baseline
+1448,sound explanation,[EM]speaking head[EM]teacher[EM],0.8288701772689819,baseline
+1449,sound explanation,[EM]deaf woman[EM]person raising hand[EM]thumbs up[EM],0.833147406578064,baseline
+1450,sound explanation,[EM]speaking head[EM]ear[EM],0.9760419130325317,baseline
+1451,sound explanation,[EM]ghost[EM]speaker high volume[EM],0.08914472907781601,baseline
+1452,sound thrashing,[EM]oncoming fist[EM]speaker high volume[EM],0.4453868865966797,baseline
+1453,sound thrashing,[EM]wastebasket[EM]thumbs up[EM],0.6826462149620056,baseline
+1454,sound thrashing,[EM]wastebasket[EM]speaking head[EM],0.9360224604606628,baseline
+1455,sound thrashing,[EM]boxing glove[EM]speaker high volume[EM],0.9896471500396729,baseline
+1456,sound thrashing,[EM]wastebasket[EM]speaker low volume[EM]litter in bin sign[EM],0.991631031036377,baseline
+1457,sound thrashing,[EM]broom[EM]pouting face[EM]loudly crying face[EM],0.9936946034431458,baseline
+1458,sound thrashing,[EM]person gesturing NO[EM]speaker high volume[EM],0.4365685284137726,baseline
+1459,sound thrashing,[EM]wastebasket[EM]ear[EM],0.9945881962776184,baseline
+1460,sound thrashing,[EM]wastebasket[EM]speaker high volume[EM],0.8302727937698364,baseline
+1461,thick cream,[EM]soft ice cream[EM]ice cream[EM],0.998223066329956,baseline
+1462,thick cream,[EM]canned food[EM]soft ice cream[EM]soft ice cream[EM]soft ice cream[EM]soft ice cream[EM]soft ice cream[EM],0.9957861304283142,baseline
+1463,thick cream,[EM]flexed biceps[EM]lotion bottle[EM],0.9748848676681519,baseline
+1464,thick cream,[EM]soft ice cream[EM]straight ruler[EM]soft ice cream[EM],0.995048999786377,baseline
+1465,thick cream,[EM]ice cream[EM]goblin[EM],0.47018149495124817,baseline
+1466,thick fog,[EM]see-no-evil monkey[EM]airplane[EM],0.9910094141960144,baseline
+1467,thick fog,[EM]eye[EM]dashing away[EM]fog[EM],0.998750627040863,baseline
+1468,thick fog,[EM]fog[EM]fog[EM]foggy[EM],0.9993314146995544,train
+1469,thick fog,[EM]fog[EM]straight ruler[EM]fog[EM]fog[EM]foggy[EM]foggy[EM],0.9944480061531067,baseline
+1470,thick fog,[EM]face in clouds[EM]fog[EM],0.7837596535682678,baseline
+1471,thick fog,[EM]fog[EM]goblin[EM],0.03767438605427742,baseline
+1472,thick smoke,[EM]dashing away[EM]volcano[EM],0.9748216271400452,baseline
+1473,thick smoke,[EM]dashing away[EM]dashing away[EM]dashing away[EM]face with steam from nose[EM]volcano[EM]cigarette[EM]face with steam from nose[EM],0.9959198832511902,train
+1474,thick smoke,[EM]eye[EM]dashing away[EM]cross mark[EM],0.9969425797462463,baseline
+1475,thick smoke,[EM]cigarette[EM]dashing away[EM],0.9985135197639465,baseline
+1476,thick smoke,[EM]volcano[EM]volcano[EM]volcano[EM]face with medical mask[EM],0.9983012676239014,train
+1477,thick smoke,[EM]dashing away[EM]dashing away[EM]fog[EM]fog[EM],0.5626459717750549,validate
+1478,thick smoke,[EM]dashing away[EM]fire[EM]dashing away[EM]dashing away[EM]dashing away[EM],0.9970990419387817,baseline
+1479,thick smoke,[EM]cigarette[EM]goblin[EM],0.4842072129249573,baseline
+1480,thick soup,[EM]pot of food[EM]pot of food[EM]thumbs up[EM],0.9978872537612915,train
+1481,thick soup,[EM]soft ice cream[EM]canned food[EM],0.7379770874977112,baseline
+1482,thick soup,[EM]bowl with spoon[EM]sweat droplets[EM],0.9720930457115173,baseline
+1483,thick soup,[EM]pot of food[EM]raising hands[EM],0.7328155636787415,baseline
+1484,thick soup,[EM]bowl with spoon[EM]straight ruler[EM],0.6448619961738586,baseline
+1485,thick soup,[EM]spoon[EM]goblin[EM],0.3414958715438843,baseline
+1486,thin air,[EM]leaf fluttering in wind[EM]pinching hand[EM],0.8054711222648621,test
+1487,thin air,[EM]dashing away[EM]face with spiral eyes[EM],0.3399004340171814,baseline
+1488,thin air,[EM]pinching hand[EM]leaf fluttering in wind[EM],0.824813723564148,validate
+1489,thin air,[EM]straight ruler[EM]pinching hand[EM]dashing away[EM],0.9897884726524353,baseline
+1490,thin air,[EM]wind face[EM]pinched fingers light skin tone[EM],0.8171757459640503,baseline
+1491,thin air,[EM]helicopter[EM]cocktail glass[EM],0.3085179328918457,baseline
+1492,thin line,[EM]writing hand[EM]pinching hand[EM],0.9672951102256775,baseline
+1493,thin line,[EM]pencil[EM]hot springs[EM]memo[EM],0.5225368142127991,baseline
+1494,thin line,[EM]straight ruler[EM]pinching hand[EM],0.9902169704437256,baseline
+1495,thin line,[EM]pinching hand[EM]straight ruler[EM]chart decreasing[EM],0.8840964436531067,baseline
+1496,thin line,[EM]pen[EM]pinching hand[EM],0.9930166006088257,baseline
+1497,thin line,[EM]straight ruler[EM]pinching hand[EM]minus[EM],0.9945576190948486,baseline
+1498,thin line,[EM]wavy dash[EM]pinched fingers light skin tone[EM],0.967985212802887,baseline
+1499,thin line,[EM]left-right arrow[EM]cocktail glass[EM],0.3334900438785553,baseline
+1500,thin oil,[EM]diya lamp[EM]hot springs[EM],0.9914156198501587,baseline
+1501,thin oil,[EM]diya lamp[EM]pinching hand[EM],0.9864992499351501,baseline
+1502,thin oil,[EM]diya lamp[EM]droplet[EM],0.7644588351249695,baseline
+1503,thin oil,[EM]oil drum[EM]pinching hand[EM],0.9969337582588196,baseline
+1504,thin oil,[EM]tumbler glass[EM]pinching hand[EM],0.7627833485603333,baseline
+1505,thin oil,[EM]straight ruler[EM]pinching hand[EM]oil drum[EM],0.9432399868965149,baseline
+1506,thin oil,[EM]man cook[EM]pinching hand[EM]oil drum[EM],0.9936971664428711,baseline
+1507,thin oil,[EM]oil drum[EM]cocktail glass[EM],0.8376191854476929,baseline
+1508,thin soup,[EM]thumbs down[EM]pot of food[EM],0.7132250666618347,baseline
+1509,thin soup,[EM]canned food[EM]droplet[EM],0.9752665162086487,baseline
+1510,thin soup,[EM]sweat droplets[EM]sweat droplets[EM]bowl with spoon[EM],0.5538202524185181,validate
+1511,thin soup,[EM]fondue[EM]pinching hand[EM],0.7702326774597168,baseline
+1512,thin soup,[EM]straight ruler[EM]pinching hand[EM]bowl with spoon[EM],0.8860129714012146,baseline
+1513,thin soup,[EM]bowl with spoon[EM]pinching hand[EM],0.9338411688804626,baseline
+1514,thin soup,[EM]spoon[EM]cocktail glass[EM],0.21794743835926056,baseline
+1515,unclear action,[EM]woman running[EM]thinking face[EM],0.9948516488075256,baseline
+1516,unclear action,[EM]chess pawn[EM]cross mark[EM],0.8700421452522278,baseline
+1517,unclear action,[EM]face with monocle[EM]face with raised eyebrow[EM]woman shrugging[EM]man shrugging[EM],0.9885546565055847,baseline
+1518,unclear action,[EM]thinking face[EM]man dancing[EM],0.9661281108856201,baseline
+1519,unclear action,[EM]speaking head[EM]man teacher[EM]memo[EM]red question mark[EM]red question mark[EM]red question mark[EM],0.9955998063087463,baseline
+1520,unclear action,[EM]face with raised eyebrow[EM]red question mark[EM],0.9949145317077637,baseline
+1521,unclear action,[EM]bookmark tabs[EM]confounded face[EM],0.43275997042655945,baseline
+1522,warm body,[EM]foot[EM]hot springs[EM]leg[EM]nose[EM]ear[EM]hand with fingers splayed[EM],0.26967331767082214,baseline
+1523,warm body,[EM]man standing[EM]thermometer[EM],0.9423172473907471,baseline
+1524,warm body,[EM]woman tipping hand[EM]movie camera[EM]red heart[EM]man zombie[EM],0.08131913095712662,baseline
+1525,warm body,[EM]man in steamy room[EM]fire[EM],0.9559011459350586,baseline
+1526,warm body,[EM]person standing[EM]thermometer[EM],0.9780911207199097,baseline
+1527,warm body,[EM]tongue[EM]hot springs[EM],0.12984566390514374,baseline
+1528,warm climate,[EM]sun behind cloud[EM]hot springs[EM],0.5454078316688538,baseline
+1529,warm climate,[EM]desert[EM]thermometer[EM],0.8775373697280884,baseline
+1530,warm climate,[EM]desert island[EM]hot face[EM],0.3700258433818817,baseline
+1531,warm climate,[EM]hot face[EM]face with thermometer[EM]fire[EM]sun[EM],0.5816327333450317,baseline
+1532,warm climate,[EM]thermometer[EM]sun[EM]chart increasing[EM],0.9837595820426941,baseline
+1533,warm climate,[EM]globe showing Asia-Australia[EM]thermometer[EM],0.26426446437835693,baseline
+1534,warm climate,[EM]fish[EM]hot springs[EM],0.08110155165195465,baseline
+1535,warm coat,[EM]coat[EM]hot springs[EM],0.9793912768363953,baseline
+1536,warm coat,[EM]coat[EM]thermometer[EM],0.9864429831504822,baseline
+1537,warm coat,[EM]lab coat[EM]hot face[EM],0.9829035997390747,baseline
+1538,warm coat,[EM]hot face[EM]coat[EM],0.994073748588562,baseline
+1539,warm coat,[EM]coat[EM]thumbs up[EM]cross mark[EM]cold face[EM],0.981706440448761,baseline
+1540,warm coat,[EM]lab coat[EM]thermometer[EM],0.9834875464439392,baseline
+1541,warm debate,[EM]balance scale[EM]hot springs[EM],0.23626066744327545,baseline
+1542,warm debate,[EM]speaking head[EM]fire[EM],0.9708209037780762,baseline
+1543,warm debate,[EM]woman detective[EM]man detective[EM],0.3496929109096527,baseline
+1544,warm debate,[EM]speaking head[EM]brain[EM]collision[EM],0.996743381023407,baseline
+1545,warm debate,[EM]fire[EM]speaking head[EM]speaking head[EM],0.8027190566062927,baseline
+1546,warm debate,[EM]exploding head[EM]mouth[EM],0.9924746751785278,baseline
+1547,warm debate,[EM]brain[EM]collision[EM],0.9969919323921204,baseline
+1548,warm debate,[EM]speaking head[EM]thermometer[EM]speaking head[EM],0.9019179344177246,baseline
+1549,warm debate,[EM]expressionless face[EM]desert[EM],0.39872732758522034,baseline
+1550,warm greeting,[EM]smiling face with open hands[EM]hot springs[EM]handshake[EM],0.9740734696388245,baseline
+1551,warm greeting,[EM]waving hand[EM]hot springs[EM],0.7024382948875427,baseline
+1552,warm greeting,[EM]waving hand[EM]hot face[EM],0.9507544636726379,baseline
+1553,warm greeting,[EM]smiling face with hearts[EM]waving hand[EM],0.9857035875320435,baseline
+1554,warm greeting,[EM]waving hand[EM]smiling face with smiling eyes[EM],0.9864073991775513,baseline
+1555,warm greeting,[EM]waving hand[EM]red heart[EM],0.9838035702705383,baseline
+1556,warm greeting,[EM]handshake[EM]thermometer[EM],0.8829697370529175,baseline
+1557,warm greeting,[EM]handshake[EM]sparkling heart[EM],0.40104493498802185,baseline
+1558,warm personality,[EM]slightly smiling face[EM]hot springs[EM]bust in silhouette[EM],0.9813746213912964,baseline
+1559,warm personality,[EM]squinting face with tongue[EM]fire[EM],0.6473819613456726,baseline
+1560,warm personality,[EM]handshake[EM]hot face[EM]waving hand[EM],0.9662197828292847,baseline
+1561,warm personality,[EM]women holding hands[EM]smiling face with hearts[EM],0.9671652317047119,baseline
+1562,warm personality,[EM]people holding hands[EM]oncoming fist[EM],0.09703787416219711,baseline
+1563,warm personality,[EM]partying face[EM]beaming face with smiling eyes[EM],0.9838446974754333,baseline
+1564,warm personality,[EM]woman tipping hand[EM]thermometer[EM],0.7418166399002075,baseline
+1565,warm personality,[EM]ID button[EM]hot springs[EM],0.32739150524139404,baseline
+1566,warm room,[EM]face exhaling[EM]hot springs[EM],0.7023084163665771,baseline
+1567,warm room,[EM]women’s room[EM]thermometer[EM]men’s room[EM],0.9949350357055664,baseline
+1568,warm room,[EM]house with garden[EM]hot face[EM],0.6671817898750305,baseline
+1569,warm room,[EM]school[EM]hot face[EM],0.7338076829910278,baseline
+1570,warm room,[EM]thermometer[EM]hot face[EM]derelict house[EM],0.995696485042572,baseline
+1571,warm room,[EM]house[EM]fire[EM],0.45593464374542236,baseline
+1572,warm room,[EM]house[EM]thermometer[EM],0.6147796511650085,baseline
+1573,warm room,[EM]women’s room[EM]hot springs[EM],0.41342657804489136,baseline
+1574,warm support,[EM]people holding hands[EM]hot springs[EM]people holding hands[EM]people holding hands[EM],0.9001381993293762,baseline
+1575,warm support,[EM]people hugging[EM]thermometer[EM],0.7130040526390076,baseline
+1576,warm support,[EM]hot face[EM]handshake[EM],0.9321914315223694,baseline
+1577,warm support,[EM]smiling face with hearts[EM]family[EM],0.9802009463310242,baseline
+1578,warm support,[EM]smiling face with open hands[EM]people hugging[EM],0.9878367185592651,baseline
+1579,warm support,[EM]flexed biceps light skin tone[EM]fire[EM],0.4114478826522827,baseline
+1580,warm support,[EM]flexed biceps[EM]thermometer[EM],0.3682890236377716,baseline
+1581,warm support,[EM]reminder ribbon[EM]tropical fish[EM],0.19874604046344757,baseline
+1582,wrong assumption,[EM]thinking face[EM]cross mark[EM],0.975682258605957,baseline
+1583,wrong assumption,[EM]thought balloon[EM]cross mark[EM],0.9413201808929443,baseline
+1584,wrong assumption,[EM]thinking face[EM]woman gesturing NO[EM],0.9792263507843018,baseline
+1585,wrong assumption,[EM]cross mark[EM]mouth[EM]mouth[EM]speech balloon[EM],0.9144470691680908,baseline
+1586,wrong assumption,[EM]thinking face[EM]man gesturing NO[EM],0.9786961674690247,baseline
+1587,wrong assumption,[EM]eyes[EM]cross mark[EM]brain[EM],0.9895458221435547,baseline
+1588,wrong assumption,[EM]person facepalming[EM]thinking face[EM],0.9837775230407715,baseline
+1589,wrong assumption,[EM]thinking face[EM]hollow red circle[EM],0.10737664997577667,baseline
+1590,wrong cheating,[EM]woman technologist[EM]cross mark[EM],0.9762169122695923,baseline
+1591,wrong cheating,[EM]bookmark tabs[EM]cross mark[EM],0.7226275205612183,baseline
+1592,wrong cheating,[EM]broken heart[EM]woman gesturing NO[EM],0.9869220852851868,baseline
+1593,wrong cheating,[EM]kiss woman man[EM]person gesturing NO[EM]broken heart[EM],0.9950512647628784,baseline
+1594,wrong cheating,[EM]smiling face with horns[EM]man gesturing NO[EM]shushing face[EM]writing hand[EM]page facing up[EM]books[EM]hundred points[EM],0.9848012328147888,baseline
+1595,wrong cheating,[EM]memo[EM]thumbs down[EM],0.8975611329078674,baseline
+1596,wrong cheating,[EM]memo[EM]cross mark[EM]clipboard[EM],0.9968041181564331,baseline
+1597,wrong cheating,[EM]thumbs down[EM]smirking face[EM],0.9860962629318237,baseline
+1598,wrong cheating,[EM]lying face[EM]broken heart[EM],0.43868401646614075,baseline
+1599,wrong information,[EM]information[EM]cross mark[EM],0.9818283319473267,baseline
+1600,wrong information,[EM]information[EM]woman gesturing NO[EM],0.9767447113990784,baseline
+1601,wrong information,[EM]thought balloon[EM]cross mark[EM]red question mark[EM],0.9871193766593933,baseline
+1602,wrong information,[EM]bookmark tabs[EM]man gesturing NO[EM]card index dividers[EM],0.9749616980552673,baseline
+1603,wrong information,[EM]brain[EM]cross mark[EM],0.9706477522850037,baseline
+1604,wrong information,[EM]newspaper[EM]cross mark[EM],0.8903853297233582,baseline
+1605,wrong information,[EM]information[EM]hollow red circle[EM],0.32527101039886475,baseline
+1606,wrong medicine,[EM]pill[EM]cross mark[EM],0.4488617181777954,baseline
+1607,wrong medicine,[EM]pill[EM]woman gesturing NO[EM],0.23706726729869843,baseline
+1608,wrong medicine,[EM]pill[EM]cross mark[EM]face with thermometer[EM],0.5081961154937744,baseline
+1609,wrong medicine,[EM]pill[EM]man gesturing NO[EM],0.23328465223312378,baseline
+1610,wrong medicine,[EM]hospital[EM]hollow red circle[EM],0.1533060222864151,baseline
+1611,wrong paper,[EM]page facing up[EM]cross mark[EM],0.9895209670066833,baseline
+1612,wrong paper,[EM]scroll[EM]cross mark[EM],0.9824579954147339,baseline
+1613,wrong paper,[EM]page with curl[EM]woman gesturing NO[EM],0.9680007100105286,baseline
+1614,wrong paper,[EM]page facing up[EM]man gesturing NO[EM],0.9333415031433105,baseline
+1615,wrong paper,[EM]page with curl[EM]cross mark[EM],0.9918424487113953,baseline
+1616,wrong paper,[EM]scroll[EM]hollow red circle[EM],0.4191795289516449,baseline
+1617,wrong road,[EM]motorway[EM]cross mark[EM],0.9883436560630798,baseline
+1618,wrong road,[EM]motorway[EM]woman gesturing NO[EM],0.9948295950889587,baseline
+1619,wrong road,[EM]motorway[EM]man gesturing NO[EM],0.9938130378723145,baseline
+1620,wrong road,[EM]motorway[EM]person gesturing NO[EM],0.9960675239562988,baseline
+1621,wrong road,[EM]motorway[EM]hollow red circle[EM],0.5139849185943604,baseline
+1622,wrong time,[EM]alarm clock[EM]cross mark[EM],0.9812464714050293,baseline
+1623,wrong time,[EM]six-thirty[EM]cross mark[EM],0.9574787020683289,baseline
+1624,wrong time,[EM]mantelpiece clock[EM]woman gesturing NO[EM],0.9347950220108032,baseline
+1625,wrong time,[EM]stopwatch[EM]cross mark[EM]alarm clock[EM],0.9769912958145142,baseline
+1626,wrong time,[EM]stopwatch[EM]man gesturing NO[EM],0.9425920844078064,baseline
+1627,wrong time,[EM]stopwatch[EM]cross mark[EM],0.988797664642334,baseline
+1628,wrong time,[EM]watch[EM]person facepalming[EM],0.9850527048110962,baseline
+1629,wrong time,[EM]mantelpiece clock[EM]hollow red circle[EM],0.33925575017929077,baseline
+1630,wrong way,[EM]up-right arrow[EM]cross mark[EM]up-left arrow[EM]cross mark button[EM],0.29986676573753357,baseline
+1631,wrong way,[EM]right arrow curving left[EM]cross mark[EM],0.6972971558570862,baseline
+1632,wrong way,[EM]children crossing[EM]woman gesturing NO[EM],0.7433571815490723,baseline
+1633,wrong way,[EM]up-right arrow[EM]cross mark[EM]world map[EM],0.9902427196502686,baseline
+1634,wrong way,[EM]world map[EM]man gesturing NO[EM]compass[EM],0.9801456332206726,baseline
+1635,wrong way,[EM]compass[EM]cross mark[EM],0.9915605783462524,baseline
+1636,wrong way,[EM]world map[EM]cross mark[EM]woman gesturing NO[EM],0.9708154797554016,baseline
+1637,wrong way,[EM]compass[EM]person facepalming[EM],0.9884162545204163,baseline
+1638,wrong way,[EM]milky way[EM]hollow red circle[EM],0.24493184685707092,baseline

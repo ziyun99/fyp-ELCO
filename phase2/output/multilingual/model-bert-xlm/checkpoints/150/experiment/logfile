@@ -1,4 +1,4 @@
-Loaded features: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/extracted_features.pt as a Tensor: torch.Size([5944, 768])
+Loaded features: output/multilingual/model-bert-xlm/checkpoints/150/experiment/extracted_features.pt as a Tensor: torch.Size([5944, 768])
 Begin clustering with 2-clusters
 Fitted features into KMeans model: KMeans(n_clusters=2, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -93,7 +93,7 @@ effective reprimand
 [0, 0, 0, 0, 0, 1, 0]
 
 Accuracy: 0.9891761876127481
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-2.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-2.jpg
 Begin clustering with 3-clusters
 Fitted features into KMeans model: KMeans(n_clusters=3, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -378,7 +378,7 @@ sound approach
 [1, 1, 2]
 
 Accuracy: 0.9663259170174384
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-3.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-3.jpg
 Begin clustering with 4-clusters
 Fitted features into KMeans model: KMeans(n_clusters=4, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -628,7 +628,7 @@ sound approach
 [2, 2, 0]
 
 Accuracy: 0.9705351773902585
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-4.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-4.jpg
 Begin clustering with 5-clusters
 Fitted features into KMeans model: KMeans(n_clusters=5, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -928,7 +928,7 @@ sound thrashing
 [3, 3, 2]
 
 Accuracy: 0.9645219482862297
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-5.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-5.jpg
 Begin clustering with 6-clusters
 Fitted features into KMeans model: KMeans(n_clusters=6, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -1213,7 +1213,7 @@ sound thrashing
 [2, 2, 0]
 
 Accuracy: 0.9663259170174384
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-6.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-6.jpg
 Begin clustering with 7-clusters
 Fitted features into KMeans model: KMeans(n_clusters=7, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -1478,7 +1478,7 @@ fresh scent
 [4, 4, 0, 0, 0]
 
 Accuracy: 0.9687312086590499
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-7.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-7.jpg
 Begin clustering with 8-clusters
 Fitted features into KMeans model: KMeans(random_state=27)
 Succesfully augmented cluster information into dataset
@@ -1733,7 +1733,7 @@ sound advice
 [1, 2, 1]
 
 Accuracy: 0.9699338544798557
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-8.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-8.jpg
 Begin clustering with 9-clusters
 Fitted features into KMeans model: KMeans(n_clusters=9, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -2023,7 +2023,7 @@ sound advice
 [0, 5]
 
 Accuracy: 0.9657245941070355
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-9.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-9.jpg
 Begin clustering with 10-clusters
 Fitted features into KMeans model: KMeans(n_clusters=10, random_state=27)
 Succesfully augmented cluster information into dataset
@@ -2338,4 +2338,4 @@ sound advice
 [0, 3]
 
 Accuracy: 0.962717979555021
-Generated graph: output/multilingual/model-bert-xlm/checkpoints/5550/experiment/cluster-10.jpg
+Generated graph: output/multilingual/model-bert-xlm/checkpoints/150/experiment/cluster-10.jpg
